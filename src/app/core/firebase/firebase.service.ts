@@ -44,7 +44,13 @@ export class FirebaseService {
     let provider = this.getProvider(providerId, scope);
 
     if (provider) {
-      return from(this.afAuth.auth.signInWithPopup(provider));
+      return from(this.afAuth.auth.signInWithPopup(provider)).pipe(
+        mergeMap(results => {
+          return this.queryObjOnce('users', results.user.uid).pipe(
+            map(dbUser => Object.assign({}, results, { dbUser }))
+          )
+        })
+      );
     } else {
       return of(undefined);
     }
@@ -153,7 +159,7 @@ export class FirebaseService {
   }
   
   queryListValueChanges = <T>(collection, queryParams, queryOptions?) => {
-    
+
     // TODO: Remove when refactor to separate module that overrides providing of 
     // FirebaseNgrxService in future
     if (!environment.production && environment.mockDataInDev) {

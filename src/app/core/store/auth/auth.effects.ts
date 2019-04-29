@@ -61,44 +61,41 @@ export class AuthEffects {
     ofType<Login>(LOGIN),
     switchMap(action => {
       return this.db.login(action.payload.provider, action.payload.scope).pipe(
-        mergeMap(results => {
+        map(results => {
           let afUser = results.user;
-          return this.db.queryObjOnce<User>('users', afUser.uid).pipe(
-            map(user => {
+          let dbUser = results.dbUser;
 
-              let userActionTuple;
+          let userActionTuple;
 
-              const userParams = {
-                email: afUser.email,
-                name: afUser.displayName || afUser.email,
-                photoURL: afUser.photoURL
-              };
+          const userParams = {
+            email: afUser.email,
+            name: afUser.displayName || afUser.email,
+            photoURL: afUser.photoURL
+          };
 
-              if (user) {
-                // update user
-                userActionTuple = [new UpdateUser(user.__id, Object.assign({}, userParams, {
-                  tokens: Object.assign({}, user.tokens || {}, this.getToken(results.credential))
-                })), UserActionTypes.UPDATE_SUCCESS, UserActionTypes.UPDATE_FAIL];
-              } else {
-                // add user
-                userActionTuple = [new AddUser(Object.assign({}, userParams, {
-                  __id: afUser.uid,
-                  tokens: this.getToken(results.credential),
-                })), UserActionTypes.ADD_SUCCESS, UserActionTypes.ADD_FAIL];
-              }
+          if (dbUser) {
+            // update user
+            userActionTuple = [new UpdateUser(dbUser.__id, Object.assign({}, userParams, {
+              tokens: Object.assign({}, dbUser.tokens || {}, this.getToken(results.credential))
+            })), UserActionTypes.UPDATE_SUCCESS, UserActionTypes.UPDATE_FAIL];
+          } else {
+            // add user
+            userActionTuple = [new AddUser(Object.assign({}, userParams, {
+              __id: afUser.uid,
+              tokens: this.getToken(results.credential),
+            })), UserActionTypes.ADD_SUCCESS, UserActionTypes.ADD_FAIL];
+          }
 
-              return new ActionFlow(
-                [userActionTuple],
-                (actions, responses) => {
-                  return [
-                    new LoadAuth(),
-                    // Change this to where you want to navigate to after login
-                    new RouterNavigate(['/login']),
-                    new LoginSuccess({ ...action.payload, ...results }, action.correlationId)
-                  ];
-                }
-              );
-            })
+          return new ActionFlow(
+            [userActionTuple],
+            (actions, responses) => {
+              return [
+                new LoadAuth(),
+                // Change this to where you want to navigate to after login
+                new RouterNavigate(['/login']),
+                new LoginSuccess({ ...action.payload, ...results }, action.correlationId)
+              ];
+            }
           );
         }),
         catchError(error => of(new LoginFail(error, action.correlationId)))

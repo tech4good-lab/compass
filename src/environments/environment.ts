@@ -1,6 +1,6 @@
 export const environment = {
-  production: true,
-  mockDataInDev: false,
+  production: false,
+  mockDataInDev: true,
   mockAuthInDev: false,
   firebase: {
     apiKey: "AIzaSyCNA9n05hAbfVO9AAvLKFjiMglvOlY78ow",

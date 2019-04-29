@@ -61,9 +61,9 @@ export class FirebaseMockService {
 
     // Essentially mocking stateChanges in Firebase
     this.mockDBChanges = {
-      'calendarEvent': new BehaviorSubject<Array<{ type: string, result: CalendarEvent }>>(this.mockDBService.getInitialDBStateChanges('calendarEvent')),
-      'weekGoal': new BehaviorSubject<Array<{ type: string, result: WeekGoal }>>(this.mockDBService.getInitialDBStateChanges('weekGoal')),
-      'quarterGoal': new BehaviorSubject<Array<{ type: string, result: QuarterGoal }>>(this.mockDBService.getInitialDBStateChanges('quarterGoal')),
+      'calendarEvents': new BehaviorSubject<Array<{ type: string, result: CalendarEvent }>>(this.mockDBService.getInitialDBStateChanges('calendarEvents')),
+      'weekGoals': new BehaviorSubject<Array<{ type: string, result: WeekGoal }>>(this.mockDBService.getInitialDBStateChanges('weekGoals')),
+      'quarterGoals': new BehaviorSubject<Array<{ type: string, result: QuarterGoal }>>(this.mockDBService.getInitialDBStateChanges('quarterGoals')),
       'users': new BehaviorSubject<Array<{ type: string, result: User }>>(this.mockDBService.getInitialDBStateChanges('users')),
     };
 
@@ -93,40 +93,45 @@ export class FirebaseMockService {
 
   login = (providerId, scope?: string): Observable<any> => {
     
+    const loadCurrentUserData = (afUser) => {
+      for (let collection in this.mockDBChanges) {
+        if (this.mockDBChanges.hasOwnProperty(collection)) {
+          this.mockDBChanges[collection].next(this.mockDBService.getCurrentUserDBStateChanges(collection, afUser.uid));
+        }
+      }
+    }
+
     // TODO: Remove when refactor to separate module that overrides providing of 
     // FirebaseNgrxService in future
     if (environment.mockAuthInDev) {
       const afUser = this.mockDBService.currentUser()
       this.mockAfUser.next(afUser);
-      for (let collection in this.mockDBChanges) {
-        if (this.mockDBChanges.hasOwnProperty(collection)) {
-          this.mockDBChanges[collection].next(this.mockDBService.getCurrentUserDBStateChanges(collection, afUser.uid));
-        }
-      }
+      loadCurrentUserData(afUser);
 
       return of({
-        credential: {
-          providerId: providerId,
-          accessToken: 'faketoken'
-        },
+        credential: { providerId: providerId, accessToken: 'faketoken' },
         user: afUser
-      });
-    }
-
-    const loadCurrentUserData = (results) => {
-      let afUser = results.user;
-      for (let collection in this.mockDBChanges) {
-        if (this.mockDBChanges.hasOwnProperty(collection)) {
-          this.mockDBChanges[collection].next(this.mockDBService.getCurrentUserDBStateChanges(collection, afUser.uid));
-        }
-      }
+      }).pipe(
+        mergeMap(results => {
+          return this.queryObjOnce<User>('users', results.user.uid).pipe(
+            map(dbUser => Object.assign({}, results, { dbUser }))
+          )
+        })
+      );
     }
 
     let provider = this.getProvider(providerId, scope);
 
     if (provider) {
       return from(this.afAuth.auth.signInWithPopup(provider)).pipe(
-        tap(results => loadCurrentUserData(results))
+        mergeMap(results => {
+          loadCurrentUserData(results.user);
+          return this.queryObjOnce<User>('users', results.user.uid).pipe(
+            map(dbUser => {
+              return Object.assign({}, results, { dbUser })
+            })
+          )
+        })
       );
     } else {
       return of(undefined);
