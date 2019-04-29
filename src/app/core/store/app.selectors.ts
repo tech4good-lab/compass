@@ -4,6 +4,7 @@ import { CachedSelectorsService } from './cached-selectors.service';
 import { AuthSelectorsService } from './auth/auth.selectors';
 
 // Entity Selectors
+import { QuarterGoalSelectorsService } from './quarter-goal/quarter-goal.selectors';
 import { UserSelectorsService } from './user/user.selectors';
 
 @Injectable({
@@ -15,6 +16,7 @@ export class EntitySelectorService {
     private cachedSelectors: CachedSelectorsService,
     private auth: AuthSelectorsService,
     // Entity Selectors
+    private quarterGoal: QuarterGoalSelectorsService,
     private user: UserSelectorsService,
   ) { }
 
