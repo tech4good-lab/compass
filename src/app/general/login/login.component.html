@@ -1,0 +1,11 @@
+<div class="login-container">
+  <ng-container *ngIf="currentUser$ | async as user">
+    <img class="profile" [src]="user.photoURL" />
+    <h2>Hello {{user.name}}!</h2>
+    <input type="submit" value="Logout" (click)="logout$.next()">
+  </ng-container>
+  <ng-container *ngIf="!(currentUser$ | async)">
+    <h2>Hello!</h2>
+    <input type="submit" value="Login" (click)="login$.next()">
+  </ng-container>
+</div>
