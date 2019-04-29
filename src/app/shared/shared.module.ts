@@ -21,9 +21,6 @@ import { MatTableModule } from '@angular/material/table';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 // Containers
-import { NavbarComponent } from './navbar/navbar.component';
-import { NavbarEventsEffects } from './navbar/+events/navbar.events.effects';
-import { NavbarStateEffects } from './navbar/+state/navbar.state.effects';
 
 // Components
 
@@ -51,13 +48,10 @@ import { NavbarStateEffects } from './navbar/+state/navbar.state.effects';
     MatProgressSpinnerModule,
     MatRadioModule,
     EffectsModule.forFeature([
-      NavbarStateEffects,
-      NavbarEventsEffects,
     ])
   ],
   declarations: [
     // Containers
-    NavbarComponent,
     // Components
     // Pipes
   ],
@@ -80,7 +74,6 @@ import { NavbarStateEffects } from './navbar/+state/navbar.state.effects';
     MatProgressSpinnerModule,
     MatRadioModule,
     // Containers
-    NavbarComponent,
     // Components
     // Pipes
   ],
