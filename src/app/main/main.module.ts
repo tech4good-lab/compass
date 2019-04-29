@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { WeekGoalsSlideComponent } from './reorient/slides/week-goals-slide/week-goals-slide.component';
 import { ReviewGoalsSlideComponent } from './reorient/slides/review-goals-slide/review-goals-slide.component';
 import { CalendarScheduleSlideComponent } from './reorient/slides/calendar-schedule-slide/calendar-schedule-slide.component';
 import { CalendarInfoSlideComponent } from './reorient/slides/calendar-info-slide/calendar-info-slide.component';
@@ -49,6 +50,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    WeekGoalsSlideComponent,
     ReviewGoalsSlideComponent,
     CalendarScheduleSlideComponent,
     CalendarInfoSlideComponent,
