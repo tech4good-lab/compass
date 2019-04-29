@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { QuarterGoalsCardComponent } from './dashboard/cards/quarter-goals-card/quarter-goals-card.component';
 import { WeekGoalsCardComponent } from './dashboard/cards/week-goals-card/week-goals-card.component';
 import { NewQuarterComponent } from './dashboard/new-quarter/new-quarter.component';
 import { WeekProgressCardComponent } from './dashboard/cards/week-progress-card/week-progress-card.component';
@@ -39,6 +40,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    QuarterGoalsCardComponent,
     WeekGoalsCardComponent,
     NewQuarterComponent,
     WeekProgressCardComponent,
