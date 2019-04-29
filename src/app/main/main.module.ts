@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { CalendarScheduleSlideComponent } from './reorient/slides/calendar-schedule-slide/calendar-schedule-slide.component';
 import { CalendarInfoSlideComponent } from './reorient/slides/calendar-info-slide/calendar-info-slide.component';
 import { WeekHashtagSlideComponent } from './reorient/slides/week-hashtag-slide/week-hashtag-slide.component';
 import { LongTermGoalsSlideComponent } from './reorient/slides/long-term-goals-slide/long-term-goals-slide.component';
@@ -47,6 +48,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    CalendarScheduleSlideComponent,
     CalendarInfoSlideComponent,
     WeekHashtagSlideComponent,
     LongTermGoalsSlideComponent,
