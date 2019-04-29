@@ -14,7 +14,7 @@ import { DashboardSelectors } from './+state/dashboard.state.selectors';
 import { LoadData, Cleanup } from './+state/dashboard.state.actions';
 import { RouterNavigate } from '../../core/store/app.actions';
 
-import { User } from '../../core/store/user/user.model';
+import { User, SetupType } from '../../core/store/user/user.model';
 import { CalendarEvent } from '../../core/store/calendar-event/calendar-event.model';
 import { WeekGoal } from '../../core/store/week-goal/week-goal.model';
 import { QuarterGoal } from '../../core/store/quarter-goal/quarter-goal.model';
@@ -36,7 +36,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   currentUser$: Observable<User> = this.store.pipe(select(fromAuth.selectUser));
 
   /** The beginning of the current week. */
-  startOfWeek$: Observable<firestore.Timestamp> = of(new Date()).pipe(
+  startOfWeek$: Observable<Date> = of(new Date()).pipe(
     mergeMap(date => {
 
       const beginning = startOfWeek(date);
@@ -48,8 +48,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
           map(() => startOfWeek(new Date()))
         )
       );
-    }),
-    map(date => firestore.Timestamp.fromDate(date))
+    })
   );
 
   /** The current time, updated at the start of each minute. */
@@ -82,6 +81,23 @@ export class DashboardComponent implements OnInit, OnDestroy {
  
 
   // --------------- DATA BINDING STREAMS ----------------
+  
+  /** Whether it is time to reorient. */
+  reorientType$: Observable<SetupType> = combineLatest(
+    this.currentUser$,
+    this.startOfWeek$
+  ).pipe(
+    map(([user, startOfWeek]) => {
+      if (user.setupInProgress) {
+        // If there is already setup in progress, then return the type
+        return user.setupInProgress.type;
+      } else {
+        // Otherwise, check if we need to initiate a setup process
+        // TODO: implement this logic. For now, just return undefined to indicate no setup needed
+        return undefined;
+      }
+    })
+  );
 
   /** This weeks plans. */
   weekPlans$: Observable<WeekGoalProgress[]> = combineLatest(

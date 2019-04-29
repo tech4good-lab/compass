@@ -8,6 +8,7 @@ import { mergeMap, tap, map } from 'rxjs/operators';
 import { select, Store } from '@ngrx/store';
 import * as fromStore from '../../../core/store/app.reducer';
 import { FirebaseService } from '../../../core/firebase/firebase.service';
+import { firestore } from 'firebase/app';
 import { EffectsHelpers } from '../../../core/store/effects.helpers';
 import { DashboardState } from './dashboard.state';
 
@@ -28,11 +29,12 @@ export class DashboardStateEffects {
   loadData$: Observable<Action> = this.actions$.pipe(
     ofType<LoadData>(DashboardStateActionTypes.LOAD_DATA),
     mergeMap((action: LoadData) => {
+      const startOfWeek = firestore.Timestamp.fromDate(action.payload.startOfWeek);
       return [
         new LoadUser([['__id', '==', action.payload.currentUser.__id]], {}, this.loadId),
         new LoadQuarterGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId),
         new LoadWeekGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId, (wk) => [
-          new LoadCalendarEvent([['__weekGoalId', '==', wk.__id], ['start', '>=', action.payload.startOfWeek]], {}, this.loadId)
+          new LoadCalendarEvent([['__weekGoalId', '==', wk.__id], ['start', '>=', startOfWeek]], {}, this.loadId)
         ]),
       ];
     })

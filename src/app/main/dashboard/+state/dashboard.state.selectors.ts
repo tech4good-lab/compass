@@ -5,6 +5,7 @@ import { EntitySelectorService } from '../../../core/store/app.selectors';
 
 import { Observable, of, combineLatest } from 'rxjs';
 import { bufferTime, distinctUntilChanged, shareReplay, mergeMap, filter, switchMap, map } from 'rxjs/operators';
+import { firestore } from 'firebase/app';
 
 import { User } from '../../../core/store/user/user.model';
 import { WeekGoal } from '../../../core/store/week-goal/week-goal.model';
@@ -34,9 +35,9 @@ export class DashboardSelectors {
 
   selectWeekGoals = (currentUser$, startOfWeek$) => combineLatest(
     currentUser$,
-    startOfWeek$
+    startOfWeek$.pipe(map((date: Date) => firestore.Timestamp.fromDate(date)))
   ).pipe(
-    switchMap(([currentUser, startOfWeek]: [User, Date]) => {
+    switchMap(([currentUser, startOfWeek]: [User, firestore.Timestamp]) => {
 
       return this.slRx.selectWeekGoals<WeekGoalWithEvents>([['__userId', '==', currentUser.__id], ['completed', '==', false]], this.cId, (wk) => ({
         calendarEvents: this.slRx.selectCalendarEvents([['__weekGoalId', '==', wk.__id], ['start', '>=', startOfWeek]], this.cId)

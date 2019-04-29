@@ -14,7 +14,7 @@ export class LoadData implements Action {
 
   constructor(public payload: {
     currentUser: User,
-    startOfWeek: firestore.Timestamp
+    startOfWeek: Date
   }) { }
 }
 
