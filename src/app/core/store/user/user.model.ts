@@ -6,6 +6,11 @@ export enum SetupType {
   NEW_QUARTER = 'quarter'
 };
 
+export interface LongTermGoals {
+  oneYear: string;
+  fiveYear: string;
+};
+
 export interface User {
   __id: string;
   _createdAt?: firestore.Timestamp;
@@ -16,18 +21,12 @@ export interface User {
   tokens?: {
     [index: string]: any;
   };
-  longTermGoals?: {
-    oneYear: string;
-    fiveYear: string;
-  };
+  longTermGoals?: LongTermGoals;
   lastCompletedWeeklySetup?: firestore.Timestamp;
   setupInProgress?: {
     type: SetupType;
     currentStep: number;
-    longTermGoals?: {
-      oneYear: string;
-      fiveYear: string;
-    };
+    longTermGoals?: LongTermGoals;
     quarterGoals?: {
       goalOne: string;
       goalTwo: string;
