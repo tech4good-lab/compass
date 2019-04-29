@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { LongTermGoals } from '../../../../core/store/user/user.model';
 
 /** Displays the long-term goals. */
 @Component({
@@ -10,7 +11,12 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class LongTermGoalsCardComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
+
+  /** The long-term goals. */
+  @Input() goals: LongTermGoals;
   
+  /** Edit long-term goals events. */
+  @Output() editGoals: EventEmitter<LongTermGoals> = new EventEmitter<LongTermGoals>();
 
   // --------------- LOCAL UI STATE ----------------------
  

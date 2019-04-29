@@ -10,7 +10,9 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class DateTimeComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
+
+  /** The current time. */
+  @Input() time: Date;
 
   // --------------- LOCAL UI STATE ----------------------
  

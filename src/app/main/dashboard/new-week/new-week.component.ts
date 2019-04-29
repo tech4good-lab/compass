@@ -10,7 +10,9 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class NewWeekComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
+
+  /** Events for initiating weekly reorientation. */
+  @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
 
   // --------------- LOCAL UI STATE ----------------------
  

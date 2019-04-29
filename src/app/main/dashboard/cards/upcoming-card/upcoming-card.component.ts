@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { UpcomingEventsData } from '../../+state/dashboard.model';
 
 /** Displays the upcoming events. */
 @Component({
@@ -10,7 +11,9 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class UpcomingCardComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
+
+  /** Upcoming events. */
+  @Input() events: UpcomingEventsData;
 
   // --------------- LOCAL UI STATE ----------------------
  

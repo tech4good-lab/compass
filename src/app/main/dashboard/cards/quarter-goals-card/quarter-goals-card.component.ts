@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { QuarterGoal } from '../../../../core/store/quarter-goal/quarter-goal.model';
 
 /** Displays the goals for the quarter. */
 @Component({
@@ -10,7 +11,15 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class QuarterGoalsCardComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
+
+  /** The start of the week. */
+  @Input() startOfWeek: Date;
+
+  /** Goals for a quarter. */
+  @Input() goals: QuarterGoal[];
   
+  /** Edit quarterly goals events. */
+  @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
  

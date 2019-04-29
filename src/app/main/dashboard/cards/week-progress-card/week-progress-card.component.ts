@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { WeekGoalProgress } from '../../+state/dashboard.model';
 
 /** Displays the progress so far for this week. */
 @Component({
@@ -10,7 +11,9 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class WeekProgressCardComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
+
+  /** Plans and progress for the upcoming week. */
+  @Input() plans: WeekGoalProgress[];
 
   // --------------- LOCAL UI STATE ----------------------
  
