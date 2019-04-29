@@ -1,3 +1,35 @@
+<app-navbar></app-navbar>
 <div class="dashboard-container">
-  dashboard works!
+  <div class="greeting-container">
+    <app-greeting-search></app-greeting-search>
+    <app-date-time></app-date-time>
+  </div>
+  <div class="prompt-container">
+    <app-new-week></app-new-week>
+    <app-new-quarter></app-new-quarter>
+  </div>
+  <div class="card-container">
+    <img class="nav-icon left" src="https://icongr.am/entypo/chevron-thin-left.svg?size=23&color=2DBDB1">
+    <div class="inner-card-container">
+      <div class="card">
+        <app-upcoming-card></app-upcoming-card>
+      </div>
+      <div class="card">
+        <app-week-progress-card></app-week-progress-card>
+      </div>
+      <div class="card">
+        <app-week-goals-card></app-week-goals-card>
+      </div>
+      <div class="card">
+        <app-quarter-goals-card></app-quarter-goals-card>
+      </div>
+      <div class="card">
+        <app-long-term-goals-card></app-long-term-goals-card>
+      </div>
+      <div class="card">
+        <app-reflections-card></app-reflections-card>
+      </div>
+    </div>
+    <img class="nav-icon right" src="https://icongr.am/entypo/chevron-thin-right.svg?size=23&color=2DBDB1">
+  </div>
 </div>
