@@ -4,6 +4,7 @@ import { CachedSelectorsService } from './cached-selectors.service';
 import { AuthSelectorsService } from './auth/auth.selectors';
 
 // Entity Selectors
+import { WeekGoalSelectorsService } from './week-goal/week-goal.selectors';
 import { QuarterGoalSelectorsService } from './quarter-goal/quarter-goal.selectors';
 import { UserSelectorsService } from './user/user.selectors';
 
@@ -16,6 +17,7 @@ export class EntitySelectorService {
     private cachedSelectors: CachedSelectorsService,
     private auth: AuthSelectorsService,
     // Entity Selectors
+    private weekGoal: WeekGoalSelectorsService,
     private quarterGoal: QuarterGoalSelectorsService,
     private user: UserSelectorsService,
   ) { }
