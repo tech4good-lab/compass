@@ -5,6 +5,9 @@ import { SharedModule } from '../shared/shared.module';
 import { MainRoutingModule } from './main-routing.module';
 
 // Containers
+import { ReorientComponent } from './reorient/reorient.component';
+import { ReorientEventsEffects } from './reorient/+events/reorient.events.effects';
+import { ReorientStateEffects } from './reorient/+state/reorient.state.effects';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.effects';
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
@@ -18,12 +21,15 @@ import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effect
     SharedModule,
     MainRoutingModule,
     EffectsModule.forFeature([
+      ReorientStateEffects,
+      ReorientEventsEffects,
       DashboardStateEffects,
       DashboardEventsEffects,
     ])
   ],
   declarations: [
     // Containers
+    ReorientComponent,
     DashboardComponent,
     // Components
   ],
