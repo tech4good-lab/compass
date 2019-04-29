@@ -1,0 +1,37 @@
+<ng-container *ngIf="currentUser$ | async as user">
+  <app-navbar></app-navbar>
+  <div class="dashboard-container">
+    <div class="greeting-container">
+      <app-greeting-search [user]="user"></app-greeting-search>
+      <app-date-time [time]="time$ | async"></app-date-time>
+    </div>
+    <div class="prompt-container" *ngIf="reorientType$ | async as reorientType">
+      <app-new-week *ngIf="reorientType === 'week'"></app-new-week>
+      <app-new-quarter *ngIf="reorientType === 'quarter'"></app-new-quarter>
+    </div>
+    <div class="card-container" *ngIf="!(reorientType$ | async)">
+      <img class="nav-icon left" src="https://icongr.am/entypo/chevron-thin-left.svg?size=23&color=2DBDB1">
+      <div class="inner-card-container">
+        <div class="card">
+          <app-upcoming-card [events]="upcomingEvents$ | async"></app-upcoming-card>
+        </div>
+        <div class="card">
+          <app-week-progress-card [plans]="weekPlans$ | async"></app-week-progress-card>
+        </div>
+        <div class="card">
+          <app-week-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="weekGoals$ | async"></app-week-goals-card>
+        </div>
+        <div class="card">
+          <app-quarter-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="quarterGoals$ | async"></app-quarter-goals-card>
+        </div>
+        <div class="card">
+          <app-long-term-goals-card [goals]="user.longTermGoals"></app-long-term-goals-card>
+        </div>
+        <div class="card">
+          <app-reflections-card></app-reflections-card>
+        </div>
+      </div>
+      <img class="nav-icon right" src="https://icongr.am/entypo/chevron-thin-right.svg?size=23&color=2DBDB1">
+    </div>
+  </div>
+</ng-container>
