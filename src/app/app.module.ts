@@ -11,6 +11,7 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
 // Feature Modules
+import { MainModule } from './main/main.module';
 import { GeneralModule } from './general/general.module';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { GeneralModule } from './general/general.module';
     SharedModule,
     SandboxRoutingModule,
     // Feature Modules
+    MainModule,
     GeneralModule,
     // Routing Module
     AppRoutingModule,
