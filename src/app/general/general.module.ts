@@ -5,6 +5,9 @@ import { SharedModule } from '../shared/shared.module';
 import { GeneralRoutingModule } from './general-routing.module';
 
 // Containers
+import { LoadingComponent } from './loading/loading.component';
+import { LoadingEventsEffects } from './loading/+events/loading.events.effects';
+import { LoadingStateEffects } from './loading/+state/loading.state.effects';
 import { CompletedComponent } from './completed/completed.component';
 import { CompletedEventsEffects } from './completed/+events/completed.events.effects';
 import { CompletedStateEffects } from './completed/+state/completed.state.effects';
@@ -19,12 +22,15 @@ import { LoginComponent } from './login/login.component';
     SharedModule,
     GeneralRoutingModule,
     EffectsModule.forFeature([
+      LoadingStateEffects,
+      LoadingEventsEffects,
       CompletedStateEffects,
       CompletedEventsEffects,
     ])
   ],
   declarations: [
     // Containers
+    LoadingComponent,
     CompletedComponent,
     E404Component,
     LoginComponent,
