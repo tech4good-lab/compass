@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { ProgressBarComponent } from './reorient/progress-bar/progress-bar.component';
 import { LongTermGoalsCardComponent } from './dashboard/cards/long-term-goals-card/long-term-goals-card.component';
 import { ReflectionsCardComponent } from './dashboard/cards/reflections-card/reflections-card.component';
 import { QuarterGoalsCardComponent } from './dashboard/cards/quarter-goals-card/quarter-goals-card.component';
@@ -42,6 +43,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    ProgressBarComponent,
     LongTermGoalsCardComponent,
     ReflectionsCardComponent,
     QuarterGoalsCardComponent,
