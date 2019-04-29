@@ -18,6 +18,7 @@ import { ReviewGoalsSlideComponent } from './reorient/slides/review-goals-slide/
 import { CalendarScheduleSlideComponent } from './reorient/slides/calendar-schedule-slide/calendar-schedule-slide.component';
 import { CalendarInfoSlideComponent } from './reorient/slides/calendar-info-slide/calendar-info-slide.component';
 import { WeekHashtagSlideComponent } from './reorient/slides/week-hashtag-slide/week-hashtag-slide.component';
+import { TextSlideComponent } from './reorient/slides/text-slide/text-slide.component';
 import { LongTermGoalsSlideComponent } from './reorient/slides/long-term-goals-slide/long-term-goals-slide.component';
 import { QuarterGoalsSlideComponent } from './reorient/slides/quarter-goals-slide/quarter-goals-slide.component';
 import { ProgressBarComponent } from './reorient/progress-bar/progress-bar.component';
@@ -55,6 +56,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     CalendarScheduleSlideComponent,
     CalendarInfoSlideComponent,
     WeekHashtagSlideComponent,
+    TextSlideComponent,
     LongTermGoalsSlideComponent,
     QuarterGoalsSlideComponent,
     ProgressBarComponent,

@@ -30,6 +30,12 @@ export class EntitySelectorService {
   public selectAuthUser = this.auth.selectAuthUser;
 
   // Entity Selectors
+  public selectCalendarEvent = this.calendarEvent.selectCalendarEvent;
+  public selectCalendarEvents = this.calendarEvent.selectCalendarEvents;
+  public selectWeekGoal = this.weekGoal.selectWeekGoal;
+  public selectWeekGoals = this.weekGoal.selectWeekGoals;
+  public selectQuarterGoal = this.quarterGoal.selectQuarterGoal;
+  public selectQuarterGoals = this.quarterGoal.selectQuarterGoals;
   public selectUser = this.user.selectUser;
   public selectUsers = this.user.selectUsers;
 }
