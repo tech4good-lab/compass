@@ -16,11 +16,11 @@ export interface User {
   tokens?: {
     [index: string]: any;
   };
-  longTermGoals: {
+  longTermGoals?: {
     oneYear: string;
     fiveYear: string;
   };
-  lastCompletedWeeklySetup: firestore.Timestamp;
+  lastCompletedWeeklySetup?: firestore.Timestamp;
   setupInProgress?: {
     type: SetupType;
     currentStep: number;
