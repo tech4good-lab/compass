@@ -11,6 +11,7 @@ import { MockDBService } from './mock-db.service';
 import { environment } from '../../../environments/environment';
 
 // Entity Models
+import { CalendarEvent } from '../store/calendar-event/calendar-event.model';
 import { WeekGoal } from '../store/week-goal/week-goal.model';
 import { QuarterGoal } from '../store/quarter-goal/quarter-goal.model';
 import { User } from '../store/user/user.model';
@@ -60,6 +61,7 @@ export class FirebaseMockService {
 
     // Essentially mocking stateChanges in Firebase
     this.mockDBChanges = {
+      'calendarEvent': new BehaviorSubject<Array<{ type: string, result: CalendarEvent }>>(this.mockDBService.getInitialDBStateChanges('calendarEvent')),
       'weekGoal': new BehaviorSubject<Array<{ type: string, result: WeekGoal }>>(this.mockDBService.getInitialDBStateChanges('weekGoal')),
       'quarterGoal': new BehaviorSubject<Array<{ type: string, result: QuarterGoal }>>(this.mockDBService.getInitialDBStateChanges('quarterGoal')),
       'users': new BehaviorSubject<Array<{ type: string, result: User }>>(this.mockDBService.getInitialDBStateChanges('users')),
