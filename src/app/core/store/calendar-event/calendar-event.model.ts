@@ -11,5 +11,5 @@ export interface CalendarEvent {
   start: firestore.Timestamp;
   end: firestore.Timestamp;
   summary: string;
-  description: string;
+  description?: string;
 };
