@@ -8,14 +8,8 @@ export interface CalendarEvent {
   _createdAt?: firestore.Timestamp;
   _updatedAt?: firestore.Timestamp;
   calendarId: string;
-  start: {
-    dateTime: string;
-    timeZone: string;
-  };
-  end: {
-    dateTime: string;
-    timeZone: string;
-  };
+  start: firestore.Timestamp;
+  end: firestore.Timestamp;
   summary: string;
   description: string;
 };

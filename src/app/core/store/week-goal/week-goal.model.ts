@@ -7,6 +7,9 @@ export interface WeekGoal {
   _createdAt?: firestore.Timestamp;
   _updatedAt?: firestore.Timestamp;
   text: string;
+  // 0, 1, or 2. This is used to determine the corresponding color
+  index: number;
   hashtag: string;
-  completedAt: firestore.Timestamp;
+  completed: boolean;
+  completedAt?: firestore.Timestamp;
 }

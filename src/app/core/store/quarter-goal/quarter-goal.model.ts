@@ -7,5 +7,6 @@ export interface QuarterGoal {
   _createdAt?: firestore.Timestamp;
   _updatedAt?: firestore.Timestamp;
   text: string;
-  completedAt: firestore.Timestamp;
+  completed: boolean;
+  completedAt?: firestore.Timestamp;
 }
