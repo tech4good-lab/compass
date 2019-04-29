@@ -58,7 +58,7 @@ export class FirebaseMockService {
     private mockDBService: MockDBService,
   ) { 
     this.mockAfUser = new BehaviorSubject<any>(undefined);
-
+    
     // Essentially mocking stateChanges in Firebase
     this.mockDBChanges = {
       'calendarEvents': new BehaviorSubject<Array<{ type: string, result: CalendarEvent }>>(this.mockDBService.getInitialDBStateChanges('calendarEvents')),
@@ -79,9 +79,17 @@ export class FirebaseMockService {
         this.mockDB[collection] = valChangeObs$;
       }
     }
+
+    // Auto login if applicable
+    if (environment.autoLoginInDev) {
+      const afUser = this.mockDBService.currentUser();
+      this.mockAfUser.next(afUser);
+      this.loadCurrentUserData(afUser);
+    }
   }
  
   afUser = () => {
+
     // TODO: Remove when refactor to separate module that overrides providing of 
     // FirebaseNgrxService in future
     if (environment.mockAuthInDev) {
@@ -90,23 +98,23 @@ export class FirebaseMockService {
       return this.afAuth.user;
     }
   }
+  
+  private loadCurrentUserData = (afUser) => {
+    for (let collection in this.mockDBChanges) {
+      if (this.mockDBChanges.hasOwnProperty(collection)) {
+        this.mockDBChanges[collection].next(this.mockDBService.getCurrentUserDBStateChanges(collection, afUser.uid));
+      }
+    }
+  }
 
   login = (providerId, scope?: string): Observable<any> => {
     
-    const loadCurrentUserData = (afUser) => {
-      for (let collection in this.mockDBChanges) {
-        if (this.mockDBChanges.hasOwnProperty(collection)) {
-          this.mockDBChanges[collection].next(this.mockDBService.getCurrentUserDBStateChanges(collection, afUser.uid));
-        }
-      }
-    }
-
     // TODO: Remove when refactor to separate module that overrides providing of 
     // FirebaseNgrxService in future
     if (environment.mockAuthInDev) {
       const afUser = this.mockDBService.currentUser()
       this.mockAfUser.next(afUser);
-      loadCurrentUserData(afUser);
+      this.loadCurrentUserData(afUser);
 
       return of({
         credential: { providerId: providerId, accessToken: 'faketoken' },
@@ -125,7 +133,7 @@ export class FirebaseMockService {
     if (provider) {
       return from(this.afAuth.auth.signInWithPopup(provider)).pipe(
         mergeMap(results => {
-          loadCurrentUserData(results.user);
+          this.loadCurrentUserData(results.user);
           return this.queryObjOnce<User>('users', results.user.uid).pipe(
             map(dbUser => {
               return Object.assign({}, results, { dbUser })
