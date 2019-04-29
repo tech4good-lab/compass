@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { DateTimeComponent } from './dashboard/date-time/date-time.component';
 
 /** Contains the main dashboard and setup views. */
 @NgModule({
@@ -32,6 +33,7 @@ import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effect
     ReorientComponent,
     DashboardComponent,
     // Components
+    DateTimeComponent,
   ],
   entryComponents: [
   ]
