@@ -13,6 +13,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { WeekProgressCardComponent } from './dashboard/cards/week-progress-card/week-progress-card.component';
 import { GreetingSearchComponent } from './dashboard/greeting-search/greeting-search.component';
 import { UpcomingCardComponent } from './dashboard/cards/upcoming-card/upcoming-card.component';
 import { NewWeekComponent } from './dashboard/new-week/new-week.component';
@@ -36,6 +37,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    WeekProgressCardComponent,
     GreetingSearchComponent,
     UpcomingCardComponent,
     NewWeekComponent,
