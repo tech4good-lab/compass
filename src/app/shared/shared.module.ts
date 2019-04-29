@@ -23,6 +23,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 // Containers
 
 // Components
+import { NavbarComponent } from './navbar/navbar.component';
 
 // Pipes
 
@@ -53,6 +54,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
   declarations: [
     // Containers
     // Components
+    NavbarComponent,
     // Pipes
   ],
   exports: [
@@ -75,6 +77,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatRadioModule,
     // Containers
     // Components
+    NavbarComponent,
     // Pipes
   ],
   entryComponents: [
