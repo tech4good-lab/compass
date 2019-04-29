@@ -5,6 +5,9 @@ import { SharedModule } from '../shared/shared.module';
 import { MainRoutingModule } from './main-routing.module';
 
 // Containers
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.effects';
+import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
 
@@ -15,10 +18,13 @@ import { MainRoutingModule } from './main-routing.module';
     SharedModule,
     MainRoutingModule,
     EffectsModule.forFeature([
+      DashboardStateEffects,
+      DashboardEventsEffects,
     ])
   ],
   declarations: [
     // Containers
+    DashboardComponent,
     // Components
   ],
   entryComponents: [
