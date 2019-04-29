@@ -1,4 +1,6 @@
 import { Action } from '@ngrx/store';
+import { User } from '../../../core/store/user/user.model';
+import { firestore } from 'firebase/app';
 
 export enum DashboardStateActionTypes {
   LOAD_DATA = '[Dashboard] load data',
@@ -10,7 +12,10 @@ export enum DashboardStateActionTypes {
 export class LoadData implements Action {
   readonly type = DashboardStateActionTypes.LOAD_DATA;
 
-  constructor() { }
+  constructor(public payload: {
+    currentUser: User,
+    startOfWeek: firestore.Timestamp
+  }) { }
 }
 
 /** Action for updating local state. */

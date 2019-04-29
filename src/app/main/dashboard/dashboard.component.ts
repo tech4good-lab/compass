@@ -4,8 +4,9 @@ import { Store, select } from '@ngrx/store';
 import * as fromStore from '../../core/store/app.reducer';
 import * as fromAuth from '../../core/store/auth/auth.reducer';
 import { FirebaseService } from '../../core/firebase/firebase.service';
+import { firestore } from 'firebase/app';
 import { Observable, timer, merge, of, Subject, BehaviorSubject, combineLatest } from 'rxjs';
-import { mergeMap, map, withLatestFrom, take, takeUntil } from 'rxjs/operators';
+import { mergeMap, tap, map, withLatestFrom, take, takeUntil } from 'rxjs/operators';
 
 import { DashboardState } from './+state/dashboard.state';
 import { DashboardSelectors } from './+state/dashboard.state.selectors';
@@ -18,6 +19,7 @@ import { CalendarEvent } from '../../core/store/calendar-event/calendar-event.mo
 import { WeekGoal } from '../../core/store/week-goal/week-goal.model';
 import { QuarterGoal } from '../../core/store/quarter-goal/quarter-goal.model';
 import { WeekGoalWithEvents, UpcomingEventsData, WeekGoalProgress } from './+state/dashboard.model';
+import { startOfWeek, endOfTomorrow, endOfToday } from '../../core/utils/date.utils';
 
 /** The day-to-day view for compass. */
 @Component({
@@ -34,7 +36,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   currentUser$: Observable<User> = this.store.pipe(select(fromAuth.selectUser));
 
   /** The beginning of the current week. */
-  startOfWeek$: Observable<Date> = of(new Date()).pipe(
+  startOfWeek$: Observable<firestore.Timestamp> = of(new Date()).pipe(
     mergeMap(date => {
 
       const beginning = startOfWeek(date);
@@ -46,7 +48,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
           map(() => startOfWeek(new Date()))
         )
       );
-    })
+    }),
+    map(date => firestore.Timestamp.fromDate(date))
   );
 
   /** The current time, updated at the start of each minute. */
@@ -159,7 +162,15 @@ export class DashboardComponent implements OnInit, OnDestroy {
   ngOnInit() {
 
     // Once everything is set up, load the data for the role.
-    this.store.dispatch( new LoadData() );
+    this.currentUser$.pipe(
+      withLatestFrom(this.startOfWeek$),
+      takeUntil(this.unsubscribe$)
+    ).subscribe(([user, startOfWeek]) => {
+      this.store.dispatch( new LoadData({ 
+        currentUser: user,
+        startOfWeek: startOfWeek
+      }) );
+    });
   }
 
   ngOnDestroy() {

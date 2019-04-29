@@ -13,6 +13,10 @@ import { DashboardState } from './dashboard.state';
 
 import { ActionFlow, LoadAction, Unsubscribe } from '../../../core/store/app.actions';
 import { DashboardStateActionTypes, UpdateState, Cleanup, LoadData } from './dashboard.state.actions';
+import { LoadUser } from '../../../core/store/user/user.actions';
+import { LoadQuarterGoal } from '../../../core/store/quarter-goal/quarter-goal.actions';
+import { LoadWeekGoal } from '../../../core/store/week-goal/week-goal.actions';
+import { LoadCalendarEvent } from '../../../core/store/calendar-event/calendar-event.actions';
 
 @Injectable()
 export class DashboardStateEffects {
@@ -25,6 +29,11 @@ export class DashboardStateEffects {
     ofType<LoadData>(DashboardStateActionTypes.LOAD_DATA),
     mergeMap((action: LoadData) => {
       return [
+        new LoadUser([['__id', '==', action.payload.currentUser.__id]], {}, this.loadId),
+        new LoadQuarterGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId),
+        new LoadWeekGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId, (wk) => [
+          new LoadCalendarEvent([['__weekGoalId', '==', wk.__id], ['start', '>=', action.payload.startOfWeek]], {}, this.loadId)
+        ]),
       ];
     })
   );
