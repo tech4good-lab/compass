@@ -20,13 +20,20 @@
     font-size: 14px;
     line-height: 17px;
     }
-    .topProgressBarContainer{
-      .boldTopProgressBar{
-        background: #EE8B72;
-        border-radius: 3px 0px 0px 3px;
-      }
-      .lightTopProgressBar{
-
+    .lineWithTopProgressBarAndHour{
+      .topProgressBarContainer{
+        .boldTopProgressBar{
+          background: #EE8B72;
+          border-radius: 3px 0px 0px 3px;
+          width: 75px;
+          height: 27px;
+        }
+        .lightTopProgressBar{
+          width: 168px;
+          height: 27px;
+          background: rgba(238, 139, 114, 0.3);
+          border-radius: 3px;
+        }
       }
     }
   }
@@ -34,12 +41,14 @@
     .middleHashtag{
 
     }
-    .middleProgressBarContainer{
-      .boldMiddleProgressBar{
+    .lineWithMiddleProgressBarAndHour{
+      .middleProgressBarContainer{
+        .boldMiddleProgressBar{
 
-      }
-      .lightMiddleProgressBar{
-        
+        }
+        .lightMiddleProgressBar{
+          
+        }
       }
     }
   }
@@ -47,12 +56,14 @@
     .bottomHashtag{
 
     }
-    .bottomProgressBarContainer{
-      .boldBottomProgressBar{
+    .lineWithBottomogressBarAndHour{
+      .bottomProgressBarContainer{
+        .boldBottomProgressBar{
 
-      }
-      .lightBottomProgressBar{
-        
+        }
+        .lightBottomProgressBar{
+          
+        }
       }
     }
   }
