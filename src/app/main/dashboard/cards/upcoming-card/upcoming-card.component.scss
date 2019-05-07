@@ -1,17 +1,41 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 .upcoming-card-container { }
 
+* {
+  font-family: Montserrat;
+}
+
 .title {
-  color: red;
+  color: #4B5853;
+  font-size:22px;
+  font-weight: 600;
+
+  line-height: 27px;
 }
 
 .subtitle {
-  color: blue;
+  color: #4B5853;
+  font-size: 14px;
+
+  line-height: 17px;
 }
 
-.item {
-  color: green;
+.item {  
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+
+  line-height: 17px;
+  background: black;
 }
+// Background is temporarily black to view white font.
 
 .time {
-  color: yellow;
+  color: white;
+  font-size: 14px;
+
+  text-align: right;
+  line-height: 17px;
+  background: black;
 }
+// Background is temporarily black to view white font.
