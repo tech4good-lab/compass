@@ -15,7 +15,9 @@ export class NavbarComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+    console.log(ChangeDetectionStrategy)
+   }
 
   ngOnInit() {
   }
