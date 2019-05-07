@@ -1,4 +1,20 @@
-.long-term-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
 }
+//Testing scope of selectors
+  .main-title{
+    color: blue;
+  }
+  .short-goal-title{
+    color: orange;
+  }
+  .short-goal{
+      color: red;
+  }
+  .long-goal-title{
+    color: green;
+  }
+  .long-goal{
+      color: yellow;
+  }
