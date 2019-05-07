@@ -3,6 +3,7 @@
   border: 1px solid black;
   background: #FFFFFF;
   border-radius: 10px;
+
   .title{
     font-family: Montserrat;
     font-style: normal;
@@ -35,35 +36,83 @@
           border-radius: 3px;
         }
       }
+      .topHour{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #EE8B72;
+      }
     }
   }
   .middleEvent{
+    color: #2DBDB1;
     .middleHashtag{
-
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
     }
     .lineWithMiddleProgressBarAndHour{
       .middleProgressBarContainer{
         .boldMiddleProgressBar{
-
+          background: #2DBDB1;
+          border-radius: 3px 0px 0px 3px;
+          width: 101px;
+          height: 27px;
         }
         .lightMiddleProgressBar{
-          
+          width: 136px;
+          height: 27px;
+          background: rgba(45, 189, 177, 0.3);
+          border-radius: 3px;
         }
+      }
+      .middleHour{
+        width: 45px;
+        height: 24px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
       }
     }
   }
   .bottomEvent{
+    color: #FFB987;
     .bottomHashtag{
-
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
     }
-    .lineWithBottomogressBarAndHour{
+    .lineWithBottomProgressBarAndHour{
       .bottomProgressBarContainer{
         .boldBottomProgressBar{
-
+          background: #FFB987;
+          border-radius: 3px 0px 0px 3px;
+          width: 70px;
+          height: 27px;
         }
         .lightBottomProgressBar{
-          
+          background: rgba(255, 185, 135, 0.3);
+          border-radius: 3px;
+          width: 112px;
+          height: 27px;
         }
+      }
+      .bottomHour{
+        width: 45px;
+        height: 24px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
       }
     }
   }
