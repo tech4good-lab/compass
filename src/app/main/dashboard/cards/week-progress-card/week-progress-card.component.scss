@@ -1,4 +1,60 @@
 .week-progress-card-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
   border: 1px solid black;
+  background: #FFFFFF;
+  border-radius: 10px;
+  .title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+  .topEvent{
+    color: #EE8B72;
+    .topHashtag{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    }
+    .topProgressBarContainer{
+      .boldTopProgressBar{
+        background: #EE8B72;
+        border-radius: 3px 0px 0px 3px;
+      }
+      .lightTopProgressBar{
+
+      }
+    }
+  }
+  .middleEvent{
+    .middleHashtag{
+
+    }
+    .middleProgressBarContainer{
+      .boldMiddleProgressBar{
+
+      }
+      .lightMiddleProgressBar{
+        
+      }
+    }
+  }
+  .bottomEvent{
+    .bottomHashtag{
+
+    }
+    .bottomProgressBarContainer{
+      .boldBottomProgressBar{
+
+      }
+      .lightBottomProgressBar{
+        
+      }
+    }
+  }
+ 
 }
