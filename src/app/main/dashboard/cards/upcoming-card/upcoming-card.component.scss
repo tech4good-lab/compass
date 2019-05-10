@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   width: 265px;
+  padding: 26px 24px;
   // We are assuming that the height of the card will expand if more events are added, so we do not need to set its height explicitly. 
 
   // Because all of our elements are positioned at the top of our container, alignment is not specified. 
@@ -16,11 +17,12 @@
     font-size:22px;
     font-weight: 600;
     line-height: 27px;
+    margin-bottom: 15px;
   }
   .subtitle {
       color: #4B5853;
       font-size: 14px;
-      line-height: 17px;
+      line-height: 17px;    margin-bottom: 7px;
   }
 
   .item {  
@@ -45,8 +47,11 @@
 
   .today-section{
     width: 216px;
-
-    .first-task{ }
+    margin-bottom: 16px;
+    
+    .first-task{ 
+      margin-bottom: 9px;
+    }
 
     .second-task{ }
   }
