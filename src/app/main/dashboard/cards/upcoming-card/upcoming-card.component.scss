@@ -1,6 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-.upcoming-card-container { 
+.upcoming-card-container {
+  display: flex;
+  flex-direction: column;
+
   font-family: Montserrat;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -9,15 +12,12 @@
     color: #4B5853;
     font-size:22px;
     font-weight: 600;
-
     line-height: 27px;
   }
-
   .subtitle {
-    color: #4B5853;
-    font-size: 14px;
-
-    line-height: 17px;
+      color: #4B5853;
+      font-size: 14px;
+      line-height: 17px;
   }
 
   .item {  
@@ -39,5 +39,17 @@
     background: black;
   }
   // Background is temporarily black to view white font.
+
+  .today-section{
+    .first-task{ }
+
+    .second-task{ }
+  }
+
+  .tomorrow-section{
+    .third-task{ }
+  }
+
+  // Although .subtitle, .item, and .time are both within .today-section and .tomorrow-section, they are currently not nested to avoid repetitive SCSS 
 }
 
