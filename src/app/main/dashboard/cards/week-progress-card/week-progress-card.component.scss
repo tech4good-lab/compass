@@ -22,7 +22,14 @@
     line-height: 17px;
     }
     .lineWithTopProgressBarAndHour{
+      display:flex;
+      flex-direction: row;
       .topProgressBarContainer{
+        display: grid;
+        .boldTopProgressBar, .lightTopProgressBar{
+          grid-row: 1;
+          grid-column: 1;
+        }
         .boldTopProgressBar{
           background: #EE8B72;
           border-radius: 3px 0px 0px 3px;
@@ -56,7 +63,14 @@
       line-height: 17px;
     }
     .lineWithMiddleProgressBarAndHour{
+      display:flex;
+      flex-direction: row;
       .middleProgressBarContainer{
+        display:grid;
+        .boldMiddleProgressBar, .lightMiddleProgressBar{
+          grid-row: 1;
+          grid-column:1;
+        }
         .boldMiddleProgressBar{
           background: #2DBDB1;
           border-radius: 3px 0px 0px 3px;
@@ -91,7 +105,14 @@
       line-height: 17px;
     }
     .lineWithBottomProgressBarAndHour{
+      display:flex;
+      flex-direction: row;
       .bottomProgressBarContainer{
+        display:grid;
+        .boldBottomProgressBar, .lightBottomProgressBar{
+          grid-row: 1;
+          grid-column:1;
+        }
         .boldBottomProgressBar{
           background: #FFB987;
           border-radius: 3px 0px 0px 3px;
