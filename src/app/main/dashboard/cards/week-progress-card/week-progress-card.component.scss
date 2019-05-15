@@ -1,5 +1,6 @@
 .week-progress-card-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  width: 100%;
   border: 1px solid black;
   background: #FFFFFF;
   border-radius: 10px;
@@ -22,28 +23,30 @@
     line-height: 17px;
     }
     .lineWithTopProgressBarAndHour{
-      display:flex;
+      display:flex; 
       flex-direction: row;
       .topProgressBarContainer{
-        display: grid;
+        display: grid; //extra, not part of guide 
+        width: 80%;
         .boldTopProgressBar, .lightTopProgressBar{
-          grid-row: 1;
+          grid-row: 1; //put both on top of each other 
           grid-column: 1;
         }
         .boldTopProgressBar{
           background: #EE8B72;
           border-radius: 3px 0px 0px 3px;
-          width: 75px;
+          width: 40%;
           height: 27px;
         }
         .lightTopProgressBar{
-          width: 168px;
+          width: 100%;
           height: 27px;
           background: rgba(238, 139, 114, 0.3);
           border-radius: 3px;
         }
       }
       .topHour{
+        //text-align:center;
         font-family: Montserrat;
         font-style: normal;
         font-weight: 500;
