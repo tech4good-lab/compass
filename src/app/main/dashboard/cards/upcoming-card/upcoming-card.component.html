@@ -19,8 +19,8 @@
     <div class="subtitle">TOMORROW</div>
 
     <div class="third-task task">
-      <div class="item">#apply</div>
-      <div class="time">10 - 11 am</div>
+      <div class="item">{{this.events.tomorrow[0].summary}}</div>
+      <div class="time">{{this.events.tomorrow[0].start.seconds * 1000 | date: 'h'}} - {{this.events.tomorrow[0].end.seconds * 1000 | date: 'h aaaaa\'m\''}}</div>
     </div>
   </div>
 </div>
