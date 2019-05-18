@@ -1,4 +1,77 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .upcoming-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 310px;
+  padding: 26px 24px;
+
+  // Because all of our elements are positioned at the top of our container, alignment is not specified. 
+  font-family: Montserrat;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  .title {
+    color: #4B5853;
+    font-size:22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+  .subtitle {
+      color: #4B5853;
+      font-size: 14px;
+      line-height: 17px;
+      margin-bottom: 7px;
+  }
+
+  .task {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+
+    .item {  
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+
+      line-height: 17px;
+    }
+
+    .time {
+      color: white;
+      font-size: 14px;
+
+      text-align: right;
+      line-height: 17px;
+    }
+  }
+  
+  .today-section{
+    width: 216px;
+    margin-bottom: 16px;
+    
+    .first-task{
+      background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+      border-radius: 5px;
+      margin-bottom: 9px;
+    }
+
+    .second-task{ 
+      background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
+      border-radius: 5px;
+    }
+  }
+
+  .tomorrow-section{
+    width: 216px;
+
+    .third-task{ 
+      background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+      border-radius: 5px;
+    }
+  }
+
+  // Although .subtitle, .item, and .time are both found within .today-section and .tomorrow-section, they are currently not nested to avoid repetitive SCSS.
 }
