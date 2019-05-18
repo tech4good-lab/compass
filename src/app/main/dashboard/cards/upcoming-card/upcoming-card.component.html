@@ -4,19 +4,17 @@
   <div class="today-section">
     <div class="subtitle">TODAY</div>
 
-    <div class="first-task task">
-      <div class="item">#interview</div>
-      <div class="time">1 - 3 pm</div>
-    </div>
-
-    <div class="second-task task">    
-      <div class="item">#coverletter</div>
-      <div class="time">7 -8 pm</div>
+    <div class="message" *ngIf="this.events.today.length < 1">
+      You do not have any upcoming events for today.
     </div>
   </div>
 
   <div class="tomorrow-section">
     <div class="subtitle">TOMORROW</div>
+
+    <div class="message" *ngIf="this.events.tomorrow.length < 1">
+      Oh, no! You do not have any upcoming events for tomorrow.
+    </div>
 
     <div class="task" [class.third-task]="this.events.tomorrow.length > 0">
       <div class="item">{{this.events.tomorrow[0].summary}}</div>
