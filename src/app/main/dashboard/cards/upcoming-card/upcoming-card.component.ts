@@ -31,4 +31,9 @@ export class UpcomingCardComponent implements OnInit {
 
 
   // --------------- OTHER -------------------------------
+
+  // TrackBy function
+  trackByFunction(index, event) {
+  return event.__id;
+  }
 }

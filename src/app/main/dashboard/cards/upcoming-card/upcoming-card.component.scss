@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   width: 265px;
-  height: 310px;
+  min-height: 310px;
   padding: 26px 24px;
 
   // Because all of our elements are positioned at the top of our container, alignment is not specified. 
@@ -58,7 +58,7 @@
       margin-bottom: 9px;
     }
 
-    .second-task{ 
+    .next-task{ 
       background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
       border-radius: 5px;
     }
@@ -67,7 +67,7 @@
   .tomorrow-section{
     width: 216px;
 
-    .third-task{ 
+    .another-task{ 
       background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
       border-radius: 5px;
     }
