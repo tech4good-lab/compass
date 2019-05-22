@@ -1,3 +1,7 @@
 <div class="date-time-container">
-  date-time works!
+  <div class = "timeContainer">
+    <div class="time">{{this.time | date: 'h:m'}}</div>
+    <div class = "amOrPm">{{this.time | date: 'a'}}</div>
+  </div> 
+  <div class = "date">{{this.time | date: 'MMMM d'}}{{this.nth(this.time.getDate())}}{{this.time | date:', y'}}</div>
 </div>
