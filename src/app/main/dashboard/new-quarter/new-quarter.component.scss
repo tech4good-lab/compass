@@ -23,6 +23,7 @@
   .test {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     .numbers {
       font-weight: 500;
       font-size: 36px;
