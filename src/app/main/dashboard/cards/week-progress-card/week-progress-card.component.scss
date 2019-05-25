@@ -1,4 +1,105 @@
 .week-progress-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+// REMOVE WHEN FINISHING LAYOUT STYLES
+border: 1px solid black;
+background: #FFFFFF;
+border-radius: 10px;
+.title{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #4B5853;
+}
+.topHashtag{
+color: #EE8B72;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.boldTopProgressBar{
+background: #EE8B72;
+border-radius: 3px 0px 0px 3px;
+width: 75px;
+height: 27px;
+}
+.lightTopProgressBar{
+width: 168px;
+height: 27px;
+background: rgba(238, 139, 114, 0.3);
+border-radius: 3px;
+}
+.topHour{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #EE8B72;
+}
+
+.middleHashtag{
+color: #2DBDB1;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.boldMiddleProgressBar{
+background: #2DBDB1;
+border-radius: 3px 0px 0px 3px;
+width: 101px;
+height: 27px;
+}
+.lightMiddleProgressBar{
+color: #2DBDB1;
+width: 136px;
+height: 27px;
+background: rgba(45, 189, 177, 0.3);
+border-radius: 3px;
+}
+.middleHour{
+color: #2DBDB1;
+width: 45px;
+height: 24px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+
+.bottomHashtag{
+color: #FFB987;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+}
+.boldBottomProgressBar{
+background: #FFB987;
+border-radius: 3px 0px 0px 3px;
+width: 70px;
+height: 27px;
+}
+.lightBottomProgressBar{
+background: rgba(255, 185, 135, 0.3);
+border-radius: 3px;
+width: 112px;
+height: 27px;
+}
+.bottomHour{
+color: #FFB987;
+width: 45px;
+height: 24px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
 }
