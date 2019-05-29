@@ -1,27 +1,33 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 .quarter-goals-card-container {
+
   * {
     font-family: Montserrat;
   }
+
   .title {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
   }
+
   .dates {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
   }
+
   .task-container {
     font-weight: 500;
+
     .numbers {
       font-size: 36px;
       line-height: 44px;
       color: #2dbdb1;
     }
+    
     .tasks {
       font-size: 16px;
       line-height: 20px;
