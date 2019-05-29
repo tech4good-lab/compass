@@ -19,8 +19,7 @@ export class DateTimeComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   // --------------- DATA BINDING FUNCTIONS --------------
   calcSuffix(day) {
