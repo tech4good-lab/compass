@@ -4,7 +4,7 @@
   text-align: right;
 }
 
-.timeContainer {
+.time-container {
   width: 100%;
   display: flex; 
   flex-direction: row; 
@@ -20,7 +20,7 @@
     line-height: 59px;
   }
   
-  .amOrPm {
+  .am-pm {
     width: 21px;
     height: 14px;
     font-size: 12px;
