@@ -6,3 +6,33 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montesrrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.header {
+  font-family: Montserrat;
+  color: #2DBDB1;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 59px;
+  text-align: right;
+
+}
+.am {
+  font-family: Montserrat;
+  color:#2DBDB1;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 15px;
+  text-align: right;
+}
+.subheader {
+  font-family: Sanchez;
+  color: #4B5853;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  text-align: right;
+}
