@@ -3,6 +3,34 @@
 :host {
   border: 1px solid black;
   display: block;
+  background: #F6FDFA
 }
 
-// write your code here!!
+.time {
+  font-weight: 500;
+  font-size: 48px;
+  position: relative;
+  left: 40%;
+  color: #2DBDB1;
+  //font-family: Montserrat;
+}
+
+.am {
+  font-weight:500;
+  font-size: 12px;
+  position: absolute;
+  left: 79%;
+  top: 37.5%;
+  bottom: 38.67%;
+  color: #2DBDB1;
+  //font-family: Montserrat;
+}
+
+.date { 
+  font-size: 18px;
+  position: relative;
+  left: 14%;
+  bottom: 10%;
+  color: #4B5853;
+  font-family: Sanchez;
+}
