@@ -6,11 +6,8 @@
 }
 
 // write your code here!!
-@import url(//fonts.googleapis.com/css?family=Montesrrat);
-@import url(//fonts.googleapis.com/css?family=Sanchez);
-
 .header {
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, sans-serif;
   color: #2DBDB1;
   font-size: 48px;
   font-weight: 500;
@@ -20,7 +17,7 @@
 
 }
 .am {
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, sans-serif;
   color:#2DBDB1;
   font-size: 12px;
   font-weight: 500;
@@ -33,6 +30,7 @@
   color: #4B5853;
   font-size: 18px;
   font-weight: normal;
+  font-style: normal;
   line-height: 23px;
   text-align: right;
 }
