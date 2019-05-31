@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 
-/** Prompt to reorient at the beginning of a new week */
+/** Pr to reorient at the beginning of a new week */
 @Component({
   selector: 'app-new-week',
   templateUrl: './new-week.component.html',
