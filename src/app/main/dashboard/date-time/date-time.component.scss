@@ -1,14 +1,18 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
 :host {
   border: 1px solid black;
   display: block;
+  background-color:  #F6FDFA;
 }
 
 // write your code here!!
-div {
+div.datetime {
+  
+    border-color: #353535;
   width:217px;
-  height:86px;
+  height:86px;    
 }
 h1.time {
   position: relative;
@@ -27,14 +31,14 @@ h2 {
   font-family: Sanchez;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 15px;
 line-height: 23px;
   top: -70px;
   left: 30px;
   
   
 }
-p {
+p.am {
   position:relative;
   font-family: Montserrat;
 font-style: normal;
