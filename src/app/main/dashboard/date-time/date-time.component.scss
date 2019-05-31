@@ -1,4 +1,44 @@
-.date-time-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
   border: 1px solid black;
+  display: block;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
+
+.time {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+
+  color: #2DBDB1;
+}
+
+.stamp {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #2DBDB1;
+}
+
+.date {
+  font-family: Sanchez, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #4B5853
+}
+
+.rectangle {
+  width: 217px;
+  height: 86px;
+  background-color: #F6FDFA;
 }
