@@ -5,20 +5,68 @@
   display: block;
 }
 
+#quarter-goals {
+    width: 265px;
+    height: 310px;
+    max-width: 265px;
+    max-height: 310px;
+    display:block;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #D3E1DA;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #2DBDB1;
+}
+
+#quarter-dates {
+    padding-left: 9.81%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#quarter-header {
+    padding-left: 9.81%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
 ol {
-  list-style: none; counter-reset: li
+    list-style: none; counter-reset: li;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A5A5A;
 }
 
 li {
-  counter-increment: li
+    counter-increment: li;
+    padding-right: 22.7px;
 }
 
 li::before {
-  content: counter(li); 
-  color: red;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em
+    content: counter(li); 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -0.8em;
+    color: #2DBDB1;
 }
+
+#edit-button {
+    text-align: right;
+    margin: 0 22.7 22.7;
+}
+
 
 // write your code here!
