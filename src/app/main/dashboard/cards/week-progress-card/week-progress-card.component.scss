@@ -9,7 +9,8 @@
   width: 265px;
   height: 310px;
   background: #FFFFFF;
-  border-radius: 10px;
+  box-sizing: border-box;
+
 }
 
 #week-header {
@@ -20,8 +21,68 @@
   line-height: 27px;
   text-align:center;
   color: #4B5853;
+  margin: 22px 24px 0 24px;
 }
+
 .task {
+  font-family: Montserrat;
+  margin-left: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.task-name {
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  display: inline-block;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#progress1 {
+  width: 168px;
+}
+
+#progress2 {
+  width: 136px;
+}
+
+#progress3 {
+  width: 112px;
+}
+
+#task1 {
+  color: #EE8B72;
+  height: 63px;
+}
+
+#task1-progress {
+  width: 44%;
+  height: 30px;
+  background: #EE8B72;
+  display: inline-block;
+}
+
+#task1-left {
+  width: 56%;
+  height: 30px;
+  background: rgba(238, 139, 114, 0.3);
+  display: inline-block;
+}
+
+#duration {
+  display: inline-block;
+  width: 45px;
+  height: 24px;
+  margin-left: 8px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -29,18 +90,45 @@
   line-height: 17px;
 }
 
-#task1 {
-  color: #EE8B72;
-}
 
 #task2 {
   color: #2DBDB1;
 }
 
+
+#task2-progress {
+  width: 74%;
+  height: 30px;
+  background: #2DBDB1;
+  display: inline-block;
+}
+
+#task2-left {
+  width: 26%;
+  height: 30px;
+  background: rgba(45, 189, 177, 0.3);
+  display: inline-block;
+}
+
 #task3 {
-  color: #FFB987;
+  color: #FFB987; 
 }
-.duration {
-  font-weight: 500;
+
+
+#task3-progress {
+  width: 62%;
+  height: 30px;
+  background: #FFB987;  
+  display: inline-block;
 }
+
+#task3-left {
+  width: 38%;
+  height: 30px;
+  background: rgba(255, 185, 135, 0.3);
+  display: inline-block;
+}
+
+
+
 // write your code here!!
