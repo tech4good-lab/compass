@@ -10,28 +10,38 @@
   font-family: Montserrat;
   font-style: normal;
 }
-div.a{
-  line-height:.1%;
-  text-align: right;
+.square{
+  width: 217px;
+  height: 86px;
+  background-color:#F6FDFA;
+
+  div.a{
+    line-height:.1%;
+    position:relative;
+    right:20px;
+    text-align:right;
+
+    .time{
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;
+      color: #2DBDB1;
+    }
     .mod{
-    font-family: Sanchez;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 23px;
-  }
-  .time{
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 59px;
-    color: #2DBDB1;
-  }
-  .timeofDay{
-    color: #2DBDB1;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+      font-family: Sanchez;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+      color: #4B5853;
+      
+    }
+    .timeofDay{
+      color: #2DBDB1;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
   }
 }
-
-// write your code here!!
+// write your 000ode here!!
