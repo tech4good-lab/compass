@@ -5,4 +5,20 @@
   display: block;
 }
 
+ol {
+  list-style: none; counter-reset: li
+}
+
+li {
+  counter-increment: li
+}
+
+li::before {
+  content: counter(li); 
+  color: red;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em
+}
+
 // write your code here!
