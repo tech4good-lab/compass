@@ -1,8 +1,30 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
 :host {
   border: 1px solid black;
   display: block;
 }
-
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Roboto);
+* {
+  font-family: Roboto;
+}
+
+#d1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 48px;
+  color: #2DBDB1;
+}
+#d2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 12px;
+  color: #2DBDB1;
+}
+#d3{
+  font-family: Sanchez;
+  font-style: normal;
+  font-size: 18px;
+  color: #4B5853;
+}
