@@ -5,4 +5,35 @@
   display: block;
 }
 
-// write your code here!
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  font-family: Montserrat;
+  color: #2DBDB1;
+}
+
+.h1 {
+  font-weight: 600;
+  font-size: 22px;
+  position: absolute;
+}
+
+.h2 {
+  font-weight: 300;
+  font-size: 18px;
+  position: absolute;
+}
+
+.h3 {
+  font-weight: 500;
+  font-size: 36px;
+  position: relative;
+  left: 10%;
+}
+
+.list {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  color: #5A5A5A;
+}
