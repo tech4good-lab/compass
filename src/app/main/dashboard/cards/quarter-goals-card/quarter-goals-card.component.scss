@@ -3,29 +3,72 @@
 :host {
   border: 1px solid black;
   display: block;
-  border-radius: 25px;
+  border-radius: 10px;
   width: 265px;
   height: 310px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+}
+* {
+  font-family: Montserrat;
 }
 h1 {
   color: #2DBDB1;
   font-family: Montserrat;
-
-font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+  margin-left: 27px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
 
 }
 p.date {
-  
   font-family: Montserrat;
-  
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
   color: #2DBDB1;
-  left: 20px;
+  margin-left: 27px;
+}
+p.cv {
+  color: #5A5A5A;
+  margin-left: 67px;
 }
 
-// write your code here!
+p.app {
+  color: #5A5A5A;
+  margin-left: 67px;
+  top: 10px;
+}
+
+p.tech {
+color: #5A5A5A;
+margin-left: 67px;
+margin-bottom: -10px;
+
+}
+h2.one {
+  margin-top: 10px;
+  margin-left: 27px;
+  line-height: 44px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #2DBDB1;
+}
+
+h2.two {
+  margin-top: 25px;
+  margin-left: 27px;
+  line-height: 44px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #2DBDB1;
+}
+
+h2.three {
+  bottom: 85px;
+  margin-left: 27px;
+  line-height: 44px;
+  font-weight: 600;
+  font-size: 36px;
+  color: #2DBDB1;
+}
 
