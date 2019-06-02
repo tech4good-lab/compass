@@ -19,6 +19,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  
 }
 
 .date { 
@@ -29,3 +30,22 @@
   font-size: 18px;
   line-height: 23px;
 }
+
+.time.container {
+  display: inline;
+  background: lightgray;
+  margin: 10px;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+
+
