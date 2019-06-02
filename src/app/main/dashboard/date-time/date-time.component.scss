@@ -1,22 +1,36 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
-
 // write your code here!!
 
 .block {
-  background-color: grey;
+  width: 217px;
+  height: 86px;
+  background: #F6FDFA;
+}
+.time{
+  position: center;
+  right: 25%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+
+  color: #2DBDB1;
 }
 
-p{
-  font-size: 20px;
-  color: white;
-  font: Arial;
-}
+.date{
+  position: center;
+  
 
-li{
-  color: green;
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+
+  color: #4B5853;
 }
