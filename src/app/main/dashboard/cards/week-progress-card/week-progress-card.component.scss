@@ -6,3 +6,32 @@
 }
 
 // write your code here!!
+.plans {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+#list {
+  font-size: 14px;
+  line-height: 17px;
+  .interview {
+    color: #EE8B72;
+    &.time {
+      font-weight: 500;
+    }
+  }
+  .coverletter {
+    color: #2DBDB1;
+    &.time {
+      font-weight: 500;
+    }
+  }
+  .internapps {
+    color: #FFB987;
+    &.time {
+      font-weight: 500;
+    }
+  }
+}
