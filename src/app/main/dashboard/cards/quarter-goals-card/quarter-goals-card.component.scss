@@ -12,6 +12,7 @@
 }
 
 .fall {
+  margin: 20px;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
@@ -23,7 +24,12 @@
   }
 }
 
+#list {
+  text-indent: 20px;
+}
+
 .number {
+  text-indent: 20px;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
@@ -31,8 +37,14 @@
 }
 
 .goal {
+  margin: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #5A5A5A;
+}
+
+.pencil {
+  margin: 20px;
+  text-align: right;
 }
