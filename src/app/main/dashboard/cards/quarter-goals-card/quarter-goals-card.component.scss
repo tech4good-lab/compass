@@ -1,8 +1,31 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 :host {
   border: 1px solid black;
   display: block;
+  border-radius: 25px;
+  width: 265px;
+  height: 310px;
+}
+h1 {
+  color: #2DBDB1;
+  font-family: Montserrat;
+
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+}
+p.date {
+  
+  font-family: Montserrat;
+  
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+  left: 20px;
 }
 
 // write your code here!
+
