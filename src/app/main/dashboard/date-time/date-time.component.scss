@@ -6,3 +6,30 @@
 }
 
 // write your code here!!
+.time {
+  color:#2DBDB1;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align:right;
+}
+.meridian{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #2DBDB1;
+}
+
+.date{
+  color:#4B5853;
+  font-family: Sanchez;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+}
