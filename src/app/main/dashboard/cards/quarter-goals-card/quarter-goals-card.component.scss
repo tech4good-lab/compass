@@ -69,15 +69,15 @@
   }
 
   .block-container {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 
     .col {
       display: flex;
       flex-direction: column;
       margin: 2px;
     }
-    
+
   }
 
   .pencil {
