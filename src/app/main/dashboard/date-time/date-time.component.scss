@@ -8,7 +8,7 @@
 // write your code here!!
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
 
-.date-time-container {
+.frame {
 	  font-family: Montserrat, sans-serif;
 	  width: 217px;
 	  height: 86px;
@@ -18,7 +18,7 @@
 	  flex-wrap: wrap;
 	}
 
-.time {
+.header {
 	  text-align: right;
 	  align-self: flex-end;
 	  flex-grow: 0.85;
@@ -29,7 +29,7 @@
 	  color: #2DBDB1;
 	}
 
-.stamp {
+.am {
   align-self: flex-end;
   text-align: right;
   flex-grow: 0.075;
@@ -40,7 +40,7 @@
   color: #2DBDB1;
 }
 
-.date {
+.subheader {
 	  align-self: flex-end;
 	  text-align: center;
 	  font-family: Sanchez, sans-serif;
