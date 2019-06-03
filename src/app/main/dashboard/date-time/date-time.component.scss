@@ -13,13 +13,16 @@
   width: 190px;
   height: 75px;
   overflow: auto;
+  justify-content: flex-end;
   .rowOne {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
-    width: 126px;
+    width: 190px;
     height: 51px;
+    justify-content: flex-end;
+    align-items: baseline;
     .time {
       width: 102px;
       height: 51px;
