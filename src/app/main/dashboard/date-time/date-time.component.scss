@@ -6,3 +6,48 @@
 }
 
 // write your code here!!
+
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+
+
+//======Div Block Styles=======
+
+.time-block{
+  text-align: right;
+  padding-right: 5px;
+}
+
+.date-block{
+  
+}
+
+//=======Div Class Styles=======
+.time{
+  color: #2DBDB1;
+  text-align: right;
+  font-size: 48px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  font-height: 59px;
+  display: inline;
+}
+
+.time2{
+  display: inline;
+  color: #2DBDB1;
+  font-size: 12px;
+  font-family: 'Montserrat';
+}
+
+.date{
+  color: #4B5853;
+  text-align: center;
+  font-family: 'Sanchez';
+  font-size: 18px;
+}
+
+
