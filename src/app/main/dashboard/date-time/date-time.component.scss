@@ -3,10 +3,11 @@
 * {
   font-family: Montserrat;
   color: #2DBDB1;
+  text-align: right;
 }
 
 .time {
-  width: 102px;
+  width: 173px;
   height: 51px;
   font-weight: 500;
   font-size: 48px;
@@ -14,15 +15,16 @@
 }
 
 .am-pm {
-  width: 21px;
-  height: 14px;
+  width: 198px;
+  height: 20px;
+  margin-top: -10%;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
 }
 
 .date { 
-  width: 190px;
+  width: 198px;
   height: 24px;
   color: #4B5853;
   font-family: Sanchez;
