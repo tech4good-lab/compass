@@ -51,6 +51,7 @@
     color: #5a5a5a;
     margin: 20px;
   }
+
   .task2 {
     font-weight: 500;
     font-size: 16px;
@@ -70,12 +71,13 @@
   .block-container {
   display: flex;
   flex-direction: row;
-  
+
     .col {
       display: flex;
       flex-direction: column;
       margin: 2px;
     }
+    
   }
 
   .pencil {
