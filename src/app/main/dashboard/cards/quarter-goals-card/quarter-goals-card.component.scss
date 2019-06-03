@@ -12,30 +12,47 @@
   color: #2DBDB1;
 }
 
-.h1 {
+h1 {
   font-weight: 600;
   font-size: 22px;
-  position: absolute;
+  position: relative;
+  left: 20%;
 }
 
-.h2 {
-  font-weight: 300;
+h2 {
+  font-weight: 200;
   font-size: 18px;
-  position: absolute;
+  position: relative;
+  left: 20%;
 }
 
 .numbers {
   font-weight: 500;
   font-size: 36px;
   position: relative;
-  //left: 40%;
-  //bottom: 40%;
+  left: 5%;
 }
 
-.black-text {
+.finish1 {
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  left: 10%;
+  left: 15%;
+  color: #5A5A5A;
+}
+
+.apply {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  left: 15%;
+  color: #5A5A5A;
+}
+
+.finish2 {
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  left: 15%;
   color: #5A5A5A;
 }
