@@ -29,6 +29,9 @@
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
+  position:relative;
+  left: 10px;
+  top: -27px;
 }
 
 .top-hour {
@@ -36,6 +39,9 @@
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  position:relative;
+  left: 190px;
+  top: -50px;
 }
 
 .middle-hashtag {
@@ -57,6 +63,9 @@
   height: 27px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
+  position:relative;
+  left: 2px;
+  top: -27px;
 }
 
 .middle-hour {
@@ -66,6 +75,9 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  position:relative;
+  left: 150px;
+  top: -50px;
 }
 
 .bottom-hashtag {
@@ -86,6 +98,10 @@
   border-radius: 3px;
   width: 112px;
   height: 27px;
+  position:relative;
+  left: 2px;
+  top: -27px;
+
 }
 
 .bottom-hour {
@@ -95,5 +111,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  position:relative;
+  left: 130px;
+  top: -47px;
 }
 
