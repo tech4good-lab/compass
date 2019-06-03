@@ -1,59 +1,36 @@
 <div class="week-progress-card-container">
-  <div class = "title">
-    This Week's Plans
-  </div>
-  <div *ngFor = "let item of this.plans; let i = index" class = "containerForAllEvents">
-    <div *ngIf = "i == 0" class = "topEvent" >
-      <div class = "topHashtag">
-        #{{item.hashtag}}
-      </div>
-      <div class = "lineWithTopProgressBarAndHour">
-        <div class = "topProgressBarContainer"[style.width] = "lightSize(i)">
-          <div class = "boldTopProgressBar"[style.width] = "boldSize(i)">
-          </div>
-          <div class = "lightTopProgressBar">
-          </div>
+  <div class="title">This Week's Plans</div>
+  <div *ngFor="let item of this.plans; let i=index" class="container-for-all-events">
+    <div *ngIf="i == 0" class="top-event" >
+      <div class="top-hashtag">#{{item.hashtag}}</div>
+      <div class="line-top-progress-bar-and-hour">
+        <div class="top-progress-bar-container" [style.width]="calculateLightProgressBarWidth(i)">
+          <div class="bold-top-progress-bar" [style.width]="calculateBoldProgressBarWidth(i)"></div>
+          <div class="light-top-progress-bar"></div>
         </div>
-        <div class = "topHour">
-          {{hours(i)}} HRS
-        </div>
+        <div class="top-hour">{{getNumberOfHours(i)}} HRS</div>
       </div>
     </div>
     
-    <div *ngIf = " i==1 " class = "middleEvent">
-      <div class = "middleHashtag">
-        #{{item.hashtag}}
-      </div>
-      <div class = "lineWithMiddleProgressBarAndHour">
-        <div class = "middleProgressBarContainer"  [style.width] = "lightSize(i)">
-          <div class = "boldMiddleProgressBar" [style.width] = "boldSize(i)">
-
-          </div>
-          <div class = "lightMiddleProgressBar">
-            
-          </div>
+    <div *ngIf="i==1" class="middle-event">
+      <div class="middle-hashtag">#{{item.hashtag}}</div>
+      <div class="line-middle-progress-bar-and-hour">
+        <div class="middle-progress-bar-container" [style.width] = "calculateLightProgressBarWidth(i)">
+          <div class="bold-middle-progress-bar" [style.width] = "calculateBoldProgressBarWidth(i)"></div>
+          <div class="light-middle-progress-bar"></div>
         </div>
-        <div class = "middleHour">
-          {{hours(i)}} HRS
-        </div>
+        <div class="middle-hour">{{getNumberOfHours(i)}} HRS</div>
       </div>
     </div>
     
-    <div *ngIf = "i==2" class = "bottomEvent">
-      <div class = "bottomHashtag">
-        #{{item.hashtag}}
-      </div>
-      <div class = "lineWithBottomProgressBarAndHour" >
-        <div class = "bottomProgressBarContainer"[style.width] = "lightSize(i)">
-          <div class = "boldBottomProgressBar" [style.width] = "boldSize(i)">
-          </div>
-          <div class = "lightBottomProgressBar">
-            
-          </div>
+    <div *ngIf="i==2" class="bottom-event">
+      <div class="bottom-hashtag">#{{item.hashtag}}</div>
+      <div class="line-bottom-progress-bar-and-hour" >
+        <div class="bottom-progress-bar-container" [style.width]="calculateLightProgressBarWidth(i)">
+          <div class="bold-bottom-progress-bar" [style.width]="calculateBoldProgressBarWidth(i)"></div>
+          <div class="light-bottom-progress-bar"></div>
         </div>
-        <div class = "bottomHour">
-          {{hours(i)}} HRS
-        </div>
+        <div class="bottom-hour">{{getNumberOfHours(i)}} HRS</div>
       </div>
     </div>
   </div>

@@ -21,7 +21,7 @@ export class WeekProgressCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.plans);
+    
   }
   getMaxTime(){
     var max = 0;
@@ -32,10 +32,10 @@ export class WeekProgressCardComponent implements OnInit {
     }
     return max;
   }
-  hours(ind){
+  getNumberOfHours(ind){
     return Math.floor(this.plans[ind].totalAllocatedMins/60);
   }
-  lightSize(ind){
+  calculateLightProgressBarWidth(ind){
     var maxSize = this.getMaxTime();
     if( this.plans[ind].totalAllocatedMins < maxSize){
       return Math.floor((this.plans[ind].totalAllocatedMins/maxSize)*100)+'%';
@@ -43,7 +43,7 @@ export class WeekProgressCardComponent implements OnInit {
       return 75 +'%';
     }
   }
-  boldSize(ind){
+  calculateBoldProgressBarWidth(ind){
     return Math.floor((this.plans[ind].totalCompletedMins/this.plans[ind].totalAllocatedMins)*100)+'%';
   }
 
