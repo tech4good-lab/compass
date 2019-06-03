@@ -9,12 +9,14 @@
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  margin: 20px 0px;
 }
 
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
+  margin: 10px 0px 0px;
 }
 
 .bold-top-progress-bar {
@@ -22,6 +24,7 @@
   border-radius: 3px 0px 0px 3px;
   width: 75px;
   height: 27px;
+  position: relative;
 }
 
 .light-top-progress-bar {
@@ -36,12 +39,14 @@
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  margin: 5px;
 }
 
 .middle-hashtag {
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
+  margin: 10px 0px 0px;
 }
 
 .bold-middle-progress-bar {
@@ -66,12 +71,14 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  margin: 5px;
 }
 
 .bottom-hashtag {
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
+  margin: 10px 0px 0px;
 }
 
 .bold-bottom-progress-bar {
@@ -95,5 +102,20 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  margin: 5px;
 }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+  }
+
+}
+
+
 
