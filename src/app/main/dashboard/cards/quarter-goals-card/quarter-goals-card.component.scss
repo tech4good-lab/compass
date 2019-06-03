@@ -9,6 +9,7 @@
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    margin: 10px;
   }
 
   .dates {
@@ -16,6 +17,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin: 10px;
   }
 
   .first {
@@ -23,6 +25,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin: 10px;
   }
 
   .second {
@@ -30,6 +33,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin: 10px;
   }
 
   .third {
@@ -37,6 +41,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin: 10px;
   }
 
   .task1 {
@@ -44,12 +49,14 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    margin: 20px;
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    margin: 20px;
   }
 
   .task3 {
@@ -57,5 +64,22 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+     margin: 5px 20px;
+  }
+
+  .block-container {
+  display: flex;
+  flex-direction: row;
+  
+    .col {
+      display: flex;
+      flex-direction: column;
+      margin: 2px;
+    }
+  }
+
+  .pencil {
+    text-align: right;
+    margin: 10px;
   }
 
