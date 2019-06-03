@@ -22,18 +22,51 @@
   line-height: 17px;
   .interview {
     color: #EE8B72;
+    &.rect {
+      width: 75px;
+      height: 30px;
+      background-color: #EE8B72;
+    }
+    &.rect2 {
+      width: 168px;
+      height: 30px;
+      background-color: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
     &.time {
       font-weight: 500;
     }
   }
   .coverletter {
     color: #2DBDB1;
+    &.rect {
+      width: 75px;
+      height: 30px;
+      background-color: #2DBDB1;
+    }
+    &.rect2 {
+      width: 168px;
+      height: 30px;
+      background-color: rgba(45, 189, 177, 0.3);
+      border-radius: 3px;
+    }
     &.time {
       font-weight: 500;
     }
   }
   .internapps {
     color: #FFB987;
+    &.rect {
+      width: 75px;
+      height: 30px;
+      background-color: #FFB987;
+    }
+    &.rect2 {
+      width: 168px;
+      height: 30px;
+      background-color: rgba(255, 185, 135, 0.3);
+      border-radius: 3px;
+    }
     &.time {
       font-weight: 500;
     }
