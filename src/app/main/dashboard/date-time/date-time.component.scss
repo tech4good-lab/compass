@@ -33,19 +33,9 @@
 
 .time.container {
   display: inline;
-  background: lightgray;
-  margin: 10px;
-
   .col {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .row {
-    display: flex;
-    flex-direction: row;
-  }
-
+    text-align: right;
+   }
 }
 
 
