@@ -1,8 +1,38 @@
 // Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :host {
   border: 1px solid black;
   display: block;
 }
 
-// write your code here!!
+.time-of-day, .time {
+ text-align: right;
+ color :#2DBDB1;
+ font-weight: normal;
+ font-style: normal;
+ font-family: Montserrat;
+}
+.time{
+width:85%;
+margin-top:-10%;
+font-size:50px;
+}
+.time-of-day{
+width:96%;
+margin-top:-17%;
+font-size: (15px);
+}
+.date{
+margin-top: -10%;
+margin-bottom: -5%;
+font-style: normal;
+font-weight: norma;;
+width:95%;
+font-family: Sanchez;
+text-align: right;
+font-size: 17px;
+color: #4B5853;
+}
