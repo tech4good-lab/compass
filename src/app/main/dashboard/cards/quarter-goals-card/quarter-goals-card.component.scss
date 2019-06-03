@@ -6,3 +6,57 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
+}
+
+
+.title {
+  text-align: left;
+  padding-left: 20px;    
+  font-weight: 600;
+  font-size: x-large;
+  line-height: 27px;
+  color: #2dbdb1;
+}
+
+.time-interval {
+  padding-left: 20px;  
+  font-weight: 300;
+  font-size: large;
+  position: relative;    
+//line-height: 200%;
+  margin-bottom: 20px;
+  color: #2dbdb1; 
+}
+
+ol {    
+  list-style: none;
+  position: relative; 
+  margin: 0;
+  padding: 0;   
+}
+
+ol li {
+  display: flex;
+  flex-direction: colomn;    
+  padding-left: 20px; 
+  margin-bottom: 20px;  
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;  
+  position: relative;  
+  color:#2DBDB1;
+}
+
+li p {
+  padding-left: 20px;  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5a5a5a;
+}
+
