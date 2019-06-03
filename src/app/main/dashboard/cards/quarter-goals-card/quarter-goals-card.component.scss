@@ -8,7 +8,7 @@
 // write your code here!
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-* {
+* { 
   background: #FFFFFF;
   font-family: Montserrat;
 }
@@ -28,7 +28,7 @@
   font-weight: 300;
   font-size: large;
   position: relative;    
-//line-height: 200%;
+  line-height: 150%;
   margin-bottom: 20px;
   color: #2dbdb1; 
 }
@@ -44,19 +44,24 @@ ol li {
   display: flex;
   flex-direction: colomn;    
   padding-left: 20px; 
-  margin-bottom: 20px;  
+  margin-bottom: 15px;  
   font-weight: 500;
-  font-size: 36px;
-  line-height: 44px;  
+  font-size: 40px;
+  line-height: 30px;  
   position: relative;  
   color:#2DBDB1;
 }
 
 li p {
-  padding-left: 20px;  
+  padding-left: 15px;  
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 25px;
   color: #5a5a5a;
 }
 
+svg {
+  position: relative;
+  left: 85%;
+  bottom: 25%;
+}
