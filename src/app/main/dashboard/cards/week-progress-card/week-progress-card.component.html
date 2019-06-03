@@ -1,7 +1,7 @@
 <div class="week-progress-card-container">
   <div class="title">This Week's Plans</div>
   <div *ngFor="let item of this.plans; let i=index" class="container-for-all-events">
-    <div *ngIf="i == 0" class="top-event" >
+    <div *ngIf="i == 0" class="top-event">
       <div class="top-hashtag">#{{item.hashtag}}</div>
       <div class="line-top-progress-bar-and-hour">
         <div class="top-progress-bar-container" [style.width]="calculateLightProgressBarWidth(i)">
@@ -25,7 +25,7 @@
     
     <div *ngIf="i==2" class="bottom-event">
       <div class="bottom-hashtag">#{{item.hashtag}}</div>
-      <div class="line-bottom-progress-bar-and-hour" >
+      <div class="line-bottom-progress-bar-and-hour">
         <div class="bottom-progress-bar-container" [style.width]="calculateLightProgressBarWidth(i)">
           <div class="bold-bottom-progress-bar" [style.width]="calculateBoldProgressBarWidth(i)"></div>
           <div class="light-bottom-progress-bar"></div>
