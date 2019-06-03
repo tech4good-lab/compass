@@ -8,6 +8,8 @@
   position: relative;
   width: 217px;
   height: 86px;
+  scroll-behavior: smooth;
+  
 }
 * {
   font-family: Montserrat;
@@ -23,6 +25,7 @@
   font-size: 48px;
   line-height: 59px;
   margin-left: 77px;
+  scroll-behavior: smooth;
 }
 
 .am-pm {
@@ -35,6 +38,7 @@
   line-height: 15px;
   margin-left: 175px;
   margin-top: -30px;
+  scroll-behavior: smooth;
 
 }
 
@@ -49,5 +53,6 @@
   line-height: 23px;
   margin-left: 5px;
   margin-top: -20px;
+  scroll-behavior: smooth;
 }
 
