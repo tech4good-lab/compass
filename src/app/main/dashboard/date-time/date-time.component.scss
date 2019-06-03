@@ -9,6 +9,7 @@
   width: 217px;
   height: 86px;
   scroll-behavior: smooth;
+  align-items:center;
   
 }
 * {
@@ -27,6 +28,8 @@
   margin-left: 77px;
   scroll-behavior: smooth;
   flex-grow: 0;
+  justify-content: right;
+  align-self: flex-start;
 }
 
 .am-pm {
@@ -41,6 +44,8 @@
   margin-top: -30px;
   scroll-behavior: smooth;
   flex-grow: 0;
+  justify-content: right;
+  align-self: flex-start;
 
 }
 
@@ -57,5 +62,7 @@
   margin-top: -20px;
   scroll-behavior: smooth;
   flex-grow: 0;
+  justify-content: center;
+  align-self: flex-start;
 }
 
