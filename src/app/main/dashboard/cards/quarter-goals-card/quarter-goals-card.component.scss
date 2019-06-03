@@ -13,31 +13,33 @@
 }
 
 h1 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 22px;
   position: relative;
-  left: 20%;
+  left: 10%;
 }
 
 h2 {
   font-weight: 200;
   font-size: 18px;
   position: relative;
-  left: 20%;
+  left: 10%;
+  //bottom: 75%;
 }
 
 .numbers {
   font-weight: 500;
   font-size: 36px;
   position: relative;
-  left: 5%;
+  left: 10%;
 }
 
 .finish1 {
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  left: 15%;
+  left: 20%;
+  top: -20%;
   color: #5A5A5A;
 }
 
@@ -45,7 +47,8 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  left: 15%;
+  left: 20%;
+  bottom: 60%;
   color: #5A5A5A;
 }
 
@@ -53,6 +56,6 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   position: relative;
-  left: 15%;
+  left: 20%;
   color: #5A5A5A;
 }
