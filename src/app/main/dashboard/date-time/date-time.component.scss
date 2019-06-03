@@ -12,33 +12,32 @@
 @import url('https://fonts.googleapis.com/css?family=Sanchez');
 
 div {
-  font-family: Montserrat;
   text-align: right;
-}
-
-.firstRow {
-  color: #2DBDB1;
-
-}
-
-.time {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-}
-
-.AM {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.date {
-  font-family: Sanchez;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
+  .firstRow {
+    color: #2DBDB1;
+    font-family: Montserrat;
+    padding-right: 14px;
+    .time {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;  
+    }
+    .AM {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .secondRow {
+    padding-right: 14px;
+    .date {
+      font-family: Sanchez;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
 }
