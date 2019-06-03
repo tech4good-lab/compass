@@ -1,8 +1,71 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 :host {
   border: 1px solid black;
   display: block;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+
+p.inter {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+p.cv {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+p.internapps {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+
+p.four {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+p.three{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+p.two{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
 }
 
 // write your code here!!
