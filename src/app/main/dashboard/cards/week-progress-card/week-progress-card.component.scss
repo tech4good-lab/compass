@@ -2,11 +2,23 @@
 * {
   background: #FFFFFF;
   font-family: Montserrat;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.129);
 }
 
 .rows {
+  display: flex;
+  flex-direction: column;
+  .hashtag {
+    background-color: green;
+    flex-wrap: wrap;
+  }
+  .aggregate-progress-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .title {
+    flex-wrap: wrap;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -15,6 +27,7 @@
 
   .first {
     .top-hashtag {
+    flex-wrap: wrap;
     color: #EE8B72;
     font-size: 14px;
     line-height: 17px;
