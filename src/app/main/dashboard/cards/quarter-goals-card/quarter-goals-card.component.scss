@@ -36,19 +36,21 @@
 ol {    
   list-style: none;
   position: relative; 
+//display: flex;
+//flex-wrap: wrap;
   margin: 0;
   padding: 0;   
 }
 
 ol li {
   display: flex;
-  flex-direction: colomn;    
+  flex-direction: colomn;
+  position: relative;        
   padding-left: 20px; 
-  margin-bottom: 15px;  
+  margin-bottom: 20px;  
   font-weight: 500;
   font-size: 40px;
   line-height: 30px;  
-  position: relative;  
   color:#2DBDB1;
 }
 
@@ -60,7 +62,8 @@ li p {
   color: #5a5a5a;
 }
 
-svg {
+// legit I'm sure
+.pencil {
   position: relative;
   left: 85%;
   bottom: 25%;
