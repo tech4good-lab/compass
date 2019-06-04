@@ -1,19 +1,17 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
 * {
-  background: black;
+  background: white;
   font-family: Montserrat;
 }
 
 .week-progress-card-container {
   width: 265px;
   height: 310px;
-  border-radius: 10px;
-  background-color: #FFFFFF;
 
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+
   box-shadow: 0px 4px 4px #D3E1DA;
 }
 
@@ -36,18 +34,19 @@
 }
 
 .top-container {
-  width: 113px;
+  width: 265px;
   height: 17px;
-  
+
+  display: flex;
+
   .top-hashtag {
     color: #EE8B72;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 17px;
 
     width: 113px;
-    height: 22px;
+    height: 17px;
 
-    align-self: flex-end;
     text-align: center;
   }
 }
@@ -56,12 +55,17 @@
   width: 265px;
   height: 30px;
 
+  display: flex;
+
+  .push {
+    width: 20px;
+  }
+  
   .bold-top-progress-bar {
     background: #EE8B72;
     border-radius: 3px 0px 0px 3px;
     width: 75px;
-    height: 27px; 
-    align-self: right;
+    height: 27px;
   }
 
   .light-top-progress-bar {
@@ -69,18 +73,16 @@
     height: 27px;
     background: rgba(238, 139, 114, 0.3);
     border-radius: 3px;
-
   }
   
   .top-hour {
     font-weight: 500;
     font-size: 14px;
-    line-height: 30px;
+    line-height: 27px;
     color: #EE8B72;
     
-    width: 265px;
+    width: 53px;
     height: 27px;
-
     text-align: right;
   }
 }
@@ -92,9 +94,6 @@
 
   width: 221px;
   height: 42px;
-
-  align-self: center;
-  align-self: flex-end;
 }
 
 .bold-middle-progress-bar {
@@ -149,4 +148,3 @@
   font-size: 14px;
   line-height: 17px;
 }
-
