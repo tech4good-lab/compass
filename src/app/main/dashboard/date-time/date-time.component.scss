@@ -14,10 +14,12 @@
 // time component
 .time {
   padding-top: 15px;
+  padding-right: 10px;
   font-family: Montserrat;
   font-size: xx-large;
   font-style: bold;
-  text-indent: 48%;
+//text-indent: 48%;
+  text-align: right;
   color: #2DBDB1;
 }
 .period {
@@ -26,7 +28,9 @@
 
 // date component
 .date {
+  padding-right: 10px;
+  font-style: bold;  
   font-family: Sanchez;
-  font-size: large;
-  text-align: center;
+  font-size: medium;
+  text-align: right;
 }
