@@ -8,14 +8,13 @@
 
 // write your code here!!
 h1{
-position: relative;
-right: 38px;
-
+display: flex;
+align-items: center;
 
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 48px;
 line-height: 59px;
 text-align: right;
 
@@ -23,7 +22,7 @@ color: #2DBDB1;
 }
 
 h2{
-position: relative;
+position: sticky;
 left: 0%;
 right: 16.5%;
 top: 24%;
@@ -40,7 +39,7 @@ color: #4B5853;
 }
 
 p{
-position: relative;
+position: sticky;
 bottom: 38px;
 
 font-family: Montserrat;
