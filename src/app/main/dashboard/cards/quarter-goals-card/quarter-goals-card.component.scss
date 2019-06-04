@@ -8,6 +8,12 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px #D3E1DA;
   border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px;
+  padding-top: 19px;
 
   .header{
     .title {
@@ -22,21 +28,27 @@
       font-size: 18px;
       line-height: 22px;
       color: #2dbdb1;
+      padding-top: 8px;
     }
   }
 
   .taskslist{
     display:flex;
     flex-direction:column;
+    padding-top: 14px; //to do a chec on positioning
 
     .task-one{
       display:flex;
       flex-direction:row;
+      flex-wrap: wrap;
+      align-items: center;
+   
       .first {
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
           color: #2dbdb1;
+          padding-right: 30px;
       }
       .task1 {
           font-weight: 500;
@@ -48,11 +60,15 @@
     .task-two{
       display:flex;
       flex-direction:row;
+      flex-grow: 1;
+      align-items: center;
+      padding-top: 4px;
       .second {
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
           color: #2dbdb1;
+          padding-right: 24px;
       }
       .task2 {
           font-weight: 500;
@@ -65,11 +81,16 @@
     .task-three{
       display:flex;
       flex-direction:row;
+      flex-grow: 1;
+      align-items: center;
+      padding-top: 13px;
+
       .third {
         font-weight: 500;
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
+        padding-right: 24px;
       }
       .task3 {
         font-weight: 500;
@@ -78,6 +99,13 @@
         color: #5a5a5a;
       }
     }
-
+  }
+  .edit{
+    align-items: flex-end;
+    padding-top: 17px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-right: 26px;
   }
 }
