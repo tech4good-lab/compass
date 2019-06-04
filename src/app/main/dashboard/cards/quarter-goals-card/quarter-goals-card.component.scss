@@ -11,6 +11,7 @@
   overflow-x: auto;
   width: 265px;
   height: 310px;
+  justify-content: top;
   .headers {
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@
 
   }
  .task-list {
+    //  height: 310px;
     display: flex;
     flex-direction: row;
     .list {
@@ -93,6 +95,9 @@
       }
     }
   } 
+  .pencil {
+      align-self:flex-end;
+    }
  }
   
  
