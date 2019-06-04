@@ -8,12 +8,13 @@
 .block-container {
   background-color: #F6FDFA;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
-  width: 190px;
-  height: 75px;
+  width: 217px;
+  height: 86px;
   overflow: auto;
   justify-content: flex-end;
+  padding-left: 13px;
+  padding-right: 14px;
   .rowOne {
     display: flex;
     flex-direction: row;
