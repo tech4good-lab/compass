@@ -6,10 +6,67 @@
 }
 
 // write your code here!
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=Montserrat');
+
+* {
+  font-family: 'Montserrat';
+}
+
 .highlight {
   color: #2DBDB1;
+  &.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  &.date {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &.one {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+  &.two {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+  &.three {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center; 
+  }
 }
 
 .desc {
   color: #5A5A5A;
+  &.taskOne {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &.taskTwo {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &.taskThree {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
