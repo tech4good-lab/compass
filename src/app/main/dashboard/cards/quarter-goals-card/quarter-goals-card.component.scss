@@ -15,14 +15,16 @@
   font-size: 22px;
   line-height: 27px;
   color: #2DBDB1;
-}
-.dateWindow{
+  .dateWindow{
   font-weight: 300;
   font-size: 18px;
   line-height: 22px;
   color: #2DBDB1;
   }
+}
 ol li {
+  width: 175px;
+  line-height: 25px;
   counter-increment: list;
   list-style-type: none;
   position: relative;
@@ -42,5 +44,9 @@ ol li:before {
   font-weight: 500;
   font-size: 36px;
   text-align: center;
+}
+.pencilPic{
+  position:relative;
+  text-align: right;
 }
 // write your code here!
