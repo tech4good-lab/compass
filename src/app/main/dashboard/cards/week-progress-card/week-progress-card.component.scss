@@ -1,7 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
 * {
-  background: #FFFFFF;
+  background: black;
   font-family: Montserrat;
 }
 
@@ -12,63 +12,89 @@
   background-color: #FFFFFF;
 
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0;
   box-shadow: 0px 4px 4px #D3E1DA;
 }
 
-.space {
-  width: 265px;
-  height: 22px;
+.header {
+  width: 300px;
+  height: 68px;
 }
-
 .title {
   font-weight: 600;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 70px;
   color: #4B5853;
 
   width: 221px;
-  height: 46px;
+  height: 47px;
 
-  align-self: center;
+  align-self: flex-end;
+  text-align: center;
+
 }
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
+.top-container {
+  width: 113px;
+  height: 17px;
+  
+  .top-hashtag {
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 22px;
 
-  width: 221px;
-  height: 22px;
+    width: 113px;
+    height: 22px;
 
-  align-self: center;
+    align-self: flex-end;
+    text-align: center;
+  }
 }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
+.top-container-contents {
+  width: 265px;
+  height: 30px;
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
+  .bold-top-progress-bar {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 27px; 
+    align-self: right;
+  }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
+  .light-top-progress-bar {
+    width: 168px;
+    height: 27px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+
+  }
+  
+  .top-hour {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #EE8B72;
+    
+    width: 265px;
+    height: 27px;
+
+    text-align: right;
+  }
 }
 
 .middle-hashtag {
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
+
+  width: 221px;
+  height: 42px;
+
+  align-self: center;
+  align-self: flex-end;
 }
 
 .bold-middle-progress-bar {
