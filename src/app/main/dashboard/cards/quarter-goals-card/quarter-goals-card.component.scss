@@ -12,7 +12,11 @@
   width: 265px;
   height: 310px;
   .headers {
+    display: flex;
+    flex-direction: column;
     .title {
+      flex-grow: 1;
+      // flex-shrink: 0;
       flex-wrap: wrap;
       font-weight: 600;
       font-size: 22px;
@@ -21,6 +25,7 @@
     }
 
     .dates {
+      flex-grow: 1;
       flex-wrap: wrap;
       font-weight: 300;
       font-size: 18px;
@@ -58,20 +63,29 @@
     }
 
     .tasks {
-      flex-wrap: wrap;
+      height:149px;
+      width: 175px;
+      display: flex;
+      flex-direction: column;
       .task1 {
+        flex-grow: 1;
+        flex-wrap: wrap;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
       }
       .task2 {
+        flex-grow: 1;
+        flex-wrap: wrap;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
       }
       .task3 {
+        flex-grow: 1;
+        flex-wrap: wrap;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
