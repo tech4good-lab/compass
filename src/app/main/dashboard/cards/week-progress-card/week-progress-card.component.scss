@@ -8,6 +8,7 @@
 .rows {
   width:265px;
   height:310px;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
@@ -17,6 +18,8 @@
   }
 
   .aggregate-progress-bar {
+    // align-content: space-around;
+    // align-content: space-between;
     display: flex;
     flex-direction: row;
     flex-shrink: 1;
