@@ -4,5 +4,34 @@
   border: 1px solid black;
   display: block;
 }
+// Code
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* { 
+  font-family: Montserrat;
+}
+.time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+  color: #2DBDB1;
+}
+.am {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
 
-// write your code here!!
+.date {
+  font-family: Sanchez;
+  src: url(fonts.googleapis.com/css?family=Sanchez);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #4B5853;
+}
