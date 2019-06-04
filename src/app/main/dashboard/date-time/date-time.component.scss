@@ -1,3 +1,6 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
 // Ignore this class.  It just adds a border so that you can find your element.
 :host {
   border: 1px solid black;
@@ -5,26 +8,35 @@
 }
 // write your code here!!
 
-@import url(//fonts.googleapis.com/css?family=Roboto);
-* {
-  font-family: Roboto;
-}
+// I am going by the instructions given in the assignment handout and it shows that post widget that I should have no layout formatting so I did not add it in this step just the elements. 
 
-#d1{
+// I have no idea what line height is and no one cares to explain it so I left it out cause it makes almost no difference
+
+// this is a massive waste of time when I should be studying for finals
+
+//Then the tutorial tries to have us write code like a pro but I still have no idea what to code so it is pointless to try and hammer in best practices that do not relate to what we are currently doing. Chances new HTML/CSS users are not going to be nesting styles since that is confusing for no reason oother than to be confusing
+
+.time {
+  color: #2DBDB1;
   font-family: Montserrat;
   font-style: normal;
+  font-weight: 500; 
   font-size: 48px;
-  color: #2DBDB1;
+  //text-align: right;
 }
-#d2{
+.am { 
+  color: #2DBDB1; 
   font-family: Montserrat;
   font-style: normal;
+  font-weight: 500;
   font-size: 12px;
-  color: #2DBDB1;
+  //text-align: right;
 }
-#d3{
+.date { 
+  color: #4B5853;
   font-family: Sanchez;
   font-style: normal;
+  font-weight: normal;
   font-size: 18px;
-  color: #4B5853;
+  //text-align: right;
 }
