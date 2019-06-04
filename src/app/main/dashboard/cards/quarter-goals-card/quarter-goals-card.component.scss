@@ -5,17 +5,19 @@
   }
 
 .quarter-goals {
+  padding: 15px 14px 27px 23px;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  overflow-x: auto;
+  overflow: hidden;
   width: 265px;
   height: 310px;
   justify-content: top;
+  // background-color: orange;
   .headers {
     display: flex;
     flex-direction: column;
     .title {
+      
       flex-grow: 1;
       // flex-shrink: 0;
       flex-wrap: wrap;
@@ -26,6 +28,7 @@
     }
 
     .dates {
+      margin-top:5px;
       flex-grow: 1;
       flex-wrap: wrap;
       font-weight: 300;
@@ -35,69 +38,83 @@
     }
 
   }
- .task-list {
-    //  height: 310px;
-    display: flex;
-    flex-direction: row;
-    .list {
+  .task-list {
+      //  height: 310px;
       display: flex;
-      flex-direction: column;
-      .first {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 44px;
-        color: #2dbdb1;
+      flex-direction: row;
+      .list {
+        display: flex;
+        flex-direction: column;
+        .first {
+          margin-top:20px;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+        }
+
+        .second {
+          margin-top:20px;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+        }
+
+        .third {
+          margin-top:20px;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+        }
       }
 
-      .second {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 44px;
-        color: #2dbdb1;
+      .tasks {
+        // padding:25px;
+        height:149px;
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        .task1 {
+          margin-top:30px;
+          margin-left:20px;
+          flex-grow: 1;
+          flex-wrap: wrap;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
+        .task2 {
+          margin-top:30px;
+          margin-left:20px;
+          
+          flex-grow: 1;
+          flex-wrap: wrap;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
+        .task3 {
+          margin-top:30px;
+          margin-left:20px;
+          flex-grow: 1;
+          flex-wrap: wrap;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
       }
-
-      .third {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 44px;
-        color: #2dbdb1;
-      }
-    }
-
-    .tasks {
-      height:149px;
-      width: 175px;
-      display: flex;
-      flex-direction: column;
-      .task1 {
-        flex-grow: 1;
-        flex-wrap: wrap;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        color: #5a5a5a;
-      }
-      .task2 {
-        flex-grow: 1;
-        flex-wrap: wrap;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        color: #5a5a5a;
-      }
-      .task3 {
-        flex-grow: 1;
-        flex-wrap: wrap;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        color: #5a5a5a;
-      }
-    }
-  } 
+  }    
   .pencil {
-      align-self:flex-end;
-    }
- }
+    box-sizing:border-box;
+    align-self:flex-end;
+    padding-left: 23px;
+    padding-bottom: 27px;
+  }
+}
   
  
