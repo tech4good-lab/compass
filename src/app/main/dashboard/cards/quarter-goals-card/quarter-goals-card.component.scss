@@ -7,6 +7,10 @@
 .quarter-goals {
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 265px;
+  height: 310px;
   .headers {
     .title {
       flex-wrap: wrap;
