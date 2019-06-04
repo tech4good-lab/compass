@@ -10,11 +10,12 @@
 .flex-container{
 display: flex;
 text-align: center;
-flex-wrap: wrap;
-align-content: center;
+flex-direction: row;
+justify-content: flex-end;
 }
 
 .time{
+border: 10px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
