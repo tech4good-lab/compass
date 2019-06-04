@@ -1,31 +1,51 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
-* {
-  font-family: Montserrat;
-  color: #2DBDB1;
-}
 
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-}
 
-.am-pm {
-  width: 21px;
-  height: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.date { 
+.time-date{
+  background-color: #F6FDFA;
   width: 190px;
-  height: 24px;
-  color: #4B5853;
-  font-family: Sanchez;
-  font-size: 18px;
-  line-height: 23px;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  overflow: auto; //IDK why this is included in the tutorial
+    .time {
+      font-family: Montserrat;
+      color: #2DBDB1;
+      width: 102px;
+      height: 51px;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 59px;
+      flex-direction: row; 
+      align-self: flex-end;
+      position: relative;
+      left: 64px;
+    }  
+    .am-pm{
+      font-family: Montserrat;
+      color: #2DBDB1;
+      width: 21px;
+      height: 14px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      flex-direction: row;
+      align-self: flex-end;
+      position: relative;
+      left: 67px;
+      bottom: 3px;      
+    }  
+    .date { 
+      width: 190px;
+      height: 24px;
+      color: #4B5853;
+      font-family: Sanchez;
+      font-size: 18px;
+      line-height: 23px;
+      align-self: flex-end;
+      text-align: right; 
+      position: relative;
+    }
 }
