@@ -10,7 +10,9 @@
   height:86px;
   background: #F6FDFA;  
   display:flex;
-  flex-direction:row;
+  flex-direction: row;
+  justify-content: flex-end;
+  
 
     .datetimecard{
       //flex-wrap: wrap;
@@ -19,15 +21,16 @@
       height: 75px;
       //left: 13px;
       //top: 3px;
+      
 
       .wholetime{
         display:flex;
         flex-grow: 1;
         flex-direction: row;
-        //padding-top: 3px;
-        //padding-right:14px;
-        //padding-bottom:32px;
-        //padding-left:77px;
+        //text-align: right;
+        //align-self: flex-end;
+        //flex-grow: 0.85;
+        justify-content: flex-end;
 
         .time {
           font-weight: 500;
@@ -50,19 +53,15 @@
         }
       }
       .date { 
-        //flex-grow: 0;
-        //padding-top: 54px;
-        //padding-right:14px;
-        //padding-bottom: 8px;
-        //padding-left:13px;
-        display:flex;
+        //self-align: flex-end;
+        //text-align: center;
+        display: flex;
         flex-grow:1;
-    
+        justify-content: flex-end;
 
         color: #4B5853;
         font-family: Sanchez;
         font-size: 18px;
-        line-height: 23px;
         }
       }
 }
