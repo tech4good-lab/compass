@@ -1,3 +1,5 @@
+
+
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
@@ -26,20 +28,19 @@ ol li {
   position: relative;
   font-weight: 500;
   font-size: 16px;
- 
+  padding: 15px 5px;
   color: #5A5A5A;
 }
 /* Output the numbers using the counter() function, but use a custom color, and position the numbers how we want */
 ol li:before {
   color: #2DBDB1;
-  content: counter(list) ".";
+  content: counter(list);
   left: -32px;
   position: absolute;
-  
+
   width: 26px;
   font-weight: 500;
   font-size: 36px;
-
   text-align: center;
 }
 // write your code here!
