@@ -11,6 +11,8 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  padding-left: 26px;
+  padding-top: 19px;
   .groupOne {
     .title {
       font-weight: 600;
@@ -23,11 +25,13 @@
       font-size: 18px;
       line-height: 22px;
       color: #2dbdb1;
+      padding-top: 8px;
     }
   }
   .groupTwo {
     display: flex;
     flex-direction: column;
+    padding-top: 14px;
     .taskOne {
       display: flex;
       flex-direction: row;
@@ -38,6 +42,7 @@
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
+        padding-right: 30px;
       }
       .task1 {
         font-weight: 500;
@@ -51,12 +56,13 @@
       flex-direction: row;
       flex-grow: 1;
       align-items: center;
-      justify-content: space-around;
+      padding-top: 4px;
       .second {
         font-weight: 500;
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
+        padding-right: 24px;
       }
       .task2 {
         font-weight: 500;
@@ -70,11 +76,13 @@
       flex-direction: row;
       flex-grow: 1;
       align-items: center;
+      padding-top: 13px;
       .third {
         font-weight: 500;
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
+        padding-right: 24px;
       }
       .task3 {
         font-weight: 500;
@@ -86,10 +94,11 @@
   }
   .pencil {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
-    justify-content: flex-end;
-    // align-items: space-around;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-right: 26px;
   }
 }
 
