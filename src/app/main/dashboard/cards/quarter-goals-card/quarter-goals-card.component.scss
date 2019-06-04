@@ -27,39 +27,54 @@
   }
   .groupTwo {
     display: flex;
-    flex: row;
-    .numbers {
+    flex-direction: column;
+    .taskOne {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
       .first {
         font-weight: 500;
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
       }
-      .second {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 44px;
-        color: #2dbdb1;
-      }
-      .third {
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 44px;
-        color: #2dbdb1;
-      }
-    }
-    .desc {
       .task1 {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
       }
+    }
+    .taskTwo {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      align-items: center;
+      justify-content: space-around;
+      .second {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+      }
       .task2 {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
+      }
+    }
+    .taskThree {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      align-items: center;
+      .third {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
       }
       .task3 {
         font-weight: 500;
@@ -68,7 +83,13 @@
         color: #5a5a5a;
       }
     }
-    
+  }
+  .pencil {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: flex-end;
+    // align-items: space-around;
   }
 }
 
