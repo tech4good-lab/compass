@@ -1,9 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
+* {
+  font-family: Montserrat;
+}
 
+.block-container {
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
   .title {
     font-weight: 600;
     font-size: 22px;
@@ -58,4 +61,7 @@
     line-height: 20px;
     color: #5a5a5a;
   }
+}
+
+
 
