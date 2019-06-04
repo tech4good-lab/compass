@@ -5,60 +5,55 @@
   color: #2DBDB1;
 }
 .datetime-frame {
+  padding-left: 13px;
+  padding-top: 3px;
   display: flex;
-  flex-direction: row;
   width: 217px;
   height: 86px;
   overflow-y: auto;
   flex-grow: 1;
   flex-shrink: 1;
 
-  .datetime-component {
-    width: 190px;
-    height: 75px;
-    flex-grow: 1;
-    flex-shrink: 1;
-    overflow: auto;
-
-    #time-container {
-      justify-content: center;
-      align-items: center;
-      left: 88.95%;
-      right: 0%;
-      display: flex;
-      flex-direction: row-reverse;
-      font-family: Montserrat;
-      font-style: normal;
+  #time-container {
+    box-sizing: border-box;
+    margin-left: 69px;
+    justify-content: center;
+    align-items: right;
+    // text-align: right;
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    color: #2DBDB1;
+    .time {
+      width: 102px;
+      height: 51px;
       font-weight: 500;
-      color: #2DBDB1;
-      .time {
-        width: 102px;
-        height: 51px;
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 59px;
-        align-self: flex-end;
-      }
-
-      .am-pm {
-        width: 21px;
-        height: 14px;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 15px;
-        align-self: flex-end;
-      }
+      font-size: 48px;
+      line-height: 59px;
+      align-self: flex-start;
     }
 
-    .date { 
-      width: 190px;
-      height: 24px;
-      color: #4B5853;
-      font-family: Sanchez;
-      font-size: 18px;
-      line-height: 23px;
-      justify-content: center;
-      align-self: flex-center;
+    .am-pm {
+      margin-bottom: 2px;
+      width: 21px;
+      height: 14px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      align-self: flex-end;
     }
+  }
+
+  .date { 
+    width: 190px;
+    height: 24px;
+    color: #4B5853;
+    font-family: Sanchez;
+    font-size: 18px;
+    line-height: 23px;
+    justify-content: center;
+    align-self: flex-center;
   }
 }
