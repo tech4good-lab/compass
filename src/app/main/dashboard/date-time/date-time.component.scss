@@ -24,14 +24,18 @@
   line-height: 15px;
   text-align: right;
 }
-
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .date {
   font-family: Sanchez;
-  src: url(fonts.googleapis.com/css?family=Sanchez);
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   text-align: right;
   color: #4B5853;
+}
+.rectangle {
+  width: 217px;
+  height: 86px;
+  background: #F6FDFA;
 }
