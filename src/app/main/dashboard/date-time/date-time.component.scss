@@ -9,25 +9,28 @@
 
 // import fonts
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-@import url(//fonts.googleapis.com/css?family=Sanchezt);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 
 // time component
 .time {
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-right: 5px;
+  text-align: right;
   font-family: Montserrat;
-  font-size: xx-large;
+  font-size: 48px;
   font-style: bold;
   font-weight: 600;
-  text-indent: 48%;
+//text-indent: 48%;
   color: #2DBDB1;
 }
 .period {
-  font-size: x-small;
+  font-size: 12px;
 }
 
 // date component
 .date {
-  font-family: Sanchezt;
-  font-size: large;
-  text-align: center;
+  padding-right: 5px;
+  font-family: Sanchez;
+  font-size: 18px;
+  text-align: right;
 }
