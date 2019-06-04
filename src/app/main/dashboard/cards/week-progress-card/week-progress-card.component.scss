@@ -6,17 +6,33 @@
 }
 
 .rows {
+  width:265px;
+  height:310px;
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
   .hashtag {
     background-color: green;
     flex-wrap: wrap;
   }
+
   .aggregate-progress-bar {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-shrink: 1;
   }
+  
+  .hour  {
+    flex-shrink: 3;
+  }
+
+  .bold {
+    flex-shrink: 2;
+  }
+  .light {
+    flex-shrink: 2;
+  }
+
   .title {
     flex-wrap: wrap;
     font-weight: 600;
