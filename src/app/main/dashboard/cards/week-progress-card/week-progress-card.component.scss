@@ -6,3 +6,141 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
+}
+
+.week-progress-card{
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 265;
+  padding: 22px 20px 22px 24px;
+  justify-content: center;
+  align-items: flex-start; 
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+  margin-bottom: 21px;
+}
+
+.top-hashtag {
+  color: #EE8B72;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 9px;
+}
+
+.interview-wrapper{
+  display: flex;
+  flex-direction: row;
+
+  .dark-top-progress-bar {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 30px;
+    z-index: 1;
+  }
+
+  /*setting alpha = 0.3*/
+  // 168 - 75 = 93
+  .light-top-progress-bar {
+    width: 93px;
+    height: 30px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+
+  .top-hour {
+    padding-left: 9px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EE8B72;
+  }
+  margin-bottom: 20px;  
+}
+
+.middle-hashtag {
+  color: #2DBDB1;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 3px;  
+}
+
+.coverletter-wrapper{
+  display: flex;
+  flex-direction: row;
+
+  .dark-middle-progress-bar {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 30px;
+  }
+
+/*setting alpha = 0.3*/
+// 136 - 101 = 35
+ .light-middle-progress-bar {
+    color: #2DBDB1;
+    width: 35px;
+    height: 30px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+
+  .middle-hour {
+    padding-left: 8px;  
+    color: #2DBDB1;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  margin-bottom: 20px;
+}
+
+.bottom-hashtag {
+  color: #FFB987;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 2px;   
+}
+
+.iapps-wrapper{
+  display: flex;
+  flex-direction: row;  
+  .dark-bottom-progress-bar {
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+    width: 70px;
+    height: 27px;
+  }
+
+  /*setting alpha = 0.3*/
+  // 112-70=42
+  .light-bottom-progress-bar {
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+    width: 42px;
+    height: 27px;
+  }
+
+  .bottom-hour {
+    padding-left: 11px;   
+    color: #FFB987;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
