@@ -26,7 +26,12 @@
   }
 
   .taskslist{
+    display:flex;
+    flex-direction:column;
+
     .task-one{
+      display:flex;
+      flex-direction:row;
       .first {
           font-weight: 500;
           font-size: 36px;
@@ -41,6 +46,8 @@
       }
     }
     .task-two{
+      display:flex;
+      flex-direction:row;
       .second {
           font-weight: 500;
           font-size: 36px;
@@ -56,6 +63,8 @@
     }
 
     .task-three{
+      display:flex;
+      flex-direction:row;
       .third {
         font-weight: 500;
         font-size: 36px;
