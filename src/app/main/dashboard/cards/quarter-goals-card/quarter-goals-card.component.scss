@@ -3,6 +3,63 @@
 :host {
   border: 1px solid black;
   display: block;
+  width: 265px;
+  height: 310px;
+  margin-left: 26px;
 }
 
-// write your code here!
+.goals {
+  position: relative;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom: 86.13%;
+
+  color: #2DBDB1;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-bottom: 16px;
+}
+.date {
+    color: #2DBDB1;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-left: 26px;
+}
+.big{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  padding-right: 23px;
+  color: #2DBDB1;
+}
+
+.item{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 26px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #5A5A5A;
+}
+
+.image {
+  position: relative;
+  left: 81.51%;
+  right: 8.68%;
+  top: 82.9%;
+  bottom: 8.71%;
+
+  height: 26px;
+  width: 26px;
+}
