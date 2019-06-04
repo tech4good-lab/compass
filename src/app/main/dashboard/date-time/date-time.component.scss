@@ -7,24 +7,25 @@
 @import url(//fonts.googleapis.com/css?family=Sanchez);
 
 .time{
-  padding-top: 15px;
+  padding-top: 10px;
   font-family: Montserrat;
-  font-size: xx-large;
+  font-size: 48px;
   font-style: bold;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 5px;
   //text-indent: 48%;
   font-weight: 600;
   color: #2DBDB1;
 }
 .period{
-  font-size: x-small;
+  font-size: 12px;
 }
 
 .date{
-  padding-right: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
   font-family: Sanchez;
-  font-size: medium;
+  font-size: 18px;
   text-align: right;
 }
 
