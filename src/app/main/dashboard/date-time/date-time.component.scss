@@ -7,10 +7,14 @@
 }
 
 // write your code here!!
-h1{
+.flex-container{
 display: flex;
-align-items: center;
+text-align: center;
+flex-wrap: wrap;
+align-content: center;
+}
 
+.time{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
@@ -21,27 +25,18 @@ text-align: right;
 color: #2DBDB1;
 }
 
-h2{
-position: sticky;
-left: 0%;
-right: 16.5%;
-top: 24%;
-bottom: 0%;
-
+.date{
 font-family: Sanchez;
 font-style: normal;
 font-weight: normal;
-font-size: 17px;
+font-size: 18px;
 line-height: 23px;
 text-align: right;
 
 color: #4B5853;
 }
 
-p{
-position: sticky;
-bottom: 38px;
-
+.AM{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
