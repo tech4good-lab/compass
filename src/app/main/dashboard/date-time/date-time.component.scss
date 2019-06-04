@@ -4,5 +4,32 @@
   border: 1px solid black;
   display: block;
 }
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 
+.time{
+  color: #2DBDB1;;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  font-family:Montserrat;
+  text-align: right;
+}
+
+.month{
+  color:#4B5853;
+  font-size: 18px;
+  line-height: 23px;
+  font-family:Sanchez;
+  text-align: right;
+}
+
+.AM{
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  font-family:Montserrat;
+}
 // write your code here!!
