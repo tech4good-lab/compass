@@ -1,20 +1,15 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+/*:host{
+  border: 1px solid black;
+  display: block;
+}*/
 
 
 // write your code here!!
 @import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-.date-time-background{
-  width:250px;
-  height:95px;
-  background: 
-  #353535;
-  position: relative;
-  right: 20%;
 
-}
-.background{
+/*.background{
   width: 217px;
   height: 86px;
   background:
@@ -23,11 +18,12 @@
   left: -10%;
   bottom: 90%;
   
-}
+}*/
+
 .time{
-  position: relative;
-  bottom: 178%;
-  right: 20%;
+ // position: relative;
+  //bottom: 178%;
+  //right: 20%;
   font-family: 
   Montserrat;
   font-style: 
@@ -44,9 +40,9 @@
   #2DBDB1;
 }
 .AMPM{
-  position: relative;
-  bottom: 205%;
-  right: 8%;
+  //position: relative;
+ // bottom: 23%;
+ // right: 8%;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -56,9 +52,9 @@
   color:#2DBDB1;
 }
 .date{
-  position: relative;
-  bottom: 195%;
-  right: 7%;
+  //position: relative;
+  //bottom: 10%;
+  //right: 20%;
   font-family: Sanchez;
   font-style: normal;
   font-weight: normal;
