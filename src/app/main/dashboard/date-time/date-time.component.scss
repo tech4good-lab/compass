@@ -5,6 +5,11 @@
   color: #2DBDB1;
 }
 
+:host {
+  border: 1px solid black;
+  display: block;
+}
+
 .time {
   width: 102px;
   height: 51px;
@@ -31,11 +36,9 @@
   line-height: 23px;
 }
 
-.time.container {
-  display: inline;
-  .col {
-    text-align: right;
-   }
+#container {
+  text-align: right;
+  margin: 5px;
 }
 
 
