@@ -1,7 +1,24 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+
 * {
   background: #FFFFFF;
   font-family: Montserrat;
+}
+
+.week-progress-card-container {
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px #D3E1DA;
+}
+
+.space {
+  width: 265px;
+  height: 22px;
 }
 
 .title {
@@ -9,12 +26,22 @@
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+
+  width: 221px;
+  height: 46px;
+
+  align-self: center;
 }
 
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
+
+  width: 221px;
+  height: 22px;
+
+  align-self: center;
 }
 
 .bold-top-progress-bar {
