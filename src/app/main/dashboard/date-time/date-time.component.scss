@@ -4,21 +4,40 @@
   font-family: Montserrat;
   color: #2DBDB1;
 }
-.datetimecard{
-  .time {
-    width: 102px;
-    height: 51px;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 59px;
-  }
 
-  .am-pm {
-    width: 21px;
-    height: 14px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+.datetimecard{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+
+  .wholetime{
+    display:flex;
+    flex-direction: row;
+
+    .time {
+      //left: 33.68%;
+      //right: 12.63%;
+      //top: 0%;
+      //bottom: 32%; 
+      width: 102px;
+      height: 51px;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;
+      //text-align: right;
+    }
+    .am-pm {
+      //left: 88.95%;
+      //right: 0%;
+      //top: 42.67%;
+      //bottom: 38.67%;
+      //text-align: right;
+      width: 21px;
+      height: 14px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
   }
 
   .date { 
