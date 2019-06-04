@@ -15,7 +15,11 @@
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
+  position:relative;
+  top: 20px;
+
 }
+
 
 .bold-top-progress-bar {
   background: #EE8B72;
@@ -51,6 +55,9 @@
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
+  position:relative;
+  top: 10px;
+  
 }
 
 .bold-middle-progress-bar {
@@ -58,6 +65,9 @@
   border-radius: 3px 0px 0px 3px;
   width: 101px;
   height: 27px;
+  position:relative;
+  top: 15px;
+  
 }
 
 .light-middle-progress-bar {
@@ -67,8 +77,8 @@
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
   position:relative;
-  left: 2px;
-  top: -27px;
+  left: 5px;
+  top: -12px;
 }
 
 .middle-hour {
@@ -80,13 +90,15 @@
   line-height: 17px;
   position:relative;
   left: 150px;
-  top: -50px;
+  top: -35px;
 }
 
 .bottom-hashtag {
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
+  position:relative;
+  top: -5px;
 }
 
 .bold-bottom-progress-bar {
