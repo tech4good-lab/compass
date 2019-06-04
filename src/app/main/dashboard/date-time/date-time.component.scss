@@ -4,53 +4,68 @@
   font-family: Montserrat;
   color: #2DBDB1;
 }
-
-.datetimecard{
+.datetimeborder{
+  //position: relative;
+  width:217px;
+  height:86px;
+  background: #F6FDFA;  
   display:flex;
-  flex-direction:column;
-  flex-wrap: wrap;
+  flex-direction:row;
 
-  //part 2 
-  position: relative;
-  width: 217px;
-  height: 86px;
+    .datetimecard{
+      //flex-wrap: wrap;
+      //position: relative;
+      width: 190px;
+      height: 75px;
+      //left: 13px;
+      //top: 3px;
 
-  .wholetime{
-    display:flex;
-    flex-direction: row;
+      .wholetime{
+        display:flex;
+        flex-grow: 1;
+        flex-direction: row;
+        //padding-top: 3px;
+        //padding-right:14px;
+        //padding-bottom:32px;
+        //padding-left:77px;
 
-    .time {
-      left: 33.68%;
-      right: 12.63%;
-      //top: 0%;
-      //bottom: 32%; 
-      width: 102px;
-      height: 51px;
-      font-weight: 500;
-      font-size: 48px;
-      line-height: 59px;
-      //text-align: right;
-    }
-    .am-pm {
-      //left: 88.95%;
-      //right: 0%;
-      top: 42.67%;
-      //bottom: 38.67%;
-      //text-align: right;
-      width: 21px;
-      height: 14px;
-      font-weight: 500;
-      font-size: 12px;
-      line-height: 15px;
-    }
-  }
+        .time {
+          font-weight: 500;
+          font-size: 48px;
+          line-height: 59px;
+          //text-align: right;
+        }
+        .am-pm {
+          //left: 88.95%;
+          //right: 0%;
+          //padding-top: 35px;
+          //top: 42.67%;
+          //bottom: 38.67%;
+          width: 21px;
+          height: 14px;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+          //text-align: right;
+        }
+      }
+      .date { 
+        //flex-grow: 0;
+        //padding-top: 54px;
+        //padding-right:14px;
+        //padding-bottom: 8px;
+        //padding-left:13px;
+        display:flex;
+        flex-grow:1;
+    
 
-  .date { 
-    width: 190px;
-    height: 24px;
-    color: #4B5853;
-    font-family: Sanchez;
-    font-size: 18px;
-    line-height: 23px;
-  }
+        color: #4B5853;
+        font-family: Sanchez;
+        font-size: 18px;
+        line-height: 23px;
+        }
+      }
 }
+
+//padding for inside 
+//margin for outside
