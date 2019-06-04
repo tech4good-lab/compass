@@ -4,5 +4,42 @@
   border: 1px solid black;
   display: block;
 }
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+.cardDateGoals{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+}
+.dateWindow{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+  }
+ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+ 
+  color: #5A5A5A;
+}
+/* Output the numbers using the counter() function, but use a custom color, and position the numbers how we want */
+ol li:before {
+  color: #2DBDB1;
+  content: counter(list) ".";
+  left: -32px;
+  position: absolute;
+  
+  width: 26px;
+  font-weight: 500;
+  font-size: 36px;
 
+  text-align: center;
+}
 // write your code here!
