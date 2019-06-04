@@ -1,8 +1,60 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Sanchez');
+
 :host {
   border: 1px solid black;
   display: block;
 }
+.time {
+  font-family:Montserrat;
+  color:#2DBDB1;
+  font-weight: 500;
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.84;
+}
+  
+.AM {
+  color:#2DBDB1;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  width: 12px;
+  height: 15px;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.074;
+  
+}
+
+.date {
+  color:#4B5853;
+  font-family:Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  width: 210px;
+  height: 28px;
+  text-align: center;
+  align-self: flex-end;
+}
+.background{
+  background-color: #F6FDFA;
+  background-position: relative;
+  width: 198px;
+  height: 98px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+
+
+  
+} 
 
 // write your code here!!
