@@ -2,7 +2,7 @@
 * {
   background: #FFFFFF;
   font-family: Montserrat;
-  background-color: rgba(0, 0, 0, 0.129);
+  // background-color: rgba(0, 0, 0, 0.129);
 }
 
 .rows {
@@ -12,9 +12,15 @@
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
+  padding: 22px 20px 52px 20px;
   .hashtag {
-    background-color: green;
-    flex-wrap: wrap;
+    // background-color: green;
+    // flex-wrap: wrap;
+    // width: 113px;
+    // height: 17px;
+    width:5px;
+    flex-shrink: 3;
+    flex-direction: row;
   }
 
   .aggregate-progress-bar {
@@ -25,22 +31,14 @@
     flex-shrink: 1;
   }
   
-  .aggregate-progress-bar1 {     
-      width: 168px;
-      height: 30px;
-  }
-  .aggregate-progress-bar2 {     
-    width: 136px;
-    height: 30px;
-  }
-
-  .aggregate-progress-bar3 {     
-    width: 112px;
-    height: 30px;
-  }
   
   .hour  {
-    flex-shrink: 3;
+    margin: 10px;
+    max-width: 45px;
+    max-height: 24px;
+    flex-shrink: 5;
+    flex-direction:row;
+    margin-left: 9px;
   }
 
   .bold {
@@ -59,6 +57,12 @@
   }
 
   .first {
+    .aggregate-progress-bar1 {     
+      width: 168px;
+      height: 30px;
+  }
+  
+  
     .top-hashtag {
     flex-wrap: wrap;
     color: #EE8B72;
@@ -95,6 +99,11 @@
     font-size: 14px;
     line-height: 17px;
     }
+    .aggregate-progress-bar2 {     
+      width: 136px;
+      height: 30px;
+    }
+
 
     .bold-middle-progress-bar {
       background: #2DBDB1;
@@ -121,7 +130,15 @@
     }
   }
   
+
+  
+
   .third {
+    .aggregate-progress-bar3 {     
+      width: 112px;
+      height: 30px;
+    }
+    
     .bottom-hashtag {
       color: #FFB987;
       font-size: 14px;
