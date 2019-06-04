@@ -5,45 +5,35 @@
   color: #2DBDB1;
 }
 .datetimeborder{
-  //position: relative;
+
   width:217px;
   height:86px;
   background: #F6FDFA;  
   display:flex;
   flex-direction: row;
   justify-content: flex-end;
-  
-
-    .datetimecard{
-      //flex-wrap: wrap;
-      //position: relative;
-      width: 190px;
-      height: 75px;
-      //left: 13px;
-      //top: 3px;
-      
+  padding-right:14px;
 
       .wholetime{
         display:flex;
         flex-grow: 1;
         flex-direction: row;
+        //padding-right: 14px;
         //text-align: right;
         //align-self: flex-end;
         //flex-grow: 0.85;
         justify-content: flex-end;
+        align-items:baseline;
 
         .time {
           font-weight: 500;
           font-size: 48px;
           line-height: 59px;
+          //padding-right:5px;
           //text-align: right;
         }
         .am-pm {
-          //left: 88.95%;
-          //right: 0%;
-          //padding-top: 35px;
-          //top: 42.67%;
-          //bottom: 38.67%;
+          //padding-top: 32px;
           width: 21px;
           height: 14px;
           font-weight: 500;
@@ -52,18 +42,22 @@
           //text-align: right;
         }
       }
+
       .date { 
         //self-align: flex-end;
         //text-align: center;
         display: flex;
         flex-grow:1;
-        justify-content: flex-end;
+        justify-content: flex-start;
+        
+        //padding-right:2px;
+        //padding-left:2px;
 
         color: #4B5853;
         font-family: Sanchez;
         font-size: 18px;
         }
-      }
+      
 }
 
 //padding for inside 
