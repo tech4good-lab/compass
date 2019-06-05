@@ -6,3 +6,90 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+.Subtitles1{
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.Subtitles2{
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.Subtitles3{
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+
+.Title{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  font-family: Montserrat;
+  color: #4B5853;
+}
+
+.Numbers4{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+  font-family: Montserrat;
+}
+
+.Numbers3{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+  font-family: Montserrat;
+}
+
+.Numbers2{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+  font-family: Montserrat;
+}
+
+.rectangle1{
+  background-color: #EE8B72;
+  width: 75px;
+  height: 30px;
+}
+
+.rectangle2{
+  background-color:rgba(238, 139, 114, 0.3);
+  width: 168px;
+  height: 30px;
+}
+
+.rectangle3{
+  background-color:#2DBDB1;
+  width: 101px;
+  height: 30px;
+}
+
+.rectangle4{
+  background-color:rgba(45, 189, 177, 0.3);
+  width: 136px;
+  height: 30px;
+}
+
+.rectangle5{
+  background-color:#FFB987;
+  width: 70px;
+  height: 30px;
+}
+
+.rectangle6{
+  background-color:rgba(255, 185, 135, 0.3);
+  width: 112px;
+  height: 30px;
+}
