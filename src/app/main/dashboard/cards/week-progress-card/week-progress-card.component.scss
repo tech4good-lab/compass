@@ -11,6 +11,8 @@
   width: 265px;
   height: 310px;
   .groupOne {
+    width: 221px;
+    height: 25px;
     .title {
       font-weight: 600;
       font-size: 22px;
@@ -107,4 +109,5 @@
 .content {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
