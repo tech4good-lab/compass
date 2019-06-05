@@ -10,37 +10,41 @@
   background-color: #F6FDFA;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap; 
+  justify-content: space-around;    
   align-items: flex-end;
   overflow-y: auto;
+  overflow-x: auto;
 }
 
-.time-space{
+.time-wrapper{
   margin-right: 14px;  
   display: flex;
   flex-direction: row;
   flex-wrap: wrap; 
   text-align: right; 
   align-self: flex-end;     
-}
-.time { 
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-  align-self: flex-end;   
+  
+  .time { 
+    width: 102px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    align-self: flex-end;   
+  }
+
+  .am-pm {
+    align-self: flex-end;
+    padding-left: 3px; 
+    width: 21px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+   line-height: 15px;
+  }
 }
 
-.am-pm {
-  align-self: flex-end;
-  padding-left: 3px; 
-  width: 21px;
-  height: 16px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-}
 
 // 14-3=11
 .date { 
