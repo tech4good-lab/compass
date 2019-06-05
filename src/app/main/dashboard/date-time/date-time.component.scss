@@ -23,8 +23,9 @@
   flex-direction: row;
   flex-wrap: wrap; 
   text-align: right; 
-  align-self: flex-end;     
-  
+  align-self: flex-end;
+  flex-grow: 1;       
+
   .time { 
     width: 102px;
     height: 51px;
@@ -45,9 +46,9 @@
   }
 }
 
-
 // 14-3=11
 .date { 
+  flex-grow: 1;  
   margin-right: 11px;
   width: 190px;
   height: 24px;
