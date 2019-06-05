@@ -1,61 +1,143 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-  * {
-    font-family: Montserrat;
-  }
+.component2 {
+  position: relative;
+  top: 3%;
+  left: 5%;
+}
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+.quarter {
+  position: absolute;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom: 86.13%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+  
+}
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+.daterange {
+  position: absolute;
+  left: 9.81%;
+  right: 35.09%;
+  top: 16.45%;
+  bottom: 77.42%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;  
+  color: #2DBDB1;
+}
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+.one {
+  position: absolute;
+  left: 9.81%;
+  right: 83.77%;
+  top: 27.1%;
+  bottom: 63.23%;
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+  color: #2DBDB1;
+}
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+.two {
+  position: absolute;
+  left: 10.19%;
+  right: 83.4%;
+  top: 44.84%;
+  bottom: 45.48%;
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
 
+  color: #2DBDB1;
+}
+
+.three {
+  position: absolute;
+  left: 9.81%;
+  right: 83.77%;
+  top: 62.9%;
+  bottom: 27.42%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2DBDB1;
+}
+
+.text1 {
+  position: absolute;
+  left: 25.28%;
+  right: 8.56%;
+  top: 30.65%;
+  bottom: 56.13%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #5A5A5A;
+}
+
+.text2 {
+  position: absolute;
+  left: 25.34%;
+  right: 8.52%;
+  top: 45.16%;
+  bottom: 39.68%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  /* or 25px */
+  color: #5A5A5A;
+}
+
+.text3 {
+  position: absolute;
+  left: 25.36%;
+  right: 8.6%;
+  top: 64.52%;
+  bottom: 28.39%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  /* or 25px */
+  color: #5A5A5A;
+}
+
+.pencil {
+/* Vector */
+position: absolute;
+top: 82%;
+left: 83%; 
+}
