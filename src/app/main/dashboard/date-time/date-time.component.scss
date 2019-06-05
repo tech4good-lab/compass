@@ -5,12 +5,23 @@
   color: #2DBDB1;
 }
 
+
+.border{
+  background: #F6FDFA;
+  width: 217px;
+  height: 86px;
+  position: relative;
+}
 .time {
   width: 102px;
   height: 51px;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+  position: relative;
+  left: 80px;
+  right: 30px;
+  bottom: 80px;
 }
 
 .am-pm {
@@ -19,6 +30,10 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  position: relative;
+  left: 180px;
+  right: 1000px;
+  bottom: 98px;
 }
 
 .date { 
@@ -28,4 +43,8 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+  position: relative;
+  left: 10px;
+  right: 1000px;
+  bottom: 98px;
 }
