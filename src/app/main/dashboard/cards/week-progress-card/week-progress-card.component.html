@@ -1,1 +1,177 @@
-week-progress-card works!
+<style>
+  .progress1{
+    width: 75px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  .progress2{
+    width: 101px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  .progress3{
+    width: 70px;
+    height: 30px;
+    left: 0;
+    top: 0;
+
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  .bar1{
+    width: 168px;
+    height: 30px;
+    left: 20px;
+    top: 90px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+}
+
+  .bar2{
+    width: 136px;
+    height: 30px;
+    left: 20px;
+    top: 159px;
+
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+    }
+
+  .bar3{
+    width: 112px;
+    height: 30px;
+    left: 20px;
+    top: 228px;
+
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+  }
+
+  .planheader{
+    left: 7.55%;
+    right: 9.06%;
+    top: 7.1%;
+    bottom: 84.84%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+
+  .interview{
+    width: 113px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
+
+  .coverletter{
+    width: 113px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #2DBDB1;
+  }
+
+  .internapps{
+    width: 113px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFB987;
+  }
+
+  .time{
+    width: 45px;
+    height: 24px;
+    left: 196px;
+    top: 95px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #EE8B72;
+  }
+
+  .time2{
+    width: 45px;
+    height: 24px;
+    left: 165px;
+    top: 165px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2DBDB1;
+  }
+
+  .time3{
+    width: 45px;
+    height: 24px;
+    left: 143px;
+    top: 234px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFB987;
+  }
+</style>
+
+<div> <h2 class = "planheader"> This Week's Plans </h2></div>
+
+<div> <p class="interview"> #interview </p></div>
+ <p class = "time" style = "float:right;"> 4 HRS </p>
+
+<div id="container" style="position:relative;">
+
+<div class = "progress1" style = "position:absolute;"> </div> 
+<div class = "bar1"> </div> 
+</div>
+
+<div> <p class="coverletter"> #coverletter </p></div>
+ <p class = "time2" style = "float:right;"> 3 HRS </p>
+
+<div id="container" style="position:relative;">
+<div class = "progress2" style = "position:absolute;"> </div> 
+<div class = "bar2"> </div> 
+</div>
+
+<div> <p class="internapps"> #internapps </p></div>
+ <p class = "time3" style = "float:right;"> 2 HRS </p>
+
+<div id="container" style="position:relative;">
+<div class = "progress3" style = "position:absolute;"> </div> 
+<div class = "bar3"> </div> 
+</div>
+
+
