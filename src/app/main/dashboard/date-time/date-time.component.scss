@@ -1,22 +1,38 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
-  display: block;
+ border: 1px solid black;
+ display: block;
 }
 
 // write your code here!!
-//Sample
-//h1 {
-//  font-family: 
-//  font-size:
-//  font-style:
-//  font-weight:
-//  text-align:
-//  text-decoration
-//}
 
-h1 {
-  float: right;
-  font-size: 30pt
+//Global Var
+.comp-time{
+  position: relative;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: right;
+  color: #2DBDB1;
+  padding-right: 5px;
+  padding-left: 3px;
+  margin-top: 10px;
+}
+
+//AM
+span.comp-time-AMPM{
+  font-size: 12px;
+}
+
+//September 27th, 2018
+span.comp-time-fulldate{
+  display: block;
+  font-family: Sanchez,serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #4B5853;
 }
