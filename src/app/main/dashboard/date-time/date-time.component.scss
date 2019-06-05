@@ -6,3 +6,44 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Roboto);
+* {
+  font-family: Montserrat;
+  font-family: Sanchez;
+}
+
+.rectangle {
+  width: 86px;
+  height: 217px;
+  background-color: whitesmoke;
+}
+
+.Time {
+  font-size: 48px;
+  font-weight: 500;
+  color: #2DBDB1;
+  font-style: normal;
+  line-height: 59px;
+  text-align: right;
+  font-family: Montserrat;
+}
+
+.ampm {
+  font-weight: 500;
+  color: #2DBDB1;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  font-family: Montserrat;
+}
+
+.ampm {
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #4B5853;
+}
