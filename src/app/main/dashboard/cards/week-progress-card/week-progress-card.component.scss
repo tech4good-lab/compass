@@ -1,8 +1,84 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
-:host {
-  border: 1px solid black;
-  display: block;
-}
-
-// write your code here!!
+.title {
+    color: #4B5853;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    
+  }
+  .hashtag1 {
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .darkbar1 {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 30px;
+  }
+  .lightbar1 {
+    width: 93px;
+    height: 30px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  .hour1 {
+    color: #EE8B72;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+  }
+  .hashtag2 {
+    color: #2DBDB1;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .darkbar2 {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 30px;
+  }
+  .lightbar2{
+    color: #2DBDB1;
+    width: 25px;
+    height: 30px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+  .hour2{
+    color: #2DBDB1;
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .hashtag3{
+    color: #FFB987;
+    line-height: 17px;
+    font-size: 14px;
+    
+  }
+  .darkbar3 {
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+    width: 70px;
+    height: 30px;
+  }
+  .lightbar3{
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+    width: 42px;
+    height: 30px;
+  }
+  .hour3{
+    color: #FFB987;
+    width: 45px;
+    height: 24px;
+    line-height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    
+  }
