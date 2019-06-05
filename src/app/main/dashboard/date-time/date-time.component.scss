@@ -15,10 +15,14 @@
   font-weight: 500;
   font-size: 48px;
   text-align: right;
+  background: #F6FDFA;
   color: #2DBDB1;
-  padding-right: 5px;
-  padding-left: 3px;
-  margin-top: 10px;
+  //Removed the paddings so that I can fit the border
+  // padding-right: 5px;
+  //padding-left: 3px;
+  // padding-top: 10px;
+  padding-bottom: 9px;
+  border: 4px solid #333333;
 }
 
 //AM
