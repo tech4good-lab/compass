@@ -25,11 +25,15 @@
   }
 
   .bar1{
+    display: flex;
+    flex-direction:row;
+
     .bold-top-progress-bar {
       background: #EE8B72;
       border-radius: 3px 0px 0px 3px;
       width: 75px;
       height: 30px;
+       
     }
 
     .light-top-progress-bar {
@@ -53,6 +57,9 @@
       line-height: 17px;
   }
   .bar2{
+    display: flex;
+    flex-direction:row;
+
     .bold-middle-progress-bar {
       background: #2DBDB1;
       border-radius: 3px 0px 0px 3px;
@@ -81,6 +88,8 @@
     line-height: 17px;
   }
   .bar3{
+    display: flex;
+    flex-direction:row;
     .bold-bottom-progress-bar {
       background: #FFB987;
       border-radius: 3px 0px 0px 3px;
