@@ -1,38 +1,57 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
+* {
+  font-family: Montserrat;
+}
+  
+.quarter-goals-container{
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 265px;
+  padding: 19px 26px 27px 23px;
+  background-color: #FFFFFF;
+  align-self: auto;
+//  overflow: auto;  
+//  justify-content: center;
+}
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2dbdb1;
+  margin-bottom: 8px;   
+}
 
+.dates {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2dbdb1;
+  margin-bottom: 14px;  
+}
+
+.task-wrapper{
+  display: flex;
+  flex-direction: column;
+  //  justify-content: space-around;
+  align-items: flex-start;  
+}
+
+.task1-wrapper{
+  text-align: right;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1; 
+  align-self: auto;
+  overflow: auto;
+  
   .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .third {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -42,20 +61,65 @@
   .task1 {
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 44px;
     color: #5a5a5a;
+    padding-left: 24px;  
+//  padding-bottom: 4px; 
   }
+  margin-bottom: 25px;
+}
+
+.task2-wrapper{ 
+  display: flex;
+  flex-direction: row;
+  //  flex-wrap: wrap;
+  flex-grow: 1; 
+  align-self: auto;
+  overflow: auto;  
+
+  .second {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+  }    
+
   .task2 {
+    padding-left: 18px;   
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+//    padding-bottom: 13px; 
+  }  
+   
+//    padding-left: 24px;
+//    padding-right: 22px;
+  margin-bottom: 25px;    
+}
+
+.task3-wrapper{ 
+  display: flex;
+  flex-direction: row;
+  //  flex-wrap: wrap;
+  flex-grow: 1; 
+
+  .third {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;  
   }
 
   .task3 {
+    padding-left: 18px;   
     font-weight: 500;
-    font-size: 16px;
+    font-size: 16px;  
     line-height: 20px;
     color: #5a5a5a;
   }
+}
 
+ .pencil{
+   align-self: flex-end
+ }
