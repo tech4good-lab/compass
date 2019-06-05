@@ -19,26 +19,37 @@
   line-height: 27px;
   color: #4B5853;
 
-  //width:221px;
-  //height:25px;
-  justify-content: center;
+  //justify-content: center;
+  padding-right:24px;
+  padding-top:22px;
+  padding-left:20px;
+
 }
 
 .section2{
-  
+  padding-top:20px;
+
   .interview{
+  //padding-bottom:20px;
+  //flex-wrap: overflow;
+
     .top-hashtag {
     color: #EE8B72;
     font-size: 14px;
     line-height: 17px;
+    padding-left:18px;
+    padding-top:20px;
     }
 
     .bar1{
       flex-direction: row;
       display:flex;
       //justify-content: flex-start;
-      width:221px;
-      height:30;
+      //width:221px;
+      //height:30;
+      padding-left:20px;
+      align-items:center;
+      
 
       .bold-top-progress-bar {
         background: #EE8B72;
@@ -60,6 +71,14 @@
         font-size: 14px;
         line-height: 17px;
         color: #EE8B72;
+        padding-left:9px;
+
+        width:45px;
+        height:24px;
+        flex-grow:1;
+        padding-top:4px;
+        
+
       }
     }
   }
@@ -70,10 +89,14 @@
         color: #2DBDB1;
         font-size: 14px;
         line-height: 17px;
+        padding-left:18px;
+        padding-top:20px;
     }
     .bar2{
       flex-direction: row;
       display:flex;
+      padding-left:20px;
+      align-items:center;
       //justify-content: flex-start;
 
       .bold-middle-progress-bar {
@@ -96,20 +119,29 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
+        padding-left:9px;
+        flex-grow:1;
+        align-items:baseline;
+        padding-top:4px;
       }
     }
   }
   
   .internapps{
+    //padding-top:17px;
 
     .bottom-hashtag {
       color: #FFB987;
       font-size: 14px;
       line-height: 17px;
+      padding-left:18px;
+      padding-top:17px;
     }
     .bar3{
     flex-direction: row;
     display:flex;
+    padding-left:20px;
+    align-items:center;
 
       .bold-bottom-progress-bar {
         background: #FFB987;
@@ -132,6 +164,10 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
+        flex-grow:1;
+        align-items:baseline;
+        padding-top:4px;
+        padding-left:9px;
       }
     }
   }
