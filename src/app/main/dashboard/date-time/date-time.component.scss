@@ -5,27 +5,57 @@
   color: #2DBDB1;
 }
 
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
+.date-time-container{
+  width: 217px;
+  height: 86px;
+  background-color: #F6FDFA;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; 
+  justify-content: space-around;    
+  align-items: flex-end;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+.time-wrapper{
+  margin-right: 14px;  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  text-align: right; 
+  align-self: flex-end;
+  flex-grow: 1;       
+
+  .time { 
+    width: 102px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    align-self: flex-end;   
+  }
+
+  .am-pm {
+    align-self: flex-end;
+    padding-left: 3px; 
+    width: 21px;
+    height: 16px;
+    font-weight: 500;
+    font-size: 12px;
+   line-height: 15px;
+  }
 }
 
+// 14-3=11
 .date { 
+  flex-grow: 1;  
+  margin-right: 11px;
   width: 190px;
   height: 24px;
   color: #4B5853;
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+  margin-bottom: 8px;
 }
