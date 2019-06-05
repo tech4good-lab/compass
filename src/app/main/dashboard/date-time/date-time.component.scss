@@ -1,8 +1,62 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-:host {
+.date-time-container {
+  // REMOVE WHEN FINISHING LAYOUT STYLES
   border: 1px solid black;
-  display: block;
 }
 
-// write your code here!!
+.component {
+  position: relative;
+  top: 28%;
+  left: 57%;
+}
+
+.time {
+  position: absolute;
+  left: 37.68%;
+  right: 12.63%;
+  top: 3.5%;
+  bottom: 32%;
+  Font-Family: 'Montserrat';
+  Font-Style: Medium;
+  Font-Size: 48px;
+  Line-Height: 58.51px;
+  Line-Height: 100%;
+  Align: Right;
+  Vertical-Align: Top;
+  color: #2DBDB1;
+  font-weight: bold;
+}
+
+.am {
+  position: absolute;
+  top: 13%;
+  left: 89%;
+  X-Constraint: Scale;
+  Y-Constraint: Scale;
+  Font-Family: Montserrat;
+  Font-Style: Medium;
+  Font-Size: 12px;
+  Line-Height: 14.63px;
+  Line-Height: 100%;
+  Align: Right;
+  Vertical-Align: Top;
+  color: #2DBDB1;
+}
+
+.date {
+  position: absolute;
+  top: 19%;
+  left: 5.2%;
+  X-Constraint: Scale;
+  Y-Constraint: Scale;
+  Font-Family: Sanchez;
+  Font-Style: Regular;
+  Font-Size: 18px;
+  Line-Height: 23px;
+  Line-Height: 100%;
+  Align: Right;
+  Vertical-Align: Top;
+  color: #4B5853;
+}
