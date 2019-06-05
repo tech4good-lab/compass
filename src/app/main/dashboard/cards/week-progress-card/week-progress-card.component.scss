@@ -4,5 +4,36 @@
   border: 1px solid black;
   display: block;
 }
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 
+* {
+  font-family: Montserrat;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.bartitle1 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+.bartitle2 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+.bartitle3 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
 // write your code here!!
