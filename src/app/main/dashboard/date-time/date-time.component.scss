@@ -1,4 +1,49 @@
-.date-time-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+* {
+  font-family: Montserrat;
+  color: #2DBDB1;
+  background: #F6FDFA;
+
+}
+.background{
+  width: 217px;
+  height: 86px;
+}
+.flex-container{
+	display: flex;
+	overflow: auto;
+	flex-direction: column;
+  .row{
+    display: flex;
+	  flex-direction: row;
+    justify-content: flex-end;
+    
+	  .time {
+      font-style: normal;
+      width: 102px;
+      height: 51px;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;
+      margin: 0px 3px 0px 0px;
+	  }
+    .am-pm {
+      width: 21px;
+      height: 14px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      margin: 35px 14px 5px 0px;
+    }
+    .date { 
+      width: 190px;
+      height: 24px;
+      color: #4B5853;
+      font-family: Sanchez;
+      font-size: 18px;
+      line-height: 23px;
+      margin: 0px 14px 8px 13px;
+    }
+  }
 }

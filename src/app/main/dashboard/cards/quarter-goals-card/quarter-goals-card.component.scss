@@ -1,61 +1,95 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
-
+* {
+  font-family: Montserrat;
+  background: #FFFFFF;
+}
+.background{
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+.flex-container{
+  display: flex;
+	overflow: auto;
+	flex-direction: column;
+  padding:19px 14px 0px 26px;
   .title {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    margin: 0px 0px 8px 0px;
   }
-
   .dates {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin: 0px 0px 14px 0px;
   }
+  .row{
+    display: flex;
+	  flex-direction: row;
+    .group-1{
+      display: flex;
+      flex-direction: column;
+    }
+    .block{
+      display: flex;
+      justify-content: flex-start;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+      width: 17px;
+      height: 30px;
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+      &.first{
+        margin-bottom: 25px;
+      }
+      &.second{
+        margin-bottom: 26px;
+      }
+      &.third{
+        margin-bottom: 32px;
+      }
+    }
+    .group-2{
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px 0px 25px;
+    }
+    .task{
+      display: flex;
+      justify-content: flex-start;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+      &.first{
+        width: 175.3px;
+        height: 41px;
+        margin-top: 11px;
+        margin-bottom: 4px;
+      }
+      &.second{
+        width: 175.25px;
+        height: 47px;
+        margin-bottom: 13px;
+      }
+      &.third{
+        width: 175px;
+        height: 22px;
+      }
+    }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
   }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .vector{
+    //margin: 0px 23px 27px 216px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 0px 0px 190px;
   }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+}
