@@ -1,4 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+.quarter-goals-container {
+  box-shadow: 0px 4px 4px #d3e1da;
+  border-radius: 10px;
+  background: #ffffff;
+  width: 265px;
+  height: 310px;
+  padding-right: 23px;
 
   * {
     font-family: Montserrat;
@@ -9,6 +16,9 @@
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    margin-left: 26px;
+    margin-bottom: 8px;
+    padding-top: 19px;
   }
 
   .dates {
@@ -16,46 +26,58 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin-left: 26px;
+    margin-bottom: 14px;
   }
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .task-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 26px;
+
+    .orders {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+      display: flex;
+      flex-direction: column;
+      .first{
+        margin-bottom: 10px;
+      }
+      .second{
+        margin-bottom: 10px;
+        margin-left: 1px;
+      }
+      .third{
+  
+      }
+    }
+
+    .tasks {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+      display: flex;
+      flex-direction: column;
+      margin-left: 24px;
+      flex-wrap: wrap;
+      margin-top: 11px;
+
+      .task1 {
+        margin-bottom: 25px;
+      }
+
+      .task2 {
+        margin-bottom: 22px;
+      }
+    }
   }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .pencil-icon {
+    margin-top: 25px;
+    margin-left: 216px;
   }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+}
 
