@@ -1,61 +1,141 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
+* {
+  font-family: Montserrat;
+  font-style: Normal;
+}
+
+.frame {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
 
   .title {
+    position: absolute;
+    width: 225px;
+    height: 24px;
+    left: 26px;
+    right: 14px;
+    top: 19px;
+    bottom: 267px;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    color: #2dbdb1;
+    color: #2DBDB1;
   }
 
   .dates {
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    left: 26px;
+    right: 93px;
+    top: 51px;
+    bottom: 240px;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #2dbdb1;
+    color:#2DBDB1;
   }
-
-  .first {
+   
+  .number1 {
+    position: absolute;
+    width: 17px;
+    height: 30px;
+    left: 26px;
+    right: 222px;
+    top: 84px;
+    bottom: 196px;
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    color: #2dbdb1;
+    color: #2DBDB1; 
   }
 
-  .second {
+  .goal1 {
+    position: absolute;
+    width: 175.3px;
+    height: 41px;
+    left: 67px;
+    right: 22.7px;
+    top: 95px;
+    bottom: 174px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A5A5A;
+  }
+
+  .number2 {
+    position: absolute;
+    width: 17px;
+    height: 30px;
+    left: 27px;
+    right: 221px;
+    top: 139px;
+    bottom: 141px;
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    color: #2dbdb1;
+    color: #2DBDB1;
+  }
+      
+  .goal2 {
+    position: absolute;
+    width: 175.25px;
+    height: 47px;
+    left: 67.16px;
+    right: 22.58px;
+    top: 140px;
+    bottom: 123px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5A5A5A;
   }
 
-  .third {
+  .number3 {
+    position: absolute;
+    width: 17px;
+    height: 30px;
+    left: 26px;
+    right: 222px;
+    top: 195px;
+    bottom: 85px;
+    text-align: center;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
-    color: #2dbdb1;
+    color: #2DBDB1;
   }
 
-  .task1 {
+  .goal3 {
+    position: absolute;
+    width: 175px;
+    height: 22px;
+    left: 67.2px;
+    right: 22.8px;
+    top: 200px;
+    bottom: 88px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+    line-height: 25px;
+    color: #5A5A5A;
   }
 
+  .pencil {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 216px;
+    right: 23px;
+    top: 257px;
+    bottom: 27px;
+  }
+}
+  
