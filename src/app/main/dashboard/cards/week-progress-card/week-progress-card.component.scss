@@ -1,126 +1,205 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-:host {
-  border: 1px solid black;
-  display: block;
-}
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 
 * {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
+  background:white;
+  font-family: Montserrat;
 }
 
-.week-plans {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-
-  color: #4B5853;
-}
-
-.interview {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #EE8B72;
-}
-
-.four-hours{
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #EE8B72;
-}
-
-.cover-letter {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #2DBDB1;
-}
-
-.three-hours {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #2DBDB1;
-}
-
-.intern-apps {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: #FFB987;
-}
-
-.two-hours {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  
-  color: #FFB987;
-}
-
-.rectangle {
+.week-progress-card-container {
   width: 265px;
   height: 310px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  border-radius: 10px;
-  background-color: #FFFFFF;
 }
 
-.rectangle-10 {
-  width: 168px;
-  height: 30px;
+.header {
+  width: 265px;
+  height: 68px;
 
-  border-radius: 3px;
-  background-color: rgba(238, 139, 114, 0.3);
+  display: flex;
+
+  .space {
+    width: 20px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+
+    width: 221px;
+    height: 47px;
+
+    align-self: flex-end;
+  }
 }
 
-.rectangle-11 {
-  width: 75px;
-  height: 30px;
+.top-container {
+  width: 265px;
+  height: 17px;
 
-  border-radius: 3px 0px 0px 3px;
-  background-color: #EE8B72;
+  display: flex;
+
+  .top-hashtag {
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 17px;
+
+    width: 113px;
+    height: 17px;
+
+    text-align: center;
+  }
 }
 
-.rectangle-20 {
-  width: 136px;
+.top-container-contents {
+  width: 265px;
   height: 30px;
 
-  border-radius: 3px;
-  background-color: rgba(45, 189, 177, 0.3);
+  display: flex;
+
+  .push {
+    width: 20px;
+  }
+  
+  .bold-top-progress-bar {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 27px;
+  }
+
+  .light-top-progress-bar {
+    width: 168px;
+    height: 27px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  
+  .top-hour {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #EE8B72;
+    
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
 
-.rectangle-21 {
-  width: 101px;
-  height: 30px;
+.middle-container {
+  width: 265px;
+  height: 37px;
 
-  border-radius: 3px 0px 0px 3px;
-  background-color: #2DBDB1;
+  display: flex;
+
+  .middle-hashtag {
+    color: #2DBDB1;
+    font-size: 14px;
+    line-height: 17px;
+
+    width: 120px;
+    height: 17px;
+    
+    text-align: center;
+    align-self: flex-end;
+  }
 }
 
-.rectangle-30 {
-  width: 112px;
+.middle-container-contents {
+  width: 265px;
   height: 30px;
 
-  border-radius: 3px;
-  background-color: rgba(255, 185, 135, 0.3);
+  display: flex;
+
+  .shove {
+    width: 20px;
+  }
+
+  .bold-middle-progress-bar {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 27px;
+  }
+
+  .light-middle-progress-bar {
+    color: #2DBDB1;
+    width: 136px;
+    height: 27px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+
+  .middle-hour {
+    color: #2DBDB1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
 
-.rectangle-31 {
-  width: 70px;
+.bottom-container {
+  width: 265px;
+  height: 37px;
+
+  display: flex;
+
+  .bottom-hashtag {
+    color: #FFB987;
+    font-size: 14px;
+    line-height: 17px;
+
+    width: 120px;
+    height: 17px;
+
+    text-align: center;
+    align-self: flex-end;
+  }
+}
+
+.bottom-container-contents {
+  width: 265px;
   height: 30px;
 
-  border-radius: 3px 0px 0px 3px;
-  background-color: #FFB987;
+  display: flex;
+
+  .tap {
+    width: 20px;
+  }
+
+  .bold-bottom-progress-bar {
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+    width: 70px;
+    height: 27px;
+  }
+
+  .light-bottom-progress-bar {
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+    width: 112px;
+    height: 27px;
+  }
+
+  .bottom-hour {
+    color: #FFB987;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
