@@ -1,8 +1,35 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-:host {
-  border: 1px solid black;
-  display: block;
+'{
+  font-family: Montserrat;
 }
-
-// write your code here!
+.goalcard{
+  position: relative;
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  background-color: #FFFFFF;
+}
+.title{
+  position: absolute;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom: 86.13%;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2dbdb1;
+}
+.dates{
+  font-weight: 300;
+  position: absolute;
+  left: 9.81%;
+  right: 35.09%;
+  top: 16.45%;
+  bottom: 77.42%;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+}
