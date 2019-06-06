@@ -6,3 +6,73 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+  * {
+    font-family: Montserrat;
+    font-style: Normal;
+  }
+
+.frame {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2DBDB1;
+  }
+
+  .dates {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color:#2DBDB1;
+  }
+   
+  .number1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2DBDB1; 
+  }
+
+  .goal1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A5A5A;
+  }
+
+  .number2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2DBDB1;
+  }
+      
+  .goal2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5A5A5A;
+  }
+
+  .number3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2DBDB1;
+  }
+
+  .goal3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #5A5A5A;
+  }
+}
