@@ -17,11 +17,11 @@
     font-family: 'Montserrat';
 }
 
-.time {
-//position: absolute;
+.Time {
+position: relative;
 left: 33.68%;
 right: 12.63%;
-top: 21%;
+top: 0%;
 bottom: 32%;
 
 font-style: normal;
@@ -40,8 +40,8 @@ color: #2DBDB1;
 }
 
 .AM {
-//position: absolute;
-left: 88.95%;
+position: relative;
+left: 30%;
 right: 0%;
 top: 42.67%;
 bottom: 38.67%;
