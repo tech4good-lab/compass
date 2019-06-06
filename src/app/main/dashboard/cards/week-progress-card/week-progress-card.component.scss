@@ -1,22 +1,24 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
 :host {
   border: 1px solid black;
   display: block;
 }
-@import url(//fonts.googleapis.com/css?family=Montserrat);
 
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
   font-family: Montserrat;
 }
 
 .title {
+  font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
+  color: #4B5853;
 }
 
 .bartitle1 {
+  font-family: Montserrat;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
@@ -24,6 +26,7 @@
 }
 
 .bartitle2 {
+  position:relative;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
@@ -36,4 +39,61 @@
   line-height: 17px;
   color: #FFB987;
 }
+
+.rectbold1 {
+  background: #EE8B72;
+  width: 75px;
+  height: 30px;
+  border-radius: 3px;
+}
+.rectshade1 {
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+  width: 168px;
+  height: 30px;
+  
+}
+.duration1 {
+  position: relative;
+  
+  
+  left: 200px;
+  
+  color: #EE8B72;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+ 
+}
+
+.rectbold2 {
+  background: #2DBDB1;
+  width: 75px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.rectshade2 {
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+  width: 168px;
+  height: 30px;
+  
+}
+
+.duration2 {
+  position: relative;
+  width: 168px;
+  height: 30px;
+  left: 30px;
+  top: 60px;  
+  color: #EE8B72;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
 // write your code here!!
