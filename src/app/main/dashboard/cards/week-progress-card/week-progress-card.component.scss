@@ -1,8 +1,97 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
   display: block;
 }
+*{
+  font-family: Montserrat;
+  font-style: normal;
+}
+.border{
+  width: 265px;
+  height: 310px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+  .title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+  .subtitle1{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
+  .box1{
+    width: 75px;
+    height: 30px;
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .box2{
+    width: 168px;
+    height: 30px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px 0px 0px 3px;
+  }
+  .time1{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
+  .subtitle2{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
+  .box3{
+    width: 101px;
+    height: 30px;
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .box4{
+    width: 136px;
+    height: 30px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px 0px 0px 3px;
+  }
+  .time2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
+  .subtitle3{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
+  .box5{
+    width: 70px;
+    height: 30px;
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .box6{
+    width: 112px;
+    height: 30px;
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px 0px 0px 3px;
+  }
+  .time3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
+}
 // write your code here!!
