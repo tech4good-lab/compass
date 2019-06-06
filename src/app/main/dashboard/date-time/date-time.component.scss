@@ -5,13 +5,16 @@
   color: #2DBDB1;
 }
 
-.time {
+.bg {
+  background-color: #F6FDFA;
+  
+  .time {
   width: 102px;
   height: 51px;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
-}
+  }
 
 .am-pm {
   width: 21px;
@@ -19,7 +22,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-}
+  }
 
 .date { 
   width: 190px;
@@ -28,4 +31,5 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+  }
 }
