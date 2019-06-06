@@ -1,8 +1,129 @@
 // Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :host {
   border: 1px solid black;
   display: block;
+  background: #FFFFFF;
+  border-radius: 10px;
 }
 
+
 // write your code here!!
+
+.week{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #4B5853;
+}
+
+.interview{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+}
+
+.time1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+}
+
+.coverletter{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #2DBDB1;
+}
+
+.time2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #2DBDB1;
+}
+
+.internapps{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
+}
+
+.time3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
+}
+
+.rectangle{
+background: #EE8B72;
+border-radius: 3px 0px 0px 3px;
+width: 75px;
+height: 30px;
+}
+
+.rectangle1{
+background: rgba(238, 139, 114, 0.3);
+border-radius: 3px;
+width: 168px;
+height: 30px;
+}
+
+.rectangle2{
+ background: #2DBDB1;
+border-radius: 3px 0px 0px 3px;
+width: 101px;
+height: 30px;
+}
+
+.rectangle3{
+background: rgba(45, 189, 177, 0.3);
+border-radius: 3px;
+width: 136px;
+height: 30px;
+}
+
+.rectangle4{
+background: #FFB987;
+border-radius: 3px 0px 0px 3px;
+width: 70px;
+height: 30px;
+}
+
+.rectangle5{
+background: rgba(255, 185, 135, 0.3);
+border-radius: 3px;
+width: 112px;
+height: 30px;
+}
+
