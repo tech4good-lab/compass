@@ -6,3 +6,49 @@
 }
 
 // write your code here!!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
+
+.date-time-box {
+  font-family: Montserrat;
+  height: 86px;
+  width: 217px;
+  background-color: #F6FDFA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: 500;
+  height: 50px;
+  width: 50px;
+  color: #2DBDB1;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.85;
+}
+
+.stamp {
+  font-weight: 500;
+  font-size: 12px;
+  height: 15px;
+  width: 12px;
+  color: #2DBDB1;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.075;
+}
+
+.date {
+  font-family: Sanchez;
+  font-weight: normal;
+  font-size: 18px;
+  height: 23px;
+  width: 217px;
+  color: #4B5853;
+  text-align: center;
+  align-self: flex-end;
+  flex-grow: 0.075;
+}
