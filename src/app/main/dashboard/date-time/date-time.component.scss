@@ -7,11 +7,14 @@
 
 .bg {
   background-color: #F6FDFA;
+  width: 217px;
+  height: 86px;
+  text-align: right;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 217px;
-  height: 86px;
+  flex-direction: row;
+  justify-content: center;
   
   .time {
   width: 102px;
@@ -19,6 +22,7 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+  align-self: flex-end;
   }
 
 .am-pm {
@@ -27,6 +31,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  align-self: flex-end;
   }
 
 .date { 
