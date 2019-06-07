@@ -1,7 +1,17 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.timeAndDateBG {
+  width: 217px;
+  height: 86px;
+  background: #F6FDFA;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 * {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   color: #2DBDB1;
 }
 
@@ -10,22 +20,32 @@
   height: 51px;
   font-weight: 500;
   font-size: 48px;
-  line-height: 59px;
+  line-height: 58px;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.84;
+  margin-right: 5px;
 }
 
 .am-pm {
-  width: 21px;
-  height: 14px;
+  width: 19px;
+  height: 19px;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  align-self: flex-end;
+  flex-grow: 0.01;
 }
 
 .date { 
-  width: 190px;
-  height: 24px;
+  width: 217px;
+  height: 28px;
   color: #4B5853;
-  font-family: Sanchez;
+  font-family: Sanchez, sans-serif;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 15px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  align-self: flex-end;
 }
