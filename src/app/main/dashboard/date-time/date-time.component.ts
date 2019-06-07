@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { stringify } from '@angular/core/src/util';
 
 /** Displays the date and time in the main dashboard view. */
 @Component({
@@ -13,10 +14,20 @@ export class DateTimeComponent implements OnInit {
 
   /** The current time. */
   @Input() time: Date;
-  month: string;
   // --------------- LOCAL UI STATE ----------------------
+getAMPM() {
+  var ret = "AM"
+  var hour = this.time.getHours();
+  if (hour >= 12) {
+    ret = "PM"
+  }
+  return ret;
+}
+getMinutes() {
+  return this.time.toLocaleString('en-US').split(",")[1].split(":")[1].trim();
+}
 getHour() {
-  this.time.toLocaleString();
+  return this.time.toLocaleString('en-US').split(",")[1].split(":")[0].trim();
 }
  getMonthName() {
    return this.time.toLocaleString('en-US', { month: "long" });
@@ -30,17 +41,15 @@ getHour() {
  }
 
   constructor() {
-    
-
-    this.month = "";
-   }
+  }
 
   ngOnInit() {
+
     // console.log(this.time | date : 'a');
-    console.log(this.time.getDay());
-    console.log(this.time.getFullYear())
-    
-    console.log(this.getMonthName());
+    // console.log(this.time.getDay());
+    // console.log(this.time.getFullYear())
+    return this.time.toLocaleString('en-US', { a: "long" });
+    // console.log(this.getMonthName());
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

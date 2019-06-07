@@ -1,5 +1,5 @@
 <div class="time-container">
-  <div class="time">{{time | date :'H'}}:{{time | date :'MM'}}</div>
-  <div class="am-pm">{{time | date :'a'}}</div>
+  <div class="time">{{getHour()}}:{{getMinutes()}}</div>
+  <div class="am-pm">{{getAMPM()}}</div>
 </div> 
 <div class="date">{{getMonthName()}} {{getDay()}}, {{getYear()}}</div>
