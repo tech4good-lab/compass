@@ -1,8 +1,126 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 :host {
   border: 1px solid black;
   display: block;
 }
 
-// write your code here!!
+* {
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
+.frame {
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #FFFFFF;
+
+  .plans {
+    width: 221px;
+    height: 25px;
+    font-size: 22px; 
+    font-weight: 600;
+    line-height: 27px;
+    color: #4B5853;
+  }
+
+  .interview {
+    width: 113px;
+    height: 63px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
+
+  .hrs4{
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
+
+  .coverletter {
+    width: 113px;
+    height: 17px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
+
+  .hrs3 {
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
+
+  .internapps {
+    width: 113px;
+    height: 22px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
+
+  .hrs2 {
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
+
+  .rect-red1 {
+    width: 168px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(238, 139, 114, 0.3);
+  }
+
+  .rect-red2 {
+    width: 75px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #EE8B72;
+  }
+
+  .rect-green1 {
+    width: 136px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(45, 189, 177, 0.3);
+  }
+
+  .rect-green2 {
+    width: 101px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #2DBDB1;
+  }
+
+  .rect-orange1 {
+    width: 112px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(255, 185, 135, 0.3);
+  }
+
+  .rect-orange2 {
+    width: 70px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #FFB987;
+  }
+}
