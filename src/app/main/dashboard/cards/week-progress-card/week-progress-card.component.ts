@@ -21,6 +21,13 @@ export class WeekProgressCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.plans.forEach(function(p) {
+      console.log(p.totalAllocatedMins);
+      console.log(p.totalCompletedMins);
+      console.log(p.hashtag);
+      console.log(p);
+
+    });
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
