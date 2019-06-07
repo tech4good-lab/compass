@@ -14,6 +14,10 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
+    padding-top: 19px;
+    padding-bottom: 27px;
+    padding-left: 26px;
   
     .title {
       font-weight: 600;
@@ -36,12 +40,14 @@
       line-height: 44px;
       color: #2dbdb1;
       float: left;
+      margin-right: 23px;
       }
       .task1 {
       font-weight: 500;
       font-size: 16px;
       line-height: 20px;
       color: #5a5a5a;
+      margin-right: 22.7px;
       }
     }
 
@@ -52,12 +58,14 @@
         line-height: 44px;
         color: #2dbdb1;
         float: left;
+        margin-right: 23px;
       }
       .task2 {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
+        margin-right: 22.58px;
       }
     }
 
@@ -68,12 +76,14 @@
         line-height: 44px;
         color: #2dbdb1;
         float: left;
+        margin-right: 23px;
       }
       .task3 {
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
+        margin-right: 22.8px;
       }
     }
   }
