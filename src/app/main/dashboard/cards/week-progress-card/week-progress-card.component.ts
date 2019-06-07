@@ -1,5 +1,8 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { WeekGoalProgress } from '../../+state/dashboard.model';
+import { stringify } from '@angular/core/src/util';
+// import { stringify } from 'querystring';
+// import { stringify } from '@angular/core/src/render3/util';
 
 /** Displays the progress so far for this week. */
 @Component({
@@ -14,20 +17,40 @@ export class WeekProgressCardComponent implements OnInit {
 
   /** Plans and progress for the upcoming week. */
   @Input() plans: WeekGoalProgress[];
-
+  // color: string;
+  // widths: [string];
+  // width1: string;
+  // width2: string;
+  // width3: string;
   // --------------- LOCAL UI STATE ----------------------
- 
+  
+  getPlan(planNum) {
+    return this.plans[planNum];
+  }
 
+  getPercentage(minutesAllocated) {
+    // takes in the minutes allocated to give the % of width it needs
+    var hoursAllocated = minutesAllocated/60;
+    return ((+hoursAllocated* 18) + hoursAllocated) + "%";
+  }
+
+  getMaxWidth(planNum) {
+    // return (+(this.plans[planNum].totalAllocatedMins / 60)+1) + "%";
+    return this.getPercentage(this.plans[planNum].totalAllocatedMins);
+      // for (var plan_num = 0; plan_num < 3; plan_num+=1) {
+      // console.log("allocated: ", p);
+      // console.log("completed: ", p.totalCompletedMins);
+      // console.log("hashtag: ", p.hashtag);
+      // console.log(p);
+      // plan_num+=1
+    }
+    // this.width1 = "2%";  
+  
   constructor() { }
 
   ngOnInit() {
-    this.plans.forEach(function(p) {
-      console.log(p.totalAllocatedMins);
-      console.log(p.totalCompletedMins);
-      console.log(p.hashtag);
-      console.log(p);
-
-    });
+    // this.color = "red";
+    // this.setContainerWidths();
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

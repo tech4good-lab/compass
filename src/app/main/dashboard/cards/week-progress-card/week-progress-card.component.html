@@ -1,9 +1,9 @@
 <div class="week-progress-card-container">
   <div class="title">This Week's Plans</div>
   <div class="top-event">
-    <div class="top-hashtag">#interview</div>
+    <div class="top-hashtag">#{{getPlan(0).hashtag}}</div>
     <div class="line-top-progress-bar-and-hour">
-      <div class="top-progress-bar-container">
+      <div class="top-progress-bar-container" [style.width]="getMaxWidth(0)">
         <div class="bold-top-progress-bar"></div>
         <div class="light-top-progress-bar"></div>
       </div>
@@ -11,9 +11,9 @@
     </div>
   </div>
   <div class="middle-event">
-    <div class="middle-hashtag">#coverletter</div>
+    <div class="middle-hashtag">#{{getPlan(1).hashtag}}</div>
     <div class="line-middle-progress-bar-and-hour">
-      <div class="middle-progress-bar-container">
+      <div class="middle-progress-bar-container" [style.width]="getMaxWidth(1)">
         <div class="bold-middle-progress-bar"></div>
         <div class="light-middle-progress-bar"></div>
       </div>
@@ -21,9 +21,9 @@
     </div>
   </div>
   <div class="bottom-event">
-    <div class="bottom-hashtag">#internapps</div>
+    <div class="bottom-hashtag">#{{getPlan(2).hashtag}}</div>
     <div class="line-bottom-progress-bar-and-hour">
-      <div class="bottom-progress-bar-container">
+      <div class="bottom-progress-bar-container" [style.width]="getMaxWidth(2)">
         <div class="bold-bottom-progress-bar"></div>
         <div class="light-bottom-progress-bar"></div>
       </div>

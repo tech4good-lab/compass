@@ -9,7 +9,7 @@
   padding-top: 22px; 
   padding-left: 20px;
   padding-bottom: 74px;
-
+  background-color: grey;
   .title {
     font-weight: 600;
     font-size: 22px;
@@ -72,7 +72,7 @@
       flex-direction: row;
       .middle-progress-bar-container {
         display: grid; // extra 
-        width: 56%;
+        // width: 56%;
         margin-right: 11px;
         .bold-middle-progress-bar, .light-middle-progress-bar {
           grid-row: 1; //extra
