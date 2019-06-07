@@ -13,16 +13,34 @@ export class DateTimeComponent implements OnInit {
 
   /** The current time. */
   @Input() time: Date;
-
+  month: string;
   // --------------- LOCAL UI STATE ----------------------
+getHour() {
+  this.time.toLocaleString();
+}
+ getMonthName() {
+   return this.time.toLocaleString('en-US', { month: "long" });
+ }
  
+ getDay() {
+   return this.time.getDay(); 
+ }
+ getYear() {
+   return this.time.getFullYear()
+ }
 
-  constructor() { }
+  constructor() {
+    
+
+    this.month = "";
+   }
 
   ngOnInit() {
     // console.log(this.time | date : 'a');
     console.log(this.time.getDay());
     console.log(this.time.getFullYear())
+    
+    console.log(this.getMonthName());
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

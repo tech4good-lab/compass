@@ -2,4 +2,4 @@
   <div class="time">{{time | date :'H'}}:{{time | date :'MM'}}</div>
   <div class="am-pm">{{time | date :'a'}}</div>
 </div> 
-<div class="date">{{time.toLocaleString('en-US', { month: "long" })}} {{time.getDay()}}, {{time.getFullYear()}}</div>
+<div class="date">{{getMonthName()}} {{getDay()}}, {{getYear()}}</div>
