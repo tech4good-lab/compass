@@ -26,7 +26,7 @@ export class QuarterGoalsCardComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {console.log();
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
