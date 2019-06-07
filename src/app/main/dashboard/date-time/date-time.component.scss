@@ -1,8 +1,65 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
+//@import url('//font.googleapis.com/css?family=Sanchez');
+//@import url('//font.googleapis.com/css?family=Montserrat');
+//for some reason, it woudn't add in the font... so I imported the fonts in my html file
+
+:host { //the black border
+  //border: 1px 
+  //solid black;
+  //display: block;
+}
+
+.timeAndDateBG { //the very light green background/frame/box
+	width: 217px;
+	height: 86px;
+	background: #F6FDFA;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.time { //8:32 AM
+  font-family: 'Montserrat';
+  color: #2DBDB1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 49px;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.87;
+  width: 102px;
+  height: 51px;
+  
+  
+  //AM part of time
+  span b { 
+    font-size: 48px; 
+  }
+  span { 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    width: 21px;
+    height: 14px;
+  }
+}
+
+.date { //September 27th, 2018
+  font-family: 'Sanchez', sans-serif;
+  color:#4B5853;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  align-self: flex-end;
+  line-height: 10px;
+  width: 220px;
+  height: 24px;
 }
 
 // write your code here!!
