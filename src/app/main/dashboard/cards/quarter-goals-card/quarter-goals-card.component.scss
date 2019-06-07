@@ -1,8 +1,118 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 
-:host {
-  border: 1px solid black;
-  display: block;
+  * {
+    font-family: Montserrat;
+  }
+
+//Goal bounbary is the white background
+.goalboundary{
+  background: #FFFFFF;
+  width: 265px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 26px; //Sets the left padding of an element
+  padding-top: 19px; //Sets the top padding of an element
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+
+//The header 
+  .headtop{
+    //The year and type of quarter it is
+    .quarter {
+      color: #2DBDB1;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+    }
+    // The date time
+    .date {
+      line-height: 22px;
+      color: #2DBDB1;
+      font-weight: 300;
+      font-size: 18px;
+      padding-top: 8px;//Sets the top padding of an element
+    }
+  }
+
+  //The head count for each task1,2,3,
+  .taskcount{
+    flex-direction:column;
+    padding-top: 14px;//Sets the top padding of an element
+    display:Flex;
+
+    //The first task
+    .onetask{
+      flex-wrap: wrap;
+      align-items: center;
+      display:flex;
+      flex-direction:row;
+      .uno {
+          color: #2DBDB1;
+          font-size: 36px;
+          line-height: 44px;
+          font-weight: 500;
+          padding-right: 30px;//Sets the right padding of an element
+      }
+      .fcl {
+          color: #5A5A5A;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 20px;
+      }
+    }
+
+    //The second task
+    .twotask{
+      align-items: center;
+      display:flex;
+      flex-direction:row;
+      flex-grow: 1;
+      padding-top: 4px;//Sets the top padding of an element
+      .dos {
+          color: #2DBDB1;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 44px;
+          padding-right: 24px;//Sets the right padding of an element
+      }
+      .atp {
+          color: #5A5A5A;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+      }
+    }
+
+    //The third task
+    .threetask{
+      align-items: center;
+      display:flex;
+      flex-direction:row;
+      flex-grow: 1;
+      padding-top: 13px;//Sets the top padding of an element
+      .thres {
+          color: #2DBDB1;
+          font-size: 36px;
+          font-weight: 500;
+          line-height: 44px;
+          padding-right: 24px;//Sets the right padding of an element
+      }
+      .tip {
+          color: #5A5A5A;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+      }
+    }
+  }
+
+  //Pencil icon
+  .touchpencil{
+    align-self: flex-end;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-top: 17px;//Sets the top padding of an element
+    padding-right: 26px;//Sets the right padding of an element
+  }
 }
-
-// write your code here!
