@@ -12,94 +12,94 @@
   width:265px;
   height:310px;
 //combine-group
-.tasks-number{
-  display: flex;
-  flex-direction: row;
-  //smaller group
-  .number{
+  .tasks-number{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    //smaller group
+    .number{
+      display: flex;
+      flex-direction: column;
 
-  
-    .first {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-      margin-top:14px;
-      margin-left:26px;
-    }
-
-    .second {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-      margin-top:25px;
-      margin-left:26px;
-    }
-
-    .third {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-      margin-top:26px;
-      margin-left:26px;
-    }
-  }
-  //smaller group2
-  .tasks{
-    display: flex;
-    flex-direction: column;
-  
-    .task1 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-      margin-top:25px;
-      margin-left:24px;
-      margin-bottom:4px;
-    }
-    .task2 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-      margin-top:35px;
-      margin-left:23.16px;
     
-    }
+      .first {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        margin-top:14px;
+        margin-left:26px;
+      }
 
-    .task3 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-      margin-top:30px;
-      margin-left:24.2px;
+      .second {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        margin-top:25px;
+        margin-left:26px;
+      }
+
+      .third {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        margin-top:26px;
+        margin-left:26px;
+      }
+    }
+    //smaller group2
+    .tasks{
+      display: flex;
+      flex-direction: column;
+    
+      .task1 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+        margin-top:25px;
+        margin-left:24px;
+        margin-bottom:4px;
+      }
+      .task2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+        margin-top:35px;
+        margin-left:23.16px;
       
+      }
+
+      .task3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+        margin-top:30px;
+        margin-left:24.2px;
+        
+      }
     }
   }
-}
 //group3
-.title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-    margin-top:19px;
-    margin-left:26px;
+  .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #2dbdb1;
+      margin-top:19px;
+      margin-left:26px;
   }
 //group4
-.dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-    margin-top:8px;
-    margin-left:26px;
+  .dates {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2dbdb1;
+      margin-top:8px;
+      margin-left:26px;
   }
 //group5
   .icon{
