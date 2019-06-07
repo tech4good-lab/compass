@@ -7,6 +7,8 @@
 
 .bg {
   background-color: #F6FDFA;
+  display: flex;
+  flex-wrap: wrap;
   
   .time {
   width: 102px;
