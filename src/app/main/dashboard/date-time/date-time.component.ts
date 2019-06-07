@@ -20,11 +20,17 @@ export class DateTimeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.time);
+    // console.log(this.time | date : 'a');
+    console.log(this.time.getDay());
+    console.log(this.time.getFullYear())
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
-
+  // let getHours = function(time) {
+  //   var date_time_str = time.toLocaleString("en-US");
+  //   // var hours = date_time_str.
+  //   return date_time_str.split(',')[1].split(':')[0].trim();
+  // };
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
