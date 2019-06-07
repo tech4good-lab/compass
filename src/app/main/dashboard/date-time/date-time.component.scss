@@ -10,15 +10,12 @@
 .row1{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+    align-items: center;
 }
 
 .row2{
   display: flex;
   flex-direction: column;
-}
-.row3{
-
 }
 
 .time {
