@@ -1,8 +1,125 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
+/*:host {
   border: 1px solid black;
   display: block;
-}
+}*/
 
 // write your code here!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.new-quarter-goals { 
+  height: 310px;
+  width: 265px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.space {
+  width: 26px;
+}
+
+.Fall {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: SemiBold;
+  font-weight: 600;
+  line-height: 27px;
+  height: 22px;
+  width: 239px;
+  color: #2DBDB1;
+  text-align: left;
+  align-self: center;
+  vertical-align: top;
+}
+
+.date {
+  font-family: Montserrat;
+  font-style: light;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  height: 14px;
+  width: 239px;
+  color: #2DBDB1;
+  text-align: left;
+  vertical-align: top;
+}
+
+.one {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  height: 30px;
+  width: 20px;
+  color: #2DBDB1;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.task1 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  height: 30px;
+  width: 200px;
+  color: #5A5A5A;
+  align-self: center;
+}
+
+.two {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  height: 30px;
+  width: 20px;
+  color: #2DBDB1;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.task2 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  height: 30px;
+  width: 200px;
+  color: #5A5A5A;
+  word-wrap: normal;
+}
+
+.three {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 44px;
+  height: 30px;
+  width: 20px;
+  color: #2DBDB1;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.pencil {
+  width: 216px;
+}
+
+.task3 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  height: 30px;
+  width: 200px;
+  color: #5A5A5A;
+  word-wrap: normal;
+}
