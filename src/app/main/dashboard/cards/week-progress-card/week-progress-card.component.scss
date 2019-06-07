@@ -1,3 +1,10 @@
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
+  border: 1px solid black;
+  display: block;
+}
+
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
   background: #FFFFFF;
@@ -96,4 +103,3 @@
   font-size: 14px;
   line-height: 17px;
 }
-
