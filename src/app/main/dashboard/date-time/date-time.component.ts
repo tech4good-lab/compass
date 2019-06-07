@@ -17,9 +17,12 @@ export class DateTimeComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
+      console.log(this.time);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
