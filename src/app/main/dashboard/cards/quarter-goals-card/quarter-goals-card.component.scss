@@ -6,3 +6,30 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+.title {
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.date {
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.goals {
+  color: #5A5A5A;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
