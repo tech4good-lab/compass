@@ -9,28 +9,25 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
 
 .date-time {
+  background-color: #F6FDFA;
   font-family: Montserrat, sans-serif;
   width: 190px;
   height: 75px;
-  background-color: #F6FDFA;
+  
 }
 
 .time {
-  text-align: right;
-  font-weight: 500;
-  font-size: 48px;
-  color: #2DBDB1;
+ text-align: right;
+ span b { font-weight: 500;
+ font-size: 48px;}
+ span { font-weight: 500;
+ font-size: 12px; }
+ color: #2DBDB1;
 }
 
-.morning {
-  text-align: right;
-  font-weight: 500;
-  font-size: 12px;
-  color: #2DBDB1;
-}
 
 .date {
- text-align: center;
+text-align: center;
  font-family: Sanchez;
  font-style: normal;
  font-weight: normal;
