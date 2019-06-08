@@ -1,105 +1,164 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
+/*:host {
   border: 1px solid black;
   display: block;
-}
+}*/
 
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
   background: #FFFFFF;
   font-family: Montserrat;
 }
+//container
+.obstacles-container{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width:265px;
+  height:310px;
+  //group-1
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+    margin-top:20px;
+    margin-left:22px;
+  }
+  //group-2
+  .subtitle{
+      display: flex;
+      flex-direction: column;
+  
+    .top-hashtag {
+      color: #EE8B72;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top:21px;
+      margin-left:18px;
+     }
+    .middle-hashtag {
+      color: #2DBDB1;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top:50px;
+      margin-left:20px;
+    }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+    .bottom-hashtag {
+      color: #FFB987;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top:47px;
+      margin-left:20px;
+    }
+  }
+  //group-3
+  .horizontal-class{
+      display: flex;
+      flex-direction: row;
+    //group-4
+    .progress-bar{
+        display: flex;
+        flex-direction: column;
+    
+      .bold-top-progress-bar {
+        background: #EE8B72;
+        border-radius: 3px 0px 0px 3px;
+        width: 75px;
+        height: 27px;
+        margin-top:-126px;
+        margin-left:20px;
+      }
+
+      .bold-middle-progress-bar {
+        background: #2DBDB1;
+        border-radius: 3px 0px 0px 3px;
+        width: 101px;
+        height: 27px;
+        margin-top:39px;
+        margin-left:20px;
+      }
+
+      .bold-bottom-progress-bar {
+        background: #FFB987;
+        border-radius: 3px 0px 0px 3px;
+        width: 70px;
+        height: 27px;
+        margin-top:39px;
+        margin-left:20px;
+      }  
+    }
+    //group-5
+    .light-progress{
+        display: flex;
+        flex-direction: column;
+    
+      .light-top-progress-bar {
+        width: 168px;
+        height: 27px;
+        background: rgba(238, 139, 114, 0.3);
+        border-radius: 3px;
+        margin-top: -126px;
+        margin-left:-93px;
+      }
+      .light-middle-progress-bar {
+        color: #2DBDB1;
+        width: 136px;
+        height: 27px;
+        background: rgba(45, 189, 177, 0.3);
+        border-radius: 3px;
+        margin-top:39px;
+        margin-left:-101px;
+      }
+      .light-bottom-progress-bar {
+        background: rgba(255, 185, 135, 0.3);
+        border-radius: 3px;
+        width: 112px;
+        height: 27px;
+        margin-top:39px;
+        margin-left:-101px;
+      }
+    }  
+    //group-6
+    .hour{
+          display: flex;
+          flex-direction: column;
+    
+      .top-hour {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #EE8B72;
+        margin-top: -120px;
+        margin-left:8px;
+      }
+
+      .middle-hour {
+        color: #2DBDB1;
+        width: 45px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 48px;
+        margin-left:-25px;
+      }
+
+
+      .bottom-hour {
+        color: #FFB987;
+        width: 45px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 45px;
+        margin-left:-50px;
+      }
+    }
+  }    
 }
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
-
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
-
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
-
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
