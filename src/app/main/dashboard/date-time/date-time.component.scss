@@ -1,31 +1,54 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-@import url(//fonts.googleapis.com/css?family=Sanchez);
-* {
+// Ignore this class.  It just adds a border so that you can find your element.
+
+/*:host {
+  border: 1px solid black;
+  display: block;
+}*/
+
+// write your code here!!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
+
+.date-time-box {
   font-family: Montserrat;
-  color: #2DBDB1;
+  height: 85px;
+  width: 198px;
+  background-color: #F6FDFA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
   font-size: 48px;
-  line-height: 59px;
+  font-weight: 500;
+  height: 50px;
+  width: 50px;
+  color: #2DBDB1;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.85;
 }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
+.am {
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
+  height: 15px;
+  width: 12px;
+  color: #2DBDB1;
+  text-align: right;
+  align-self: flex-end;
+  flex-grow: 0.075;
 }
 
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
+.date {
   font-family: Sanchez;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 23px;
+  height: 23px;
+  width: 217px;
+  color: #4B5853;
+  text-align: center;
+  align-self: flex-end;
+  flex-grow: 0.075;
 }
