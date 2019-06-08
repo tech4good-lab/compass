@@ -1,8 +1,47 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
+
 :host {
   border: 1px solid black;
   display: block;
 }
 
 // write your code here!!
+.background {
+  background-color: #F6FDFA;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.time-text{
+  font-family: 'Montserrat';
+}
+.time-text {
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.ante-merridiem {
+  font-family: 'Montserrat'
+}
+.ante-merridiem {
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+.date-text{
+  font-family: 'Sanchez';
+}
+.date-text {
+  color: #4B5853;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+}
