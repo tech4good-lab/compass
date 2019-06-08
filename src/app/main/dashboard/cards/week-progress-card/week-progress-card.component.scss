@@ -1,99 +1,185 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 * {
-  background: #FFFFFF;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
+  font-style: normal;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
-}
+.frame {
+  position: relative;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background-color: #FFFFFF;
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .plans {
+    position: absolute;
+    left: 20px;
+    right: 24px;
+    top: 22px;
+    bottom: 263px;
+    width: 221px;
+    height: 25px;
+    font-size: 22px; 
+    font-weight: 600;
+    line-height: 27px;
+    color: #4B5853;
+  }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
+  .interview {
+    position: absolute;
+    left: 18px;
+    right: 134px;
+    top: 68px;
+    bottom: 179px;
+    width: 113px;
+    height: 63px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
+  .hrs4{
+    position: absolute;
+    left: 196px;
+    right: 24px;
+    top: 95px;
+    bottom: 191px;
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+  }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
+  .coverletter {
+    position: absolute;
+    left: 20px;
+    right: 132px;
+    top: 140px;
+    bottom: 121px;
+    width: 113px;
+    height: 17px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .hrs3 {
+    position: absolute;
+    left: 165px;
+    right: 55px;
+    top: 165px;
+    bottom: 121px;
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+  }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
+  .internapps {
+    position: absolute;
+    left: 20px;
+    right: 132px;
+    top: 206px;
+    bottom: 82px;
+    width: 113px;
+    height: 22px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
 
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
+  .hrs2 {
+    position: absolute;
+    left: 143px;
+    right: 77px;
+    top: 234px;
+    bottom: 52px;
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+  }
 
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .light-rect-red {
+    position: absolute;
+    left: 20px;
+    right: 77px;
+    top: 90px;
+    bottom: 190px;
+    width: 168px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(238, 139, 114, 0.3);
+  }
 
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .bold-rect-red {
+    position: absolute;
+    left: 20px;
+    right: 170px;
+    top: 90px;
+    bottom: 190px;
+    width: 75px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #EE8B72;
+  }
 
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
+  .light-rect-green {
+    position: absolute;
+    left: 20px;
+    right: 109px;
+    top: 159px;
+    bottom: 121px;
+    width: 136px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(45, 189, 177, 0.3);
+  }
 
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
+  .bold-rect-green {
+    position: absolute;
+    left: 20px;
+    right: 144px;
+    top: 159px;
+    bottom: 121px;
+    width: 101px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #2DBDB1;
+  }
 
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .light-rect-orange {
+    position: absolute;
+    left: 20px;
+    right: 175px;
+    top: 228px;
+    bottom: 52px;
+    width: 112px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgba(255, 185, 135, 0.3);
+  }
 
+  .bold-rect-orange {
+    position: absolute;
+    left: 20px;
+    right: 133px;
+    top: 228px;
+    bottom: 52px;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #FFB987;
+  }
+}
