@@ -1,6 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { WeekGoalProgress } from '../../+state/dashboard.model';
 import { stringify } from '@angular/core/src/util';
+import { MAX_UNSIGNED_VALUE, MAX_VALUE } from 'long';
 // import { stringify } from 'querystring';
 // import { stringify } from '@angular/core/src/render3/util';
 
@@ -31,9 +32,17 @@ export class WeekProgressCardComponent implements OnInit {
   getPercentage(minutesAllocated) {
     // takes in the minutes allocated to give the % of width it needs
     var hoursAllocated = minutesAllocated/60;
-    return ((+hoursAllocated* 18) + hoursAllocated) + "%";
+    var percentage = (hoursAllocated * 18) + hoursAllocated;
+    if (percentage > 100) {
+      return "100%";
+    }
+    return (+percentage) + "%";
   }
 
+  getHours(planNum) {
+    return (+this.plans[planNum].totalAllocatedMins / 60);
+
+  }
   getMaxWidth(planNum) {
     // return (+(this.plans[planNum].totalAllocatedMins / 60)+1) + "%";
     return this.getPercentage(this.plans[planNum].totalAllocatedMins);
