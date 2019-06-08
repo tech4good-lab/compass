@@ -5,15 +5,15 @@
   color: #2DBDB1;
 }
 .times-container{
+  
   background-color: #F6FDFA;
   width: 217px;
   height: 86px;
   display:flex;
   flex-direction: column; 
-
-  
   border: 2px solid blue;
   .row{
+   // border: 3px solid green;
     display:flex;
     flex-direction: horizontal;
     //background-color:red;  
@@ -21,12 +21,13 @@
     .time {
       font-weight: 500;
       font-size: 48px;
-      line-height: 59px;
+      
         .am-pm {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 15px;
-      }
+          padding-right: 13px; 
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 15px;
+        }
     }
 
   }
@@ -39,7 +40,7 @@
       color: #4B5853;
       font-family: Sanchez;
       font-size: 18px;
-      line-height: 23px;
+      
     }
   }
 }
