@@ -17,13 +17,13 @@
     justify-content: space-between;
     padding-top: 19px;
     padding-bottom: 27px;
-    padding-left: 26px;
   
     .title {
       font-weight: 600;
       font-size: 22px;
       line-height: 27px;
       color: #2dbdb1;
+      margin-left: 26px;
     }
 
     .dates {
@@ -31,6 +31,7 @@
       font-size: 18px;
       line-height: 22px;
       color: #2dbdb1;
+      margin-left: 26px;
     }
 
     .one{
@@ -40,14 +41,17 @@
       line-height: 44px;
       color: #2dbdb1;
       float: left;
-      margin-right: 23px;
+      margin-top: 14px;
+      margin-left: 26px;
+      margin-right: 24px;
       }
       .task1 {
       font-weight: 500;
       font-size: 16px;
       line-height: 20px;
       color: #5a5a5a;
-      margin-right: 22.7px;
+      margin-top: 25px;
+      margin-left: 24px;
       }
     }
 
@@ -59,6 +63,7 @@
         color: #2dbdb1;
         float: left;
         margin-right: 23px;
+        margin-left: 27px;
       }
       .task2 {
         font-weight: 500;
@@ -77,6 +82,7 @@
         color: #2dbdb1;
         float: left;
         margin-right: 23px;
+        margin-left: 26px;
       }
       .task3 {
         font-weight: 500;
@@ -85,5 +91,10 @@
         color: #5a5a5a;
         margin-right: 22.8px;
       }
+    }
+
+    .pencil {
+      margin-left: 216px;
+      margin-right: 23px;
     }
   }
