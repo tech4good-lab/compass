@@ -1,8 +1,20 @@
+// Ignore this class.  It just adds a border so that you can find your element.
+:host {
+  border: 1px solid black;
+  display: block;
+}
+
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
 * {
   font-family: Montserrat;
   color: #2DBDB1;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .time {
@@ -19,6 +31,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  padding-top: 32px;
 }
 
 .date { 
@@ -28,4 +41,12 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+  text-align: right;
+}
+
+.date-time-component{
+  background: #F6FDFA;
+  width: 217px;
+  height: 86px;
+  padding: 3px 14px 8px 13px;
 }
