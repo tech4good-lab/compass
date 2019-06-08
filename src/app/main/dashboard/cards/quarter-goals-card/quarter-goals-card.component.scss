@@ -6,3 +6,109 @@
 }
 
 // write your code here!
+.Body{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px #D3E1DA;
+border-radius: 10px;
+}
+
+.title{
+  //position: absolute;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom: 86.13%;
+  padding-left: 26px;
+  padding-top: 19px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #2DBDB1;
+}
+.date{
+  //position: absolute;
+  left: 9.81%;
+  right: 35.09%;
+  top: 16.45%;
+  bottom: 77.42%;
+  padding-left: 26px;
+  padding-top: 8px;
+
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #2DBDB1;
+}
+
+.container{
+  display:flex;
+  
+}
+.task1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 31px;
+  padding-top: 40px;
+
+
+  color: #5A5A5A;
+}
+
+.task2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 24px;
+  padding-top: 30px;
+
+
+  color: #5A5A5A;
+}
+
+.task3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 24px;
+  padding-top: 30px;
+
+
+  color: #5A5A5A;
+}
+.tasknum{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  padding-left: 26px;
+  padding-top: 26px;
+
+  color: #2DBDB1;
+}
+
+.pencil{
+  margin-top: 20px;
+  margin-left: 216px;
+  margin-bottom: 27px;
+}
