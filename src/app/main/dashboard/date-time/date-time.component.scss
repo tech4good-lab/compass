@@ -4,28 +4,38 @@
   font-family: Montserrat;
   color: #2DBDB1;
 }
-
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
+.times-container{
+  background-color: #F6FDFA;
+  width: 217px;
+  height: 86px;
+  display:flex;
+  flex-direction: column; 
+  .row{
+    display:flex;
+    flex-direction:row;  
+    .time {
+      width: 102px;
+      height: 51px;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;
+    }
+    .am-pm {
+      width: 21px;
+      height: 14px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .date { 
+    width: 190px;
+    height: 24px;
+    color: #4B5853;
+    font-family: Sanchez;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-}
-
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
-  font-family: Sanchez;
-  font-size: 18px;
-  line-height: 23px;
-}
+  
