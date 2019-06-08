@@ -7,6 +7,9 @@
 
 .card{
   border: solid black 1px;
+  height: 86px;
+  width: 217px;
+  overflow: auto;
 }
 
 .clock{
@@ -20,6 +23,7 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+  margin-left: 77px;
 }
 
 .am-pm {
@@ -28,6 +32,8 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  padding-top: 34px;
+  margin-right: 14px;
 }
 
 .date { 
@@ -37,4 +43,5 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+  margin-left: 13px;
 }
