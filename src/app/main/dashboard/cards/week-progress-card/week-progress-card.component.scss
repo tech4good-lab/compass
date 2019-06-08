@@ -6,3 +6,91 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.title{
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+.prog1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #EE8B72;
+}
+.rectangle1{
+  width: 70px;
+  height: 40px;
+  background: #EE8B72;;
+  border-radius: 3px;
+}
+.prog2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #2DBDB1;
+}
+.prog3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFB987;
+}
+.rectangle1 {
+  width: 150px;
+  height: 40px;
+  background: rgb(238,139,114);
+  background: linear-gradient(90deg, rgba(238,139,114,1) 40%, rgba(238,139,114,0.21081936192445727) 40%);
+  float:left;
+}
+.rectangle2 {
+  width: 120px;
+  height: 40px;
+  background: rgb(45,189,177);
+  background: linear-gradient(90deg, rgba(45,189,177,1)60%, rgba(45,189,177,0.28644961402529767) 60%);
+  float:left;
+
+}
+.rectangle3 {
+  width: 80px;
+  height: 40px;
+  background: rgb(255,185,135);
+  background: linear-gradient(90deg, rgba(255,185,135,1) 60%, rgba(255,185,135,0.4629202022605917) 61%);
+   float:left;
+}
+.time1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72
+}
+.time2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.time3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
