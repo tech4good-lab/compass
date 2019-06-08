@@ -1,8 +1,201 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
+/*:host {
   border: 1px solid black;
   display: block;
-}
+}*/
 
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.week-progress-card { 
+  height: 310px;
+  width: 265px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #FFFFFF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.header {
+  height: 68px;
+  width: 265px;
+
+  display: flex;
+
+  .space {
+    width: 20px;
+  }
+
+  .week-plan {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    width: 221px;
+    height: 47px;
+    color: #4B5853;
+    align-self: flex-end;
+  }
+}
+
+.interview-box {
+  height: 17px;
+  width: 265px;
+  display: flex;
+
+  .hashtag-interview 
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    width: 113px;
+    color: #EE8B72;
+    text-align: center;
+  }
+}
+
+.interview-box-info {
+  height: 30px;
+  width: 265px;
+  display: flex;
+
+  .top{
+    width: 20px;
+  }
+  .red-bar
+  {
+    height: 30px;
+    width: 75px;
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .pink-bar
+  {
+    height: 30px;
+    width: 168px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  .four-hours
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    height: 24px;
+    width: 142px;
+    color: #EE8B72;
+    text-align: right;
+  }
+}
+
+.coverletter-box {
+  height: 37px;
+  width: 265px;
+  display: flex;
+
+  .hashtag-coverletter 
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    width: 120px;
+    color: #2DBDB1;
+    text-align: center;
+    align-self: flex-end;
+  }
+}
+
+.coverletter-box-info {
+  height: 30px;
+  width: 265px;
+  display: flex;
+
+  .middle{
+    width: 20px;
+  }
+  .teal-bar
+  {
+    height: 30px;
+    width: 101px;
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .light-teal-bar
+  {
+    height: 30px;
+    width: 136px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+  .three-hours
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    height: 24px;
+    width: 82px;
+    color: #2DBDB1;
+    text-align: right;
+  }
+}
+
+.internapps-box {
+  height: 37px;
+  width: 265px;
+  display: flex;
+
+  .hashtag-internapps 
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 17px;
+    height: 17px;
+    width: 120px;
+    color: #FFB987;
+    text-align: center;
+    align-self: flex-end;
+  }
+}
+
+.internapps-box-info {
+  height: 30px;
+  width: 265px;
+  display: flex;
+
+  .bottom{
+    width: 20px;
+  }
+  .orange-bar
+  {
+    height: 30px;
+    width: 70px;
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .yellow-bar
+  {
+    height: 30px;
+    width: 112px;
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+  }
+  .two-hours
+  {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 24px;
+    width: 90px;
+    color: #FFB987;
+    text-align: right;
+  }
+}
