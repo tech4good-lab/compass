@@ -5,6 +5,15 @@
   color: #2DBDB1;
 }
 
+.card{
+  border: solid black 1px;
+}
+
+.clock{
+  display: flex;
+  box-flex: row;
+}
+
 .time {
   width: 102px;
   height: 51px;
