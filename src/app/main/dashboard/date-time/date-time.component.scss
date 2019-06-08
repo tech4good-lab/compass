@@ -7,14 +7,18 @@
 
 @import url(//fonts.googleapis.com/css?family=Sanchez);
 .font {
-font-family: Sanchez;
-Font-Style: Regular;
-Font-Size: 18px;
-Line-Height: 23px;
-Line-Height: 100%;
-Align: Right;
-Vertical-Align: Top;
-color: #4B5853
+  position: absolute;
+  left: 0%;
+  right: 10%;
+  top: 25%;
+  bottom: 0%;
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #4B5853;
 }
 
 
@@ -22,8 +26,8 @@ color: #4B5853
 .time-time{
  position: absolute;
  left: 33.68%;
- right: 12.63%;
- top: 0%;
+ right: 10.1%;
+ top: 9%;
  bottom: 32%;
  font-family: Montserrat;
  font-style: normal;
