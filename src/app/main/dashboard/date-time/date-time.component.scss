@@ -6,25 +6,53 @@
 }
 
 
-
 // write your code here!!
 
-.time {
-  color: #2DBDB1;
-  font-size: 48px;
-  font-family: Montserrat;
-  text-align: right;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+*{
+  font-family: montserrat}
   
+.paper-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.time {
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 48px;
+ line-height: 59px;
+ text-align: right;
+ color: #2DBDB1;
 }
 
 .am {
-  color: #2DBDB1;
-  font-size: 12px;
+font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 15px;
+ text-align: right;
+ color: #2DBDB1;
 }
 
-
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+*{
+ font-family: Sanchez;
+}
 .date {
-  font-family: Sanchez;
-  color: #4B5853
+ font-family: Sanchez;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 18px;
+ line-height: 23px;
+ text-align: right;
+ color: #4B5853;
 }
 
+.rectangle {
+ width: 217px;
+ height: 86px;
+ background-color: #F6FDFA;
+}
