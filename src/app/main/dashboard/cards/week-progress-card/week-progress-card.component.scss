@@ -1,8 +1,130 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
-:host {
-  border: 1px solid black;
-  display: block;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+*{
+ font-family: Montserrat;
 }
-
-// write your code here!!
+.winston{
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 265px;
+  padding: 20px 24px 20px 21px;
+}
+.header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+  padding-bottom: 21px;
+}
+.process-container-red{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+  padding-bottom: 5px;
+  vertical-align: bottom;
+}
+.rectangle1{
+  display:inline-block;
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  background: #EE8B72;
+  padding-bottom: 5px;
+  padding-left: 18px;
+  vertical-align: bottom;
+}
+.rectangle-sub1{
+  display:inline-block;
+  width: 93px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+  vertical-align: bottom;
+}
+.process-container-green{
+  display:inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  color: #2DBDB1;
+  vertical-align: bottom;
+}
+.rectangle2{
+  display:inline-block;
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  padding-bottom: 5px;
+  padding-left: 18px;
+  background: #2DBDB1;
+  vertical-align: bottom;
+}
+.rectangle-sub2{
+  display:inline-block;
+  width: 35px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+  background: rgba(45, 189, 177, 0.3);
+  vertical-align: bottom;
+}
+.process-container-orange{
+  display:inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  padding-bottom: 5px;
+   padding-top: 20px;
+  color: #FFB987;
+  vertical-align: bottom;
+}
+.rectangle3{
+  display:inline-block;
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  padding-bottom: 5px;
+  padding-left: 18px;
+  background: #FFB987;
+  vertical-align: bottom;
+}
+.rectangle-sub3{
+  display:inline-block;
+  width: 42px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+  background: rgba(255, 185, 135, 0.3);
+  vertical-align: bottom;
+}
+.time{
+  display:inline-block;
+  width: 50px;
+  height: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 5.5px;
+  vertical-align: middle;
+}
