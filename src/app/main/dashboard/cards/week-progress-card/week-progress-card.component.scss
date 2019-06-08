@@ -1,8 +1,195 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
-  display: block;
+ border: px solid black;
+ display: block;
 }
 
 // write your code here!!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+font-family: Montserrat;
+}
+
+.card{
+ position: relative;
+ left: 0%;
+ right: 0%;
+ top: 0%;
+ bottom: 0%;
+ background: #FFFFFF;
+ border-radius: 10px;
+}
+.title{
+ position: absolute;
+left: 7.55%;
+right: 9.06%;
+top: 7.1%;
+bottom: 84.84%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #4B5853;
+
+}
+.header1{
+position: absolute;
+width: 113px;
+height: 63px;
+left: 18px;
+top: 68px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+}
+.header2{
+ position: absolute;
+width: 113px;
+height: 17px;
+left: 20px;
+top: 140px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #2DBDB1;
+}
+.header3{
+position: absolute;
+width: 113px;
+height: 22px;
+left: 20px;
+top: 206px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
+}
+.number1{
+ position: absolute;
+width: 45px;
+height: 24px;
+left: 196px;
+top: 95px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+
+}
+.number2{
+ position: absolute;
+width: 45px;
+height: 24px;
+left: 165px;
+top: 165px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #2DBDB1;
+
+}
+.number3{
+ position: absolute;
+width: 45px;
+height: 24px;
+left: 143px;
+top: 234px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
+}
+.bar11{
+position: absolute;
+width: 75px;
+height: 30px;
+left: 20px;
+top: 90px;
+
+background: #EE8B72;
+border-radius: 3px 0px 0px 3px;
+}
+.bar12{
+ position: absolute;
+width: 168px;
+height: 30px;
+left: 20px;
+top: 90px;
+
+background: rgba(238, 139, 114, 0.3);
+border-radius: 3px;
+}
+.bar21{
+ position: absolute;
+width: 101px;
+height: 30px;
+left: 20px;
+top: 159px;
+
+background: #2DBDB1;
+border-radius: 3px 0px 0px 3px;
+}
+.bar22{
+ position: absolute;
+width: 136px;
+height: 30px;
+left: 20px;
+top: 159px;
+
+background: rgba(45, 189, 177, 0.3);
+border-radius: 3px;
+}
+.bar31{
+ position: absolute;
+width: 70px;
+height: 30px;
+left: 20px;
+top: 228px;
+
+background: #FFB987;
+border-radius: 3px 0px 0px 3px;
+}
+.bar32{
+ position: absolute;
+width: 112px;
+height: 30px;
+left: 20px;
+top: 228px;
+
+background: rgba(255, 185, 135, 0.3);
+border-radius: 3px;
+}
+
