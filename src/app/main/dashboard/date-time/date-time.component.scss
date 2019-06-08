@@ -4,7 +4,11 @@
   font-family: Montserrat;
   color: #2DBDB1;
 }
-
+:host {
+  border: 1px solid black;
+  display: block;
+  background: #F6FDFA;
+}
 .time {
   width: 102px;
   height: 51px;
