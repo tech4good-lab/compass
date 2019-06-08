@@ -4,7 +4,21 @@
   font-family: Montserrat;
 }
 
+.Body{
+  position: relative;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  border-radius: 10px;
+
 .title {
+  position: absolute;
+  left: 7.55%;
+  right: 9.06%;
+  top: 7.1%;
+  bottom: 84.84%;
+  font-family: Montserrat;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
@@ -12,12 +26,20 @@
 }
 
 .top-hashtag {
+  position: absolute;
+  width: 113px;
+  height: 63px;
+  left: 18px;
+  top: 68px;
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
 }
 
 .bold-top-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 90px;
   background: #EE8B72;
   border-radius: 3px 0px 0px 3px;
   width: 75px;
@@ -25,6 +47,9 @@
 }
 
 .light-top-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 90px;
   width: 168px;
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
@@ -32,6 +57,11 @@
 }
 
 .top-hour {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 196px;
+  top: 95px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -39,12 +69,20 @@
 }
 
 .middle-hashtag {
+  position: absolute;
+  width: 113px;
+  height: 17px;
+  left: 20px;
+  top: 140px;
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
 }
 
 .bold-middle-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 159px;
   background: #2DBDB1;
   border-radius: 3px 0px 0px 3px;
   width: 101px;
@@ -52,6 +90,9 @@
 }
 
 .light-middle-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 159px;
   color: #2DBDB1;
   width: 136px;
   height: 27px;
@@ -60,6 +101,9 @@
 }
 
 .middle-hour {
+  position: absolute;
+  left: 165px;
+  top: 165px;
   color: #2DBDB1;
   width: 45px;
   height: 24px;
@@ -69,12 +113,20 @@
 }
 
 .bottom-hashtag {
+  position: absolute;
+  width: 113px;
+  height: 22px;
+  left: 20px;
+  top: 206px;
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
 }
 
 .bold-bottom-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 228px;
   background: #FFB987;
   border-radius: 3px 0px 0px 3px;
   width: 70px;
@@ -82,6 +134,9 @@
 }
 
 .light-bottom-progress-bar {
+  position: absolute;
+  left: 20px;
+  top: 228px;
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
   width: 112px;
@@ -89,11 +144,14 @@
 }
 
 .bottom-hour {
+  position: absolute;
+  left: 143px;
+  top: 234px;
   color: #FFB987;
   width: 45px;
   height: 24px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 17px; 
+  }
 }
-
