@@ -1,8 +1,144 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
-:host {
-  border: 1px solid black;
-  display: block;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
 }
 
-// write your code here!!
+//The main whole table
+.majorborder{
+ border-radius:10px;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ width: 265px;
+ height: 310px;
+
+//Week's header 
+.header {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+//Section interview
+.interviewsection {
+
+//The first quote
+.quoteone {
+  color: #EE8B72;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+//The first bar postion
+.firstbarpos{
+
+//The dark red bar
+.topbar {
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+  width: 75px;
+  height: 27px;
+}
+
+//The light red bar
+.lightbar {
+  width: 93px;
+  height: 30px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+//4 hours
+.fourhour {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+   }
+  } 
+}
+
+//coverletter section
+.clsection{
+
+//Second quote
+.quotetwo {
+  color: #2DBDB1;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+//Second bar's position
+.twobarpos{
+
+//The dark green bar
+.middlebar {
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+  width: 101px;
+  height: 30px;
+}
+
+//The light green bar
+.lightmbar {
+  color: #2DBDB1;
+  width: 35px;
+  height: 30px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+
+//3 hours
+.threehour {
+  color: #2DBDB1;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  }
+ }
+}
+
+//Interapps section
+.iasection{
+
+//The third quote
+.quotethree {
+  color: #FFB987;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+//Third bar's position
+.threebarpos {
+
+//The dark orange bar
+.bottombar {
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+  width: 70px;
+  height: 30px;
+}
+
+//The light orange bar
+.lightbmbar {
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+  width: 42px;
+  height: 30px;
+}
+
+// 2 hours
+.twohour {
+  color: #FFB987;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+   }
+  }
+ }
+}
+
