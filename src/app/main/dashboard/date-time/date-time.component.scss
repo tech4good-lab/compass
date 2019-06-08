@@ -5,11 +5,15 @@
   color: #2DBDB1;
 }
 :host {
-  border: 1px solid black;
+  position: static;
+  width:217px;
+  height: 86px;
+  border: 3px solid black;
   display: block;
   background: #F6FDFA;
 }
 .time {
+  position:static;
   width: 102px;
   height: 51px;
   font-weight: 500;
