@@ -5,48 +5,26 @@
   display: block;
 }
 
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-*{
-  font-family: montserrat;
-}
+
 
 // write your code here!!
+
 .time {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: right;
   color: #2DBDB1;
+  font-size: 48px;
+  font-family: Montserrat;
+  text-align: right;
+  
 }
 
 .am {
- font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: right;
   color: #2DBDB1;
+  font-size: 12px;
 }
 
-@import url(//fonts.googleapis.com/css?family=Sanchez);
-*{
-  font-family: Sanchez;
-}
+
 .date {
   font-family: Sanchez;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: right;
-  color: #4B5853;
+  color: #4B5853
 }
 
-.rectangle {
-  width: 217px;
-  height: 86px;
-  background-color: #F6FDFA;
-}
