@@ -1,8 +1,69 @@
 // Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+*{
+  font-family: Montserrat;
 
-:host {
-  border: 1px solid black;
-  display: block;
 }
 
-// write your code here!
+.whole{
+  
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 265px;
+  padding: 20px 24px 20px 21px;
+
+}
+.internships{
+  text-align:center;
+}
+.interviewprep{
+  text-align: center;
+  margin-left: 26px;
+}
+.List{
+  display: inline-block;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+  width:20px;
+  padding: 10px 0px;
+}
+.Header{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+.date{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+  margin-bottom: 8px;
+  padding-left: 10px;
+}
+.Paragraphs{
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+  width:180px;
+  padding: 0px 0px 24px 24px;
+}
+.editicon{ 
+  text-align:right;
+}
+
+.list_container{
+  margin:5px;
+  height:60px;
+}
