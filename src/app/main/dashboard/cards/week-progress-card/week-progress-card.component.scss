@@ -1,10 +1,5 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
-
 // write your code here!!
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -14,7 +9,7 @@ font-family: Montserrat;
 }
 
 .card{
-  position: absolute;
+  position: relative;
   left: 0%;
   right: 0%;
   top: 0%;
