@@ -1,8 +1,44 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 :host {
   border: 1px solid black;
   display: block;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+.fall {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+}
+.date{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
 }
 
+.number{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+}
+.goals{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
 // write your code here!
