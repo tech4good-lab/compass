@@ -8,19 +8,18 @@
 // write your code here!!
 
 div {
-  color: red;
+	color: red;
 }
 body {
-  background-color: lightblue;
+	background-color: lightblue;
 }
 .important {
-color: red;
-  font-size: 300px;
-  font-weight: bold;
-   text-align: right;
+	color: red;
+	font-size: 300px;
+	font-weight: bold;
+	text-align: right;
 }
 .List{
-	
 	list-style-type: disc;
 	
 	
