@@ -30,3 +30,8 @@ body {
   background-color: orange;
   border-radius: 50%;
 }
+.image{
+  width: 500px;
+  height: 500px;
+  border-radius: 70%;
+}
