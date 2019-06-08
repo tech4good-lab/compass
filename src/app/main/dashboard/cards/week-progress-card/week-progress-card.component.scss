@@ -14,8 +14,9 @@
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  color: #4B5853;
 }
+
+
 
 .bartitle1 {
   font-family: Montserrat;
@@ -25,52 +26,51 @@
   color: #EE8B72;
 }
 
-.bartitle2 {
-  position:relative;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #2DBDB1;
-}
-
-.bartitle3 {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFB987;
-}
-
 .rectbold1 {
   background: #EE8B72;
   width: 75px;
   height: 30px;
   border-radius: 3px;
 }
+
 .rectshade1 {
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
   width: 168px;
   height: 30px;
-  
 }
+
 .duration1 {
   position: relative;
-  
-  
-  left: 200px;
-  
+  width: 45px;
+  height: 24px;
+  left: 190px;
+  top: 5px;
   color: #EE8B72;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+}
 
- 
+
+
+.bartitle2 {
+  position: relative;
+  left: -196px;
+  top:10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
 }
 
 .rectbold2 {
+  position:relative;
+  left: -196px;
+  top:10px;
   background: #2DBDB1;
-  width: 75px;
+  width: 101px;
   height: 30px;
   border-radius: 3px;
 }
@@ -78,22 +78,61 @@
 .rectshade2 {
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
-  width: 168px;
+  width: 136px;
   height: 30px;
-  
 }
 
 .duration2 {
   position: relative;
   width: 168px;
   height: 30px;
-  left: 30px;
-  top: 60px;  
-  color: #EE8B72;
+  left: 156px;
+  top: 5px;
+  color: #2DBDB1;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+}
+
+
+
+.bartitle3 {
+  position: relative;
+  left: -150px;
+  top:20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+
+.rectbold3 {
+  position: relative;
+  left: -150px;
+  top:20px;
+  background: #FFB987;
+  width: 70px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.rectshade3 {
+  width: 112px;
+  height: 30px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
+
+.duration3 {
+  position: relative;
+  left: 150px;
+  top:10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFB987;
 }
 
 // write your code here!!
