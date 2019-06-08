@@ -4,7 +4,7 @@
     <div class="top-hashtag">#{{getPlan(0).hashtag}}</div>
     <div class="line-top-progress-bar-and-hour">
       <div class="top-progress-bar-container" [style.width]="getMaxWidth(0)">
-        <div class="bold-top-progress-bar"></div>
+        <div class="bold-top-progress-bar"[style.width]="getProgressBar(0)"></div>
         <div class="light-top-progress-bar"></div>
       </div>
       <div class="top-hour">{{getHours(0)}} HRS</div>
@@ -14,7 +14,7 @@
     <div class="middle-hashtag">#{{getPlan(1).hashtag}}</div>
     <div class="line-middle-progress-bar-and-hour">
       <div class="middle-progress-bar-container" [style.width]="getMaxWidth(1)">
-        <div class="bold-middle-progress-bar"></div>
+        <div class="bold-middle-progress-bar" [style.width]="getProgressBar(1)"></div>
         <div class="light-middle-progress-bar"></div>
       </div>
       <div class = "middle-hour">{{getHours(1)}} HRS</div>
@@ -24,7 +24,7 @@
     <div class="bottom-hashtag">#{{getPlan(2).hashtag}}</div>
     <div class="line-bottom-progress-bar-and-hour">
       <div class="bottom-progress-bar-container" [style.width]="getMaxWidth(2)">
-        <div class="bold-bottom-progress-bar"></div>
+        <div class="bold-bottom-progress-bar" [style.width]="getProgressBar(2)"></div>
         <div class="light-bottom-progress-bar"></div>
       </div>
       <div class="bottom-hour">{{getHours(2)}} HRS</div>
