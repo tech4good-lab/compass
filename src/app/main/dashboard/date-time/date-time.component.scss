@@ -1,37 +1,42 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
-:host {
-  border: 1px solid black;
-  display: block;
-}
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
+* {
+  font-family: Montserrat;
+  text-align:right;
+}
+.date-time-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: #2DBDB1;
+  font-weight: 500px;
+  
+  .time {
+    font-size: 48px;
+    line-height: 59px;
+    width: 100%;
+    height: 51px;
+    
+  }
 
- * {
-   font-family: Montserrat;
-   color: #2DBDB1;
- }
-.time {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: right;
+  .am-pm {
+    margin-top:34px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    font-size: 12px;
+    line-height: 15px;
+    height: 14px;
+    width: 21px;
+  }
 }
-.AM{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: right;
-}
-.date{
+.date { 
+  display: flex;
+  justify-content:flex-end;
+  width: 100%;
+  height: 24px;
+  color: #4B5853;
   font-family: Sanchez;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-  text-align: right;
-  color: #4B5853;
 }
-  
