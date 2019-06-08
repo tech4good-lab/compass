@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 * {
   font-family: Montserrat;
   color: #2DBDB1;
@@ -31,18 +32,20 @@
     }
 
   }
-  .date-container{
-    display: flex;
-    flex-direction: horizontal;
-    justify-content: center;
+  
+}
+.date-container{
+ position:relative;
+ bottom:5px;
+ padding-left:18px; 
     //background-color: green;
     .date { 
       color: #4B5853;
       font-family: Sanchez;
+      font-style: Regular;
       font-size: 18px;
       
     }
-  }
 }
 
   
