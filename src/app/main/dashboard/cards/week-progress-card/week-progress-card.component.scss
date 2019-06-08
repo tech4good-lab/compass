@@ -4,17 +4,43 @@
   font-family: Montserrat;
 }
 
+.week-card{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+}
+
 .title {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  margin-left: 20px;
+  margin-top: 22px;
+  margin-bottom: 21px;
+}
+
+.item{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.hr{
+  font-size: 9px;
+  margin-left: 2px;
 }
 
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 3px;
+}
+
+.bar{
+  display: flex;
+  box-flex: row;
 }
 
 .bold-top-progress-bar {
@@ -25,7 +51,7 @@
 }
 
 .light-top-progress-bar {
-  width: 168px;
+  width: 93px;
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
@@ -36,12 +62,15 @@
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  margin-left: 9px;
+  padding-top: 6px;
 }
 
 .middle-hashtag {
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 3px;
 }
 
 .bold-middle-progress-bar {
@@ -53,7 +82,7 @@
 
 .light-middle-progress-bar {
   color: #2DBDB1;
-  width: 136px;
+  width: 35px;
   height: 27px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
@@ -66,12 +95,15 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  margin-left: 9px;
+  padding-top: 6px;
 }
 
 .bottom-hashtag {
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 3px;
 }
 
 .bold-bottom-progress-bar {
@@ -84,7 +116,7 @@
 .light-bottom-progress-bar {
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
-  width: 112px;
+  width: 42px;
   height: 27px;
 }
 
@@ -95,5 +127,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  margin-left: 9px;
+  padding-top: 6px;
 }
 
