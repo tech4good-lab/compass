@@ -8,7 +8,8 @@
     height: 310px;
     background-color:#FFFFFF;;
     box-shadow: 0px 4px 4px #D3E1DA;
-    border-radius: 10px; display: flex;
+    border-radius: 10px;
+    display: flex;
     flex-direction: column;
     padding-left: 26px; //Sets the left padding of an element
     padding-top: 19px; //Sets the top padding of an element
@@ -28,53 +29,85 @@
       }
     }
     .info {
-      //background-color:red;
+     // background-color: yellow;
       display:flex;
-      flex-direction: row; 
-      .num{
+      flex-direction: column; 
+
+      .task1{
+        
+        align-items: center;
+       // background-color: pink;
+        display:flex;
+        flex-direction: row;
         .first {
-          padding-top: 10px;
+          padding-right: 24px;
+          
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
           color: #2dbdb1;
         }
-
+        .taskD1 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
+      }
+      .task2{
+       // background-color: lightblue;
+        align-items: center;
+        display:flex;
+        flex-direction: row;
         .second {
-          padding-top: 10px;
+          padding-right: 24px;
+          
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
           color: #2dbdb1;
         }
-
+        .taskD2 {
+          
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
+      }
+      .task3{
+        align-items: center;
+        height: 50px;
+        display:flex;
+        flex-direction: row;
         .third {
-          padding-top: 10px;
+          padding-right: 24px;
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
           color: #2dbdb1;
+        }
+        .taskD3 {
+          width:150px;
+          padding-top: 10px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+        }
       }
-      }
     }
-
-    .task1 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-    }
-    .task2 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-    }
-
-    .task3 {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-    }
+    .pencil{
+    align-self: flex-end;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding-top: 17px;//Sets the top padding of an element
+    padding-right: 26px;//Sets the right padding of an element
   }
+  }
+
+    
+    
+
+   
+  
