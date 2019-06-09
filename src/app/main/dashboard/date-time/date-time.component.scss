@@ -14,37 +14,45 @@
   background: #F6FDFA;
   width: 217px;
   height: 86px;
+  text-align: right;
+
   .t {
     display: flex;
     flex-wrap: wrap;
+    text-align: right;
+
     .time {
-      width: 102px;
+      width: 60px;
       height: 51px;
       font-weight: 500;
       font-size: 48px;
       line-height: 59px;
-      //position: absolute;
+      text-align: right;
+      position: relative;
+      left: 40%;
 
     }
     .am-pm {
-      width: 21px;
-      height: 14px;
+      width: 35px;
+      height: 17px;
       font-weight: 500;
       font-size: 12px;
       line-height: 15px;
-      //position: absolute;
-      //top: 34.5%;
-      //left: 85.5%;
+      position: absolute;
+      top: 34.9%;
+      left: 93.6%;
     } 
   }
   .date { 
-    width: 190px;
+    width: 96%;
     height: 24px;
     color: #4B5853;
     font-family: Sanchez;
     font-size: 18px;
     line-height: 23px;
-    //position: absolute;
-    //top: 38%;
+    flex-grow: 0;
+    position: relative;
+    top: 2%;
+    text-align: right;
   }
 }
