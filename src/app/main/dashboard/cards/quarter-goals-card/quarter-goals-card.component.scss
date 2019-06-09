@@ -2,6 +2,9 @@
 
   * {
     font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .quarter-goals-card {
@@ -11,6 +14,7 @@
     height: 310px;
     display: flex; 
     flex-direction: column;
+    //justify-content: space-between;
 
     .title {
       font-weight: 600;
@@ -33,20 +37,59 @@
       .numbers {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap; 
+        justify-content: space-between;
         font-weight: 500;
         font-size: 36px;
         line-height: 44px;
         color: #2dbdb1;
+
+        .first {
+          width: 30px;
+          height: 25px;
+        }
+
+        .second {
+          width: 30px;
+          height: 25px;
+        }
+
+        .third {
+          width: 30px;
+          height: 25px;
+        }
       }
 
       .tasks {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
         color: #5a5a5a;
+
+        .task1 {
+          width: 175px;
+          height: 25px;
+          border: 1px solid;
+        }
+
+        .task2 {
+          width: 175px;
+          height: 50px;
+          border: 1px solid;
+        }
+
+        .task3 {
+          width: 175px;
+          height: 50px;
+          border: 1px solid;
+        }
       }
+    }
+
+    svg {
+      width: 25px;
+      height: 25px;
     }
   }
