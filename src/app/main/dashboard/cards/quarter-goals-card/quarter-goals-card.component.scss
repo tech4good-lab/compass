@@ -19,6 +19,8 @@
       font-size: 22px;
       line-height: 27px;
       color: #2dbdb1;
+      width: 225px;
+      height: 24px;
     }
 
     .dates {
@@ -26,10 +28,14 @@
       font-size: 18px;
       line-height: 22px;
       color: #2dbdb1;
+      width: 148px;
+      height: 19px;
     }
   }
 
   .list-numbers{
+      width: 17;
+      height: 30;
     .first {
       font-weight: 500;
       font-size: 36px;
@@ -76,5 +82,10 @@
       line-height: 20px;
       color: #5a5a5a;
     }
+  }
+
+  .pencil{
+      width: 26;
+      height: 26;
   }
 }
