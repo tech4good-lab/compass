@@ -10,6 +10,12 @@
   border-radius: 10px;
   width: 265px;
   height: 310px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: baseline;
+  width: 100%;
+  
 
 
   .t-d{
@@ -52,6 +58,7 @@
       line-height: 44px;
       color: #2dbdb1;
       margin-bottom: 25px;
+      
     }
 
     .second {
@@ -72,37 +79,36 @@
   }
 
   .task-list{
-    align-content: baseline;
+   
     //display: flex;
     flex-wrap: wrap;
     flex-direction: horizontal;   
-    max-width: 175px; 
+    max-width: 200px; 
+    color: #5a5a5a;
+  
 
     .task1 {
       font-weight: 500;
       font-size: 16px;
       line-height: 20px;
-      color: #5a5a5a;
      // margin-right: 22.7px;
-      margin-left: 67px;
-      margin-bottom: 4px;
-    
+      margin-left: 24px;
+      margin-bottom: 30px;
+      margin-top: 15px;
     }
     .task2 {
       font-weight: 500;
       font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
-      margin-left: 67px;
-      margin-bottom: 13px;
+      line-height: 25px;
+      margin-left: 24px;
+      margin-bottom: 25px;
     }
     .task3 {
       font-weight: 500;
       font-size: 16px;
       line-height: 20px;
-      color: #5a5a5a;
-      margin-left: 67px;
-      margin-bottom:88px;
+      margin-left: 24px;
+ 
     }
   }
 
@@ -111,7 +117,7 @@
       height: 26;
       margin-right: 23px;
       margin-left: 216px;
-      margin-bottom: 27px;
-     // margin-top: -900px;
+      margin-bottom: 0px;
+      margin-top: -80px;
   }
 }
