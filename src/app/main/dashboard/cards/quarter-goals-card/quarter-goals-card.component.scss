@@ -1,8 +1,65 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
+
+
+  * {
+    font-family: Montserrat;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2dbdb1;
+  }
+
+  .dates {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2dbdb1;
+  }
+
+  .first {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+  }
+
+  .second {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+  }
+
+  .third {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+  }
+
+  .task1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5a5a;
+  }
+  .task2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5a5a;
+  }
+
+  .task3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5a5a;
+  }
+
 
 // write your code here!
