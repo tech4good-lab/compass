@@ -1,11 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
   * {
+    position: relative;
     font-family: Montserrat;
+    top: 82.9%;
+    left:216px
   }
 
+
+
   .box {
-  box-shadow: 0px 4px 4px #D3E1DA;
+  box-shadow: 0px 4px 4px rgb(255, 255, 255);
   border-radius: 10px;
   width: 265px;
   height: 310px;
@@ -17,6 +22,8 @@
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    top: 19px;
+    Left:26px;
   }
 
   .dates {
@@ -24,6 +31,8 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    top: 22px;
+    Left:26px;
   }
 
   .first {
@@ -31,6 +40,8 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    top: 30px;
+    Left:26px;
   }
 
   .second {
@@ -38,6 +49,8 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    top: 35px;
+    Left:26px;
   }
 
   .third {
@@ -45,6 +58,8 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    Left:26px;
+    top: 40px;
   }
 
   .task1 {
@@ -52,12 +67,16 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    left:67px;
+    top: -90px;
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    left:67px;
+    top: -60px;
   }
 
   .task3 {
@@ -65,5 +84,8 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    left:67px;
+    top:-30px;
+
   }
 
