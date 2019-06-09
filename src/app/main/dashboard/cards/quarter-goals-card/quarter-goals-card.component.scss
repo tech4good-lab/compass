@@ -5,6 +5,12 @@
   }
 
   .title {
+    position: relative;
+    left: 9.81%;
+    right: 5.28%;
+    top: 6.13%;
+    bottom: 32%;
+    
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -12,6 +18,13 @@
   }
 
   .dates {
+    position: relative;
+    left: 9.81%;
+    right: 35.09%;
+    top: 30%;
+    bottom: 77.42%;
+    height: 14%;
+    
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
@@ -19,6 +32,13 @@
   }
 
   .first {
+    position: relative;
+    left: 9.81%;
+    right: 83.77%;
+    top: 45%;
+    bottom: 1px;
+    height: -14%;
+    
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -26,6 +46,12 @@
   }
 
   .second {
+    position: relative;
+    left: 9.81%;
+    right: 83.77%;
+    top: 27.1%;
+    bottom: -5px;
+    
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -33,6 +59,12 @@
   }
 
   .third {
+    position: relative;
+    left: 9.81%;
+    right: 83.77%;
+    top: 27.1%;
+    bottom: -13px;
+    
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -40,12 +72,24 @@
   }
 
   .task1 {
+    position: relative;
+    left: 65px;
+    right: 250px;
+    top: -120px;
+    bottom: 5px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
   }
   .task2 {
+    position: relative;
+    left: 65px;
+    right: 5px;
+    top: -87px;
+    bottom: 5px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -53,9 +97,22 @@
   }
 
   .task3 {
+    position: relative;
+    left: 65px;
+    right: 5px;
+    top: -60px;
+    bottom: 5px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
   }
 
+.pencil {
+  position: relative;
+  left: 100%;
+  right: 0%;
+  top: -70px;
+  bottom: 15%;
+}
