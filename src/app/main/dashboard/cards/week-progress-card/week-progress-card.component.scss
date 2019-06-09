@@ -4,96 +4,181 @@
   font-family: Montserrat;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
-}
+.week-progress-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
-}
+  .header {
+    display: flex;
+    width: 265px;
+    height: 68px;
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
+    .blank {
+      width: 20px;
+    }
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
+    .title {
+      width: 221px;
+      height: 47px;
+      align-self: flex-end;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #4B5853;
+    }
+  }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
+  .container-one {
+    display: flex;
+    width: 265px;
+    height: 17px;   
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
+    .hashtag-one {
+      width: 113px;
+      height: 17px;
+      text-align: center;
+      color: #EE8B72;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
+  .one-components {
+    display: flex;
+    width: 265px;
+    height: 30px;
+  
+    .push {
+      width: 20px;
+    }
 
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
+    .darkbar-one {
+      background: #EE8B72;
+      border-radius: 3px 0px 0px 3px;
+      width: 75px;
+      height: 27px;
+    }
 
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+    .lightbar-one {
+      width: 168px;
+      height: 27px;
+      background: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
 
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
+    .time-one {
+      width: 53px;
+      height: 27px;
+      text-align: right;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 27px;
+      color: #EE8B72;
+    }
+  }
 
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
+  .container-two {
+    display: flex;
+    width: 265px;
+    height: 37px;
+  
+    .hashtag-two {
+      width: 120px;
+      height: 17px;
+      text-align: center;
+      align-self: flex-end;
+      color: #2DBDB1;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
 
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
+  .two-components {
+    display: flex;
+    width: 265px;
+    height: 30px;
 
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+    .scoot {
+      width: 20px;
+    }
 
+    .darkbar-two {
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+      width: 101px;
+      height: 27px;
+    }
+
+    .lightbar-two {
+      color: #2DBDB1;
+      width: 136px;
+      height: 27px;
+      background: rgba(45, 189, 177, 0.3);
+      border-radius: 3px;
+    }
+
+    .time-two {
+      text-align: right;
+      color: #2DBDB1;
+      width: 53px;
+      height: 27px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }  
+
+  .container-three {
+    display: flex;
+    width: 265px;
+    height: 37px;
+
+    .hashtag-three {
+      text-align: center;
+      align-self: flex-end;
+      width: 120px;
+      height: 17px;
+      color: #FFB987;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  .three-components {
+    display: flex;
+    width: 265px;
+    height: 30px;
+
+    .last {
+      width: 20px;
+    }
+
+    .darkbar-three {
+      background: #FFB987;
+      border-radius: 3px 0px 0px 3px;
+      width: 70px;
+      height: 27px;
+    }
+
+    .lightbar-three {
+      background: rgba(255, 185, 135, 0.3);
+      border-radius: 3px;
+      width: 112px;
+      height: 27px;
+    }
+
+    .time-three {
+      text-align: right;
+      color: #FFB987;
+      width: 53px;
+      height: 27px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 27px;
+    }
+  }
+}
