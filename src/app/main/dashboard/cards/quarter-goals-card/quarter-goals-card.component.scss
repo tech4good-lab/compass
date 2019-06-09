@@ -12,63 +12,80 @@
 .quarter-goals-container {
   * {
     font-family: Montserrat;
+    
   }
   background-color: #FFFFFF;
+  width: 265px;
+  height: 310px;
 }
 
   .space {
-   font-weight: 600;
-   font-size: 22px;
-    
+   width: 26px; 
   }
 
   .title {
    font-weight: 600;
    font-size: 22px;
    color: #2dbdb1;
+   width: 239px;
+   height: 22px;
   }
 
   .dates {
    font-weight: 300;
    font-size: 18px;
    color: #2dbdb1;
+   width: 239px;
+   height: 14px;
   }
 
   .one {
    font-weight: 500;
    font-size: 36px;  
    color: #2dbdb1;
+   width: 20px;
+   height: 30px;
   }
 
   .two {
    font-weight: 500;
    font-size: 36px;
    color: #2dbdb1;
+   width: 20px;
+   height: 30px;
   }
 
   .three {
    font-weight: 500;
    font-size: 36px;
    color: #2dbdb1;
+   width: 20px;
+   height: 30px;
   }
 
   .task1 {
    font-weight: 500;
    font-size: 16px;  
    color: #5a5a5a;
+   width: 200px;
+   height: 30px;
   }
 
   .task2 {
    font-weight: 500;
    font-size: 16px; 
    color: #5a5a5a;
+   width: 200px;
+   height: 30px;
   }
 
   .paddingspace {
-    
+    width: 190px;
   }
   .task3 {
    font-weight: 500;
    font-size: 16px; 
    color: #5a5a5a; 
+   width: 200px;
+   height: 30px;
   }
