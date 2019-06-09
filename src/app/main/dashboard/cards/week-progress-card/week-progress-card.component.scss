@@ -1,8 +1,97 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 :host {
   border: 1px solid black;
   display: block;
+} 
+*{
+  font-family: Montserrat;
+}
+.title{
+  position: relative;
+  left: 7.55%;
+  right: 9.06%;
+  top: 7.1%;
+  bottom: 84.84%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+.interview{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.rectangle{
+  width: 75px;
+  height: 30px;
+  background: #EE8B72
+}
+.rec{
+  width: 93px;
+  height: 30px;
+  background: rgba(238,139,114,0.3);
+}
+.four{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.coverletter{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1; 
+}
+.rectangle-2{
+  width: 101px;
+  height: 30px;
+  background: #2DBDB1;
+}
+.rec-2{
+  width: 35px;
+  height: 30px;
+  background: rgba(45, 189, 177, 0.3);
+}
+.three{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.internapps{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+.rectangle-3{
+  width: 70px;
+  height: 30px;
+  background:#FFB987;
+}
+.rec-3{
+  width: 42px;
+  height: 30px;
+  background:rgba(255, 185, 135, 0.3);
 }
 
-// write your code here!!
+.two{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+.box >*{
+  display:inline-block;
+}
