@@ -1,31 +1,42 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
-* {
+
+.time-date {
   font-family: Montserrat;
   color: #2DBDB1;
-}
+  background-color: #F6FDFA;
+  width: 217px; 
+  height: 86px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  justify-content: flex-end;
+  padding: 3px 14px 8px 13px;
 
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
-}
+  .time {
+    width: 102px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    margin-right: 3px;
+  }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-}
+  .am-pm {
+    width: 21px;
+    height: 14px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 32px;
+  }
 
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
-  font-family: Sanchez;
-  font-size: 18px;
-  line-height: 23px;
+  .date { 
+    width: 190px;
+    height: 24px;
+    color: #4B5853;
+    font-family: Sanchez;
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
