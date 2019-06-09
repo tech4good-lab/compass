@@ -3,48 +3,85 @@
   background: #FFFFFF;
   font-family: Montserrat;
 }
-
+.progress{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  position: relative;
+z-index: 0;
+  
 .title {
+  padding: 22px 24px 0px 20px;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
 }
+.data{
+  display: flex;
+  flex-direction: column;
 
+.topdata{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 .top-hashtag {
+  padding: 21px 134px 0px 18px;
+  width: 113px;
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
 }
-
+.tbar{
+  padding: 0px 8px 0px 20px;
 .bold-top-progress-bar {
+  position: absolute;
+z-index: 2;
   background: #EE8B72;
   border-radius: 3px 0px 0px 3px;
   width: 75px;
   height: 27px;
+  
 }
 
 .light-top-progress-bar {
+  position: absolute;
+z-index: 1;
   width: 168px;
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
+  
 }
-
-.top-hour {
+}
+.top-hour{
+white-space: nowrap;
   font-weight: 500;
+  width: 45px;
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  padding: 0px 24px 0px 196px;
+  
 }
-
+}
+.middata{
+   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 .middle-hashtag {
+  padding: 40px 132px 0px 20px;
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
 }
+.mbar{
 
+  padding: 0px 9px 0px 20px;
 .bold-middle-progress-bar {
+  position: absolute;
+z-index: 2;
   background: #2DBDB1;
   border-radius: 3px 0px 0px 3px;
   width: 101px;
@@ -52,29 +89,41 @@
 }
 
 .light-middle-progress-bar {
+  position: absolute;
+  z-index: 1;
   color: #2DBDB1;
   width: 136px;
   height: 27px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
 }
-
+}
 .middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
+  white-space: nowrap;
   font-weight: 500;
+  width: 45px;
   font-size: 14px;
   line-height: 17px;
-}
+  color: #2DBDB1;
+  padding: 0px 45px 0px 165px;
 
+}
+}
+.botdata{
+   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 .bottom-hashtag {
+  padding: 40px 132px 0px 20px;
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
 }
-
+.bbar{
+  padding: 0px 8px 0px 20px;
 .bold-bottom-progress-bar {
+  position: absolute;
+  z-index: 2;
   background: #FFB987;
   border-radius: 3px 0px 0px 3px;
   width: 70px;
@@ -82,18 +131,24 @@
 }
 
 .light-bottom-progress-bar {
+  position: absolute;
+  z-index: 1;
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
   width: 112px;
   height: 27px;
 }
-
+}
 .bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
+  white-space: nowrap;
   font-weight: 500;
+  width: 45px;
   font-size: 14px;
   line-height: 17px;
-}
+  color: #FFB987;
+  padding: 0px 77px 52px 143px;
 
+}
+}
+}
+}
