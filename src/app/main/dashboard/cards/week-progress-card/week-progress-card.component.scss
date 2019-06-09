@@ -21,11 +21,13 @@
   }
 
   .top {
-    border: 1px solid;
+    //border: 1px solid;
     .top-hashtag {
       color: #EE8B72;
       font-size: 14px;
       line-height: 17px;
+      position: relative;
+      top: 29%;
     }
 
     .bold-top-progress-bar {
@@ -34,7 +36,7 @@
       width: 75px;
       height: 27px;
       position: relative;
-      top: 31.5%;
+      top: 29%;
     }
 
     .light-top-progress-bar {
@@ -46,6 +48,8 @@
     }
 
     .top-hour {
+      width: 50px;
+      height: 24px;
       font-weight: 500;
       font-size: 14px;
       line-height: 17px;
@@ -57,11 +61,13 @@
   }
 
   .middle {
-    border: 1px solid;
+    //border: 1px solid;
     .middle-hashtag {
       color: #2DBDB1;
       font-size: 14px;
       line-height: 17px;
+      position: relative;
+      top: 25%;
     }
 
     .bold-middle-progress-bar {
@@ -90,17 +96,19 @@
       line-height: 17px;
       position: relative;
       left: 58%;
-      bottom: 26%;
+      bottom: 24%;
     }
   }
 
   .bottom {
-    border: 1px solid;
+    //border: 1px solid;
 
     .bottom-hashtag {
       color: #FFB987;
       font-size: 14px;
       line-height: 17px;
+      position: relative;
+      top: 25%;
     }
 
     .bold-bottom-progress-bar {
