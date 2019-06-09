@@ -1,9 +1,13 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
+//imports
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+//border solid 1 pixel
 :host {
   border: 1px solid black;
   display: block;
 }
+//align all text right
+* {
+  text-align: right;
+}
 
-// write your code here!!
-//ffff
