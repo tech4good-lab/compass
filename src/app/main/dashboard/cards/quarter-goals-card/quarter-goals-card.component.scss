@@ -3,8 +3,16 @@
   * {
     font-family: Montserrat;
   }
-
+.goals{ 
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  width: 265px;
+  height: 310px;
   .title {
+    padding-top: 19px;
+    padding-right: 14px;
+    padding-left: 26px; 
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -12,13 +20,27 @@
   }
 
   .dates {
+    padding-top: 8px;
+    padding-right: 93px;
+    padding-left: 26px; 
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
   }
+.list{
+  display: flex;
+  flex-direction: row;
+.place{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 0px 25px 26px;
+  margin-right: 24px;
 
   .first {
+
+    padding-top: 14px;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -38,14 +60,23 @@
     line-height: 44px;
     color: #2dbdb1;
   }
-
+}
+.tasks{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  text-overflow: wrap;
+  max-width: 175px;
   .task1 {
+    padding-top: 25px;
+    padding-bottom: 15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
   }
   .task2 {
+    padding-bottom: 6px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -58,4 +89,10 @@
     line-height: 20px;
     color: #5a5a5a;
   }
-
+ 
+}
+}
+ .pencil{
+  padding: 0px 23px 27px 216px;
+  }
+}
