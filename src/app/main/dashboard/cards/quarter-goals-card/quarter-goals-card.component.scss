@@ -34,14 +34,13 @@
       flex-direction: column; 
 
       .task1{
-        
+        height: 60px;
         align-items: center;
-       // background-color: pink;
+      //  background-color: pink;
         display:flex;
         flex-direction: row;
         .first {
-          padding-right: 24px;
-          
+          padding-right: 31px;
           font-weight: 500;
           font-size: 36px;
           line-height: 44px;
@@ -56,6 +55,7 @@
       }
       .task2{
        // background-color: lightblue;
+        height: 60px;
         align-items: center;
         display:flex;
         flex-direction: row;
@@ -76,8 +76,9 @@
         }
       }
       .task3{
+       // background-color: yellow;
         align-items: center;
-        height: 50px;
+        height: 60px;
         display:flex;
         flex-direction: row;
         .third {
@@ -98,10 +99,11 @@
       }
     }
     .pencil{
+     // background-color:red;
     align-self: flex-end;
     flex-wrap: wrap;
     flex-grow: 1;
-    padding-top: 17px;//Sets the top padding of an element
+    padding-top: 20px;//Sets the top padding of an element
     padding-right: 26px;//Sets the right padding of an element
   }
   }
