@@ -1,61 +1,65 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
 
-  * {
-    font-family: Montserrat;
-  }
+.goals{
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color:#2DBDB1;
+}
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+.date{
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+color: #2DBDB1;
+}
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+.one{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
+color: #2DBDB1;
+}
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+._one{
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+color: #5A5A5A;
+}
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+.two{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+color: #2DBDB1;
+}
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+._two{
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #5A5A5A;
+}
 
+.three{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
+color: #2DBDB1; 
+}
+
+._three{
+  font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #5A5A5A;
+}
