@@ -5,4 +5,47 @@
   display: block;
 }
 
+
+
+* {
+  text-align: right;
+}
+
+.time {
+  left: 33.68%;
+  right: 12.63%;
+  top: 0%;
+  bottom: 32%;
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 59px;
+  color: #2DBDB1;
+  margin-right: 15px;
+}
+
+.am {
+  left: 88.95%;
+  right: 0%;
+  top: 42.67%;
+  bottom: 38.67%;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2DBDB1;
+  margin-left: -10px;
+}
+
+.date {
+  left: 0%;
+  right: 0%;
+  top: 68%; 
+  bottom: 0%;
+  font-family: Sanchez;
+  font-size: 18px;
+  line-height: 23px;
+  color: #4B5853;
+  margin-top: -10px;
+  
+}
+
 // write your code here!!
