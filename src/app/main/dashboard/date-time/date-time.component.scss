@@ -6,8 +6,27 @@
   border: 1px solid black;
   display: block;
 }
-//align all text right
-* {
-  text-align: right;
-}
 
+.time-container {
+  
+  .time {
+  }
+  .am-pm {
+  }
+}
+//date section
+.date {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+  //copied colours and fonts from compass
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+
+  color: #4B5853;
+}
