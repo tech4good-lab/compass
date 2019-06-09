@@ -6,6 +6,9 @@
 }
 .border{
   border: 1px solid black;
+   flex-direction: auto;
+   overflow-x: auto;
+
   .time {
     width: 102px;
     height: 51px;
@@ -14,7 +17,6 @@
     line-height: 59px;
     margin-top: 3px;
     margin-left: 77px;
-    //margin-right: 38px;
   }
   .am-pm {
     width: 21px;
@@ -25,7 +27,6 @@
     margin-top: 35px;
     margin-right: 14px;
     margin-left: 9px;
-
   }
   .date { 
     width: 190px;
@@ -37,6 +38,5 @@
     margin-bottom: 8px;
     margin-left: 13px;
     margin-right: 14px;
-
   }
 }
