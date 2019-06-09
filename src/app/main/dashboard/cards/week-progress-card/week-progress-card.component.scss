@@ -1,99 +1,163 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-* {
-  background: #FFFFFF;
-  font-family: Montserrat;
-}
+// Ignore this class.  It just adds a border so that you can find your element.
 
-.title {
+:host {
+  border: 1px solid black;
+  display: block;
+}
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+.Title{
+  margin-top: 22px;
+  margin-left:20px;
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
 }
+.bar{
+  margin-left:18px;
+  margin-bottom: 52px;
+  .interview-bar{
+    width: 113px;
+    height: 63px;
+    margin-top: 21px;
+    .interview{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #EE8B72;
+    }
+    .bar1{
+      width: 168px;
+      height: 30px;
+      margin-top: 2px;
+      background: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
+    .bar1_1{
+      width: 75px;
+      height: 30px;
+      background: #EE8B72;
+      border-radius: 3px 0px 0px 3px;
+      margin-top: -30px;
+      margin-right: -93px;
+    }
+    .four{
+      width: 45px;
+      height: 24px;
+      margin-left: 196px;
+      margin-top: -26px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
-}
+      color: #EE8B72;
+    }
+  }
+    
+  
+    .coverletter-bar{
+      width: 136px;
+      height: 49px;
+      margin-top: 9px;
+      .coverletter{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2DBDB1;
+    }
+   .bar2{
+    width: 136px;
+    height: 30px;
+    top: 2px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+    }
+    .bar2_1{
+      width: 101px;
+      height: 30px;
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+      margin-top: -30px;
+      margin-right: -35px;
+    }
+    .three{
+      width: 45px;
+      height: 24px;
+      margin-left: 165px;
+      margin-top: -26px;
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
+      color: #2DBDB1;
+    }
+  }
+  .intern-bar{
+     width: 112px;
+      height: 52px;
+      margin-top: 17px;
+  
+  .internapps{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFB987;
+  }
+      .bar3{
+      width: 112px;
+      height: 30px;
+      background: rgba(255, 185, 135, 0.3);
+      border-radius: 3px; 
+      top: 0px;
+      }
+      .bar3_1{
+      width: 70px;
+      height: 30px;
+      background: #FFB987;
+      border-radius: 3px 0px 0px 3px;
+      margin-top: -30px;
+      margin-right: -42px;
+      }
+      .two{
+    width: 45px;
+    height: 24px;
+    margin-left: 143px;
+    margin-top: -26px;
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFB987;
+      }
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
+      
+  }
+  }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
+ 
+  
 
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
 
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
 
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
 
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
 
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
 
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+
+
+
 
