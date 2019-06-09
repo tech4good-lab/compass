@@ -1,99 +1,62 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
-  background: #FFFFFF;
   font-family: Montserrat;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+.plan{
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #4B5853;
 }
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
+.interview{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #EE8B72;
 }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+.time1{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 190px;
+position: relative;
+top: -25px;
+color: #EE8B72;
 }
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+.cover{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #2DBDB1;
 }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
+.time2{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 161px;
+position: relative;
+top: -25px;
+color: #2DBDB1;
 }
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
+.apps{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFB987
 }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
+.time3{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 140px;
+position: relative;
+top: -25px;
+color: #FFB987
 }
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
