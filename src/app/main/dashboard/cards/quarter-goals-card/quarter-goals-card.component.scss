@@ -3,19 +3,27 @@
   * {
     font-family: Montserrat;
   }
+  .overall{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #D3E1DA;
+    border-radius: 10px;
+  }
 
   .title {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    padding-left: 25px;
   }
 
   .dates {
-    font-weight: 300;
+    font-weight: 100;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    padding-left: 25px;
+    padding-bottom: 14px;
   }
 
   .first {
@@ -23,6 +31,12 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: inline-block;
+    width: 40px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 20px;
+    vertical-align: center;
   }
 
   .second {
@@ -30,6 +44,11 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: inline-block;
+    width: 20px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 20px;
   }
 
   .third {
@@ -37,6 +56,11 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: inline-block;
+    width: 40px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 25px;
   }
 
   .task1 {
@@ -44,12 +68,20 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: inline-block;
+    width:175px;
+    padding-left: 24px;
+    vertical-align: middle;
+
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: inline-block;
+    padding-left: 24px;
+    width:175px;
   }
 
   .task3 {
@@ -57,5 +89,12 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: inline-block;
+    padding-left: 24px;
+    width:175px;
   }
-
+.edit-icon{
+  text-align: right;
+  padding-bottom: 27px;
+  padding-right: 23px;
+}
