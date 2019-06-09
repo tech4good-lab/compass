@@ -16,36 +16,36 @@
 }
 
 .time {
+  font-weight: 500;
+  font-size: 48px;
   width: 48px;
   height: 48px;
   color: #2DBDB1;
   text-align: right;
   align-self: flex-end;
   flex-grow: 0.85;
-  font-weight: 500;
-  font-size: 48px;
 }
 
 .am-pm {
+  font-weight: 500;
+  font-size: 12px;
   width: 12px;
   height: 15px;
   color: #2DBDB1;
   align-self: flex-end;
   text-align: right;
   flex-grow: 0.075;
-  font-weight: 500;
-  font-size: 12px;
 }
 
 .date { 
+  font-family: Sanchez, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
   width: 217px;
   height: 28px;
   color: #4B5853;
   align-self: flex-end;
   text-align: center;
-  font-family: Sanchez, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
 }
 
