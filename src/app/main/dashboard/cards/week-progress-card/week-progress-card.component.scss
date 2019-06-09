@@ -6,3 +6,188 @@
 }
 
 // write your code here!!
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Plans {
+  position: relative;
+  left: 7.55%;
+  right: 9.06%;
+  top: 7.1%;
+  bottom: 84.84%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  height: 20px;
+
+  color: #4B5853;
+}
+
+.interview {
+  position: relative;
+  width: 113px;
+  height: 40px;
+  left: 18px;
+  top: 25px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #EE8B72;
+}
+
+.rect1 {
+  position: relative;
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: 7px;
+
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.rect2 {
+  position: relative;
+  width: 100px;
+  height: 30px;
+  left: 12px;
+  top: 7px;
+
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+.Hours {
+  position: relative;
+  width: 45px;
+  height: 0px;
+  left: 196px;
+  top: -90px;
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #EE8B72;
+}
+
+.coverletter {
+  position: relative;
+  width: 113px;
+  height: 2px;
+  left: 18px;
+  top: -29px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 0px;
+
+  color: #2DBDB1;
+}
+
+.rect3 {
+  position: relative;
+  width: 101px;
+  height: 30px;
+  left: 20px;
+  top: 50px;
+
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.rect4 {
+  position: relative;
+  width: 50px;
+  height: 30px;
+  left: 17px;
+  top: 50px;
+
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+
+.Hours1 {
+  position: relative;
+  width: 45px;
+  height: 0px;
+  left: 181px;
+  top: -13px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #2DBDB1;
+}
+
+.internapps {
+  position: relative;
+  width: 113px;
+  height: 30px;
+  left: 20px;
+  top: 39px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFB987;
+}
+
+.rect5 {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  left: -130px;
+  top: 130px;
+
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+} 
+
+.rect6 {
+  position: relative;
+  width: 130px;
+  height: 30px;
+  left: 20px;
+  top: 95.5px;
+
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
+
+.Hours2 {
+  position: relative;
+  width: 45px;
+  height: 80px;
+  left: 162px;
+  top: 38px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFB987;
+} 
+
+
+
+.container > * {
+  display: inline-block;
+}
