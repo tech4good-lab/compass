@@ -11,6 +11,7 @@
 .time.When {
   font-family: Montserrat;
   font-weight: bolder;
+  display: inline-block;
 }
 .everything{
   background-color: #F6FDFA;
@@ -23,6 +24,7 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 59px;
+  display: inline-block;
   font-family: Montserrat;
 }
 
@@ -32,6 +34,7 @@
   line-height: 23px;
   font-weight: 100;
   margin: 0px 4.4px 4.4px;
+  padding-bottom:8px;
  font-family: Sanchez;
 }
 
@@ -40,7 +43,11 @@
   font-size: 12px;
   line-height: 15px;
   color: #2DBDB1;
+  display: inline-block;
   font-family: Montserrat;
+  margin: 5px;
+   padding-right: 2px;
+   padding-top: 35px;
 }
 
 
