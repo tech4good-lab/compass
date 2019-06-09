@@ -8,59 +8,70 @@
   background: #FFFFFF;
   box-shadow: 0px 4px 4px #D3E1DA;
   border-radius: 10px;
-  
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
+
+  .t-d{
+
+    .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #2dbdb1;
+    }
+
+    .dates {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2dbdb1;
+    }
   }
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
+  .list-numbers{
+    .first {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
+
+    .second {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
+
+    .third {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
   }
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+  .task-list{
+    //display: flex;
+    flex-wrap: wrap;
+    flex-direction: horizontal;   
+    max-width: 175px; 
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+    .task1 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+    }
+    .task2 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+    }
+    .task3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+    }
   }
 }
