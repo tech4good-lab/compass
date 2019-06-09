@@ -1,61 +1,88 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
-
-  .title {
+.quarter-goals {
+  width: 265px;
+  height: 310px;
+  font-family: Montserrat;
+  font-style: normal;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  .quarter {
+    width: 225px;
+    height: 24px;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    color: #2dbdb1;
+    color: #2DBDB1;
+    margin: 19px 14px 8px 26px;
   }
-
-  .dates {
+  .date-range {
+    width: 146px;
+    height: 19px;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #2dbdb1;
+    color: #2DBDB1;
+    margin: 0 93px 14px 26px;
   }
-
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .nums-and-goals {
+    width: 265px;
+    height: 173px;
+    display: flex;
+    .nums {
+      width: 67px;
+      height: 173px;
+      display: flex;
+      flex-direction: column;
+      .num {
+        width: 17px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        color: #2DBDB1;
+        margin: 0 0 25px 26px;
+        &.two {
+          margin-bottom: 26px;
+          margin-left: 27px;
+        }
+      }
+    }
+    .goals {
+      width: 175.42px;
+      height: 149px;
+      margin-top: 11px;
+      display: flex;
+      flex-direction: column;
+      .goal {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5A5A5A;
+        &.one {
+          width: 175.3px;
+          height: 41px;
+          margin-right: 0.12px;
+          margin-bottom: 4px;
+        }
+        &.two {
+          width: 175.25px;
+          height: 47px;
+          margin-right: 0;
+          margin-bottom: 13px;
+        }
+        &.three {
+          width: 175px;
+          height: 22px;
+          margin-right: 0.22px;
+        }
+      }
+    }
   }
-
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .pencil {
+    margin-bottom: 27px;
+    margin-left: 216px;
   }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+}
