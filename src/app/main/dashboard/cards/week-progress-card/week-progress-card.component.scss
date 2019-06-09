@@ -9,6 +9,8 @@
 
 *{
   font-family: Montserrat;
+  position: relative;
+  left: 5%;
 }
 
 h1{
@@ -33,4 +35,18 @@ h1{
   font-size: 14px;
   font-weight: 500;
   color: #FFB987;
+}
+
+.inner_red_rect {
+  width: 75px;
+  height: 30px;
+  background-color: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.outer_red_rect {
+  width: 138px;
+  height: 30px;
+  background-color: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
 }
