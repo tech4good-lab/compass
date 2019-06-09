@@ -1,61 +1,101 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
+  .quarter-goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #D3E1DA;
     font-family: Montserrat;
-  }
+    width: 265px;
+    height: 310px;
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+    .title {
+      width: 239px;
+      height: 22px;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #2dbdb1;
+      align-self: center;
+    }
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+    .dates {
+      width: 239px;
+      height: 14px;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2dbdb1;
+    }
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .first {
+      width: 20px;
+      height: 30px;
+      flex-grow: 1;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .second {
+      width: 20px;
+      height: 30px;
+      flex-grow: 1;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .third {
+      width: 20px;
+      height: 30px;
+      flex-grow: 1;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+    .task1 {
+      width: 200px;
+      height: 30px;
+      align-self: center;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5a5a5a;
+    }
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+    .task2 {
+      width: 200px;
+      height: 30px;
+      word-wrap: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #5a5a5a;
+    }
 
+    .task3 {
+      width: 200px;
+      height: 30px;
+      word-wrap: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #5a5a5a;
+    }
+
+    .blank {
+      width: 26px;
+    }
+
+    .padding {
+      width: 190px;
+    }
+  }
+  
