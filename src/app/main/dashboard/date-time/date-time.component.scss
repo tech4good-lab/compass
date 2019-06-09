@@ -18,7 +18,13 @@
   text-align: right;
   color: #2DBDB1;
   font-size: 12px;
-   font-weight: 500;
+  font-weight: 500;
+  line-height: 0px;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+  
+
 
 }
 .date-label { 
@@ -27,7 +33,7 @@
   font-size: 18px;
   font-style: normal;
   text-align: right;
-  line-height: 175px;
+  line-height: 150px;
   font-weight: nornmal;
   position: absolute;
   vertical-align: top;
