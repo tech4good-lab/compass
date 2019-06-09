@@ -1,8 +1,136 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 :host {
   border: 1px solid black;
   display: block;
 }
+*{
+  font-family: Montserrat;
+}
+.header{
+  color:#2DBDB1;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  position: relative;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom:86.13%;
+}
+.date{
+  color:#2DBDB1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  left: 9.81%;
+  right: 35.09%;
+  top: 16.45%;
+  bottom:77.42%;
+}
+.one{
+  color:#2DBDB1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px; 
+  text-align: center;
+  position: relative;
+  left: 9.81%;
+  right: 83.77%;
+  top: 27.1%;
+  bottom: 63.23%;
+}
+.cover-letter{
+  color:#5A5A5A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px; 
+  position: relative;
+  left: 25.28%;
+  right: 8.56%;
+  top: 30.65%;
+  bottom: 56.13%
+}
+.two{
+  color:#2DBDB1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px; 
+  text-align: center;
+  position: relative;
+  left: 10.19%;
+  right: 83.4%;
+  top: 44.84%;
+  bottom: 45.48%;
+}
+.task-b{
+  color:#5A5A5A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px; 
+  position: relative;
+  left: 25.34%;
+  right: 8.52%;
+  top: 45.16%;
+  bottom: 39.68%;
+}
+.continue{
+  color:#5A5A5A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  position: relative;
+  left: 25.34%;
+  right: 8.52%;
+  top: 45.16%;
+  bottom: 39.68%;
+}
+.three{
+  color:#2DBDB1;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px; 
+  text-align: center;
+  position: relative;
+  left: 9.81%;
+  right: 83.77%;
+  top: 62.9%;
+  bottom: 27.42%;
+}
+.task-c{
+  color:#5A5A5A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  position: relative;
+  left: 25.36%;
+  right: 8.6%;
+  top: 64.52%;
+  bottom: 28.39%;
+}
+.continue-c{
+  color:#5A5A5A;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  position: relative;
+  left: 25.36%;
+  right: 8.6%;
+  top: 64.52%;
+  bottom: 28.39%;
+}
 
-// write your code here!
+
+
+
