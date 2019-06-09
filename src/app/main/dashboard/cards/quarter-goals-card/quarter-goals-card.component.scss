@@ -28,7 +28,7 @@
   }
   .list-container{//work
     //allighment
-    margin:0px 0px 0px 26px;//setting it fixed to the left
+    margin:0px 0px 0px 26px;
     display:flex;
     flex-direction: row;
 
@@ -40,9 +40,6 @@
       color: #2DBDB1;
       display:flex;
       flex-direction: column;
-      .third{
-      margin-top: 26px; 
-      }
     }
     .todo{
       font-weight: 500;
@@ -71,6 +68,5 @@
   .pencil-image{
     margin-top:25px;
     margin-left:216px;
-    padding-bottom: 27px;
   }
 }
