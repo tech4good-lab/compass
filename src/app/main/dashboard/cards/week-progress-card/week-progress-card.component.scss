@@ -5,4 +5,134 @@
   display: block;
 }
 
+*{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.PlanTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+.TopFrameHeader {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+.TopRect1 {
+  width: 75px;
+  height: 30px;
+  border-radius:  3px 0px 0px 3px;;
+  background: #EE8B72;
+}
+
+.TopRect2{
+  
+  width: 168px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+  margin-top: -30px;
+}
+
+.TopRectCaption{
+  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+.MidFrameHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+.MidRect1  {
+  width: 101px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.MidRect2{
+  width: 136px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+  margin-top: -30px;
+}
+
+.MidRectCaption{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+.BotFrameHeader{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+
+.BotRect1  {
+  width: 70px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.BotRect2{
+  
+  width: 112px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+  margin-top: -30px;
+}
+
+.BotRectCaption{
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+  margin-top: 10px;
+}
+
+
+
 // write your code here!!
