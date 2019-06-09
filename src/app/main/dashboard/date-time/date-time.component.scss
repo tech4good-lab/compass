@@ -3,6 +3,47 @@
 :host {
   border: 1px solid black;
   display: block;
+  background: #F6FDFA;
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.time
+{
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+
+  color: #2DBDB1;
+}
+
+.am
+{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+
+  color: #2DBDB1;
+}
+
+.date
+{
+  
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+
+  color: #4B5853;
+}
