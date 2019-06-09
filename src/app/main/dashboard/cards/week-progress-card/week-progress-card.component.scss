@@ -6,3 +6,153 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.week-progress-card{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  padding: 22px 24px 52px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.this-weeks-plans{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #4B5853;
+}
+
+.interview{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #EE8B72;
+}
+  
+  .interview-row{
+    display: flex;
+    flex-direction: row;
+  }
+    .interview-rectangle-one{
+    //  position: absolute;
+      width: 75px;
+      height: 30px;
+      left: 20px;
+      top: 90px;
+      background: #EE8B72;
+      border-radius: 3px 0px 0px 3px;
+    }
+
+    .interview-rectangle-two{
+    //  position: absolute;
+      width: 93px;
+      height: 30px;
+      left: 20px;
+      top: 90px;
+      background: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
+
+    .four-hours{
+      width: 45px;
+      height: 24px;
+      left: 196px;
+      top: 95px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #EE8B72;
+    }
+
+.cover-letter{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2DBDB1;
+}
+  .CL-row{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .CL-rectangle-one{
+      width: 101px;
+      height: 30px;
+      left: 20px;
+      top: 159px;
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+    }
+
+    .CL-rectangle-two{
+      width: 35px;
+      height: 30px;
+      left: 20px;
+      top: 159px;
+      background: rgba(45, 189, 177, 0.3);
+      border-radius: 3px;
+    }
+
+    .three-hours{
+      width: 45px;
+      height: 24px;
+      left: 165px;
+      top: 165px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #2DBDB1;
+    }
+
+.intern-apps{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFB987;
+}
+
+  .IA-row{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .IA-rectangle-one{
+      width: 70px;
+      height: 30px;
+      left: 20px;
+      top: 228px;
+      background: #FFB987;
+      border-radius: 3px 0px 0px 3px;
+    }
+
+    .IA-rectangle-two{
+      width: 42px;
+      height: 30px;
+      left: 20px;
+      top: 228px;
+      background: rgba(255, 185, 135, 0.3);
+      border-radius: 3px;
+    }
+
+    .two-hours{
+      width: 45px;
+      height: 24px;
+      left: 143px;
+      top: 234px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFB987;
+    }
