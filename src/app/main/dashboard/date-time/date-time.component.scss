@@ -1,8 +1,31 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
+   @import url(//fonts.googleapis.com/css?family=Montserrat);
+   @import url(//fonts.googleapis.com/css?family=Sanchez);
   border: 1px solid black;
   display: block;
 }
+* { 
+  font-family: Montserrat;
+}
+.light-green {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #2DBDB1;
+}
+  .light-green2 {
+  font-style: normal;
+ font-weight: 500;
+  font-size: 12px;
+  color: #2DBDB1;
+}
+.black {
+  font-size: 18px;
+  color: #4B5853;
+  font-style: normal;
+font-weight: normal;
+  font-family: Sanchez;
+}
 
-// write your code here!!

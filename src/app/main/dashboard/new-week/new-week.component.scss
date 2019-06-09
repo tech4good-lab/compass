@@ -1,8 +1,57 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
+  @import url(//fonts.googleapis.com/css?family=Montserrat);
   border: 1px solid black;
   display: block;
 }
 
-// write your code here!!
+* { 
+  font-family: Montserrat;
+}
+.black {
+  font-size: 22px;
+  color: #4B5853;
+}
+.orange {
+  font-size: 14px;
+  color: #EE8B72;
+}
+.light-green {
+  font-size: 14px;
+  color: #2DBDB1;
+}
+.light-orange {
+  font-size: 14px;
+  color: #FFB987;
+}
+.rec {
+  width: 75px;
+  height: 30px;
+  background-color:#EE8B72;
+}
+.rec2 {
+  width: 168px;
+  height: 30px;
+  background-color:rgba(238, 139, 114, 0.3);
+}
+.rec3 {
+  width: 101px;
+  height: 30px;
+  background-color:#2DBDB1;
+}
+.rec4 {
+  width: 136px;
+  height: 30px;
+  background-color:rgba(45, 189, 177, 0.3);
+}
+.rec5 {
+  width: 136px;
+  height: 30px;
+  background-color: #FFB987;
+}
+.rec6 {
+  width: 112px;
+  height: 30px;
+  background-color:rgba(255, 185, 135, 0.3);
+}
