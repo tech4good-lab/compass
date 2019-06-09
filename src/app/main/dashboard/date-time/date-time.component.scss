@@ -9,12 +9,15 @@
  flex-direction: row;
  flex-wrap: wrap;
  background: #F6FDFA;
+ width: 217px;
+ height: 86px;
+ padding: 3px 13px 8px 14px;
 }
 
 .time {
   text-align: right;
   align-self: flex-end;
-  flex-grow: 0.85;
+  flex-grow: 0.90;
   width: 102px;
   height: 51px;
   font-weight: 500;
@@ -26,7 +29,7 @@
 .am-pm {
   align-self: flex-end;
   text-align: right;
-  flex-grow: 0.075;
+  flex-grow: 0.070;
   width: 21px;
   height: 14px;
   font-weight: 500;
@@ -37,6 +40,7 @@
 
 .date { 
   align-self: flex-end;
+  flex-grow: 0.80;
   text-align: center;
   width: 190px;
   height: 24px;
