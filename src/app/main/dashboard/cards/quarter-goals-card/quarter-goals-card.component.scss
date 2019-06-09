@@ -5,4 +5,48 @@
   display: block;
 }
 
+.GoalsHeader {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 37px;
+  color: #2DBDB1;
+  margin-left: 15px;
+}
+
+.DateRange {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2DBDB1;
+  margin-left: 15px;
+}
+
+.number {
+  display: inline-block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+   margin-left: 10px;
+  
+}
+
+.description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #5A5A5A;
+  display: inline-block;
+  margin-left: 30px;
+}
+
 // write your code here!
