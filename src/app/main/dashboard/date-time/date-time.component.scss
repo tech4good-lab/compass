@@ -14,12 +14,10 @@
   background: #F6FDFA;
   width: 217px;
   height: 86px;
-  text-align: right;
 
   .t {
     display: flex;
-    flex-wrap: wrap;
-    text-align: right;
+    flex-wrap: flex;
 
     .time {
       width: 60px;
@@ -27,32 +25,30 @@
       font-weight: 500;
       font-size: 48px;
       line-height: 59px;
-      text-align: right;
       position: relative;
       left: 40%;
-
     }
     .am-pm {
-      width: 35px;
+      border: 1px solid;
+      width: 22px;
       height: 17px;
       font-weight: 500;
       font-size: 12px;
-      line-height: 15px;
-      position: absolute;
-      top: 34.9%;
-      left: 93.6%;
+      line-height: 83px;
+      position: relative;
+      left: 57%;
+      //top: 50%;
     } 
   }
-  .date { 
-    width: 96%;
+  .date {
+    width: 190px;
     height: 24px;
     color: #4B5853;
     font-family: Sanchez;
     font-size: 18px;
     line-height: 23px;
-    flex-grow: 0;
     position: relative;
     top: 2%;
-    text-align: right;
+    left: 8%;
   }
 }
