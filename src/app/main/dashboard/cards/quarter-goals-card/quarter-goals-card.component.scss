@@ -46,23 +46,29 @@
         .first {
           width: 30px;
           height: 25px;
+          align-items: center;
+          border: 1px solid;
         }
 
         .second {
           width: 30px;
           height: 25px;
+          align-items: center;
+          border: 1px solid;
         }
 
         .third {
           width: 30px;
           height: 25px;
+          align-items: center;
+          border: 1px solid;
         }
       }
 
       .tasks {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        //align-items: space-between;
         font-weight: 500;
         font-size: 16px;
         line-height: 20px;
