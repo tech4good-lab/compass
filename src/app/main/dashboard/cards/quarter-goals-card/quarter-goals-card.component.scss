@@ -6,3 +6,39 @@
 }
 
 // write your code here!
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+  font-family: Montserrat;
+  font-style: normal;
+  color: #2DBDB1; 
+}
+
+.Title{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.Dates{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.Numbers{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.Task{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  color: #5A5A5A;
+  &One{
+    line-height: 20px;
+  }
+}
+
