@@ -24,104 +24,134 @@
     line-height: 27px;
     color: #4B5853;
   }
-  .stats { //section 2
-    background-color: red;
-  .stat1 {  //interview
   
-    .top-hashtag { //top hashtag
-      
-      padding-top:20px;
-      color: #EE8B72;
-      font-size: 14px;
-      line-height: 17px;
-    }
-    .info1 {//bar1
-      display: flex;
-      flex-direction: row; 
-      padding-left:20; 
-      align-items:center;
-      .bold-top-progress-bar {
-        background: #EE8B72;
-        border-radius: 3px 0px 0px 3px;
-        width: 75px;
-        height: 27px;
+    //background-color: red;
+    .stat1 {  //interview
+  
+      .top-hashtag { //top hashtag
+        
+        padding-top:20px;
+        color: #EE8B72;
+        font-size: 14px;
+        line-height: 17px;
       }
-      .light-top-progress-bar {
-        position:absolute;
-        width: 168px;
-        height: 27px;
-        background: rgba(238, 139, 114, 0.3);
-        border-radius: 3px;
-      }
+      .info1 {//bar1
+        display: flex;
+        flex-direction: row; 
+        padding-left:20; 
+        align-items:center;
+        //background-color: beige;
+        .bold-top-progress-bar {
+          background: #EE8B72;
+          border-radius: 3px 0px 0px 3px;
+          width: 75px;
+          height: 30px;
+        }
+        .light-top-progress-bar {
+          
+          right:64px;
+          width: 93px;
+          height: 30px;
+          background: rgba(238, 139, 114, 0.3);
+          border-radius: 3px;
+        }
 
-      .top-hour {
+        .top-hour {
+          padding-left:8px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #EE8B72;
+        }
+      } 
+    }//where stat1 ends
+    .stat2 {
+      .middle-hashtag {
+        color: #2DBDB1;
+        font-size: 14px;
+        line-height: 17px;
+        padding-top:20px;
+
+      }
+      .info2 {
+        display: flex;
+        flex-direction: row; 
+        padding-left:20; 
+        align-items:center;
+
+        .bold-middle-progress-bar {
+          background: #2DBDB1;
+          border-radius: 3px 0px 0px 3px;
+          width: 101px;
+          height: 30px;
+        }
+        .light-middle-progress-bar {
+          color: #2DBDB1;
+          width: 35px;
+          height: 30px;
+          background: rgba(45, 189, 177, 0.3);
+          border-radius: 3px;
+        }
+        .middle-hour {
+         // background-color: red;
+          padding-top: 4px;
+          padding-left: 9px;
+          color: #2DBDB1;
+          width: 55px;
+          height: 24px;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+        }
+      }
+    }//where stat2 ends
+    .stat3 {
+      .bottom-hashtag {
+        color: #FFB987;
+        font-size: 14px;
+        line-height: 17px;
+        padding-top:20px;
+      }
+      .info3{
+        display: flex;
+        flex-direction: row; 
+        padding-left:20; 
+        align-items:center;
+      .bold-bottom-progress-bar {
+        background: #FFB987;
+        border-radius: 3px 0px 0px 3px;
+        width: 70px;
+        height: 30px;
+      }
+      .light-bottom-progress-bar {
+        background: rgba(255, 185, 135, 0.3);
+        border-radius: 3px;
+        width: 42px;
+        height: 30px;
+      }
+      .bottom-hour {
+        padding-top: 3px;
+        padding-left: 9px;
+        color: #FFB987;
+        width: 55px;
+        height: 24px;
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #EE8B72;
       }
-    } 
-  }
-  .middle-hashtag {
-    color: #2DBDB1;
-    font-size: 14px;
-    line-height: 17px;
+    }  
   }
 
-  .bold-middle-progress-bar {
-    background: #2DBDB1;
-    border-radius: 3px 0px 0px 3px;
-    width: 101px;
-    height: 27px;
-  }
 
-  .light-middle-progress-bar {
-    color: #2DBDB1;
-    width: 136px;
-    height: 27px;
-    background: rgba(45, 189, 177, 0.3);
-    border-radius: 3px;
-  }
+  
 
-  .middle-hour {
-    color: #2DBDB1;
-    width: 45px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-  }
+ 
 
-  .bottom-hashtag {
-    color: #FFB987;
-    font-size: 14px;
-    line-height: 17px;
-  }
+  
 
-  .bold-bottom-progress-bar {
-    background: #FFB987;
-    border-radius: 3px 0px 0px 3px;
-    width: 70px;
-    height: 27px;
-  }
+  
 
-  .light-bottom-progress-bar {
-    background: rgba(255, 185, 135, 0.3);
-    border-radius: 3px;
-    width: 112px;
-    height: 27px;
-  }
-
-  .bottom-hour {
-    color: #FFB987;
-    width: 45px;
-    height: 24px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-  }
-
-  }
+  
 
 
 }
