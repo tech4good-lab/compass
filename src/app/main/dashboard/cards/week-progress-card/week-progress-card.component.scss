@@ -5,4 +5,83 @@
   display: block;
 }
 
+:host {
+  border: 1px solid black;
+  display: block;
+}
+
 // write your code here!!
+//Global Variable
+.WeekProg{
+   font-family: Montserrat;
+}
+
+.WeekProgTitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #4B5853;
+}
+
+.WeekProgPlan{
+  margin: 1em;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.ProgContainer, .ProgBar{
+  position: relative;
+  width: 168px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.ProgBar{
+  position: absolute;
+}
+
+.PlanIntv{
+  color: #EE8B72;
+}
+
+.PlanIntv .ProgContainer{
+  background: rgba(238, 139, 114, 0.3);
+}
+
+.PlanIntv .ProgBar{
+  background:#EE8B72;
+  width: 40%;
+}
+
+.PlanCov{
+  color: #2DBDB1;
+}
+
+.PlanCov .ProgContainer{
+  background: rgba(45, 189, 177, 0.3);
+}
+.PlanCov .ProgBar{
+  background: #2DBDB1;
+  width: 80%;
+}
+
+.PlanIntApp{ 
+  color: #FFB987;
+}
+
+.PlanIntApp .ProgContainer{
+  background: rgba(255, 185, 135, 0.3);
+}
+
+.PlanIntApp .ProgBar{
+  background:#FFB987;
+  width:66%
+}
+
+.WeekProgPlanDuration{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
