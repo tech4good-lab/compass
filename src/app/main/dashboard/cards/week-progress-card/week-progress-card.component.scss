@@ -4,5 +4,183 @@
   border: 1px solid black;
   display: block;
 }
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 
-// write your code here!!
+.plan {
+  position: relative;
+  left: 7.55%;
+  right: 9.06%;
+  top: 7.1%;
+  bottom: 84.84%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #4B5853;
+} 
+
+.interview {
+  position: relative;
+  width: 113px;
+  height: 63px;
+  left: 18px;
+  top: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.rect-1 {
+  position: relative;
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: -25px;
+
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+} 
+.rect-2 {
+ position: relative;
+ width: 100px;
+ height: 30px;
+ left: 20px;
+ top: -25px;
+
+ background: rgba(238, 139, 114, 0.3);
+ border-radius: 3px;
+  display: inline-block;
+} 
+.four{
+  position: relative;
+  width: 45px;
+  height: 24px;
+  left: 75px;
+  top: -90px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+color: #EE8B72;
+
+} 
+
+.cover {
+  position: relative;
+  width: 113px;
+  height: 17px;
+  left: 20px;
+  top: -35px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+} 
+.rect-3 {
+  position: relative;
+  width: 101px;
+  height: 30px;
+  left: 20px;
+  top: -15px;
+
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+.rect-4 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  left: 20px;
+  top: -15px;
+
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+  display: inline-block;
+}
+.three{
+  position: relative;
+  width: 45px;
+  height: 24px;
+  left: -15px;
+  top: 30px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+color: #EE8B72;
+
+} 
+.intern {
+  position: relative;
+  width: 113px;
+  height: 22px;
+  left: 20px;
+  top: -25px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFB987;
+
+}
+.rect-5 {
+  position: relative;
+  width: 70px;
+  height: 30px;
+  left: 20px;
+  top: -12px;
+
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+}
+.rect-6 {
+  position: relative;
+  width: 35px;
+  height: 30px;
+  left: 20px;
+  top: -12px;
+
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
+.two{
+  position: relative;
+  width: 45px;
+  height: 24px;
+  left: 30px;
+  top: -25px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+color: #EE8B72;
+
+}
+
+.container > * {
+    display: inline-block;
+}
+
+
+// write your code here!
