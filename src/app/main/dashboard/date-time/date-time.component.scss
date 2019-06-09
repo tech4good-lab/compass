@@ -5,6 +5,17 @@
   color: #2DBDB1;
 }
 
+.datetimecontainer{
+  display:flex;
+  flex-direction:column;
+}
+
+.timecontainer{
+  display:flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
 .time {
   width: 102px;
   height: 51px;
@@ -21,12 +32,6 @@
   line-height: 15px;
 }
 
-.timecontainer{
-  display:flex;
-  justify-content: flex-end;
-  align-items: baseline;
-}
-
 .date { 
   width: 100%;
   height: 24px;
@@ -37,8 +42,3 @@
   text-align: right;
 }
 
-.datetimecontainer
-{
-  display:flex;
-  flex-direction:column;
-}
