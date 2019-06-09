@@ -10,7 +10,7 @@
     width: 265px;
     height: 310px;
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
 
     .title {
       font-weight: 600;
@@ -26,21 +26,27 @@
       color: #2dbdb1;
     }
 
-    .numbers {
-      //display: flex;
-      //flex-direction: column;
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-    }
+    .nums-and-tasks {
+      display: flex;
+      flex-direction: row;
 
-    .tasks {
-      //display: flex;
-      //flex-direction: column;
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
+      .numbers {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+      }
+
+      .tasks {
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+      }
     }
   }
