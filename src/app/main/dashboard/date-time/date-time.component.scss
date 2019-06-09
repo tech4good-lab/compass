@@ -6,3 +6,40 @@
 }
 
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+
+.time{
+font-family: Montserrat;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+text-align: right;
+color:#2DBDB1;
+}
+
+
+.AM{
+font-family: Montserrat;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+color:#2DBDB1;
+}
+
+
+.date{
+font-family: Sanchez;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+text-align: right;
+color:#4B5853; 
+}
+
+.background{
+  background: #F6FDFA;
+}

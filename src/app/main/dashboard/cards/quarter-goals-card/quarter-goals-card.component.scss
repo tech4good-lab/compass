@@ -6,3 +6,67 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+
+.goals{
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color:#2DBDB1;
+}
+
+.date{
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+color: #2DBDB1;
+}
+
+.one{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
+color: #2DBDB1;
+}
+
+._one{
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #5A5A5A;
+}
+
+.two{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
+color: #2DBDB1;
+}
+
+._two{
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #5A5A5A;
+}
+
+.three{
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: left;
+color: #2DBDB1; 
+}
+
+._three{
+  font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #5A5A5A;
+}

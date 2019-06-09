@@ -6,3 +6,65 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+
+.plan{
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #4B5853;
+}
+
+.interview{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #EE8B72;
+}
+
+.time1{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 190px;
+position: relative;
+top: -25px;
+color: #EE8B72;
+}
+
+.cover{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #2DBDB1;
+}
+
+.time2{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 161px;
+position: relative;
+top: -25px;
+color: #2DBDB1;
+}
+
+.apps{
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #FFB987
+}
+
+.time3{
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 140px;
+position: relative;
+top: -25px;
+color: #FFB987
+}
