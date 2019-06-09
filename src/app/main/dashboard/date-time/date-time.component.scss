@@ -1,8 +1,36 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 
-:host {
-  border: 1px solid black;
-  display: block;
+.time-label {
+  font-family: Montserrat;
+  font-style: medium;
+  text-align: right;
+  color: #2DBDB1;
+  font-size:48px;
+  line-height: 0px;
+  font-weight: 500;
+  position: absolute;
+  vertical-align: Top;
+  text-indent: 1.25em;
+}
+.am-sub {
+  font-family: Montserrat;
+  text-align: right;
+  color: #2DBDB1;
+  font-size: 12px;
+   font-weight: 500;
+
+}
+.date-label { 
+  font-family: Sanchez;
+  color: #4B5853;
+  font-size: 18px;
+  font-style: normal;
+  text-align: right;
+  line-height: 175px;
+  font-weight: nornmal;
+  position: absolute;
+  vertical-align: top;
 }
 
-// write your code here!!
+
