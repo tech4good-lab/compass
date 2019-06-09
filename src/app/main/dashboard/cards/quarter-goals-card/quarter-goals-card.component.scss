@@ -1,14 +1,21 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-
+.card-container{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  width:100%;//wid&height
+  height:100%;
+  padding-right: 26px; 
   * {
     font-family: Montserrat;
   }
-
   .title {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    padding-top:19px;
+    margin: 0px 0px 8px 26px;//top can be 0px since we already put in padding top
   }
 
   .dates {
@@ -16,46 +23,54 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin: 0px 0px 14px 26px;
+    //0px 0px 14px 26px;
   }
+  .list-container{//work
+    //allighment
+    margin:0px 0px 0px 26px;//setting it fixed to the left
+    display:flex;
+    flex-direction: row;
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .list{//numbers
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2DBDB1;
+      display:flex;
+      flex-direction: column;
+      .third{
+      margin-top: 26px; 
+      }
+    }
+    .todo{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5A5A5A;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      //allight it
+      margin:9px 0px 0px 0px;
+      .task1 {
+        //alli
+        margin:0px 0px 25px 24px;
+      }
+      .task2 {
+        //alli
+        margin:0px 0px 22px 24px;
+      }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+      .task3 {
+        margin:0px 0px 0px 24.2px;;
+      }
+    }
   }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  .pencil-image{
+    margin-top:25px;
+    margin-left:216px;
+    padding-bottom: 27px;
   }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+}
