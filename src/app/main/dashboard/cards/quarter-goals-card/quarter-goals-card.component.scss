@@ -1,4 +1,52 @@
-.quarter-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
+  border-radius: 10px solid black;
+  display: block;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.15);
 }
+
+// write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.quarter{
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2DBDB1;
+}
+.date{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 28px;
+  color: #2DBDB1;
+}
+.first{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5A5A5A;
+}
+.second{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5A5A5A;
+}
+.third{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #5A5A5A;
+}
+
