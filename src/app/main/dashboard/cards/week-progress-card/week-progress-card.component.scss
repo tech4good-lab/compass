@@ -4,96 +4,92 @@
   font-family: Montserrat;
 }
 
-.title {
+
+.title{
+  position: relative;
+  left: 7.55%;
+  right: 9.06%;
+  top: 7.1%;
+  bottom: 84.84%;
+  font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
 }
-
-.top-hashtag {
-  color: #EE8B72;
+.interview{
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
+  color: #EE8B72;
 }
-
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
+.rectangle{
   width: 75px;
-  height: 27px;
+  height: 30px;
+  background: #EE8B72
 }
-
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+.rec{
+  width: 93px;
+  height: 30px;
+  background: rgba(238,139,114,0.3);
 }
-
-.top-hour {
+.four{
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
 }
-
-.middle-hashtag {
-  color: #2DBDB1;
+.coverletter{
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
+  color: #2DBDB1; 
 }
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
+.rectangle-2{
   width: 101px;
-  height: 27px;
+  height: 30px;
+  background: #2DBDB1;
 }
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
+.rec-2{
+  width: 35px;
+  height: 30px;
   background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
 }
-
-.middle-hour {
+.three{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
   color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
+}
+.internapps{
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-}
-
-.bottom-hashtag {
   color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
 }
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
+.rectangle-3{
   width: 70px;
-  height: 27px;
+  height: 30px;
+  background:#FFB987;
+}
+.rec-3{
+  width: 42px;
+  height: 30px;
+  background:rgba(255, 185, 135, 0.3);
 }
 
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
+.two{
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  color: #FFB987;
 }
-
+.box >*{
+  display:inline-block;
+}
