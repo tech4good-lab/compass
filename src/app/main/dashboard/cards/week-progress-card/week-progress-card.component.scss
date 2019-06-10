@@ -19,6 +19,7 @@
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  margin: 2px 0 21px 0;
 }
 
 .top-hashtag {
@@ -31,6 +32,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  margin-bottom: 20px;
 
   .bold-top-progress-bar {
   background: #EE8B72;
@@ -39,18 +41,22 @@
   height: 30px;
   }
 
-.light-top-progress-bar {
+  .light-top-progress-bar {
   width: 168px;
   height: 30px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
+  margin-left: -75px;
   }
 
-.top-hour {
+  .top-hour {
+  color: #EE8B72;
+  width: 45px;
+  height: 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #EE8B72;
+  margin-left: 8px;
   }
 }
 
@@ -66,6 +72,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  margin-bottom: 20px;
+
   .bold-middle-progress-bar {
     background: #2DBDB1;
     border-radius: 3px 0px 0px 3px;
@@ -78,6 +86,7 @@
     width: 136px;
     height: 30px;
     background: rgba(45, 189, 177, 0.3);
+    margin-left: -101px;
     border-radius: 3px;
   }
 
@@ -88,6 +97,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+    margin-left: 8px;
   }
 
 }
@@ -103,6 +113,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  margin-bottom: 20px;
 
   .bold-bottom-progress-bar {
     background: #FFB987;
@@ -116,6 +127,7 @@
     border-radius: 3px;
     width: 112px;
     height: 30px;
+    margin-left: -70px;
 
   }
 
@@ -126,5 +138,6 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+    margin-left: 8px;
   }
 }
