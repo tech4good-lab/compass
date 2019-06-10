@@ -6,3 +6,102 @@
 }
 
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
+}
+
+.heading {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+.pound1 {
+  color: #EE8B72;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.dark_orange_bar {
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+  width: 75px;
+  height: 27px;
+}
+
+.light_orange_bar {
+  width: 168px;
+  height: 27px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+.time_1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+.pound2 {
+  color: #2DBDB1;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.dark_green_bar {
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+  width: 101px;
+  height: 27px;
+}
+
+.light_green_bar {
+  color: #2DBDB1;
+  width: 136px;
+  height: 27px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+
+.time_2 {
+  color: #2DBDB1;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.pound3 {
+  color: #FFB987;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.dark_yellow_bar {
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+  width: 70px;
+  height: 27px;
+}
+
+.light_yellow_bar {
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+  width: 112px;
+  height: 27px;
+}
+
+.time_3 {
+  color: #FFB987;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
