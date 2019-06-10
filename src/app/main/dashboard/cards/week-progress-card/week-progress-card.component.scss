@@ -20,4 +20,102 @@
   color: #4B5853;
 }
 
+.rectangle{
+  &.interview1{
+    width: 75px;
+    height: 30px;
+    left: 20px;
+    top: 90px;
+
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  &.interview2{
+    width: 168px;
+    height: 30px;
+    left: 20px;
+    top: 90px;
+
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+
+  &.interview3{
+    width: 101px;
+    height: 30px;
+    left: 20px;
+    top: 159px;
+
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  &.interview4{
+    width: 136px;
+    height: 30px;
+    left: 20px;
+    top: 159px;
+
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+
+  &.interview5{
+    width: 70px;
+    height: 30px;
+    left: 20px;
+    top: 228px;
+
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+  }
+
+  &.interview6{
+    width: 112px;
+    height: 30px;
+    left: 20px;
+    top: 228px;
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+  }
+
+}
+
+
+.numbers{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  &.four{
+    color: #EE8B72;
+  }
+  &.three{
+    color: #2DBDB1;
+  }
+  &.two{
+    color: #FFB987;
+  }
+}
+
+.plan{ 
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+    &.interview{
+      color: #EE8B72;
+    }
+    &.cover-letter{
+      color: #2DBDB1;
+    }
+    &.internapps{
+      color: #FFB987;
+    }
+}
+
+
 
