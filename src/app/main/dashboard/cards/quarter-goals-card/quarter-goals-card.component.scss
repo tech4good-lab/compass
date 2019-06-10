@@ -1,21 +1,41 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
+  .quarter-goals-container {
+    * {
+      font-family: Montserrat;
+    }
+    //aka box copied from figma
+    width: 265px;
+     height: 310px;
 
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #D3E1DA;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .spacer {
+    width: 30px;
+  }
+  .padding {
+    width: 190px;
+  }
   .title {
-    font-weight: 600;
+    font-weight: 300;
     font-size: 22px;
     line-height: 27px;
+    align-self: center;
     color: #2dbdb1;
   }
 
   .dates {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    width: 239px;
+    height: 14px;
   }
 
   .first {
@@ -23,39 +43,57 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    width: 20px;
+    height: 30px;
+    flex-grow: 1;
   }
 
   .second {
+    flex-grow: 1;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
+    width: 20px;
+    height: 30px;
     color: #2dbdb1;
   }
 
   .third {
+    flex-grow: 1;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
+    width: 20px;
+    height: 30px;
     color: #2dbdb1;
   }
 
   .task1 {
+    width: 200px;
+    height: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+     align-self: center;
   }
   .task2 {
+    width: 200px;
+    height: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    word-wrap: normal;
   }
 
   .task3 {
+    width: 200px;
+    height: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    word-wrap: normal;
   }
 
