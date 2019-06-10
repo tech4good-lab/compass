@@ -23,6 +23,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-right: 30px;
   }
 
   .second {
@@ -30,6 +31,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-right: 24px;
   }
 
   .third {
@@ -37,6 +39,7 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-right: 24px;
   }
 
   .task1 {
@@ -44,6 +47,7 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    margin-top: 14px;
   }
   .task2 {
     font-weight: 500;
@@ -58,4 +62,72 @@
     line-height: 20px;
     color: #5a5a5a;
   }
-
+.block-container {
+  display: flex;
+  flex-direction: column;
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: flex-end;
+    &.space {
+      margin-left: 26px;
+      margin-top: 19px;
+      margin-right:14px;
+    }
+}
+    .two {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: flex-end;
+    &.space {
+      margin-left: 26px;
+      margin-right:93px;
+      margin-top: 8px;
+      }
+    }
+    .three {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    &.space {
+      margin-left: 26px;
+      margin-right:22.5px;
+  
+      }  
+    }
+    .four {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: flex-end;
+    &.space {
+      margin-left: 26px;
+      margin-right:22.5px;
+      margin-top: 4px;
+      }
+    }
+    .five {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: flex-end;
+    &.space {
+      margin-left: 26px;
+      margin-right:22.5px;
+      margin-top: 13px;
+      }
+    }
+    .six {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    align-items: flex-end;
+    &.space {
+      margin-left: 216px;
+      margin-right:23px;
+      margin-bottom: 27px;
+      }
+    }
