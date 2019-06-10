@@ -6,25 +6,49 @@
 //}
 
 .timedateContainer {
-  border: 1px solid black;
-  width: 217px;
-  height: 86px;
-  background-color: #F6FDFA;
-  text-align: right;
-  padding-right: 14px;
+  //border: 1px solid black;
+  //width: 217px;
+  //height: 86px;
+  //background-color: #F6FDFA;
+  //display: flex;
+  //flex-direction: column;
+  //text-align: right;
+  //padding-right: 14px;
+  //padding-left: 13px;
+  //padding-bottom: 8px;
 }
 
 .timeContainer {
-display: flex;
+//display: flex;
+//align-items: flex-end;
+//margin-left: auto;
 font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-text-align: right;
+//font-style: normal;
+//font-weight: 500;
+//text-align: right;
 color: #2DBDB1;
 }
 
 .time {
-  font-size: 48px;
+  //font-size: 48px;
+  //line-height: 59px;
+}
+
+.ampm{
+  //font-size: 12px;
+  //line-height: 15px;
+  //padding-left: 3px;
+  //padding-bottom: 5px;
+}
+
+.date {
+font-family: Sanchez;
+//font-style: normal;
+//font-weight: normal;
+//font-size: 18px;
+//line-height: 23px;
+//text-align: right;
+color: #4B5853;
 }
 
 // write your code here!!
