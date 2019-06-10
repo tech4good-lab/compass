@@ -8,25 +8,46 @@
 }
 
 .time-container {
-  
+  text-align: right;
+  width: 100%;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: flex-end;
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-weight: 500;
   .time {
+    width: 100%;
+    height: 51px;
+    font-size: 48px;
+    line-height: 59px;
   }
   .am-pm {
+    width: 21px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 34px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    margin-right: 4px;
   }
 }
 //date section
 .date {
-  display: flex;
+  text-align: center;
   justify-content: center;
+  display: flex;
   width: 100%;
-  
+  margin-bottom: 5px;
   //copied colours and fonts from compass
   font-family: Sanchez;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
-  text-align: right;
+
+  margin-bottom: 8px;
 
   color: #4B5853;
 }
