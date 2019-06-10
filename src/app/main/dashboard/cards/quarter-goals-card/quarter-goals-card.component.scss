@@ -59,3 +59,23 @@
     color: #5a5a5a;
   }
 
+.block-container {
+  display: flex;
+  flex-direction: row;
+}
+  .col {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+  }
+
+  .one.cover-letter {
+    display:inline;
+  }
+  .pencil {
+    position: absolute;
+    left: 81.51%;
+    //right: 8.68%;
+    top: 82.9%;
+    bottom: 8.71%;
+  }
