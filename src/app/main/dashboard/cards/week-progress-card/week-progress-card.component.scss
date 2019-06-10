@@ -76,9 +76,10 @@ color: #4B5853;
 
 .four{
   text-align: right;
+  height: 22px;
   width: 45px;
   height: 24px;
-  left: 196px;
+  left: 19px;
   top: 95px;
 
   font-family: Montserrat;
@@ -89,5 +90,39 @@ color: #4B5853;
 
   color: #EE8B72;
 
+
+}
+
+.three {
+  position: absolute;
+width: 45px;
+height: 24px;
+left: 165px;
+top: 165px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #2DBDB1;
+
+}
+
+.two {
+  position: absolute;
+width: 45px;
+height: 24px;
+left: 143px;
+top: 234px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
 
 }
