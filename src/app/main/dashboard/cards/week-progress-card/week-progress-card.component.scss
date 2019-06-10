@@ -1,8 +1,143 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
+  border: 0px solid black;
   display: block;
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
+}
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 310px;
+  width: 265px;
+
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+    padding: 22px 24px 0px 20px;
+  }
+
+  .plan-1 {
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 21px 118px 0px 18px; 
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-left: 18px;
+
+    .bold-length {
+      background: #EE8B72;
+      border-radius: 3px 0px 0px 3px;
+      width: 75px;
+      height: 27px;
+    }
+
+    .light-color-length {
+      width: 93px;
+      height: 27px;
+      background: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
+
+    .hour1 {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #EE8B72;
+      padding: 7px 24px 0px 8px;
+    }
+  }
+
+  .plan-2 {
+   color: #2DBDB1;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 132px 0px 20px;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-left: 20px;
+
+    .bold-length-2 {
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+      width: 101px;
+      height: 27px;
+    }
+
+    .light-color-length-2 {
+      color: #2DBDB1;
+      width: 35px;
+      height: 27px;
+      background: rgba(45, 189, 177, 0.3);
+      border-radius: 3px;
+    }
+
+    .hour2 {
+      color: #2DBDB1;
+      width: 45px;
+      height: 24px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 6px 55px 0px 8px;
+      white-space: nowrap;
+    }
+  }
+
+  .plan-3 {
+   color: #FFB987;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 132px 0px 20px;
+  }
+
+  .row3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px;
+    padding-left: 20px;
+
+    .bold-length-3 {
+      background: #FFB987;
+      border-radius: 3px 0px 0px 3px;
+      width: 70px;
+      height: 27px;
+    }
+
+    .light-color-length-3 {
+      background: rgba(255, 185, 135, 0.3);
+      border-radius: 3px;
+      width: 42px;
+      height: 27px;
+  }
+
+    .hour3 {
+      color: #FFB987;
+      width: 45px;
+      height: 24px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 7px 77px 52px 8px;
+      white-space: nowrap;
+    }
+  }
+}
