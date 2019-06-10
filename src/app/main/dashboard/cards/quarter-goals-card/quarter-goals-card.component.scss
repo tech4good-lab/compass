@@ -4,7 +4,20 @@
     font-family: Montserrat;
   }
 
+  .container{
+    padding:0%
+  }
+  .block{
+    display:flex;
+    flex-direction:row;
+    margin: 2px;
+  }
+
   .title {
+    position: relative;
+    top:5%;
+    bottom: 85%;
+    margin:2px;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -13,49 +26,47 @@
 
   .dates {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     color: #2dbdb1;
+    margin:2px;
+  }
+
+  .col{
+    padding:0%;
   }
 
   .first {
+    display: flex;
+    margin: 5px;
+   
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
   }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
+  .task {
+    position: relative;
+    left:5%;
+    right:10%;
+    display: flex;
+    margin: 5px;
+   
+    align-items:left;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+    width: 200px;
+    height: 50px;
   }
+ 
+ .pencil{
+   position: relative;
+   left:80%;
+   right: 5%;
+ }
 
