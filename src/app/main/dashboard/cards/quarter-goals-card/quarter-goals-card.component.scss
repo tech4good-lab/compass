@@ -1,6 +1,6 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-.quarter-goals-container {
+.quartergoals {
  * {
    font-family: Montserrat;
   }
@@ -60,7 +60,7 @@
    height: 30px;
    flex-grow: 1;
  }
- .task1 {
+ .firstTask {
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
@@ -69,7 +69,7 @@
    height: 30px;
    align-self: center;
  }
- .task2 {
+ .secondTask {
    font-weight: 500;
    font-size: 16px;
    line-height: 22px;
@@ -78,10 +78,10 @@
    width: 200px;
    height: 30px;
  }
- .padding {
+ .pad {
    width: 190px;
  }
- .task3 {
+ .thirdTask {
    font-weight: 500;
    font-size: 16px;
    line-height: 22px;
