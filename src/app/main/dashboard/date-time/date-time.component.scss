@@ -1,8 +1,30 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
+
+.timedateContainer {
   border: 1px solid black;
-  display: block;
+  width: 217px;
+  height: 86px;
+  background-color: #F6FDFA;
+  text-align: right;
+  padding-right: 14px;
+}
+
+.timeContainer {
+display: flex;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+text-align: right;
+color: #2DBDB1;
+}
+
+.time {
+  font-size: 48px;
 }
 
 // write your code here!!
