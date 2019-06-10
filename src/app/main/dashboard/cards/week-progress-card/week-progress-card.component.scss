@@ -6,3 +6,29 @@
 }
 
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+
+.title,.interview,.four,.cover,.three,.intern,.two {
+  font-family: Montserrat;
+}
+
+.title {
+  color: #4B5853;
+}
+
+.interview,.four {
+  color: #EE8B72;
+}
+
+.cover,.three {
+  color: #2DBDB1;
+
+}
+
+.intern,.two {
+  color: #FFB987;
+}
