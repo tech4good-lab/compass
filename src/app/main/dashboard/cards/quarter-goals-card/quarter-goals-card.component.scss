@@ -17,45 +17,82 @@
     line-height: 22px;
     color: #2dbdb1;
   }
-
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+  /*
+  .block-container {
+    display: flex;
+    flex-direction: row;
+    
+    .col {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      
+      .block {
+        font-weight: 100;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        
+        &.one {
+          width: 145px;
+          height: 60px;
+          top: 50%;
+        }
+        &.two {
+          width: 300px;
+          height: 10px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 5px;
+          color: #5a5a5a;
+        }
+      }
+    }
   }
+  */
+  .block-container {
+  display: flex;
+  flex-direction: row;
+  .col {
+    display: flex;
+    flex-direction: column;
+    margin: -15px;
+    
+    /* The below styles define the individual block elements */
+    .block {
+      display: flex;
+      margin: 20px;
+      
+      &.one {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 50px;
+        color: #2dbdb1;
+        width: 35px;
+        height: 10px; 
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
+        text-align:left;
+        }
+      &.two {
+        flex-shrink: 1;
+        width: 200px;
+        height: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 25px;
+        color: #5a5a5a;
+        text-align: left; 
+        }
+      &.three{
+        flex-shrink: 1;
+        width: 200px;
+        height: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 52px;
+        color: #5a5a5a;
+        text-align: left; 
+        }
+      }
+    }
   }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
