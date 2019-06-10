@@ -5,6 +5,8 @@
   }
 .goals {
   .title {
+    width: 100%;
+    overflow-x: auto;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
@@ -18,31 +20,32 @@
     color: #2dbdb1;
   }
 
- .number-container {
+.number-container {
    display: flex;
    flex-direction: row;
   }
 
-  .group-one {
+.group-one {
     display: flex;
     flex-direction: column;
   }
 
-  .number {
+.number {
     display: flex;
     flex-direction: column;
+    width: 100%;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
   }
 
- .task-container {
+.task-container {
    display: flex;
    flex-direction: row;
   }
 
-  .group-two {
+.group-two {
     display: flex;
     flex-direction: column;
   }
@@ -54,7 +57,7 @@
     font-size: 16px;
     line-height: 45px;
     color: #5a5a5a;
-}
+  }
 .pencil-container {
    display: flex;
    flex-direction: row;
