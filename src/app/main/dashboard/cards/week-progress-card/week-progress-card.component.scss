@@ -1,8 +1,49 @@
-// Ignore this class.  It just adds a border so that you can find your element.
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 :host {
   border: 1px solid black;
-  display: block;
+  display: 
+  block;
+  border-radius: 10px;
+}
+// write your code here!!
+
+*{
+  font-family: Montserrat;
+  font-style: normal;
 }
 
-// write your code here!!
+.Plans{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+.tag{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.hrs{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.red{
+  color:#EE8B72;
+}
+.rectangle{
+  width: 75px;
+  height: 30px;
+  background-color: #EE8B72;
+}
+
+.green{
+  color: #2DBDB1;
+}
+
+.orange{
+  color:#FFB987;
+}
