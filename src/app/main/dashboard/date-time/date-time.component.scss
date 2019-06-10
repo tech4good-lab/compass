@@ -1,8 +1,58 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
-  display: block;
+  position: relative;
+  width: 217px;
+  height: 86px;
+
+  background: #F6FDFA;
 }
 
-// write your code here!!
+.time{
+  position: absolute;
+  left: 33.68%;
+  right: 12.63%;
+  top: 0%;
+  bottom: 32%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: right;
+
+  color: #2DBDB1;
+}
+.am{
+  position: absolute;
+  left: 88.95%;
+  right: 0%;
+  top: 42.67%;
+  bottom: 38.67%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+
+  color: #2DBDB1;
+}
+.date{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 68%;
+  bottom: 0%;
+
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+
+  color: #4B5853;
+}
