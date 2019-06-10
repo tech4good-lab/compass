@@ -1,7 +1,25 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-
+.quarter-goals-container {
   * {
     font-family: Montserrat;
+  }
+  width: 265px;
+  height: 310px;
+
+  border-radius: 15px;
+  box-shadow: 0px 3px 3px #dae2de;
+  background-color: #FFFFFF;
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+ .spacing {
+    width: 26px;
+  }
+
+  .padding {
+    width: 180px;
   }
 
   .title {
@@ -9,6 +27,9 @@
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    width: 225px;
+    height: 24px;
+    align-self: center;
   }
 
   .dates {
@@ -16,6 +37,8 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    width: 230px;
+    height: 15px;
   }
 
   .first {
@@ -23,6 +46,9 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    width: 17px;
+    height: 30px;
+    flex-grow: 1;
   }
 
   .second {
@@ -30,6 +56,9 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    width: 17px;
+    height: 30px;
+    flex-grow: 1;
   }
 
   .third {
@@ -37,6 +66,10 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    width: 17px;
+    height: 30px;
+    flex-grow: 1;
+
   }
 
   .task1 {
@@ -44,12 +77,18 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    width: 200px;
+    height: 30px;
+    align-self: center;
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    word-wrap: normal;
+    width: 200px;
+    height: 30px;
   }
 
   .task3 {
@@ -57,5 +96,9 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    word-wrap: normal;
+    width: 200px;
+    height: 30px;
+
   }
 
