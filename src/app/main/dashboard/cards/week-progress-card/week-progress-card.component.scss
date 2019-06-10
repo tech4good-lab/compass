@@ -1,8 +1,49 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 
-:host {
-  border: 1px solid black;
-  display: block;
+.progressCard{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  padding: 22px 24px 20px 52px;
+  }
+  .weeksplan{
+    font-family: Montserrat;
+    font-size: 22px;
+    color: #4B5853;
+  } 
+  .interview{ 
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #EE8B72;
+  } 
+  .coverLetter{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #2DBDB1;
+  }
+  .internApps{
+   font-family: Montserrat;
+  font-weight: normal;
+  font-size: 14px;
+  color: #FFB987;
+  }
+  .fourHr{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #EE8B72;
+  }
+  .threeHr{
+  font-family: Montserrat;
+  font-size: 14px;
+  color: #2DBDB1;
+  }
+  .twoHr{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFB987;
+
 }
-
-// write your code here!!
