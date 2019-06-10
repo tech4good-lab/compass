@@ -1,4 +1,94 @@
-.week-progress-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
   border: 1px solid black;
+  display: block;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.background{
+  box-shadow: 0px, 4px,4px, #D3E1DA;
+  radius: 10px;
+  width: 265px; 
+  height: 310px;
+  background-color: #FFFFFF;
+}
+.header {
+  font-family: Montserrat;
+  color: #4B5853;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height:27px;
+
+}
+.secondline{
+  display: flex;
+  flex-direction: row ;
+  font-family: Montserrat;
+  font-size: 14px;
+
+
+}
+
+
+
+.firstline{
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 20px;
+  margin-bottom: 2px;
+  .hashtag1{
+    color: #EE8B72;
+    
+  }
+  .hashtag2{
+    color: #2DBDB1;
+  }
+  .hashtag3{
+    color: #FFB987;
+  }
+}
+.fullbar{
+  padding-left: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.progressbar1{
+  margin-top: -34px;
+  position: relative;
+  
+}
+.progressbar2{
+  margin-top: -34px;
+  position: relative;
+  
+}
+.progressbar3{
+  margin-top: -34px;
+  position: relative;
+  
+}
+.time1{
+  margin-left: 8px;
+  margin-top: 5px; 
+  color: #EE8B72;
+
+}
+
+.time2{
+  margin-top: 5px; 
+  margin-left: 8px;
+  color: #2DBDB1;
+
+}
+.time3{
+  margin-left: 8px;
+  margin-top: 5px; 
+  color: #FFB987;
+
 }
