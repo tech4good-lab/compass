@@ -9,30 +9,50 @@
   width: 217px;
   height: 86px;
   background: #F6FDFA;
-
+  position: absolute;
 }
 
 .time {
-  width: 102px;
-  height: 51px;
+  position: absolute;
+  left: 40.68%;
+  right: 20.63%;
+  top: 0%;
+  bottom: 32%;
+
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+
+  color: #2DBDB1;
 }
 
 .am-pm {
-  width: 21px;
-  height: 14px;
+  position: absolute;
+  left: 85.95%;
+  right: 25%;
+  top: 38.67%;
+  bottom: 38.67%;
+
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  color: #2DBDB1;
 }
 
 .date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 64%;
+  bottom: 0%;
   font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
+  color: #4B5853;
 }
