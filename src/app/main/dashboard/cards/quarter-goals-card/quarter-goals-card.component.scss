@@ -8,12 +8,14 @@
 // write your code here!
 
 
-
+//import front styles
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+//introduce over all container with defined background color
 .quarter-goals-card{
   background: #FFFFFF;
   box-shadow: 0px 4px 4px #D3E1DA;
   border-radius: 10px;
+  //The frame for title of the quarter goal
   .quarter{
     font-family: Montserrat;
     font-style: normal;
@@ -23,6 +25,7 @@
 
     color: #2DBDB1;
   }
+  //indicate duration of the goal
   .duration{
     font-family: Montserrat;
     font-style: normal;
@@ -32,7 +35,7 @@
 
     color: #2DBDB1;
   }
-
+  //the description of the goals
   .To-do{
     font-family: Montserrat;
     font-style: normal;
@@ -43,6 +46,7 @@
     color: #5A5A5A;
 
   }
+  //numbers of goals
   .num{
     font-family: Montserrat;
     font-style: normal;
@@ -53,6 +57,7 @@
 
     color: #2DBDB1;
   }
+  //image and its icon
   .image{
     width: 26px;
     height: 26px;
