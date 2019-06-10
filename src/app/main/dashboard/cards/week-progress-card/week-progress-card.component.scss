@@ -1,99 +1,150 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-* {
-  background: #FFFFFF;
-  font-family: Montserrat;
+:host {
+  border: 1px solid black;
+  display: block;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
-}
+.Progress{
+  position: relative;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  .background{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    .header{
+      position: absolute;
+      left: 20px;
+      right: 24px;
+      top: 22px;
+      bottom: 263px;
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
-}
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #4B5853;
+    }
+    .item{
+      position: absolute;
+      width: 113px;
+      height: 63px;
+      left: 18px;
+      top: 68px;
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #EE8B72;
+      &.two{
+        position: absolute;
+        width: 113px;
+        height: 17px;
+        left: 20px;
+        top: 140px;
+        color: #2DBDB1;
+      } 
+      &.three{
+        position: absolute;
+        width: 113px;
+        height: 22px;
+        left: 20px;
+        top: 206px;
+        color: #FFB987;
+      }
+    }
+    .hour{
+      position: absolute;
+      width: 45px;
+      height: 24px;
+      left: 196px;
+      top: 95px;
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
-
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #EE8B72;
+      &.three{
+        position: absolute;
+        width: 45px;
+        height: 24px;
+        left: 165px;
+        top: 165px;
+        color: #2DBDB1;
+      }
+      &.two{
+        position: absolute;
+        width: 45px;
+        height: 24px;
+        left: 143px;
+        top: 234px;
+        color: #FFB987;
+      }
+    }
+    .red{
+      position: absolute;
+      width: 75px;
+      height: 30px;
+      left: 20px;
+      top: 90px;
+      background: #EE8B72;
+      border-radius: 3px 0px 0px 3px;
+      &.light{
+        position: absolute;
+        width: 168px;
+        height: 30px;
+        left: 20px;
+        top: 90px;
+        background: rgba(238, 139, 114, 0.3);
+        border-radius: 3px;
+      }
+    }
+    .green{
+      position: absolute;
+      width: 101px;
+      height: 30px;
+      left: 20px;
+      top: 159px;
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+      &.light{
+        position: absolute;
+        width: 136px;
+        height: 30px;
+        left: 20px;
+        top: 159px;
+        background: rgba(45, 189, 177, 0.3);
+        border-radius: 3px;
+      }
+    }
+    .orange{
+      position: absolute;
+      width: 70px;
+      height: 30px;
+      left: 20px;
+      top: 228px;
+      background: #FFB987;
+      border-radius: 3px 0px 0px 3px;
+      &.light{
+        position: absolute;
+        width: 112px;
+        height: 30px;
+        left: 20px;
+        top: 228px;
+        background: rgba(255, 185, 135, 0.3);
+        border-radius: 3px;
+      }
+    }
+  }
+} 

@@ -1,4 +1,52 @@
-.date-time-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
-}
+// Ignore this class.  It just adds a border so that you can find your element.
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Frame{
+  position: relative;
+  width:217px;
+  height:86px;
+  background: #F6FDFA;
+
+    .timer{
+      position: absolute;
+      left: 77px;
+      right: 38px;
+      top: 3px;
+      bottom: 32px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 59px;
+      text-align: right;
+      color: #2DBDB1;
+      &.hour{
+        left: 182px;
+        right: 14px;
+        top: 35px;
+        bottom: 37px;
+
+        font-size: 12px;
+        line-height: 15px;
+      }
+    }
+
+  .date{
+    position: absolute;
+    left: 13px;
+    right: 14px;
+    top: 54px;
+    bottom: 8px;   
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #4B5853;
+  }
+} 
