@@ -1,8 +1,115 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
+
 :host {
   border: 1px solid black;
   display: block;
 }
 
-// write your code here!
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Quarter{
+  position: relative;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  .background{
+    background: #FFFFFF;
+    border-radius: 10px;
+    .title{
+      position: absolute;
+      left: 26px;
+      right: 14px;
+      top: 19px;
+      bottom: 267px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #2DBDB1;
+    }
+    .date{
+      position: absolute;
+      left: 26px;
+      right: 93px;
+      top: 51px;
+      bottom: 240px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2DBDB1;
+    }
+    .number{
+      position: absolute;
+      left: 26px;
+      right: 222px;
+      top: 84px;
+      bottom: 196px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      color: #2DBDB1;
+      &.two{
+        position: absolute;
+        left: 27px;
+        right: 221px;
+        top: 139px;
+        bottom: 141px;
+      }
+      &.three{
+        position: absolute;
+        left: 26px;
+        right: 222px;
+        top: 195px;
+        bottom: 185px;
+      }
+    }
+    .text{
+      position: absolute;
+      left: 67px;
+      right: 22.7px;
+      top: 95px;
+      bottom: 174px;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #5A5A5A;
+      &.two{
+        position: absolute;
+        left: 67.16px;
+        right: 22.58px;
+        top: 140px;
+        bottom: 123px;
+        line-height: 154%;
+        /* or 25px */
+      }
+      &.three{
+        position: absolute;
+        left: 67.2px;
+        right: 22.8px;
+        top: 200px;
+        bottom: 88px;
+        line-height: 154%;
+      }
+    }
+    .pencil{
+      position: absolute;
+      left: 216px;
+      right: 23px;
+      top: 257px;
+      bottom: 27px;
+    }
+  }
+}
