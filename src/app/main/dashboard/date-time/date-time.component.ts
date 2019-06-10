@@ -13,11 +13,12 @@ export class DateTimeComponent implements OnInit {
 
   /** The current time. */
   @Input() time: Date;
-
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+    // this.time='8:32';
+  }
 
   ngOnInit() {
   }
