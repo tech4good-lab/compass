@@ -5,4 +5,84 @@
   display: block;
 }
 
+.outerblock{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 250px;
+  height: 300px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+
+.title{
+  position: absolute;
+  left: 9.81%;
+  right: 5.28%;
+  top: 6.13%;
+  bottom: 86.13%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #2DBDB1;
+}
+
+.date{
+  position: absolute;
+  left: 9.81%;
+  right: 35.09%;
+  top: 16.45%;
+  bottom: 77.42%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #2DBDB1;
+}
+
+.goal{
+  position: absolute;
+  left: 9.81%;
+  right: 83.77%;
+  top: 27.1%;
+  width: 200px;
+  height: 300px;
+
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2DBDB1;
+}
+
+// ol{
+//   position: absolute;
+//   left: 25.28%;
+//   right: 8.56%;
+//   top: 30.65%;
+//   bottom: 56.13%;
+
+//   font-family: Montserrat;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 16px;
+//   line-height: 20px;
+
+//   color: #5A5A5A;
+// }
 // write your code here!
