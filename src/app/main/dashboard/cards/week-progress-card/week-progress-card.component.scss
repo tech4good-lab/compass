@@ -4,6 +4,23 @@
   font-family: Montserrat;
 }
 
+.main-container{
+  display: flex;
+}
+
+.col1{
+  flex-grow: 5;
+}
+
+.col2{
+  flex-shrink: 3;
+}
+
+.col3{
+
+}
+
+
 .title {
   font-weight: 600;
   font-size: 22px;
