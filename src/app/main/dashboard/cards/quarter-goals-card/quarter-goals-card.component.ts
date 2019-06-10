@@ -21,10 +21,21 @@ export class QuarterGoalsCardComponent implements OnInit {
   /** Edit quarterly goals events. */
   @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
 
+  title: string;
+  dates: string;
+  numbers: number[];
+  task: string[];
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+    this.title = 'Fall \'18 Goals';
+    this.dates = '9/24-12/14';
+    this.numbers = [1,2,3];
+    this.task = ['Finish cover letters'];
+    this.task = ['Apply to at least 50 internships'];
+    this.task = ['Finish technical interview prep'];
+   }
 
   ngOnInit() {
   }
