@@ -24,6 +24,7 @@
     bottom: 267px;
     left: 26px;
     right: 14px;
+    flex-grow: 0;
   }
 
   .dates {
@@ -36,6 +37,7 @@
     bottom: 240px;
     left: 26px;
     right: 93px;
+    flex-grow: 0;
   }
 
   .first {
@@ -48,6 +50,7 @@
     bottom: 196px;
     left: 26px;
     right: 222px;
+    flex-grow: 0;
   }
 
   .second {
@@ -60,6 +63,7 @@
     bottom: 141px;
     left: 27px;
     right: 221px;
+    flex-grow: 0;
   }
 
   .third {
@@ -72,6 +76,7 @@
     bottom: 85px;
     left: 26px;
     right: 222px;
+    flex-grow: 0;
   }
 
   .task1 {
@@ -86,6 +91,7 @@
     bottom: 174px;
     left: 67px;
     right: 22.7px;
+    flex-grow: 0;
 
   }
   .task2 {
@@ -98,6 +104,7 @@
     bottom: 123px;
     left: 67.126px;
     right: 22.58px;
+    flex-grow: 0;
   }
 
   .task3 {
@@ -110,6 +117,7 @@
     bottom: 88px;
     left: 67.2px;
     right: 22.8px;
+    flex-grow: 0;
   }
   .pencil {
     position: absolute;
@@ -117,5 +125,6 @@
     bottom: 27px;
     left: 216px;
     right: 23px;
+    flex-grow: 0;
   }
 }
