@@ -1,8 +1,68 @@
 // Ignore this class.  It just adds a border so that you can find your element.
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 :host {
   border: 1px solid black;
   display: block;
+  border-radius: 10px;
 }
 
+
+*
+{
+  font-family: Montserrat;
+}
 // write your code here!
+.frame {
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: white;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.heading1
+{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #2DBDB1;
+  padding-top: 19px;
+  
+}
+
+.dates {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #2DBDB1;
+}
+
+
+.grid-list {
+
+  .left {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #2DBDB1;
+  text-align: center;
+  }
+.right { 
+  font-weight: 500;
+  font-size: 16px;
+  color: #5A5A5A;
+  }
+
+}
+
+.pencil-icon {
+ 
+
+
+}
