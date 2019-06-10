@@ -1,99 +1,161 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
-  background: #FFFFFF;
+  background:white;
   font-family: Montserrat;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
-}
+.week-progress-card-container {
+  width: 265px;
+  height: 310px;
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+.header {
+  width: 265px;
+  height: 68px;
+  display: flex;
+  .space {
+    width: 20px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+    width: 221px;
+    height: 47px;
+    align-self: flex-end;
+  }
 }
-
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+.first-container {
+  width: 265px;
+  height: 17px;
+  display: flex;
+  .first-hashtag {
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 17px;
+    width: 113px;
+    height: 17px;
+    text-align: center;
+  }
 }
-
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
+.first-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
+  .push {
+    width: 20px;
+  }
+  .bold-first-progress-bar {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 27px;
+  }
+  .light-first-progress-bar {
+    width: 168px;
+    height: 27px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  .first-hour {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #EE8B72; 
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
-
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
+.second-container {
+  width: 265px;
+  height: 37px;
+  display: flex;
+  .second-hashtag {
+    color: #2DBDB1;
+    font-size: 14px;
+    line-height: 17px;
+    width: 120px;
+    height: 17px;
+    text-align: center;
+    align-self: flex-end;
+  }
 }
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
+.second-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
+  .shove {
+    width: 20px;
+  }
+  .bold-second-progress-bar {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 27px;
+  }
+  .light-second-progress-bar {
+    color: #2DBDB1;
+    width: 136px;
+    height: 27px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+  .second-hour {
+    color: #2DBDB1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
+.third-container {
+  width: 265px;
+  height: 37px;
+  display: flex;
+  .third-hashtag {
+    color: #FFB987;
+    font-size: 14px;
+    line-height: 17px;
+    width: 120px;
+    height: 17px;
+    text-align: center;
+    align-self: flex-end;
+  }
 }
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+.third-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
+  .tap {
+    width: 20px;
+  }
+  .bold-third-progress-bar {
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+    width: 70px;
+    height: 27px;
+  }
+  .light-third-progress-bar {
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+    width: 112px;
+    height: 27px;
+  }
+  .third-hour {
+    color: #FFB987;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
-
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
