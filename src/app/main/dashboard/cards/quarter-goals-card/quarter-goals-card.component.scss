@@ -1,61 +1,121 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+.Card{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ background-color: #FFFFFF;
+ width: 265px;
+ height: 310px;
+ box-shadow: 0px 4px 4px #d3e1da;
+ border-radius: 10px;
 
-  * {
-    font-family: Montserrat;
-  }
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+ * {
+   font-family: Montserrat;
+ }
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+ .title {
+   font-weight: 600;
+   font-size: 22px;
+   line-height: 27px;
+   color: #2dbdb1;
+   position: absolute;
+   top: 19px;
+   bottom: 267px;
+   left: 26px;
+   right: 14px;
+ }
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+ .dates {
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 22px;
+   color: #2dbdb1;
+   position: absolute;
+   top: 51px;
+   bottom: 240px;
+   left: 26px;
+   right: 93px;
+ }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+ .first {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   color: #2dbdb1;
+   position: absolute;
+   top: 84px;
+   bottom: 196px;
+   left: 26px;
+   right: 222px;
+ }
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+ .second {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   color: #2dbdb1;
+   position: absolute;
+   top: 139px;
+   bottom: 141px;
+   left: 27px;
+   right: 221px;
+ }
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+ .third {
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 44px;
+   color: #2dbdb1;
+   position: absolute;
+   top: 195px;
+   bottom: 85px;
+   left: 26px;
+   right: 222px;
+ }
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+ .task1 {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #5a5a5a;
+   height: 41px;
+   width: 175.3px;
+   position: absolute;
+   top: 95px;
+   bottom: 174px;
+   left: 67px;
+   right: 22.7px;
 
+ }
+ .task2 {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #5a5a5a;
+   position: absolute;
+   top: 140px;
+   bottom: 123px;
+   left: 67.126px;
+   right: 22.58px;
+ }
+
+ .task3 {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   color: #5a5a5a;
+   position: absolute;
+   top: 200px;
+   bottom: 88px;
+   left: 67.2px;
+   right: 22.8px;
+ }
+ .pencil {
+   position: absolute;
+   top: 257px;
+   bottom: 27px;
+   left: 216px;
+   right: 23px;
+ }
+}
