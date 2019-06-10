@@ -1,31 +1,56 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-@import url(//fonts.googleapis.com/css?family=Sanchez);
-* {
-  font-family: Montserrat;
-  color: #2DBDB1;
+// Ignore this class.  It just adds a border so that you can find your element.
+
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
+
+// write your code
+
+//Import Monserrat and Sanchez
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Sanchez&display=swap');
+
+.information{
+    box-shadow: 0px 4px 4px #D3e1DA;
+    border-radius: 10px;display: flex;
+    flex-direction: column;
+    height: 86px;
+    width: 250px;
+    padding: 19px 23px 26px 26px;
+    background-color: #EEEEEE;
 }
 
-.time {
-  width: 102px;
-  height: 51px;
+//Class for clock
+.time{ 
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+  text-align: right;
+  color: #2DBDB1;
+  margin-top: -20px;
 }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
+//Class for "am"
+.am{ 
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  text-align: right;
+  color: #2DBDB1;
+  margin-right: 5px;
 }
 
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
+//Class for Date
+.date{
   font-family: Sanchez;
+  font-style: regular;
   font-size: 18px;
   line-height: 23px;
+  text-align: right;
+  color: #4B5853;
+  margin-right: 5px;
 }
