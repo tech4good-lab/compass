@@ -6,3 +6,96 @@
 }
 
 // write your code here!!
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.week-header{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+.hashtag-interview{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.interview-bar{
+  width: 168px;
+  height: 30px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+.current-interview-bar{
+  width: 75px;
+  height: 30px;
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+}
+.four{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.hashtag-coverletter{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.cover-bar{
+  width: 136px;
+  height: 30px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+.current-cover-bar{
+  width: 101px;
+  height: 30px;
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+.three{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.hashtag-internapps{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+.intern-bar{
+  width: 112px;
+  height: 30px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
+.current-intern-bar{
+  width: 70px;
+  height: 30px;
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+}
+.two{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
