@@ -3,69 +3,96 @@
   background: #FFFFFF;
   font-family: Montserrat;
 }
+//copied from the solution of quarter goal cards
+.week-progress-card-container {
+  width: 265px;
+  height: 310px;
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 4pxrgba(0, 0, 0, 0.25);
 }
+
+ .title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+
+    width: 221px;
+    height: 47px;
+
+    align-self: flex-end;
+  }
 
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
 }
+.top-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
+  
+  .bold-top-progress-bar {
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    width: 75px;
+    height: 27px;
+  }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+  .light-top-progress-bar {
+    width: 168px;
+    height: 27px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  .top-hour {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    color: #EE8B72;
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
-
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
-}
-
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
-
 .middle-hashtag {
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
 }
+.middle-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
+  .bold-middle-progress-bar {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 27px;
+  }
 
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  .light-middle-progress-bar {
+    color: #2DBDB1;
+    width: 136px;
+    height: 27px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+  .middle-hour {
+    color: #2DBDB1;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
 
 .bottom-hashtag {
@@ -73,27 +100,34 @@
   font-size: 14px;
   line-height: 17px;
 }
+.bottom-container-contents {
+  width: 265px;
+  height: 30px;
+  display: flex;
 
-.bold-bottom-progress-bar {
+  .bold-bottom-progress-bar {
   background: #FFB987;
   border-radius: 3px 0px 0px 3px;
   width: 70px;
   height: 27px;
-}
+  }
 
-.light-bottom-progress-bar {
+  .light-bottom-progress-bar {
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
   width: 112px;
   height: 27px;
+  }
+  .bottom-hour {
+    color: #FFB987;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    width: 53px;
+    height: 27px;
+    text-align: right;
+  }
 }
 
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
+
 
