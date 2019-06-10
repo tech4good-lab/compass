@@ -18,45 +18,59 @@
     color: #2dbdb1;
   }
 
-  .first {
+ .number-container {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .group-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .number {
+    display: flex;
+    flex-direction: column;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
   }
 
-  .second {
+ .task-container {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .group-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 45px;
+    color: #5a5a5a;
+}
+.pencil-container {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .group-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pencil {
+    display: flex;
+    flex-direction: column;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
-  }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
   }
 }
-
