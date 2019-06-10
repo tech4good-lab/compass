@@ -14,11 +14,18 @@
 }
 
 .am-pm {
-  width: 21px;
-  height: 14px;
+  position: absolute;
+  left: 97px;
+  bottom: 12px;
+
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  text-align: right;
+
+  color: #2DBDB1;
 }
 
 .date { 
@@ -28,4 +35,46 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+}
+
+.layout1 {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  position: absolute;
+  right: 26px;
+  top: 0%;
+  bottom: 32%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content:baseline;
+  align-items:flex-start;
+  align-content:flex-end;
+  align-self:flex-end;
+}
+
+.layout2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  left: 14px;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content:flex-end;
+  align-items:center;
+  align-content:center;
+  align-self:center;
+}
+
+.main-container{
+  position: relative;
+  width: 217px;
+  height: 86px;
+  overflow: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 10px 10px 5px 0;
 }
