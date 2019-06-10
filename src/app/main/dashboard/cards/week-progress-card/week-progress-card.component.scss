@@ -16,6 +16,12 @@
   font-family: Montserrat;
 }
 
+.interview,.four,.cover,.three,.intern,.two {
+  font-size: 14px;
+  line-height: 17px;
+
+}
+
 .title {
   color: #4B5853;
 }
@@ -31,4 +37,13 @@
 
 .intern,.two {
   color: #FFB987;
+}
+
+.interview,.cover,.intern {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fur,.three,.two {
+  font-weight: 500;
 }
