@@ -1,8 +1,56 @@
 // Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :host {
   border: 1px solid black;
   display: block;
-}
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  padding-top: 19px;
+  padding-bottom: 88px;
+  padding-left: 26px;
+  padding-right: 22.7px;
+  }
 
 // write your code here!
+*{
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.Goals{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+  padding-bottom: 8px;
+  padding-right: 14px;
+  } 
+
+.Dates{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  }
+
+li{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+  padding-top: 4px;
+}
+
+ol{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  color: #2DBDB1;
+  padding-bottom: 25px;
+  }
