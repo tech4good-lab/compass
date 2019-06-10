@@ -4,7 +4,12 @@
   font-family: Montserrat;
   color: #2DBDB1;
 }
-
+.time-container{
+    display: flex;
+    flex-direciton: row;
+    align-items: center;
+    padding-left: 77px;
+}
 .time {
   width: 102px;
   height: 51px;
@@ -18,7 +23,7 @@
   height: 14px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
+  line-height: 45px;
 }
 
 .date { 
@@ -28,4 +33,5 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
+
 }
