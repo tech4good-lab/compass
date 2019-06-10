@@ -1,61 +1,105 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+  .quarter-goals{
+    box-shadow: 0px 4px 4px #D3E1DA;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 265px;
+    padding: 19px 23px 15px 26px;
+      
+    * {
+      font-family: Montserrat;
+    }
+    .block-header{
+     .title {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        color: #2dbdb1;
+        margin-bottom: 8px;
+       }
 
-  * {
-    font-family: Montserrat;
-  }
+      .dates {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2dbdb1;
+        
+      }
+    }
+  
+    .container{
+      display: flex;
+      flex-direction: column;
+  
+      .goal-one{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      
+        .first{
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+          margin-top: 14px;
+        }
+        .task1 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+          margin-top: 14px;
+          margin-left: 24px;
+        }
+     }
+   
+    .goal-two{
+       display: flex;
+       flex-direction: row;
+       .second {
+          align-items: center;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+          margin-top: 25px;
+        }
+        .task2 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+          margin-top: 25px;
+          margin-left: 23.16px;
+        }
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
+    } 
+    .goal-three{ 
+      display: flex;
+      flex-direction: row;
+      .third {
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 44px;
+          color: #2dbdb1;
+          margin-top: 26px;
+        }
+ 
+        .task3 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5a5a5a;
+          margin-top: 26px;
+          margin-left: 24.2px;
+        }
+      }
+  
   }
-
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
-
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+    .pencil-icon{
+      align-self: flex-end;
+    }
+    
+}
