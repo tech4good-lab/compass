@@ -15,17 +15,21 @@
     font-size: 22px;
     line-height: 27px;
     color: #4B5853;
+    padding: 22px 24px 0px 20px;
   }
 
   .top-hashtag {
     color: #EE8B72;
     font-size: 14px;
     line-height: 17px;
+    padding: 21px 118px 0px 18px; 
   }
 
   .row1 {
     display: flex;
     flex-direction: row;
+    padding-top: 3px;
+    padding-left: 18px;
 
     .bold-top-progress-bar {
       background: #EE8B72;
@@ -35,7 +39,7 @@
     }
 
     .light-top-progress-bar {
-      width: 168px;
+      width: 93px;
       height: 27px;
       background: rgba(238, 139, 114, 0.3);
       border-radius: 3px;
@@ -46,6 +50,7 @@
       font-size: 14px;
       line-height: 17px;
       color: #EE8B72;
+      padding: 7px 24px 0px 8px;
     }
   }
 
@@ -53,22 +58,25 @@
    color: #2DBDB1;
     font-size: 14px;
     line-height: 17px;
+    padding: 20px 132px 0px 20px;
   }
 
   .row2 {
     display: flex;
     flex-direction: row;
+    padding-top: 3px;
+    padding-left: 20px;
 
     .bold-middle-progress-bar {
-    background: #2DBDB1;
-    border-radius: 3px 0px 0px 3px;
-    width: 101px;
-    height: 27px;
+      background: #2DBDB1;
+      border-radius: 3px 0px 0px 3px;
+      width: 101px;
+      height: 27px;
     }
 
     .light-middle-progress-bar {
       color: #2DBDB1;
-      width: 136px;
+      width: 35px;
       height: 27px;
       background: rgba(45, 189, 177, 0.3);
       border-radius: 3px;
@@ -81,6 +89,8 @@
       font-weight: 500;
       font-size: 14px;
       line-height: 17px;
+      padding: 6px 55px 0px 8px;
+      white-space: nowrap;
     }
   }
 
@@ -88,11 +98,14 @@
    color: #FFB987;
     font-size: 14px;
     line-height: 17px;
+    padding: 20px 132px 0px 20px;
   }
 
   .row3{
     display: flex;
     flex-direction: row;
+    padding-top: 3px;
+    padding-left: 20px;
 
     .bold-bottom-progress-bar {
       background: #FFB987;
@@ -104,7 +117,7 @@
     .light-bottom-progress-bar {
       background: rgba(255, 185, 135, 0.3);
       border-radius: 3px;
-      width: 112px;
+      width: 42px;
       height: 27px;
   }
 
@@ -114,7 +127,9 @@
       height: 24px;
       font-weight: 500;
       font-size: 14px;
-     line-height: 17px;
+      line-height: 17px;
+      padding: 7px 77px 52px 8px;
+      white-space: nowrap;
     }
   }
 }
