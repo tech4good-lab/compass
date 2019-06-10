@@ -22,45 +22,57 @@
       line-height: 22px;
       color: #2dbdb1;
     }
+    .blockone {
+      display: flex;
+      flex-direction: row;
 
-    .first {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-    }
-
-    .second {
-      font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-    }
-
-    .third {
-     font-weight: 500;
-      font-size: 36px;
-      line-height: 44px;
-      color: #2dbdb1;
-    }
-
-    .task1 {
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 20px;
-     color: #5a5a5a;
-    }
-    .task2 {
-      font-weight: 500;
-      font-size: 16px;
+      .first {
+       font-weight: 500;
+       font-size: 36px;
+       line-height: 44px;
+       color: #2dbdb1;
+      }
+      .task1 {
+       font-weight: 500;
+       font-size: 16px;
       line-height: 20px;
       color: #5a5a5a;
+      }
     }
+    .blocktwo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
 
-    .task3 {
+      .second {
+       font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+      }
+      .task2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+      }
+    }
+    .blockthree {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .third {
       font-weight: 500;
-      font-size: 16px;
-      line-height: 20px;
-      color: #5a5a5a;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+      }
+      .task3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
+      }
     }
   }
