@@ -3,59 +3,116 @@
   * {
     font-family: Montserrat;
   }
-
+.text{
   .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+      position: relative;
+      left: 0%;
+      right: 5.28%;
+      top: 6.13%;
+      bottom: 86.13%;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+
+      color: #2DBDB1;
+    }
 
   .dates {
+    position: relative;
+    left: 0%;
+    right: 35.09%;
+    top: 16.45%;
+    bottom: 77.42%;
+
+    font-family: Montserrat;
+    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #2dbdb1;
+
+    color: #2DBDB1;
+
+  }
+  .numbers{
+    .first {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
+
+    .second {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
+
+    .third {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 44px;
+      color: #2dbdb1;
+    }
   }
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .task1 {
+      position: relative;
+      left: 25.28%;
+      right: 8.56%;
+      top: 30.65%;
+      bottom: 56.13%;
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+      color: #5A5A5A;
+    }
+    .task2 {
+      position: relative;
+      left: 25.34%;
+      right: 8.52%;
+      top: .16;
+      bottom: 39.68%;
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 154%;
 
+      color: #5A5A5A;
+    }
+
+    .task3 {
+      position: relative;
+      left: 25.36%;
+      right: 8.6%;
+      top: 64.52%;
+      bottom: 28.39%;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 154%;
+      /* or 25px */
+      color: #5A5A5A;
+    }
+  
+
+  .pencil{
+    position: relative;
+    left: 81.51%;
+    right: 8.68%;
+    top: 82.9%;
+    bottom: 8.71%;
+  }
+}
