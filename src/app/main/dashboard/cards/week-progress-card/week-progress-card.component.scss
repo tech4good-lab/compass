@@ -1,8 +1,136 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
 
 // write your code here!!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Obstacles{
+  box-shadow: 0px 4px 4px #D3e1DA;
+  border-radius: 10px;display: flex;
+ flex-direction: column;
+  height: 310px;
+  width: 265px;
+  padding: 19px 23px 26px 26px;
+  background-color: #EEEEEE;
+}
+
+.title{
+  font-family: Montserrat;
+  font-style:Semibold;
+  font-size: 22px;
+  Line-Height:27px;
+  align:left;
+  vertical-align: top;
+  color: #4B5853;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;  }
+
+.leftside{
+
+}
+
+.rightside{
+
+}
+
+.task1{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  align:left;
+  vertical-align: top;
+  color: #EE8B72;
+  margin-top: 22px;
+  margin-left: 5px;
+  margin-bottom:5px;
+}
+
+.hour1{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  align:left;
+  vertical-align: top;
+  color: #EE8B72;
+}
+
+.task2{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  alight:left;
+  vertical-align: top;
+  color: #2DBDB1;
+  margin-top: 22px;
+  margin-bottom:5px;
+}
+
+.hour2{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  alight:right;
+  vertical-align: top;
+  color: #2DBDB1;
+}
+
+.task3{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  alight:left;
+  vertical-align: top;
+  color: #FFB987;
+  margin-top: 22px;
+  margin-bottom:5px;
+}
+
+.hour3{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  alight:left;
+  vertical-align: top;
+  color: #FFB987;
+}
+
+.space{
+  font-family: Montserrat;
+  font-style:Regular;
+  font-size: 14px;
+  Line-Height:14px;
+  alight:left;
+  vertical-align: top;
+  color: #EEEEEE;
+}
+
+.progress1{
+  align: left;
+  margin-left: 5px;
+}
+
+.progress2{
+  align: left;
+
+}
+
+.progress3{
+  align: left;
+
+}
