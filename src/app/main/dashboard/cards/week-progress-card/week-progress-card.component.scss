@@ -5,4 +5,42 @@
   display: block;
 }
 
-// write your code here!!
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  font-family: Montserrat;
+}
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #4B5853;
+}
+
+.hashtag {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.red {
+  color: #EE8B72;
+}
+
+.green {
+  color: #2DBDB1;
+}
+
+.yellow {
+  color: #FFB987;
+}
+
+.time {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
