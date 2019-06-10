@@ -25,7 +25,7 @@
 }
 
 .light-top-progress-bar {
-  width: 168px;
+  width: 100px;
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
@@ -53,7 +53,7 @@
 
 .light-middle-progress-bar {
   color: #2DBDB1;
-  width: 136px;
+  width: 35px;
   height: 27px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
@@ -84,7 +84,7 @@
 .light-bottom-progress-bar {
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
-  width: 112px;
+  width: 30px;
   height: 27px;
 }
 
@@ -97,3 +97,29 @@
   line-height: 17px;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #EE8B72;
+
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #2DBDB1;;
+
+}
+
+.row3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #FFB987;
+
+}
