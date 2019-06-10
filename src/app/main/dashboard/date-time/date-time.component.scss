@@ -5,23 +5,24 @@
 
 .time {
  font-family: Montserrat;
- color: #2DBDB1;
- width: 102px;
- height: 51px;
- font-weight: 500;
- font-size: 48px;
- line-height: 59px;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 59px;
+text-align: right;
+color: #2DBDB1;
 }
 
 .am-pm {
- font-family: Montserrat;
- color: #2DBDB1;
- width: 21px;
- height: 14px;
- font-weight: 500;
- font-size: 12px;
- line-height: 15px;
- padding-top: 32px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+
+color: #2DBDB1;
 }
 
 .date {
