@@ -1,31 +1,61 @@
+// Ignore this class.  It just adds a border so that you can find your element.
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-@import url(//fonts.googleapis.com/css?family=Sanchez);
 * {
   font-family: Montserrat;
-  color: #2DBDB1;
+}
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+* {
+  font-family: Sanchez;
+}
+:host {
+  border: 1px solid black;
+  display: block;
 }
 
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
+// write your code here!!
+.frame{
+  position: absolute;
+  width: 228px;
+  height: 100px;
+  background: #F6FDFA;
+  border: 10px solid #4B5853;
+}
+
+.time{
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 1000;
   font-size: 48px;
   line-height: 59px;
-}
+  text-align: right;
+  top: -1%;
+	left: 39%;
 
-.am-pm {
-  width: 21px;
-  height: 14px;
+  color: #2DBDB1;
+}
+.am{
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  text-align: right;
+  top: 40%;
+	left: 86.5%;
+  color: #2DBDB1;
 }
-
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
+.date
+{
+  position: absolute;
   font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 8px;
+  text-align: center;
+  top: 75%;
+	left: 5%;
+  color: #4B5853;
 }
