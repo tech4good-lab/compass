@@ -1,19 +1,9 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-
-:host {
-  border: 1px solid black;
-  display: block;
-}
-
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
 
 .morning {
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 46.81%;
+
 
 font-family: Montserrat;
 font-style: normal;
@@ -25,11 +15,6 @@ color: #4B5853;
 }
 
 .search {
-position: absolute;
-left: 7.07%;
-right: 74.49%;
-top: 3.7%;
-bottom: 33.33%;
 
 font-family: Montserrat;
 font-style: normal;

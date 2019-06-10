@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrate');
-.header{
-position: absolute;
-left: 7.87%;
-right: 15.73%;
-top: 6.45%;
-bottom: 86.13%;
-
+.Header{
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 27px;
 
+color: #4B5853;
+
+}
+
+.today{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4B5853;
+}
+
+.SWE{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #4B5853;
 }
