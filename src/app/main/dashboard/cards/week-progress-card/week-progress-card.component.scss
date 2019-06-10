@@ -4,5 +4,71 @@
   border: 1px solid black;
   display: block;
 }
+.rectangle1{
+  width: 75px;
+  height: 30px;
+  background-color: #EE8B72;
+}
+.rectangle11{
+  width: 168px;
+  height: 30px;
+  background-color: rgba(238, 139, 114, 0.3);
+}
+.rectangle2{
+  width: 101px;
+  height: 30px;
+  background-color:#2DBDB1;
+}
+.rectangle22{
+  width: 136px;
+  height: 30px;
+  background-color:rgba(45, 189, 177, 0.3);
+}
+.rectangle3{
+  width: 70px;
+  height: 30px;
+  background-color: #FFB987;
+}
+.rectangle33{
+  width: 112px;
+  height: 30px;
+  background-color: rgba(255, 185, 135, 0.3);
+}
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+.plan{
+  color: #4B5853;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.red{
+  color: #EE8B72;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.green{
+  color: #2DBDB1;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.oj{
+  color: #FFB987;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
 
 // write your code here!!
