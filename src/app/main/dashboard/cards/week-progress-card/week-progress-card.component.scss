@@ -3,12 +3,25 @@
   background: #FFFFFF;
   font-family: Montserrat;
 }
+.weekProgressCard{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 265px;
+  height: 310px;
+  padding-top: 22px;
+  padding-right: 24px;
+  padding-bottom: 52px;
+  padding-left: 20px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 .title {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  padding-bottom: 21px;
 }
 
 .top-hashtag {
@@ -31,14 +44,10 @@
   border-radius: 3px;
 }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
+
 
 .middle-hashtag {
+  padding-top: 20px;
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
@@ -67,11 +76,21 @@
   font-size: 14px;
   line-height: 17px;
 }
+.top-hour {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+}
 
 .bottom-hashtag {
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
+  padding-top: 20px;
 }
 
 .bold-bottom-progress-bar {
@@ -97,3 +116,39 @@
   line-height: 17px;
 }
 
+
+.block-container {
+  display: flex;
+  
+  .col {
+    display: flex;
+    width: 190;
+    height: 30px;
+
+  }
+    /* The below styles define the individual block elements */
+    .column1 {
+       display: flex;
+    width: 170px;
+    height: 45px;
+      
+    }
+.column2 {
+       display: flex;
+    width: 150px;
+    height: 30px;
+    
+    }
+}
+.rightblock{
+  display:flex;
+  flex-direction: row;
+  .rightbar{
+    display: flex;
+    flex-direction: column;
+      width: 65px;
+      height: 240px;
+padding-left: 190px;
+padding-bottom: 120px;       
+  }
+}
