@@ -1,8 +1,37 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
+  background-color: #F6FDFA;
+  border: solid #4B5853;
   display: block;
+  padding-right: 10px;
 }
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 // write your code here!!
+
+.header {
+  font-family: Montserrat;
+  color: #2DBDB1;
+  font-size: 48px;
+  font-style: Medium;
+  text-align: right;
+  font-weight: 800;
+  
+}
+.header a {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #2DBDB1;
+  font-size: 12px;
+  line-height: 14.63px;
+  text-align: right;
+  
+}
+.subheader {
+  font-family: Sanchez;
+  color: #4B5853;
+  font-size: 17px;
+  text-align: right;
+  
+}
