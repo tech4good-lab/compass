@@ -6,3 +6,38 @@
 }
 
 // write your code here!!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.greet{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  color: #4B5853;
+  Align: Left;
+  Vertical: Top;
+}
+
+.search{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #98B3A9;
+}
+
+.glass{
+  width:18px;
+  length:18px;
+}
+
+.rectangle{
+  width: 396px;
+  height: 1px;
+  background-color: #98B3A9;
+  Align: Center;
+  Vertical: Top;
+}
