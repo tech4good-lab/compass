@@ -3,59 +3,77 @@
   * {
     font-family: Montserrat;
   }
+  .frame {
+    width: 265px;
+    height: 310px;
+    background: white;
+    border-radius: 10px;
+    //border: solid blue 1px;
+    padding: 15px 26px 27px 23px
 
+  }
   .title {
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    margin-top: 4px;
+    margin-bottom: 4px;
   }
 
-  .dates {
+   .dates {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin-top: 4px;
+    margin-bottom: 1px;
   }
-
-  .first {
+  .container-text {}
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+ 
+  .numbers {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-right: 24px;
+    width: 17px;
+    height: 30px;
+    //border: solid red 1px;
   }
-
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
+  
+  .tasks {
+    width: 175.25px;
+    height: 47px;
+    //border: solid red 1px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    
     color: #5a5a5a;
   }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+  
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  //border: solid blue 1px;
+  margin-top: 30px;
+
+  .pencil-group {
+  align-self: flex-end;
+  width: 26px;
+  height: 26px;
+  //border: solid red 1px;
   }
+}
+
 
