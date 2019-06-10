@@ -6,12 +6,79 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
 
 .title {
   color: #2DBDB1;
   font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
 }
 
 .date {
   color: #2DBDB1;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: Montserrat;
+  line-height: 22px;
+}
+
+.one {
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+.two {
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+.three {
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.task1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  float:right;
+
+  color: #5A5A5A;
+}
+
+.task2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #5A5A5A;
+}
+
+.task3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #5A5A5A;
 }
