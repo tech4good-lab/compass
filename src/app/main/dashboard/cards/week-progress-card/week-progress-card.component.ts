@@ -16,9 +16,19 @@ export class WeekProgressCardComponent implements OnInit {
   @Input() plans: WeekGoalProgress[];
 
   // --------------- LOCAL UI STATE ----------------------
- 
+  title: string;
+  hashtags: string[];
+  hours: number[];
 
-  constructor() { }
+  constructor() { 
+    this.title = 'This Week\'s Plans';
+    this.hashtags = [
+      '#interview',
+      '#coverletter',
+      '#internapps'
+    ];
+    this.hours = [ 4, 3, 2];
+  }
 
   ngOnInit() {
   }
