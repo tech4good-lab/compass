@@ -18,6 +18,8 @@
   font-size: 22px;
   line-height: 27px;
   color: #2DBDB1;
+  margin-bottom: 8px;
+
 }
 
 .date {
@@ -25,6 +27,7 @@
   font-size: 18px;
   line-height: 22px;
   color: #2DBDB1;
+  margin-bottom:14px;
 }
 
 .num1{
@@ -32,6 +35,8 @@
   font-size: 36px;
   line-height: 44px;
   color: #2DBDB1;
+  margin-bottom: 30px;
+
 }
 
 .num2{
@@ -39,6 +44,11 @@
   font-size: 36px;
   line-height: 44px;
   color: #2DBDB1;
+  position: relative;
+  top: 3px;
+  //left: 25px;
+  
+
 }
 
 .num3{
@@ -46,13 +56,20 @@
   font-size: 36px;
   line-height: 44px;
   color: #2DBDB1;
+  position: relative;
+  top: -27px;
+  
 }
+
 
 .quarter-goals-1 {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #5A5A5A;
+  position: relative;
+  top: -10px;
+  left: 27px
 }
 
 .quarter-goals-2 {
@@ -60,6 +77,11 @@
   font-size: 16px;
   line-height: 20px;
   color: #5A5A5A;
+  position: relative;
+  top: -40px;
+  left: 40px;
+  display: inline-table;
+  
 }
 
 .quarter-goals-3 {
@@ -67,12 +89,28 @@
   font-size: 16px;
   line-height: 20px;
   color: #5A5A5A;
+  position: relative;
+  top: -45px;
+  left: 20px;
+  display: inline-flex;
+  
 }
-
 .rectangle {
   width: 265px;
   height: 310px;
   background-color: #FFFFFF;
   box-shadow: 0px 4px 4px #D3E1DA;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top:19px;
+  padding-right:26px;
+  padding-left: 23px;
+  padding-bottom: 27px;
+}
+.pencil{
+  margin-left: auto;
+   position: relative;
+    top: -27px;
+
 }
