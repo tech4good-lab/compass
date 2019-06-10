@@ -72,6 +72,7 @@
     box-shadow: 0px 4px 4px #D3E1DA;
     border-radius: 10px;
     padding: 19px 26px 27px 26px;
+    overflow-y: auto;
 
       .title{
         display: flex;
@@ -108,7 +109,5 @@
         margin: 40px 0px 0px 180px;
         align-items: flex-end;
       }
-
-    
   }
 
