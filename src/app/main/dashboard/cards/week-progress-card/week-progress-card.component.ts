@@ -21,6 +21,7 @@ export class WeekProgressCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.plans);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
