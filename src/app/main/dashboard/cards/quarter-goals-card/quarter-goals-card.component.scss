@@ -1,61 +1,58 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+// Ignore this class.  It just adds a border so that you can find your element.
 
-  * {
-    font-family: Montserrat;
-  }
+:host {
+  border: 1px solid black;
+  display: block;
+}
+.quarter-goals-card{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  padding: 19px 14px 23px 26px;
+.title{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+color: #2DBDB1;
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+}
+.pencil{
+  padding: 0 23px 0 190px;
+}
+.date{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+color: #2DBDB1;
+}
+.list {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+color: #5A5A5A;
+}
+.num{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+color: #2DBDB1;
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+}
+.vector{
+  background: #2DBDB1;
+}
+}
+// write your code here!
