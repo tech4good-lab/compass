@@ -1,4 +1,43 @@
-.quarter-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
   border: 1px solid black;
+  display: block;
+}
+
+// write your code here!
+.bigrect {
+  width: 250px;
+  height: 280px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.boom {
+  font-size: 22px;
+  color: #2DBDB1;
+}
+
+.boom2 {
+  font-size: 18px;
+  color: #2DBDB1;
+}
+
+ol {
+  list-style: none; 
+  counter-reset: item;
+}
+.item::before {
+  content: counter(item); 
+  color: #2DBDB1;
+  font-size: 36px;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  margin-bottom: -1em;
+}
+.item {
+  counter-increment: item;
+  font-size: 16px;
+  color: #5A5A5A;
 }
