@@ -14,6 +14,8 @@ background: #F6FDFA;
   }
   .time-container{
     //time block 
+    display:flex;
+    justify-content: space-between;
     .time {
       position: relative;
       left: 70px;
@@ -28,7 +30,7 @@ background: #F6FDFA;
     //am and pm block, texts are all cap
     .am-pm {
       position: relative;
-      left: 5px;
+      left: 7px;
       width: 21px;
       height: 14px;
       font-weight: 500;
