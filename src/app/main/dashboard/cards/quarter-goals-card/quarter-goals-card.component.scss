@@ -3,6 +3,10 @@
   * {
     font-family: Montserrat;
   }
+.paper-card {
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.15);
+  
+ 
 
   .title {
     font-weight: 600;
@@ -16,6 +20,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+ 
   }
 
   .first {
@@ -23,6 +28,9 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .second {
@@ -30,6 +38,9 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .third {
@@ -37,6 +48,9 @@
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .task1 {
@@ -44,12 +58,17 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: flex;
+    flex-wrap: wrap;
+   
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .task3 {
@@ -57,5 +76,11 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    display: flex;
+    flex-wrap: wrap;
   }
+  .symbol{
+    justify-content: flex-end;
+  }
+}
 
