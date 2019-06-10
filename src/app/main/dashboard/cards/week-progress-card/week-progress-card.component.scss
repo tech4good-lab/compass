@@ -1,99 +1,143 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-* {
-  background: #FFFFFF;
-  font-family: Montserrat;
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  //border: 1px solid #000000;
+  display: block;
 }
 
-.title {
-  font-weight: 600;
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.view{
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+  color: #4b5853;
+  font-weight: 600;
+  padding-left: 9.8%;
 }
 
-.top-hashtag {
-  color: #EE8B72;
+.view2{
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-  line-height: 17px;
+  color: #EE8B72;
+  font-weight: 600;
+  padding-left: 18px;
 }
 
-.bold-top-progress-bar {
+.view3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #2DBDB1;
+  font-weight: 600;
+  padding-left: 18px;
+}
+
+.title4{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #FFB987;
+  font-weight: 600;
+  padding-left: 18px;
+}
+
+.first-dark{
+  height: 30px;
+  width: 75px;
+  background-color: #555;
   background: #EE8B72;
   border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+  float: left;
+  margin-left: 20px;
 }
 
-.light-top-progress-bar {
+.first-light{
+  height: 30px;
   width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+  margin-left: 20px;
+  background-color: #555;
+  background: #fadcd5;
+  border-radius: 0px 3px 3px 0px;
+}
+.second-dark{
+  height: 30px;
+  width: 101px;
+  background-color: #555;
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+  float: left;
+  margin-left: 22px;
 }
 
-.top-hour {
+.second-light{
+  height: 30px;
+  width: 136px;
+  margin-left: 22px;
+  background-color: #555;
+  background: #b8e8e5;
+  border-radius: 0px 3px 3px 0px;
+}
+.third-dark{
+  height: 30px;
+  width: 70px;
+  background-color: #555;
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+  float: left;
+  margin-left: 20px;
+}
+
+.third-light{
+  height: 30px;
+  width: 112px;
+  margin-left: 22px;
+  background-color: #555;
+  background:rgba(255, 185, 135, 0.3);
+  border-radius: 0px 3px 3px 0px;
+}
+
+.time1-num{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  position: relative;
+  width: 45px;
+  height: 24px;
+  left: 196px;
+  top: -25px;
+  
   color: #EE8B72;
 }
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
+.time2-num{
+  position: relative;
   width: 45px;
   height: 24px;
+  left: 165px;
+  top: -25px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+.time3-num{
+  position: relative;
+  width: 45px;
+  height: 24px;
+  left: 143px;
+  top: -25px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-}
-
-.bottom-hashtag {
   color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
 }
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
