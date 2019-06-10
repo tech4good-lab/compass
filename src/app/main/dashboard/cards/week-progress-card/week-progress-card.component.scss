@@ -6,3 +6,42 @@
 }
 
 // write your code here!!
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #4B5853;
+}
+
+.interview {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #EE8B72;
+}
+
+.cover-letter {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #2DBDB1;
+}
+
+.internapps {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #FFB987;
+}
+
