@@ -1,7 +1,25 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
+:host {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  //border: 1px solid #000000;
+  display: block;
+}
   * {
     font-family: Montserrat;
+  }
+
+  .main-container{
+    display: flex;
+  }
+  .col1{
+    
+  }
+  .col2{
+    padding-left: 23px;
+    width: 175px;
   }
 
   .title {
@@ -26,6 +44,7 @@
   }
 
   .second {
+    padding-top: 15px;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -33,6 +52,7 @@
   }
 
   .third {
+    padding-top: 20px;
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
@@ -40,12 +60,14 @@
   }
 
   .task1 {
+    padding-top: 15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
   }
   .task2 {
+    padding-top: 35px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -53,9 +75,15 @@
   }
 
   .task3 {
+    padding-top: 20px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+  }
+
+  .icon1{
+    float:right;
+    margin-right: 23px;
   }
 
