@@ -1,16 +1,12 @@
 <div class="quarter-goals-card-container">
-  <div class="title">Fall '18 Goals</div>
-  <div class="dates">9/24-12/14</div>
+  <div class="title">{{title}}</div>
+  <div class="dates">{{dates}}</div>
   <div class="task-container">
     <div class="numbers">
-      <div class="first">1</div>
-      <div class="second">2</div>
-      <div class="third">3</div>
+      <div *ngFor="let number of numbers; index as i;">{{number}}</div>
     </div>
     <div class="tasks">
-      <div class="task1">Finish cover letters</div>
-      <div class="task2">Apply to at least 50 internships</div>
-      <div class="task3">Finish technical interview prep</div>
+      <div *ngFor="let task of tasks; index as i;">{{task}}</div>
     </div>
   </div>
   <div class="pencil-img">
