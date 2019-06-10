@@ -1,7 +1,71 @@
+//import styles
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
   * {
     font-family: Montserrat;
+  }
+//define a card container
+  .card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #D3E1DA;
+    border-radius: 10px;
+
+    position: relative;
+    width: 265px;
+    height: 310px;
+    overflow: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-self:flex-start;
+    align-content: flex-start;
+    padding: 19px 22px 27px 26px;
+  }
+//header
+  .head {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .list-item1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 41px;
+    width: 216.3px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 14px;
+  }
+
+  .list-item2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 41px;
+    width: 216.3px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 25px;
+  }
+
+  .list-item3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 41px;
+    width: 216.3px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-top: 45px;
   }
 
   .title {
@@ -12,10 +76,13 @@
   }
 
   .dates {
+    padding-top: 8px;
+    font-family: Montserrat;
+    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #2dbdb1;
+    color: #2DBDB1;
   }
 
   .first {
@@ -44,12 +111,15 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    padding-top: 10px;
+    padding-left: 28.7px;
   }
   .task2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    padding-left: 23.16px;
   }
 
   .task3 {
@@ -57,5 +127,13 @@
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    padding-left: 24.2px;
   }
 
+  .button {
+    position: absolute;
+    left: 81.51%;
+    right: 8.68%;
+    top: 82.9%;
+    bottom: 8.71%;
+  }
