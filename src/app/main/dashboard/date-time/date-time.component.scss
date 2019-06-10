@@ -11,6 +11,13 @@
   font-size: 48px;
   line-height: 59px;
   color: #2dbdb1;
+  text-align: right;
+  position: absolute;
+  left: 58%;
+  top: 42.67%;
+  bottom: 38.67%;
+  text-align: right;
+
 }
   .am-pm {
   width: 21px;
@@ -19,6 +26,11 @@
   font-size: 12px;
   line-height: 15px;
   color: #2dbdb1;
+  position: absolute;
+  left: 88px;
+  top: 48%;
+  bottom: 38.67%;
+  text-align: right;
 }
 
   .date { 
@@ -28,7 +40,11 @@
   font-family: Sanchez;
   font-size: 18px;
   line-height: 23px;
-}
+  position: absolute;
+  text-align: right;
+  top: 52%;
+  right: 6%
+  }
 }
 
 
