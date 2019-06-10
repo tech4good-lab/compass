@@ -5,12 +5,11 @@
 .week-progress {
   width: 265px;
   height: 310px;
-  background: rgb(19, 18, 18);
+  background: r#FFFFFF;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  //flex-wrap: wrap;
-  //overflow: auto;
+  overflow: auto;
   padding: 22px 24px 52px 20px;
 
   .title {
@@ -24,7 +23,7 @@
     color: #EE8B72;
     font-size: 14px;
     line-height: 17px;
-    margin-bottom:11px;
+    margin-bottom:5px;
   }
   .interview{
     display: flex;
@@ -36,6 +35,7 @@
     border-radius: 3px 0px 0px 3px;
     width: 75px;
     height: 30px;
+    //margin-top:25px;
   }
 
   .light-top-progress-bar {
@@ -43,6 +43,8 @@
     height: 30px;
     background: rgba(238, 139, 114, 0.3);
     border-radius: 3px;
+    margin-left: -75px;
+
   }
 
   .top-hour {
@@ -50,12 +52,15 @@
     font-size: 14px;
     line-height: 17px;
     color: #EE8B72;
+    margin-left: auto;
+    margin-top: 5px;
   }
   }
     .middle-hashtag {
     color: #2DBDB1;
     font-size: 14px;
     line-height: 17px;
+    //margin-top: 20px;
   }
   .coverletter {
     display: flex;
@@ -75,6 +80,7 @@
     height: 30px;
     background: rgba(45, 189, 177, 0.3);
     border-radius: 3px;
+    margin-left: -101px;
   }
 
   .middle-hour {
@@ -84,6 +90,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+    margin-left: 9px;
+    margin-top: 8px;
   }
   }
   .bottom-hashtag {
@@ -95,12 +103,7 @@
   .internapps {
     display: flex;
     flex-direction: row;
-  .bottom-hashtag {
-    color: #FFB987;
-    font-size: 14px;
-    line-height: 17px;
-  }
-
+  
   .bold-bottom-progress-bar {
     background: #FFB987;
     border-radius: 3px 0px 0px 3px;
@@ -113,6 +116,7 @@
     border-radius: 3px;
     width: 112px;
     height: 30px;
+    margin-left: -70px;
   }
 
   .bottom-hour {
@@ -122,6 +126,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
+    margin-left: 11px;
+    margin-top: 6px;
   }
   }
 }
