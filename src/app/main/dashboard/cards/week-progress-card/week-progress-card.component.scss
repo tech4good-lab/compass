@@ -5,4 +5,81 @@
   display: block;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Progress{
+  width: 265px;
+  height: 310px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  .header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+  .item{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+    &.two{
+      color: #2DBDB1;
+    } 
+    &.three{
+        color: #FFB987;
+    }
+  }
+  .hour{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #EE8B72;
+    &.three{
+      color: #2DBDB1;
+    }
+    &.two{
+    color: #FFB987;
+    }
+  }
+  .red{
+    width: 75px;
+    height: 30px;
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px;
+    &.light{
+      width: 168px;
+      background: rgba(238, 139, 114, 0.3);
+      border-radius: 3px;
+    }
+  }
+  .green{
+    width: 101px;
+    height: 30px;
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    &.light{
+      width: 136px;
+      background: rgba(45, 189, 177, 0.3);
+      border-radius: 3px;
+    }
+  }
+  .orange{
+    width: 70px;
+    height: 30px;
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+    &.light{
+      width: 112px;
+      background: rgba(255, 185, 135, 0.3);
+      border-radius: 3px;
+    }
+  }
+}
 // write your code here!!

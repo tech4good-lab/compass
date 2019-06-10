@@ -1,23 +1,39 @@
 // Ignore this class.  It just adds a border so that you can find your element.
-@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
 
 :host {
   border: 1px solid black;
   display: block;
 }
 
-.background {
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.Frame{
+  width:217px;
+  height:86px;
   background: #F6FDFA;
+  .timer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: right;
+    color: #2DBDB1;
+    &.hour{
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  .date{
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+    color: #4B5853;
+  }
 }
 
-.time{
-  font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 59px;
-text-align: right;
-
-color: #2DBDB1;
-}
 // write your code here!!
