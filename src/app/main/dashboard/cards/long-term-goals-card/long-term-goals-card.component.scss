@@ -9,35 +9,50 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 .Long{
-  Font Family: Montserrat;
-  Font Style: SemiBold;
-  Font Size: 22px;
-  Line Height: 26.82px;
-  Line Height: 100%;
+  font-family: Montserrat;
+  Font-style: SemiBold;
+  Font-Size: 22px;
+  Line-Height: 26.82px;
+  Line-Height: 100%;
   Align: Left;
   Vertical: Top;
   Color: #EE8B72;
 }
 
 .Goal{
-  Font Family: Montserrat;
-  Font Style: SemiBold;
-  Font Size: 18px;
-  Line Height: 21.94px;
-  Line Height: 100%;
+  Font-Family: Montserrat;
+  Font-Style: SemiBold;
+  Font-Size: 18px;
+  Line-Height: 21.94px;
+  Line-Height: 100%;
   Align: Left;
   Vertical: Top;
   Color: #EE8B72;
 }
 
 .Objective{
-  Font Family: Montserrat;
-  Font Style: Medium;
-  Font Size: 16px;
-  Line Height: 19.5px;
-  Line Height: 100%;
+  Font-Family: Montserrat;
+  Font-Style: Medium;
+  Font-Size: 16px;
+  Line-Height: 19.5px;
+  Line-Height: 100%;
   Align: Left;
   Vertical: Top;
   Color: #4B5853;
 }
 
+.rectangle1{
+  width: 1px;
+  height: 66px;
+  background-color: #EE8B72;
+  Align: Center;
+  Vertical: Top;
+}
+
+.rectangle2{
+  width: 1px;
+  height: 89px;
+  background-color: #EE8B72;
+  Align: Center;
+  Vertical: Top;
+}
