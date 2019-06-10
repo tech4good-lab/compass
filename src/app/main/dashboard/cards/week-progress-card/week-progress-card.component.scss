@@ -27,6 +27,7 @@
   //style of the font in hr
   .hr{
     font-size: 10px;
+    
   }
 
   //plan color varies based on order and number
@@ -39,12 +40,54 @@
     
     &.one{
       color: #EE8B72;
+      
+      .requirement{
+        
+        width: 168px;
+        height: 30px;
+        background: rgba(238, 139, 114, 0.3);
+        border-radius: 3px;
+         
+      }
+
+      .progression{
+        
+        width: 75px;
+        height: 30px;
+        background: #EE8B72;
+        border-radius: 3px 0px 0px 3px;
+      }
+      
     }
     &.two{
       color: #2DBDB1;
+      .requirement{
+        width: 136px;
+        height: 30px;
+        background: rgba(45, 189, 177, 0.3);
+        border-radius: 3px;
+      }
+      .progression{
+        width: 101px;
+        height: 30px;
+        background: #2DBDB1;
+        border-radius: 3px 0px 0px 3px;
+      }
     }
     &.three{
       color: #FFB987;
+      .requirement{
+        width: 112px;
+        height: 30px;
+        background: rgba(255, 185, 135, 0.3);
+        border-radius: 3px;
+      }
+      .progression{
+        width: 70px;
+        height: 30px;
+        background: #FFB987;
+        border-radius: 3px 0px 0px 3px;
+      }
     }
   }
 }
