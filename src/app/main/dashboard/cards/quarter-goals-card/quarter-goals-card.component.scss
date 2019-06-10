@@ -1,8 +1,80 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+//The font weights are not working for me for some odd reason... :/ I went to a work session on Saturday and Mason said it was okay to leave it as is. Sorry! I'm not sure why it's not working
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 
 :host {
-  border: 1px solid black;
+  border: 1px solid #000000;
   display: block;
+  background: #FFFFFF;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
 }
 
-// write your code here!
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.FallQuarterGoalsTitle {
+  color: #2DBDB1;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.FallDates {
+  color: #2DBDB1;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+//Big Numbers - 1, 2, and 3
+
+.BigOne {
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.BigTwo {
+
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.BigThree {
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+//To Do for 1, 2, and 3
+
+.ToDoOne {
+  color: #5A5A5A;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ToDoTwo {
+  color: #5A5A5A;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.ToDoThree {
+  color: #5A5A5A;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
