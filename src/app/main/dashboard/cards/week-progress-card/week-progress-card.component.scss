@@ -38,26 +38,29 @@
     font-size: 14px;
     line-height: 17px;
     
+    //constitue progress bars and their duration
     &.one{
       color: #EE8B72;
       
       .requirement{
-        
+       
         width: 168px;
         height: 30px;
         background: rgba(238, 139, 114, 0.3);
         border-radius: 3px;
-         
-      }
 
-      .progression{
+        .progression{
+          width: 75px;
+          height: 30px;
+          background: #EE8B72;
+          border-radius: 3px 0px 0px 3px;
         
-        width: 75px;
-        height: 30px;
-        background: #EE8B72;
-        border-radius: 3px 0px 0px 3px;
+        }
+        
       }
       
+      
+    //constitue progress bars and their duration  
     }
     &.two{
       color: #2DBDB1;
@@ -66,14 +69,15 @@
         height: 30px;
         background: rgba(45, 189, 177, 0.3);
         border-radius: 3px;
-      }
-      .progression{
-        width: 101px;
-        height: 30px;
-        background: #2DBDB1;
-        border-radius: 3px 0px 0px 3px;
-      }
+          .progression{
+          width: 101px;
+          height: 30px;
+          background: #2DBDB1;
+          border-radius: 3px 0px 0px 3px;
+        }
+      }display: inline-block;
     }
+    //constitue progress bars and their duration
     &.three{
       color: #FFB987;
       .requirement{
@@ -81,13 +85,14 @@
         height: 30px;
         background: rgba(255, 185, 135, 0.3);
         border-radius: 3px;
+          .progression{
+          width: 70px;
+          height: 30px;
+          background: #FFB987;
+          border-radius: 3px 0px 0px 3px;
+        }
       }
-      .progression{
-        width: 70px;
-        height: 30px;
-        background: #FFB987;
-        border-radius: 3px 0px 0px 3px;
-      }
+
     }
   }
 }
