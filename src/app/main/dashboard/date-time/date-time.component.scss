@@ -5,7 +5,24 @@
   color: #2DBDB1;
 }
 
+.god {
+  background: #353535;
+}
+.parent {
+  position: relative;
+  width: 217px;
+  height: 86px;
+
+  background: #F6FDFA;
+
+}
 .time {
+  position: absolute;
+  left: 33.68%;
+  right: 12.63%;
+  top: 0%;
+  bottom: 32%;
+
   width: 102px;
   height: 51px;
   font-weight: 500;
@@ -14,6 +31,11 @@
 }
 
 .am-pm {
+  position: absolute;
+  left: 88.95%;
+  right: 0%;
+  top: 42.67%;
+  bottom: 38.67%;
   width: 21px;
   height: 14px;
   font-weight: 500;
@@ -22,6 +44,12 @@
 }
 
 .date { 
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 68%;
+  bottom: 0%;
+
   width: 190px;
   height: 24px;
   color: #4B5853;
