@@ -10,6 +10,7 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
   font-family: Montserrat;
+  text-indent: 10px;
 }
 
 .title,.interview,.four,.cover,.three,.intern,.two {
@@ -44,6 +45,13 @@
   font-style: normal;
 }
 
-.fur,.three,.two {
+.four,.three,.two {
   font-weight: 500;
+  float:right;
 }
+
+.svg {
+  left: 20px;
+}
+
+
