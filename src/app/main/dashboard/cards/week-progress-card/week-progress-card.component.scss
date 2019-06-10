@@ -44,3 +44,44 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+.bar-dark {
+  height: 30px;
+  border-radius: 3px 0px 0px 3px;
+
+  &.one {
+    width: 75px;
+    background: #EE8B72;
+  }
+
+  &.two {
+    width: 101px;
+    background: #2DBDB1;
+
+  }
+
+  &.three {
+    width: 70px;
+    background: #FFB987;
+  }
+}
+
+.bar-light {
+  height: 30px;
+  border-radius: 3px;
+  &.one {
+    width: 168px;
+    background: rgba(238, 139, 114, 0.3);
+  }
+
+  &.two {
+    width: 136px;
+    background: rgba(45, 189, 177, 0.3);
+
+  }
+
+  &.three {
+    width: 112px;
+    background: rgba(255, 185, 135, 0.3);
+  }
+}
