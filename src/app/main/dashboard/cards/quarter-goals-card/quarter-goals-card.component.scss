@@ -6,3 +6,44 @@
 }
 
 // write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
+
+div {
+  font-family: Montserrat; 
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.date {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.tasks {
+  list-style-type: decimal;
+}
+
+.title,.date,.one,.two,.three {
+  color: #2DBDB1;
+}
+
+.one,.two,.three {
+  font-size: 36px;
+}
+
+.task2 {
+  line-height: 154%;
+}
+
+.task1.task2.task3 {
+  text-indent: 50%;
+  font-size: 16px;
+}
