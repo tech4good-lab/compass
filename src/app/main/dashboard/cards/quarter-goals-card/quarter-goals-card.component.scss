@@ -1,8 +1,103 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
 
 // write your code here!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.fall-18-goals{
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 265px;
+  padding: 20px 21px 20px 21px;
+  background-colOr: #EEEEEE;
+}
+
+.quarter{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+}
+.dates{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+}
+.Goal1{
+
+}
+.one{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+}
+.g1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+
+}
+.Goal2{
+
+}
+.two{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+}
+.g2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  color: #5A5A5A;
+}
+.Goal3{
+
+}
+.three{ 
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+}
+.g3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 154%;
+  color: #5A5A5A;
+}
+.pencil{
+  text-align: right;
+}

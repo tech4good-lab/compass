@@ -1,8 +1,88 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
-:host {
-  border: 1px solid black;
-  display: block;
-}
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
 
 // write your code here!!
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.week-progress-card{
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 265px;
+  padding: 20px 21px 20px 21px;
+  background-colOr: #EEEEEE;
+}
+
+.bar{
+  text-align: left;
+}
+
+.header{
+  font-family: Montserrat;
+  margin-bottom: 21px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+.hash1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+
+}
+
+.time1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+.hash2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+
+.time2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2DBDB1;
+}
+.hash3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
+
+.time3{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFB987;
+}
