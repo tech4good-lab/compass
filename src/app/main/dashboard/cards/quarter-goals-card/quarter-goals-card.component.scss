@@ -4,5 +4,46 @@
   border: 1px solid black;
   display: block;
 }
+.title{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
 
+color: #2DBDB1;
+
+}
+.date{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #2DBDB1;
+}
+.list {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #5A5A5A;
+}
+.num{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #2DBDB1;
+
+}
+.vector{
+  background: #2DBDB1;
+}
 // write your code here!
