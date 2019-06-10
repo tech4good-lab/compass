@@ -1,61 +1,131 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+//The font weights are not working for me for some odd reason... :/ I went to a work session on Saturday and Mason said it was okay to leave it as is. Sorry! I'm not sure why it's not working
 
-  * {
-    font-family: Montserrat;
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
+.FallQGoalsBG {
+  background: #FFFFFF;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  padding: 20px 21px 20px 21px;
+  .FallQuarterGoalsTitle {
+  color: #2DBDB1;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.82px;
+  width: 225px;
+  height: 24px;
+  text-align: left;
+  margin-left: 7px;
   }
+}
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+* {
+font-family: 'Montserrat', sans-serif;
+}
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+.FallDates {
+  color: #2DBDB1;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 40px;
+  width: 146px;
+  height: 19px;
+  text-align: left;
+  margin-left: 7px;
+}
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+.Block1 {
+  display: flex;
+  flex-direction: row;
+
+.BigOne {
+  margin: 5px;
+  margin-top: 20px;
+  margin-left: 7px;
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  width: 17px;
+  height: 30px;
+}
+
+.ToDoOne {
+  color: #5A5A5A;
+  margin: 17px;
+  margin-left: 22.7px;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 175.3px;
+  height: 41px;
   }
+}
+
+
+.Block2 {
+  display: flex;
+  flex-direction: row;
+
+.BigTwo {
+  margin: 5px;
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 25px;
+  width: 17px;
+  height: 30px;
+}
+
+.ToDoTwo {
+  color: #5A5A5A;
+  margin: 17px;
+  margin-left: 22px;
+  margin-top: -8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  width: 175.3px;
+  height: 41px;
+  }
+}
+
+
+.Block3 {
+  display: flex;
+  flex-direction: row;
+
+.BigThree {
+  margin: 5px;
+  margin-top: 17px;
+  color: #2DBDB1;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: -1px;
+  width: 17px;
+  height: 30px;
+}
+
+.ToDoThree {
+  color: #5A5A5A;
+  margin: 17px;
+  margin-left: 22.8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  width: 175.3px;
+  height: 41px;
+  }
+}
+
+.PencilIcon {
+  margin-left: 195px;
+  margin-top: -90px;
+}
 
