@@ -1,61 +1,73 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
+// Ignore this class.  It just adds a border so that you can find your element.
 
-  * {
+//:host {
+ // border: 1px solid black;
+/////  display: block;
+//}
+
+// write your code here!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+  *{
     font-family: Montserrat;
   }
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
+  .fall{
+    box-shadow: 0px 4px 4px #D3e1DA;
+    border-radius: 10px;display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 265px;
+    padding: 19px 23px 26px 26px;
+    background-color: #EEEEEE;
   }
 
-  .dates {
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .numbers{
+    margin-top: 14px;
+  }
+
+  .tasks{
+    margin-left: 24px;
+    margin-top: 27px;
+  }
+
+  .title{
+    font-weight: 600;
+    font-size:22px;
+    line-height: 27px;
+    color: #2dbdb1;
+    margin-bottom: 8px
+  }
+
+  .dates{
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
   }
 
-  .first {
+  .place{
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-bottom: 15px;
   }
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
-
-  .task1 {
+  .description{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
+    color: #5A5A5A;
+    margin-bottom: 24px;
   }
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+.draw{
+  text-align: right;
+}
