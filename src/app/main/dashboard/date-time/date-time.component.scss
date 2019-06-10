@@ -6,3 +6,30 @@
 }
 
 // write your code here!!
+.rectangle {
+  position: relative;
+  width: 217px;
+  height: 86px;
+  background: #F6FDFA;
+
+  .time {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #3DBDB1;
+    vertical-align: top;
+    }
+  .date {
+    font-family: Sanchez;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B5853;
+    vertical-align: top;
+    }
+  * {
+    font-style: normal;
+    text-align: right;
+    } 
+}
