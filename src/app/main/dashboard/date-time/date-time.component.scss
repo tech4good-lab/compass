@@ -1,8 +1,35 @@
 // Ignore this class.  It just adds a border so that you can find your element.
 
 :host {
-  border: 1px solid black;
+  background-color: #F6FDFA;
+  border: 1
+  px solid #4B5853;
   display: block;
 }
 
-// write your code here!!
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.header
+{
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-size: 35px;
+  line-height: -10px;
+  text-align: right;
+}
+
+.header a{
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: -10px;
+  text-align: right;
+}
+
+.subheader {
+  color: #4B5853;
+  font-family: Sanchez;
+  font-size: 15px;
+  line-height: -10px;
+  text-align: right;
+}
