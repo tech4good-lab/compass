@@ -1,4 +1,51 @@
-.week-progress-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
+// Ignore this class.  It just adds a border so that you can find your element.
+
+:host {
   border: 1px solid black;
+  display: block;
 }
+.title{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #4B5853;
+}
+.interview{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #EE8B72;
+
+}
+.cv{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #2DBDB1;
+}
+.apps{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFB987;
+
+}
+.hours{
+  font-weight: 500;
+
+}
+// write your code here!!
