@@ -5,4 +5,37 @@
   display: block;
 }
 
-// write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+.morning {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 46.81%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+
+color: #4B5853;
+}
+
+.search {
+position: absolute;
+left: 7.07%;
+right: 74.49%;
+top: 3.7%;
+bottom: 33.33%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #98B3A9;
+}

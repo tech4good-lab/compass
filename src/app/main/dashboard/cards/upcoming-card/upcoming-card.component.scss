@@ -1,8 +1,15 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url('https://fonts.googleapis.com/css?family=Montserrate');
+.header{
+position: absolute;
+left: 7.87%;
+right: 15.73%;
+top: 6.45%;
+bottom: 86.13%;
 
-:host {
-  border: 1px solid black;
-  display: block;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
 }
-
-// write your code here!!
