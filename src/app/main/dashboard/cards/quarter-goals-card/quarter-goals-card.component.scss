@@ -4,58 +4,121 @@
     font-family: Montserrat;
   }
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+  .all{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 310px; 
+    //background: lightgray;
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+    .title {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+      color: #2dbdb1;
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+      margin-bottom: 8px;
+      margin-left: 26px;
+      margin-top: 19px;
+    }
+    .dates {
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+      color: #2dbdb1;
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+      margin-bottom: 14px;
+      margin-left: 26px;
+    }
+    
+    .allinfo{
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+    .firsts {
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      
+      .first {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        
+        text-align: center;
+        width: 17px;
+        height: 30px;
+        margin-bottom: 26px;
+        margin-left: 26px;
+        margin-right: 24px;
+      }
+      .task1 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+        width: 175.3px;
+        height:41px;
+      }
+    }
+    .seconds{
+      display: flex;
+      flex-direction: row;
+      jalign-items: baseline;
+      
+      .second {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        
+        text-align: center;
+        width: 17px;
+        height: 30px;
+        margin-bottom: 26px;
+        margin-left: 26px;
+        margin-right: 23.16px;
+      }
+      .task2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+        width: 175px;
+        height: 22px;
+      }
+    }
+    .thirds{
+      display: flex;
+      flex-direction: row;
+      
+      
+      .third {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2dbdb1;
+        
+        text-align: center;
+        width: 17px;
+        height: 30px;
+        margin-bottom: 32px;
+        margin-left: 26px;
+        margin-right: 24.2px;
+      }
+      .task3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #5a5a5a;
 
+        width: 175px;
+        height: 22px;
+      }
+    }
+    }
+    .pen{
+      margin-left: 216px;
+    }
+  }
