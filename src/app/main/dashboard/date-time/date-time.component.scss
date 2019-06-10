@@ -5,6 +5,13 @@
   color: #2DBDB1;
 }
 
+.background {
+  background-color: #F6FDFA;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .time {
   width: 102px;
   height: 51px;
@@ -14,11 +21,14 @@
 }
 
 .am-pm {
-  width: 21px;
+  align-self: flex-end;
+  text-align: right;
+  width: 12px;
   height: 14px;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  flex-grow: 0.075;
 }
 
 .date { 
