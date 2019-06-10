@@ -1,5 +1,5 @@
 <div class="quarter-goals-card-container">
-  <div class="title">Fall '18 Goals</div>
+  <div class="title">Fall '{{startOfWeek | date: 'yy'}} Goals</div>
   <div class="dates">9/24-12/14</div>
   <div class="task-container">
     <div class="numbers">
@@ -7,10 +7,10 @@
       <div class="second">2</div>
       <div class="third">3</div>
     </div>
-    <div class="tasks">
-      <div class="task1">Finish cover letters</div>
-      <div class="task2">Apply to at least 50 internships</div>
-      <div class="task3">Finish technical interview prep</div>
+    <div class="tasks" *ngFor="let goal of QuarterGoal">
+      <div class="task1">{{goal.one}}</div>
+      <div class="task2">{{goal.two}}</div>
+      <div class="task3">{{goal.three}}</div>
     </div>
   </div>
   <div class="pencil-img">

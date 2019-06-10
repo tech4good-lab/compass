@@ -24,9 +24,18 @@ export class QuarterGoalsCardComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+    this.QuarterGoal = [
+      {one: 'Finish cover letters'
+      }, 
+      {two: 'Apply to at least 50 internships'
+      }, 
+      {three: 'Finish technical interview prep'
+      }]
+   }
 
   ngOnInit() {
+    console.log(QuarterGoal);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
