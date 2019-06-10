@@ -75,7 +75,8 @@ color: #4B5853;
 }
 
 .four{
-  text-align: right;
+    position: absolute;
+
   height: 22px;
   width: 45px;
   height: 24px;
@@ -125,4 +126,37 @@ line-height: 17px;
 
 color: #FFB987;
 
+}
+
+.image-one {
+  position: absolute;
+  width: 168px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+.image-two {
+  position: absolute;
+  width: 101px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.image-three{
+  position: absolute;
+  width: 70px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
 }
