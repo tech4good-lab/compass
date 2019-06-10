@@ -9,6 +9,10 @@
     font-size: 22px;
     line-height: 27px;
     color: #2dbdb1;
+    margin-left: 26px;
+    margin-right: 14px;
+    margin-top: 19px;
+    margin-bottom: 8px;
   }
 
   .dates {
@@ -16,46 +20,76 @@
     font-size: 18px;
     line-height: 22px;
     color: #2dbdb1;
+    margin-left: 26px;
+    margin-right: 93px;
   }
 
-  .first {
+  .container1{
+  display: flex;
+  margin-left: 26px;
+
+    .first {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
-  }
+    margin-top: 14px;
+    margin-right: 24px;
+    }
 
-  .second {
+    .task1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5a5a;
+    margin-top: 25px;
+    }
+  }
+    .container2{
+    display: flex;
+    margin-left: 26px;
+    justify-content: space-between;
+    .second{
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
+    margin-right: 23.16px;
+    }
+
+    .task2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5a5a5a;
+    margin-top: 4px;
+    }
   }
 
-  .third {
+  .container3{
+    display: flex;
+    margin-left: 26px;
+    justify-content: space-between;
+
+    .third {
     font-weight: 500;
     font-size: 36px;
     line-height: 44px;
     color: #2dbdb1;
-  }
+    margin-right: 24.2px;
+    }
 
-  .task1 {
+   .task3 {
+    margin-top: 13px;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #5a5a5a;
+    }
   }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-
+.svg{
+  padding-right: 216px;
+  padding-left: 23px;
+  padding-bottom: 27px;
+  padding-top: 257px;
+}
