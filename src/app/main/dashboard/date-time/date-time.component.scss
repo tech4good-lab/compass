@@ -9,14 +9,15 @@
 .dtcontainer{
   font-family: Montserrat;
   color: #2DBDB1;
+  overflow-x: auto;
 
   .time {
-    width: 102px;
+    width: 200px;
     height: 51px;
     font-weight: 500;
     font-size: 48px;
     line-height: 59px;
-    text-align: right;
+    align-self: right;
   }
   .am-pm {
     width: 21px;
