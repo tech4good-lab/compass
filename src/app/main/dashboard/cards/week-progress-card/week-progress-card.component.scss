@@ -1,99 +1,179 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+
 * {
-  background: #FFFFFF;
+  background:white;
   font-family: Montserrat;
 }
 
-.title {
-  font-weight: 600;
-  font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+.week-progress-card-container {
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.top-hashtag {
-  color: #EE8B72;
-  font-size: 14px;
-  line-height: 17px;
+.title-header {
+  width: 265px;
+  height: 68px;
+  display: flex;
+
+  .title {
+    align-self: flex-end;
+    padding-left: 20px;
+    width: 221px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+    
+  }
 }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+.top{
+  display: flex;
+
+  .top-hashtag {
+    width: 113px;
+    height: 17px;
+    color: #EE8B72;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
 }
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
-  background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+.top-info {
+  padding-left: 20px;
+  display: flex;
+  width: 265px;
+  height: 30px;
+  
+  .bold-top-progress-bar {
+   background: #EE8B72;
+   border-radius: 3px 0px 0px 3px;
+   width: 75px;
+   height: 27px;
+  }
+
+  .light-top-progress-bar {
+    width: 168px;
+    height: 27px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+  
+  .top-hour {
+    text-align: right;
+    color: #EE8B72; 
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    
+  }
 }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
+.middle {
+ display: flex;
+ width: 265px;
+ height: 37px;
+
+  .middle-hashtag {
+    width: 120px;
+    height: 17px;
+    color: #2DBDB1;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    align-self: flex-end;
+  }
 }
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
+.middle-info {
+  padding-left: 20px;
+  width: 265px;
+  height: 30px;
+  display: flex;
+
+  .bold-middle-progress-bar {
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+    width: 101px;
+    height: 27px;
+  }
+
+  .light-middle-progress-bar {
+    color: #2DBDB1;
+    width: 136px;
+    height: 27px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+
+  .middle-hour {
+   text-align: right;
+   color: #2DBDB1;
+   width: 45px;
+   height: 24px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 25px;
+   
+  }
 }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
+.bottom {
+  display: flex;
+  width: 265px;
+  height: 37px;
+
+  .bottom-hashtag {
+    color: #FFB987;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    align-self: flex-end;
+    width: 120px;
+    height: 17px;
+  }
 }
 
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
+.bottom-info {
+  padding-left: 20px;
+  display: flex;
+  width: 265px;
+  height: 30px;
+
+  .bold-bottom-progress-bar {
+   background: #FFB987;
+   border-radius: 3px 0px 0px 3px;
+   width: 70px;
+   height: 27px;
+  }
+
+  .light-bottom-progress-bar {
+   background: rgba(255, 185, 135, 0.3);
+   border-radius: 3px;
+   width: 112px;
+   height: 27px;
+  }
+
+  .bottom-hour {
+   text-align: right;
+   color: #FFB987;
+   width: 45px;
+   height: 24px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 25px;
+   
+  }
 }
 
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
 
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
 
-.bold-bottom-progress-bar {
-  background: #FFB987;
-  border-radius: 3px 0px 0px 3px;
-  width: 70px;
-  height: 27px;
-}
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
 
