@@ -5,12 +5,25 @@
   color: #2DBDB1;
 }
 
+.date-time-card{
+  position: relative;
+  width: 217px;
+  height: 86px;
+  background: #F6FDFA;
+  padding: 3px 14px 8px 13px;
+}
+
+.time-of-day{
+  text-align: right;
+}
+
 .time {
   width: 102px;
   height: 51px;
   font-weight: 500;
   font-size: 48px;
   line-height: 59px;
+  text-align: right;
 }
 
 .am-pm {
@@ -19,6 +32,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+  text-align: right;
 }
 
 .date { 
