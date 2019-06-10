@@ -4,5 +4,83 @@
   border: 1px solid black;
   display: block;
 }
-
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 // write your code here!!
+  * {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+.interview {
+  color: #EE8B72;
+
+  .rect1-interview{
+    width: 75px;
+    height: 30px;
+    background: #EE8B72;
+    border-radius: 3px 0px 0px 3px
+  }
+
+  .rect2-interview{
+    width: 168px;
+    height: 30px;
+    background: rgba(238, 139, 114, 0.3);
+    border-radius: 3px;
+  }
+
+  .four {
+    font-weight: 500;
+  }
+}
+
+.coverletter {
+  color: #2DBDB1;
+
+  .rect1-coverletter {
+    width: 101px;
+    height: 30px;
+    background: #2DBDB1;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .rect2-coverletter{
+    width: 136px;
+    height: 30px;
+    background: rgba(45, 189, 177, 0.3);
+    border-radius: 3px;
+  }
+
+  .three {
+    font-weight: 500;
+  }
+}
+
+.internapps {
+  color: #FFB987;
+
+   .rect1-interapps {
+    width: 70px;
+    height: 30px;
+    background: #FFB987;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .rect2-interapps {
+    width: 112px;
+    height: 30px;
+    background: rgba(255, 185, 135, 0.3);
+    border-radius: 3px;
+  }
+
+  .two {
+    font-weight:500;
+  }
+}
+
