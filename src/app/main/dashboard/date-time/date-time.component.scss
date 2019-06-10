@@ -41,21 +41,21 @@
   width: 217px;
   height: 86px;
   background: #F6FDFA;
-  overflow: auto;
+  //overflow: auto;
   justify-content: space-around;
 
   .top-time{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    overflow-x: auto;
+    //overflow-x: auto;
     flex-grow: 1;
   }
 
-  .bottom-row{
+  .bottom-date{
     display: flex;
     flex-wrap: wrap;
     flex-direction:row;
-    overflow-x:auto;
+    //overflow-x:auto;
   }
 }
