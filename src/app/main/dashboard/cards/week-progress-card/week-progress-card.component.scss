@@ -2,6 +2,7 @@
 * {
   background: #FFFFFF;
   font-family: Montserrat;
+
 }
 
 .title {
@@ -9,12 +10,17 @@
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  position: relative;
+  left: 20px;
 }
 
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
   line-height: 17px;
+  position: relative;
+  left: 20px;
+  top:13px;
 }
 
 .bold-top-progress-bar {
@@ -22,6 +28,9 @@
   border-radius: 3px 0px 0px 3px;
   width: 75px;
   height: 27px;
+  position: relative;
+  left: 20px;
+  top:15px;
 }
 
 .light-top-progress-bar {
@@ -29,19 +38,27 @@
   height: 27px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
+  position: relative;
+  left: 20px;
+  top:-12px;
 }
 
 .top-hour {
+  position: relative;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  left:196px;
+  top: -34px;
 }
 
 .middle-hashtag {
   color: #2DBDB1;
   font-size: 14px;
   line-height: 17px;
+  position: relative;
+  left: 20px;
 }
 
 .bold-middle-progress-bar {
@@ -49,6 +66,8 @@
   border-radius: 3px 0px 0px 3px;
   width: 101px;
   height: 27px;
+  position: relative;
+  left: 20px;
 }
 
 .light-middle-progress-bar {
@@ -57,21 +76,30 @@
   height: 27px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
+  position: relative;
+  left: 20px;
+  top:-27px;
 }
 
 .middle-hour {
+  position: relative;
   color: #2DBDB1;
   width: 45px;
   height: 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  left:165px;
+  top:-50px;
 }
 
 .bottom-hashtag {
   color: #FFB987;
   font-size: 14px;
   line-height: 17px;
+  position: relative;
+  left: 20px;
+  top:-20px;
 }
 
 .bold-bottom-progress-bar {
@@ -79,6 +107,9 @@
   border-radius: 3px 0px 0px 3px;
   width: 70px;
   height: 27px;
+  position: relative;
+  left: 20px;
+  top: -17px;
 }
 
 .light-bottom-progress-bar {
@@ -86,6 +117,9 @@
   border-radius: 3px;
   width: 112px;
   height: 27px;
+  position: relative;
+  left: 20px;
+  top:-44px;
 }
 
 .bottom-hour {
@@ -95,5 +129,8 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  position: relative;
+  left:143px;
+  top:-67px;
 }
 
