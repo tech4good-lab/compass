@@ -4,14 +4,10 @@
   font-family: Montserrat;
   color: #2DBDB1;
   background-color: #F6FDFA;
-  height: 86px;
-  width: 217px;
 }
 .contain{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  padding: 3px 38px 32px 77px;
+  height: 86px;
+  width: 217px;
 
   .time {
     width: 102px;
@@ -19,6 +15,7 @@
     font-weight: 500;
     font-size: 48px;
     line-height: 59px;
+    padding: 3px 38px 32px 77px;
   }
 
   .am-pm {
@@ -27,16 +24,19 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-  }
-}
+    padding-left: 4px;
 
-.date { 
-  width: 190px;
-  height: 24px;
-  color: #4B5853;
-  font-family: Sanchez;
-  font-size: 18px;
-  line-height: 23px;
-  padding: 0px 14px 8px 13px;
+  }
+
+  .date { 
+    width: 190px;
+    height: 24px;
+    color: #4B5853;
+    font-family: Sanchez;
+    font-size: 18px;
+    line-height: 23px;
+    padding: 2px 14px 8px 13px; 
+    white-space: nowrap;
+  }
 }
 
