@@ -1,99 +1,146 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-* {
+//Hello! Again, I'm not sure why my font weight is not working on the "This Week's Plans" (600 looks bold in Figma but for some reason not here) :/ ... thanks for your consideration!
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.container {
+  display: flex;
+  margin-top: 5px;
+}
+.wrapper {
+  margin: auto;
+}
+
+.ObstacleCardBG {
   background: #FFFFFF;
-  font-family: Montserrat;
+  width: 265px;
+  height: 310px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px 21px 20px 21px;
+}
+
+//-------------------------------------------
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+.TitleofCard {
+  display: flex;
+}
+
+.margin-right {
+  margin-right: 10px;
 }
 
 .title {
+  color: #4B5853;
   font-weight: 600;
   font-size: 22px;
-  line-height: 27px;
-  color: #4B5853;
+  margin-bottom: 10px;
+  line-height: 26.82px;
+  width: 225px;
+  height: 24px;
+  text-align: left;
+  margin-left: 3px;
 }
 
-.top-hashtag {
+//-------------------------------------------
+
+.hashInt {
   color: #EE8B72;
+  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  width: 113px;
+  margin-top: 20px;
 }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
-  width: 75px;
-  height: 27px;
+.inthour {
+  color: #EE8B72;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 27px;
+  height: 57px;
+  text-align: right;
 }
 
-.light-top-progress-bar {
+.lightintbar {
   width: 168px;
-  height: 27px;
+  margin-right: 10px;
+  height: 30px;
   background: rgba(238, 139, 114, 0.3);
   border-radius: 3px;
 }
 
-.top-hour {
+.darkintbar {
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+  width: 75px;
+  height: 30px;
+}
+
+//-------------------------------------------
+
+.hashCov {
+  color: #2DBDB1;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #EE8B72;
+  width: 113px;
 }
 
-.middle-hashtag {
+.covhour {
   color: #2DBDB1;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 30px;
+  height: 57px;
+  text-align: right;
 }
 
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
-  width: 101px;
-  height: 27px;
-}
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
+.lightcovbar {
   width: 136px;
-  height: 27px;
+  height: 30px;
+  margin-right: 10px;
   background: rgba(45, 189, 177, 0.3);
   border-radius: 3px;
 }
 
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
+.darkcovbar {
+  background: #2DBDB1;
+  margin-right: 10px;
+  border-radius: 3px 0px 0px 3px;
+  width: 101px;
+  height: 30px;
+}
+
+//-------------------------------------------
+
+.hashIntern {
+  color: #FFB987;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  width: 113px;
 }
-
-.bottom-hashtag {
+.internhour {
   color: #FFB987;
+  font-weight: 500;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 30px;
+  height: 57px;
+  text-align: right;
 }
 
-.bold-bottom-progress-bar {
+.lightinternbar {
+  width: 112px;
+  height: 30px;
+  margin-right: 10px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
+.darkinternbar {
   background: #FFB987;
   border-radius: 3px 0px 0px 3px;
   width: 70px;
-  height: 27px;
+  height: 30px;
 }
-
-.light-bottom-progress-bar {
-  background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
-}
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
