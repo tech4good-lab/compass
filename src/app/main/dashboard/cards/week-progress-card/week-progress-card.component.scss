@@ -1,16 +1,67 @@
+//import font styles
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * {
   background: #FFFFFF;
   font-family: Montserrat;
 }
+//identify container
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px #D3E1DA;
+    border-radius: 10px;
 
+    position: relative;
+    width: 265px;
+    height: 310px;
+    overflow: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+    padding: 22px 24px 52px 20px;
+}
+//create top bar
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+
+//create second bar
+.middle-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+
+//create third bar
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+//styliing titles
 .title {
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
   color: #4B5853;
+  padding-bottom: 21px;
 }
-
+//hash tag
 .top-hashtag {
   color: #EE8B72;
   font-size: 14px;
@@ -31,11 +82,20 @@
   border-radius: 3px;
 }
 
+//change font size of hr
+.hr{
+  font-size:10px;
+  
+}
+
+//text styling
 .top-hour {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #EE8B72;
+  padding-left: 8px;
+  padding-top: 5px;
 }
 
 .middle-hashtag {
@@ -44,13 +104,14 @@
   line-height: 17px;
 }
 
+//styling shapes
 .bold-middle-progress-bar {
   background: #2DBDB1;
   border-radius: 3px 0px 0px 3px;
   width: 101px;
   height: 27px;
 }
-
+//styling shapes
 .light-middle-progress-bar {
   color: #2DBDB1;
   width: 136px;
@@ -61,11 +122,13 @@
 
 .middle-hour {
   color: #2DBDB1;
-  width: 45px;
+  width: 55px;
   height: 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  padding-left: 9px;
+  padding-top: 5px;
 }
 
 .bottom-hashtag {
@@ -74,6 +137,7 @@
   line-height: 17px;
 }
 
+//styling shapes
 .bold-bottom-progress-bar {
   background: #FFB987;
   border-radius: 3px 0px 0px 3px;
@@ -81,19 +145,21 @@
   height: 27px;
 }
 
+//styling shapes
 .light-bottom-progress-bar {
   background: rgba(255, 185, 135, 0.3);
   border-radius: 3px;
   width: 112px;
   height: 27px;
 }
-
+//styling texts
 .bottom-hour {
   color: #FFB987;
-  width: 45px;
+  width: 55px;
   height: 24px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
+  padding-left: 11px;
+  padding-top: 5px;
 }
-
