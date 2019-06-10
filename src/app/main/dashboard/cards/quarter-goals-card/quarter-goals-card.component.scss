@@ -2,22 +2,21 @@
 
 :host {
   background-color: #F6FDFA;
-  border: 1
-  px solid #4B5853;
   display: block;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
- * { font-family: Montserrat; 
- } 
- .quarterGoal { 
-   position: relative; 
-   width: 265px;
-   height: 310px;
-   border-radius: 10px;
-   box-shadow: 0px 4px 4px #D3E1DA;
-   background-color: #FFFFFF; 
+* { font-family: Montserrat; 
+}
+
+.quarterGoal { 
+  position: relative; 
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  background-color: #FFFFFF; 
 } 
 
 .goalTitle { 
@@ -33,7 +32,7 @@
 } 
 
 .date { 
-  font-weight: 300; 
+  font-weight: 100; 
   font-style: light;
   position: absolute; 
   left: 9.81%; 
