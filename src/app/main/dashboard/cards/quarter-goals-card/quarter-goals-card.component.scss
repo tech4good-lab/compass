@@ -1,4 +1,65 @@
-.quarter-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+// Ignore this class.  It just adds a border so that you can find your element.
+
+//:host {
+//  border: 1px solid black;
+//  display: block;
+//}
+
+// write your code here!
+.body {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+
+.title {
+  padding-top: 19px;
+  padding-left: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #2DBDB1;
+}
+
+.date {
+  padding-top: 8px;
+  padding-left: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2DBDB1;
+}
+
+.row{
+  padding-top: 14px;
+  padding-left: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #2DBDB1;
+  display: flex;
+}
+
+.item {
+  padding-left: 24px;
+  text-align: left;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5A5A5A;
+}
+
+.pencil{
+  margin-top: 20px;
+  margin-left: 216px;
+  margin-bottom: 27px;
 }
