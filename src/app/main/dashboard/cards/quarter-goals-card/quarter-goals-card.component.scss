@@ -6,3 +6,39 @@
 }
 
 // write your code here!
+//Fall
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+*{
+  font-family: Montserrat;
+}
+.Fall {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 22px;
+  padding-left: 10px;
+  color:#2DBDB1;
+}
+
+.Date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-left: 10px;
+  color:#2DBDB1;
+}
+
+.number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color:#2DBDB1;
+  padding-left: 10px;
+}
+
+.desc   {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color:#5A5A5A;
+}

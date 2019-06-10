@@ -6,3 +6,95 @@
 }
 
 // write your code here!!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+*{
+  font-family: Montserrat;
+  padding-left: 15px;
+}
+
+.Plans {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 22px;
+  color:#4B5853;
+}
+
+.interview {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color:#EE8B72;
+}
+
+.rectangle1 {
+  width: 75px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+  background-color: #EE8B72;
+  border-radius: 3px;
+  margin-left:15px;
+}
+.rectangle11 {
+  width: 168px;
+  height: 30px;
+  left: 20px;
+  top: 90px;
+
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+
+.cover {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color:#2DBDB1;
+}
+
+.rectangle2 {
+  width: 101px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+  background-color: #2DBDB1;
+  border-radius: 3px;
+  margin-left:15px;
+}
+.rectangle22 {
+  width: 136px;
+  height: 30px;
+  left: 20px;
+  top: 159px;
+
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+
+
+.intern {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color:#FFB987;
+}
+
+.rectangle3 {
+  width: 70px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+  background-color: #FFB987;
+  border-radius: 3px;
+  margin-left:15px;
+}
+.rectangle33 {
+  width: 112px;
+  height: 30px;
+  left: 20px;
+  top: 228px;
+
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+}
