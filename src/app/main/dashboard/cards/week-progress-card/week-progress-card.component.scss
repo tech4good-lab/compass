@@ -5,4 +5,102 @@
   display: block;
 }
 
-// write your code here!!
+// write your code here!
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  background: #FFFFFF;
+  font-family: Montserrat;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+}
+
+.first-hashtag {
+  color: #EE8B72;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.bold-first-progress-bar {
+  background: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+  width: 75px;
+  height: 27px;
+}
+
+.light-first-progress-bar {
+  width: 168px;
+  height: 27px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 3px;
+}
+
+.first-hour {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EE8B72;
+}
+
+.second-hashtag {
+  color: #2DBDB1;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.bold-second-progress-bar {
+  background: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+  width: 101px;
+  height: 27px;
+}
+
+.light-second-progress-bar {
+  color: #2DBDB1;
+  width: 136px;
+  height: 27px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 3px;
+}
+
+.second-hour {
+  color: #2DBDB1;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.third-hashtag {
+  color: #FFB987;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.bold-third-progress-bar {
+  background: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+  width: 70px;
+  height: 27px;
+}
+
+.light-third-progress-bar {
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 3px;
+  width: 112px;
+  height: 27px;
+}
+
+.third-hour {
+  color: #FFB987;
+  width: 45px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
