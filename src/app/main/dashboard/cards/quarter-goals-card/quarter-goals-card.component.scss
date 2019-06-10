@@ -1,8 +1,101 @@
-// Ignore this class.  It just adds a border so that you can find your element.
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 
-:host {
-  border: 1px solid black;
-  display: block;
+//set all fonts to monserret
+.quarter-goals-container {
+  * {
+    font-family: Montserrat;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #D3E1DA;
+  background-color: #FFFFFF;
+
 }
+//css copied from figma
+  .space {
+    width: 26px;
+  }
 
-// write your code here!
+  .goals {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    width: 239px;
+    height: 22px;
+    align-self: center;
+     color: #2dbdb1;
+  }
+
+  .dates {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    width: 239px;
+    height: 14px;
+    color: #2dbdb1;
+  }
+
+  .one {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+    width: 20px;
+    height: 30px;
+    flex-grow: 1;
+  }
+
+  .two {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+    width: 20px;
+    height: 30px;
+    flex-grow: 1;
+  }
+
+  .three {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2dbdb1;
+    width: 20px;
+    height: 30px;
+    flex-grow: 1;
+  }
+
+  .task-1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    height: 30px;
+    align-self: center;
+    color: #5a5a5a;
+  }
+
+  .task-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5a5a5a;
+    width: 200px;
+    height: 30px;
+  }
+
+  .padding {
+    width: 190px;
+  }
+  .task-3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5a5a5a;
+    width: 200px;
+    height: 30px;
+  }
