@@ -6,3 +6,94 @@
 }
 
 // write your code here!!
+.week_progress_container {
+  height: 310px;
+  width: 265px;
+  padding: 15px;
+  padding-top: 10px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.week_progress_container .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+
+  color: #4B5853;
+}
+
+.week_progress_container .sub_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+
+.week_progress_container .hours_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #EE8B72;
+}
+
+
+.week_progress_container .row {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.week_progress_container .interview_1 {
+  height: 100%;
+  width: 75px;
+  background-color: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
+}
+
+
+.week_progress_container .interview_2 {
+  height: 100%;
+  width: 93px;
+  background: rgba(238, 139, 114, 0.3);
+  border-radius: 0px 3px 3px 0px;
+}
+
+
+.week_progress_container .coverletter_1 {
+  height: 100%;
+  width: 101px;
+  background-color: #2DBDB1;
+  border-radius: 3px 0px 0px 3px;
+}
+
+
+.week_progress_container .coverletter_2 {
+  height: 100%;
+  width: 35px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 0px 3px 3px 0px;
+}
+
+
+.week_progress_container .internapps_1 {
+  height: 100%;
+  width: 70px;
+  background-color: #FFB987;
+  border-radius: 3px 0px 0px 3px;
+}
+
+
+.week_progress_container .internapps_2 {
+  height: 100%;
+  width: 42px;
+  background: rgba(255, 185, 135, 0.3);
+  border-radius: 0px 3px 3px 0px;
+}
+
+
