@@ -6,3 +6,65 @@
 }
 
 // write your code here!
+.quarter_goals_card_container {
+  width: 265px;
+  height: 310px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.quarter_goals_card_container .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.quarter_goals_card_container .number_text {
+  margin-right: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight:500;
+  font-size: 36px;
+}
+
+.quarter_goals_card_container .description_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+  color: #5A5A5A;
+}
+
+.quarter_goals_card_container .dates_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 5px;
+
+  color: #2DBDB1;
+}
+
+.quarter_goals_card_container .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
+
+  color: #2DBDB1;
+}
+
+.quarter_goals_card_container .pencil {
+  height: 26px;
+  width: 26px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
