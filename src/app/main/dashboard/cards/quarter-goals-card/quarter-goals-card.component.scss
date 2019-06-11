@@ -1,61 +1,64 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 
-  * {
-    font-family: Montserrat;
-  }
+.quarter_goals_card_container {
+  width: 265px;
+  height: 310px;
+  padding: 20px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    color: #2dbdb1;
-  }
+.quarter_goals_card_container .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-  .dates {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    color: #2dbdb1;
-  }
+.quarter_goals_card_container .number_text {
+  margin-right: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight:500;
+  font-size: 36px;
+}
 
-  .first {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+.quarter_goals_card_container .description_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0px;
+  color: #5A5A5A;
+}
 
-  .second {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+.quarter_goals_card_container .dates_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0px;
+  margin-bottom: 5px;
 
-  .third {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 44px;
-    color: #2dbdb1;
-  }
+  color: #2DBDB1;
+}
 
-  .task1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
-  .task2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+.quarter_goals_card_container .title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 5px;
 
-  .task3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #5a5a5a;
-  }
+  color: #2DBDB1;
+}
 
+.quarter_goals_card_container .pencil {
+  height: 26px;
+  width: 26px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
