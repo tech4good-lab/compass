@@ -1,14 +1,129 @@
-<div class="title">This Week's Plans</div>
-<div class="top-hashtag">#interview</div>
-<div class="bold-top-progress-bar"></div>
-<div class="light-top-progress-bar"></div>
-<div class="top-hour">4 HRS</div>
-<div class="middle-hashtag">#coverletter</div>
-<div class="bold-middle-progress-bar"></div>
-<div class="light-middle-progress-bar"></div>
-<div class="middle-hour">3 HRS</div>
-<div class="bottom-hashtag">#internapps</div>
-<div class="bold-bottom-progress-bar"></div>
-<div class="light-bottom-progress-bar"></div>
-<div class="bottom-hour">2 HRS</div>
+<style>
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+#title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  color: #4B5853;
+  //background-color:red;
+
+}
+.tags {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.time {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+#rcorners1 {
+  border-radius: 5px 0px 0px 5px;
+  padding: 20px; 
+  width: 75px;
+  height: 10px; 
+}
+#rcorners2 {
+  border-radius: 0px 5px 5px 0px;
+  padding: 20px; 
+  width: 90px;
+  height: 10px; 
+}
+#rcorners3 {
+  border-radius: 5px 0px 0px 5px;
+  padding: 20px; 
+  width: 100px;
+  height: 10px; 
+}
+#rcorners4 {
+  border-radius: 0px 5px 5px 0px;
+  padding: 20px; 
+  width: 30px;
+  height: 10px; 
+}
+#rcorners5 {
+  border-radius: 5px 0px 0px 5px;
+  padding: 20px; 
+  width: 70px;
+  height: 10px; 
+}
+#rcorners6 {
+  border-radius: 0px 5px 5px 0px;
+  padding: 20px; 
+  width: 50px;
+  height: 10px; 
+}
+.flexbox-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //background-color: grey;
+  margin-top:10px;
+}
+.flexbox-container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+
+}
+.hrs {
+  margin-top:auto; 
+  margin-bottom:auto;
+  margin-left: 10px;
+}
+
+// COLORS
+.dmint{ color: #2DBDB1; }
+.dorange{ color: #FFB987; }
+
+</style>
+
+<div class="flexbox-container1">
+  <div id="title">This Week’s Plans</div>
+
+  <div class="flexbox-container1">
+
+    <div class="flexbox-container1">
+      <div class="tags" style="color: #EE8B72;">#interview</div>
+      <div class="flexbox-container2">
+        <div id="rcorners1" style="background-color: #EE8B72;"></div>
+        <div id="rcorners2" style="background-color: rgba(238, 139, 114, 0.3);"></div>
+        <div style="color:#EE8B72;" class="hrs">4 HRS</div>
+      </div>
+    </div>
+
+    <div class="flexbox-container1">
+      <div class="tags" style="color: #2DBDB1;">#coverletter</div>
+      <div class="flexbox-container2">
+        <div id="rcorners3" style="background-color: #2DBDB1; "></div>
+        <div id="rcorners4" style="background-color: rgba(45, 189, 177, 0.3);"></div>
+        <div style="color: #2DBDB1; " class="hrs">3 HRS</div>
+      </div>
+    </div>
+
+    <div class="flexbox-container1">
+      <div class="tags" style="color: #FFB987;">#internapps</div>
+      <div class="flexbox-container2">
+        <div id="rcorners5" style="background-color: #FFB987; "></div>
+        <div id="rcorners6" style="background-color: rgba(255, 185, 135, 0.3);"></div>
+        <div style="color: #FFB987;" class="hrs">2 HRS</div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+
+
+
+
 
