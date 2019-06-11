@@ -5,27 +5,40 @@
   color: #2DBDB1;
 }
 
-.time {
-  width: 102px;
-  height: 51px;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 59px;
+div .time_row_container {
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  height: 50px; 
+  width: 100%; 
+  padding-right: 20px; 
+  color: #2DBDB1;
 }
 
-.am-pm {
-  width: 21px;
-  height: 14px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
+div .time_text {
+  font-size: 2.3em; 
+  margin: 0px; 
+  padding: 0px; 
+  font-family: Montserrat;
 }
 
-.date { 
-  width: 190px;
-  height: 24px;
+.date_row_container {
+  display: flex; 
+  align-items: flex-start; 
+  padding-right: 15px; 
   color: #4B5853;
-  font-family: Sanchez;
-  font-size: 18px;
-  line-height: 23px;
+}
+
+.date_text {
+  font-size: 0.9em; 
+  margin: 0px; 
+  padding: 0px; 
+  font-family: Sanchez
+}
+
+.am_text {
+  margin: 0px; 
+  font-size: 0.8em; 
+  padding-bottom: 5px; 
+  font-family: Montserrat
 }
