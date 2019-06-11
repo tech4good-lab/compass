@@ -1,99 +1,90 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat);
-* {
+
+// write your code here!!
+.week_progress_container {
+  height: 310px;
+  width: 265px;
+  padding: 15px;
+  padding-top: 10px;
   background: #FFFFFF;
-  font-family: Montserrat;
+  border-radius: 10px;
 }
 
-.title {
+.week_progress_container .title {
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 27px;
   color: #4B5853;
 }
 
-.top-hashtag {
-  color: #EE8B72;
+.week_progress_container .sub_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 17px;
+  margin-bottom: 5px;
+  margin-top: 25px;
 }
 
-.bold-top-progress-bar {
-  background: #EE8B72;
-  border-radius: 3px 0px 0px 3px;
+.week_progress_container .hours_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #EE8B72;
+}
+
+
+.week_progress_container .row {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.week_progress_container .interview_1 {
+  height: 100%;
   width: 75px;
-  height: 27px;
+  background-color: #EE8B72;
+  border-radius: 3px 0px 0px 3px;
 }
 
-.light-top-progress-bar {
-  width: 168px;
-  height: 27px;
+
+.week_progress_container .interview_2 {
+  height: 100%;
+  width: 93px;
   background: rgba(238, 139, 114, 0.3);
-  border-radius: 3px;
+  border-radius: 0px 3px 3px 0px;
 }
 
-.top-hour {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-  color: #EE8B72;
-}
 
-.middle-hashtag {
-  color: #2DBDB1;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-middle-progress-bar {
-  background: #2DBDB1;
-  border-radius: 3px 0px 0px 3px;
+.week_progress_container .coverletter_1 {
+  height: 100%;
   width: 101px;
-  height: 27px;
-}
-
-.light-middle-progress-bar {
-  color: #2DBDB1;
-  width: 136px;
-  height: 27px;
-  background: rgba(45, 189, 177, 0.3);
-  border-radius: 3px;
-}
-
-.middle-hour {
-  color: #2DBDB1;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bottom-hashtag {
-  color: #FFB987;
-  font-size: 14px;
-  line-height: 17px;
-}
-
-.bold-bottom-progress-bar {
-  background: #FFB987;
+  background-color: #2DBDB1;
   border-radius: 3px 0px 0px 3px;
+}
+
+
+.week_progress_container .coverletter_2 {
+  height: 100%;
+  width: 35px;
+  background: rgba(45, 189, 177, 0.3);
+  border-radius: 0px 3px 3px 0px;
+}
+
+
+.week_progress_container .internapps_1 {
+  height: 100%;
   width: 70px;
-  height: 27px;
+  background-color: #FFB987;
+  border-radius: 3px 0px 0px 3px;
 }
 
-.light-bottom-progress-bar {
+
+.week_progress_container .internapps_2 {
+  height: 100%;
+  width: 42px;
   background: rgba(255, 185, 135, 0.3);
-  border-radius: 3px;
-  width: 112px;
-  height: 27px;
+  border-radius: 0px 3px 3px 0px;
 }
-
-.bottom-hour {
-  color: #FFB987;
-  width: 45px;
-  height: 24px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
-}
-
