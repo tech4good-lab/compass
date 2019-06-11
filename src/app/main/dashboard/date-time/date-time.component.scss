@@ -5,4 +5,50 @@
   display: block;
 }
 
+div .date_time_container {
+  height: 86px; 
+  width: 216px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  background-color: #F6FDFA;
+}
 // write your code here!!
+div .time_row_container {
+  display: flex; 
+  justify-content: flex-end; 
+  align-items: flex-end; 
+  height: 50px; 
+  width: 100%; 
+  padding-right: 20px; 
+  color: #2DBDB1;
+}
+
+div .time_text {
+  font-size: 2.3em; 
+  margin: 0px; 
+  padding: 0px; 
+  font-family: Montserrat;
+}
+
+.date_row_container {
+  display: flex; 
+  align-items: flex-start; 
+  padding-right: 15px; 
+  color: #4B5853;
+}
+
+.date_text {
+  font-size: 0.9em; 
+  margin: 0px; 
+  padding: 0px; 
+  font-family: Sanchez
+}
+
+.am_text {
+  margin: 0px; 
+  font-size: 0.8em; 
+  padding-bottom: 5px; 
+  font-family: Montserrat
+}
