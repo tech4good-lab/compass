@@ -39,7 +39,7 @@ export class MockDBService {
           },
           lastCompletedWeeklySetup: beginning,
           setupInProgress: {
-            type: 'initial',
+            type: 'week',
           }
         }
       ],

@@ -43,7 +43,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
 
   // --------------- UI STATE ----------------------
   slideIndex$: BehaviorSubject<number> = new BehaviorSubject<number>(0);
-  currPathType$: BehaviorSubject<Array<string>>;
+  currPathType$: BehaviorSubject<Object>;
 
   // --------------- DATA BINDING STREAMS ----------------
 
@@ -65,9 +65,9 @@ export class ReorientComponent implements OnInit, OnDestroy {
   ) { 
 
     // --------------- EVENT HANDLING ----------------------
-  
+    
   }
-  getUserPathType(){
+  getUserPathType() {
     let type;
     this.currentUser$.subscribe(user => {
       if(user.setupInProgress){
@@ -77,8 +77,8 @@ export class ReorientComponent implements OnInit, OnDestroy {
     return type
   }
 
-  getPathOrder(Usertype): Array<string> {
-    let pathOrder: Array<string>
+  getPathOrder(userType): {} {
+    let pathOrder: {}
     const onboardingPaths = [
        {
         type: "initial",
@@ -93,6 +93,13 @@ export class ReorientComponent implements OnInit, OnDestroy {
           "Organized",
           "Google Calendar",
           "Schedule"
+        ],
+        progressBar: [
+          "Long Term Goals",
+          "Quarter Goals",
+          "Weekly Goals",
+          "Organize",
+          "Schedule"
         ]
       },
       {
@@ -102,6 +109,12 @@ export class ReorientComponent implements OnInit, OnDestroy {
           "Weekly Goals",
           "Organized",
           "Schedule",
+        ],
+        progressBar: [
+          "Review",
+          "Weekly Goals",
+          "Organize",
+          "Schedule"
         ]
       },
       {
@@ -112,31 +125,53 @@ export class ReorientComponent implements OnInit, OnDestroy {
           "Weekly Goals",
           "Organized",
           "Schedule",
+        ],
+        progressBar: [
+          "Review",
+          "Quarter Goals",
+          "Weekly Goals",
+          "Organize",
+          "Schedule"
         ]
        }
      ];
      onboardingPaths.forEach(path => {
-     if(Usertype === path.type) {
-       pathOrder =  path.slideOrder;
+     if(userType === path.type) {
+       pathOrder =  path;
      }
      })
      return pathOrder
    
   }
 
-  getCurrentSlide(){
-    let num = this.slideIndex$.getValue()
-    console.log(this.currPathType$[num])
-    console.log(num);
+  getCurrentSlide() {
+    let currSlide: string;
+    this.currPathType$.subscribe(path => { currSlide = path['slideOrder'][this.slideIndex$.getValue()] })
+    return currSlide;
     }
+  
+  nextSlide() {
+    let currValue = this.slideIndex$.getValue() + 1
+    this.slideIndex$.next(currValue);
+  }
+  
+  prevSlide() {
+    let currValue = this.slideIndex$.getValue() - 1
+    this.slideIndex$.next(currValue);
+  }
+
+  getProgressBar(){
+    let progressArray: Array<string>
+    this.currPathType$.subscribe(path => { progressArray = path['progressBar']})
+    return progressArray
+  }
+
   ngOnInit() {
 
     // Once everything is set up, load the data for the role.
     this.store.dispatch( new LoadData() );
-
-    this.currPathType$ = new BehaviorSubject<Array<string>>(this.getPathOrder(this.getUserPathType()));
-    //this.currPathType$[this.slideIndex$.getValue()].subscribe(console.log)
-    this.getCurrentSlide();
+    this.currPathType$ = new BehaviorSubject<Object>(this.getPathOrder(this.getUserPathType()));
+    this.getProgressBar()
   }
 
   ngOnDestroy() {

@@ -10,8 +10,8 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class TextSlideComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
-
+  @Output() nextSlide: EventEmitter<void> = new EventEmitter<void>();
+  @Output() prevSlide: EventEmitter<void> = new EventEmitter<void>();
   // --------------- LOCAL UI STATE ----------------------
  
 

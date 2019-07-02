@@ -10,7 +10,8 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class ProgressBarComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
-  
+  @Input() progressTitles: Array<string>
+  @Input() slideIndex: number;
 
   // --------------- LOCAL UI STATE ----------------------
  
@@ -18,6 +19,8 @@ export class ProgressBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.progressTitles)
+    console.log(this.slideIndex)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
