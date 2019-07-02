@@ -13,6 +13,11 @@ import { ReorientState } from './reorient.state';
 
 import { ActionFlow, LoadAction, Unsubscribe } from '../../../core/store/app.actions';
 import { ReorientStateActionTypes, UpdateState, Cleanup, LoadData } from './reorient.state.actions';
+import { LoadUser } from '../../../core/store/user/user.actions';
+import { LoadQuarterGoal } from '../../../core/store/quarter-goal/quarter-goal.actions';
+import { LoadWeekGoal } from '../../../core/store/week-goal/week-goal.actions';
+import { LoadCalendarEvent } from '../../../core/store/calendar-event/calendar-event.actions';
+import { firestore } from 'firebase/app';
 
 @Injectable()
 export class ReorientStateEffects {
@@ -24,9 +29,15 @@ export class ReorientStateEffects {
   loadData$: Observable<Action> = this.actions$.pipe(
     ofType<LoadData>(ReorientStateActionTypes.LOAD_DATA),
     mergeMap((action: LoadData) => {
-      return [
-      ];
-    })
+      const startOfWeek = firestore.Timestamp.fromDate(action.payload.startOfWeek);
+    return [
+      new LoadUser([['__id', '==', action.payload.currentUser.__id]], {}, this.loadId),
+      new LoadQuarterGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId),
+      new LoadWeekGoal([['__userId', '==', action.payload.currentUser.__id], ['completed', '==', false]], {}, this.loadId, (wk) => [
+        new LoadCalendarEvent([['__weekGoalId', '==', wk.__id], ['start', '>=', startOfWeek]], {}, this.loadId)
+      ]),
+    ];
+  })
   );
 
   /** Update state. */

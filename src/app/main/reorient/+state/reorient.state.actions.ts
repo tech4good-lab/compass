@@ -1,4 +1,5 @@
 import { Action } from '@ngrx/store';
+import { User } from '../../../core/store/user/user.model'
 
 export enum ReorientStateActionTypes {
   LOAD_DATA = '[Reorient] load data',
@@ -9,8 +10,10 @@ export enum ReorientStateActionTypes {
 /** Action for loading required DB data. */
 export class LoadData implements Action {
   readonly type = ReorientStateActionTypes.LOAD_DATA;
-
-  constructor() { }
+  constructor(public payload: {
+    currentUser: User,
+    startOfWeek: Date
+  }) { }
 }
 
 /** Action for updating local state. */

@@ -4,8 +4,8 @@ import { Store, select } from '@ngrx/store';
 import * as fromStore from '../../core/store/app.reducer';
 import * as fromAuth from '../../core/store/auth/auth.reducer';
 import { FirebaseService } from '../../core/firebase/firebase.service';
-import { Observable, Subject, BehaviorSubject, combineLatest } from 'rxjs';
-import { withLatestFrom, take, takeUntil } from 'rxjs/operators';
+import { Observable, Subject, BehaviorSubject, combineLatest, of, merge, timer } from 'rxjs';
+import { withLatestFrom, take, takeUntil, mergeMap, map } from 'rxjs/operators';
 
 import { ReorientState } from './+state/reorient.state';
 import { ReorientSelectors } from './+state/reorient.state.selectors';
@@ -17,6 +17,7 @@ import { User } from '../../core/store/user/user.model';
 import { QuarterGoal } from '../../core/store/quarter-goal/quarter-goal.model';
 import { WeekGoal } from '../../core/store/week-goal/week-goal.model';
 import { async } from 'q';
+import { startOfWeek } from '../../core/utils/date.utils';
 
 /** Sequence of steps for setting or reorienting goals. */
 @Component({
@@ -32,6 +33,21 @@ export class ReorientComponent implements OnInit, OnDestroy {
   /** The currently signed in user. */
   currentUser$: Observable<User> = this.store.pipe(select(fromAuth.selectUser));
 
+    /** The beginning of the current week. */
+    startOfWeek$: Observable<Date> = of(new Date()).pipe(
+      mergeMap(date => {
+  
+        const beginning = startOfWeek(date);
+        const delayTillNextWeek = beginning.getTime() + 604800000 - date.getTime() + 10;
+  
+        return merge(
+          of(startOfWeek(date)),
+          timer(delayTillNextWeek, 604800000).pipe(
+            map(() => startOfWeek(new Date()))
+          )
+        );
+      })
+    );
   // --------------- DB ENTITY DATA ----------------------
 
 
@@ -214,9 +230,14 @@ export class ReorientComponent implements OnInit, OnDestroy {
   ngOnInit() {
 
     // Once everything is set up, load the data for the role.
-    this.store.dispatch( new LoadData() );
+    this.currentUser$.pipe(takeUntil(this.unsubscribe$), withLatestFrom(this.startOfWeek$)).subscribe(([user, startOfWeek]) => {
+      this.store.dispatch( new LoadData({
+        currentUser: user,
+        startOfWeek: startOfWeek
+      }));
+    })
+    
     this.currPathType$ = new BehaviorSubject<Object>(this.getPathOrder(this.getUserPathType()));
-    this.getProgressBar()
   }
 
   ngOnDestroy() {
