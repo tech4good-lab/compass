@@ -1,13 +1,51 @@
 <app-navbar></app-navbar>
-<app-progress-bar [slideIndex]="slideIndex$ | async" [progressTitles]="getProgressBar()"></app-progress-bar>
-<ng-container class="slides">
-  <app-calendar-info-slide *ngIf="getCurrentSlide() === 'Google Calendar'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-calendar-info-slide>
-  <app-calendar-schedule-slide *ngIf="getCurrentSlide() === 'Schedule'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-calendar-schedule-slide>
-  <app-long-term-goals-slide *ngIf="getCurrentSlide() === 'Long Term Goals'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-long-term-goals-slide>
-  <app-quarter-goals-slide *ngIf="getCurrentSlide() === 'Quarter Goals'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-quarter-goals-slide>
-  <app-review-goals-slide *ngIf="getCurrentSlide() === 'Review'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-review-goals-slide>
-  <app-text-slide *ngIf="getCurrentSlide() === 'text'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-text-slide>
-  <app-week-goals-slide *ngIf="getCurrentSlide() === 'Weekly Goals'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-week-goals-slide>
-  <app-week-hashtag-slide *ngIf="getCurrentSlide() === 'Organized'" (nextSlide)="nextSlide()" (prevSlide)="prevSlide()"></app-week-hashtag-slide>
-</ng-container>
-
+<div class="reorient-container">
+  <div class="progress-bar-container">
+    <app-progress-bar
+      [slideIndex]="slideIndex$ | async"
+      [progressTitles]="getProgressBar()"
+    ></app-progress-bar>
+  </div>
+  <div class="slides-container">
+    <app-calendar-info-slide
+      *ngIf="getCurrentSlide() === 'Google Calendar'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-calendar-info-slide>
+    <app-calendar-schedule-slide
+      *ngIf="getCurrentSlide() === 'Schedule'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-calendar-schedule-slide>
+    <app-long-term-goals-slide
+      *ngIf="getCurrentSlide() === 'Long Term Goals'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-long-term-goals-slide>
+    <app-quarter-goals-slide
+      *ngIf="getCurrentSlide() === 'Quarter Goals'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-quarter-goals-slide>
+    <app-review-goals-slide
+      *ngIf="getCurrentSlide() === 'Review'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-review-goals-slide>
+    <app-text-slide
+      *ngIf="getCurrentSlide() === 'text'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-text-slide>
+    <app-week-goals-slide
+      *ngIf="getCurrentSlide() === 'Weekly Goals'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-week-goals-slide>
+    <app-week-hashtag-slide
+      *ngIf="getCurrentSlide() === 'Organized'"
+      (nextSlide)="nextSlide()"
+      (prevSlide)="prevSlide()"
+    ></app-week-hashtag-slide>
+  </div>
+</div>
