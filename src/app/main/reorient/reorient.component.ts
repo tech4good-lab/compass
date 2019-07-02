@@ -160,10 +160,55 @@ export class ReorientComponent implements OnInit, OnDestroy {
     this.slideIndex$.next(currValue);
   }
 
-  getProgressBar(){
+  getProgressBar() {
     let progressArray: Array<string>
     this.currPathType$.subscribe(path => { progressArray = path['progressBar']})
     return progressArray
+  }
+  assembleTitle() {
+    let index: number;
+    let title: string;
+    let username;
+    this.currentUser$.subscribe(u => username = u.name)
+    this.slideIndex$.subscribe(i => index = i);
+    
+    switch(index) {
+      case 0:
+        title = "Welcome, " + username
+      break;
+      case 2:
+        title = "Nice work."
+      break;
+      case 4:
+        title = "One step at a time."
+      break;
+      case 6:
+        title = "Let's get organized."
+      break;
+    }
+    return title;
+  }
+
+  assembleDesc() {
+    let index: number;
+    let desc: string;
+    this.slideIndex$.subscribe(i => index = i);
+    
+    switch(index) {
+      case 0:
+        desc = "Compass helps you set goals and reach them. Let's get started."
+      break;
+      case 2:
+        desc = "What can you do this quarter to reach your long term goals?"
+      break;
+      case 4:
+        desc = "Weekly planning will keep you on track to achieve your goals."
+      break;
+      case 6:
+        desc = "We categorize your weekly goals with hashtags."
+      break;
+    }
+    return desc;
   }
 
   ngOnInit() {

@@ -36,6 +36,8 @@
       *ngIf="getCurrentSlide() === 'text'"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
+      [title]="assembleTitle()"
+      [desc]="assembleDesc()"
     ></app-text-slide>
     <app-week-goals-slide
       *ngIf="getCurrentSlide() === 'Weekly Goals'"

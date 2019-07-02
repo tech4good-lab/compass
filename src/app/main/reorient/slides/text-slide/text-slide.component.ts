@@ -12,12 +12,16 @@ export class TextSlideComponent implements OnInit {
   // --------------- INPUTS AND OUTPUTS ------------------
   @Output() nextSlide: EventEmitter<void> = new EventEmitter<void>();
   @Output() prevSlide: EventEmitter<void> = new EventEmitter<void>();
+  @Input() title: string;
+  @Input() desc: string;
   // --------------- LOCAL UI STATE ----------------------
  
 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.title)
+    console.log(this.desc)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
