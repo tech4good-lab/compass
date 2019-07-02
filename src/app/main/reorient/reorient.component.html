@@ -1,3 +1,12 @@
-<div class="reorient-container">
-  reorient works!
-</div>
+<app-navbar></app-navbar>
+<app-progress-bar></app-progress-bar>
+<ng-container class="slides">
+  <app-calendar-info-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Google Calendar'"></app-calendar-info-slide>
+  <app-calendar-schedule-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Schedule'"></app-calendar-schedule-slide>
+  <app-long-term-goals-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Long Term Goals'"></app-long-term-goals-slide>
+  <app-quarter-goals-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Quarter Goals'"></app-quarter-goals-slide>
+  <app-review-goals-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Review'"></app-review-goals-slide>
+  <app-text-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'text'"></app-text-slide>
+  <app-week-goals-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Weekly Goals'"></app-week-goals-slide>
+  <app-week-hashtag-slide *ngIf="currPathType$[slideIndex$.getValue()] === 'Organized'"></app-week-hashtag-slide>
+</ng-container>

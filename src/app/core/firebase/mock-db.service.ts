@@ -37,7 +37,10 @@ export class MockDBService {
             oneYear: 'Get an tech internship.',
             fiveYear: 'Be working as a product manager at a company whose mission I believe in.'
           },
-          lastCompletedWeeklySetup: beginning
+          lastCompletedWeeklySetup: beginning,
+          setupInProgress: {
+            type: 'initial',
+          }
         }
       ],
       'quarterGoals': [
