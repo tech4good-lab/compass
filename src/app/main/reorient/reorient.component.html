@@ -14,21 +14,26 @@
     ></app-calendar-info-slide>
     <app-calendar-schedule-slide
       *ngIf="getCurrentSlide() === 'Schedule'"
+      [weekGoals]="weekGoalsWithEvents$ | async"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-calendar-schedule-slide>
     <app-long-term-goals-slide
       *ngIf="getCurrentSlide() === 'Long Term Goals'"
+      
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-long-term-goals-slide>
     <app-quarter-goals-slide
       *ngIf="getCurrentSlide() === 'Quarter Goals'"
+      [quarterGoalsText]="quarterGoalsText$ | async"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-quarter-goals-slide>
     <app-review-goals-slide
       *ngIf="getCurrentSlide() === 'Review'"
+      [weekGoals]="weekGoals$ | async"
+      [quarterGoals]="quarterGoals$ | async"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-review-goals-slide>
@@ -41,11 +46,13 @@
     ></app-text-slide>
     <app-week-goals-slide
       *ngIf="getCurrentSlide() === 'Weekly Goals'"
+      [weekGoalsText]="weekGoalsText$ | async"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-week-goals-slide>
     <app-week-hashtag-slide
       *ngIf="getCurrentSlide() === 'Organized'"
+      [weekGoals]="weekGoals$ | async"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-week-hashtag-slide>

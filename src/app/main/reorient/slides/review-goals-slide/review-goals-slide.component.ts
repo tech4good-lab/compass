@@ -1,4 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { WeekGoal } from '../../../../core/store/week-goal/week-goal.model';
+import { QuarterGoal } from '../../../../core/store/quarter-goal/quarter-goal.model';
 
 /** Slide for reviewing weekly and quarterly goals. */
 @Component({
@@ -12,6 +14,8 @@ export class ReviewGoalsSlideComponent implements OnInit {
   // --------------- INPUTS AND OUTPUTS ------------------
   @Output() nextSlide: EventEmitter<void> = new EventEmitter<void>();
   @Output() prevSlide: EventEmitter<void> = new EventEmitter<void>();
+  @Input() weekGoals: WeekGoal[]
+  @Input() quarterGoals: QuarterGoal[]
 
   // --------------- LOCAL UI STATE ----------------------
  

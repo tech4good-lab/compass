@@ -1,4 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
+import { WeekGoal } from '../../../../core/store/week-goal/week-goal.model';
 
 /** Slide for setting up hashtags for weekly goals. */
 @Component({
@@ -12,6 +13,7 @@ export class WeekHashtagSlideComponent implements OnInit {
   // --------------- INPUTS AND OUTPUTS ------------------
   @Output() nextSlide: EventEmitter<void> = new EventEmitter<void>();
   @Output() prevSlide: EventEmitter<void> = new EventEmitter<void>();
+  @Input() weekGoals: WeekGoal[]
 
   // --------------- LOCAL UI STATE ----------------------
  
