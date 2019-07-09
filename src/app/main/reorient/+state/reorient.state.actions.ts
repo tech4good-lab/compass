@@ -19,10 +19,10 @@ export class LoadData implements Action {
 /** Action for updating local state. */
 export class UpdateState implements Action {
   readonly type = ReorientStateActionTypes.UPDATE_STATE;
-  constructor(
-    public stateVar: string,
-    public newVal: any
-  ) { }
+  constructor(public payload: {
+    stateVar: string,
+    newVal: any
+  }) { }
 }
 
 /** Action for cleaning up loading subscriptions. */

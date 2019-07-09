@@ -13,7 +13,9 @@ export class QuarterGoalsSlideComponent implements OnInit {
   // --------------- INPUTS AND OUTPUTS ------------------
   @Output() nextSlide: EventEmitter<void> = new EventEmitter<void>();
   @Output() prevSlide: EventEmitter<void> = new EventEmitter<void>();
-  @Input() quarterGoalsText: string[]
+  @Output() changedQuarterGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
+  @Input() quarterGoals: QuarterGoal[]
+  @Input() userId: string
 
   // --------------- LOCAL UI STATE ----------------------
  
@@ -21,6 +23,27 @@ export class QuarterGoalsSlideComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.userId)
+    this.changedQuarterGoals.emit([
+      {
+        __id: "",
+        __userId: this.userId,
+        text: "string 1",
+        completed: false
+      },
+      {
+        __id: "",
+        __userId: this.userId,
+        text: "string 2",
+        completed: false
+      },
+      {
+        __id: "",
+        __userId: this.userId,
+        text: "string 3",
+        completed: false
+      },
+    ])
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

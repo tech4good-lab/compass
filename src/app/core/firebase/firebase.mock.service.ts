@@ -58,7 +58,6 @@ export class FirebaseMockService {
     private mockDBService: MockDBService,
   ) { 
     this.mockAfUser = new BehaviorSubject<any>(undefined);
-    
     // Essentially mocking stateChanges in Firebase
     this.mockDBChanges = {
       'calendarEvents': new BehaviorSubject<Array<{ type: string, result: CalendarEvent }>>(this.mockDBService.getInitialDBStateChanges('calendarEvents')),
@@ -329,7 +328,6 @@ export class FirebaseMockService {
   }
 
   updateEntity = (collection, id, changes) => {
-
     return this.mockDB[collection].pipe(
       map(entities => {
         let original = entities[id];

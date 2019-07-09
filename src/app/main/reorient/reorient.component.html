@@ -20,13 +20,15 @@
     ></app-calendar-schedule-slide>
     <app-long-term-goals-slide
       *ngIf="getCurrentSlide() === 'Long Term Goals'"
-      
+      (longTermGoals)="submitLongTermGoals.next($event)"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-long-term-goals-slide>
     <app-quarter-goals-slide
       *ngIf="getCurrentSlide() === 'Quarter Goals'"
-      [quarterGoalsText]="quarterGoalsText$ | async"
+      [quarterGoals]="finishedQuarterGoals$ | async"
+      [userId]="getUserId()"
+      (changedQuarterGoals)="submitQuarterGoals.next($event)"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-quarter-goals-slide>
@@ -34,6 +36,8 @@
       *ngIf="getCurrentSlide() === 'Review'"
       [weekGoals]="weekGoals$ | async"
       [quarterGoals]="quarterGoals$ | async"
+      (checkWeekGoals)="checkWeekGoals$.next($event)"
+      (checkQuarterGoals)="checkQuarterGoals$.next($event)"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-review-goals-slide>
@@ -46,13 +50,16 @@
     ></app-text-slide>
     <app-week-goals-slide
       *ngIf="getCurrentSlide() === 'Weekly Goals'"
-      [weekGoalsText]="weekGoalsText$ | async"
+      [weekGoals]="finishedWeekGoals$ | async"
+      [userId]="getUserId()"
+      (changedWeekGoals)="submitWeekGoals.next($event)"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-week-goals-slide>
     <app-week-hashtag-slide
       *ngIf="getCurrentSlide() === 'Organized'"
       [weekGoals]="weekGoals$ | async"
+      (changedWeekHashtag)= "changedWeekGoalsHashtag.next($event)"
       (nextSlide)="nextSlide()"
       (prevSlide)="prevSlide()"
     ></app-week-hashtag-slide>

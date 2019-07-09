@@ -39,7 +39,7 @@ export class MockDBService {
           },
           lastCompletedWeeklySetup: beginning,
           setupInProgress: {
-            type: 'initial',
+            type: 'week',
             currentStep: 0, // I think we need to use this instead of the step tracker
             quarterGoals: {
               goalOne: "the first goal",
