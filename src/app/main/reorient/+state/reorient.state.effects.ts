@@ -60,69 +60,71 @@ export class ReorientStateEffects {
               }
             }
           ))
-         
         break;
+
         case "Initial Quarter Goals":
-          this.store.dispatch( new AddQuarterGoal(
-            action.payload.newVal
-          ))
-          break;
+        this.store.dispatch( new AddQuarterGoal(
+          action.payload.newVal
+        ))
+        break;
 
-          case "Quarter Goals":
-          this.store.dispatch( new UpdateQuarterGoal(
-            action.payload.newVal.__id,
-            {
-              text: action.payload.newVal.text,
-              _updatedAt: firestore.Timestamp.now()
-            }
-          ))
-          break;
-          case "Initial Week Goals":
-          this.store.dispatch( new AddWeekGoal(
-            action.payload.newVal
-          ))
-          break;
-          case "Week Goals":
-            console.log("here")
-            console.log(action.payload.newVal)
-          this.store.dispatch( new UpdateWeekGoal(
-            action.payload.newVal.__id,
-            {
-              text: action.payload.newVal.text,
-              _updatedAt: firestore.Timestamp.now(),
-            }
-          ))
-          break;
-          case "Week Hashtag":
-          this.store.dispatch( new UpdateWeekGoal(
-            action.payload.newVal.__id,
-            {
-              hashtag: action.payload.newVal.hashtag
-            }
-          ))
-          break;
-          case "Complete Week":
-          this.store.dispatch( new UpdateWeekGoal(
-            action.payload.newVal.__id,
-            {
-              completed: action.payload.newVal.completed,
-              completedAt: firestore.Timestamp.now()
-            }
-          ))
-          break;
-          case "Complete Quarter":
-          this.store.dispatch( new UpdateQuarterGoal(
-            action.payload.newVal.__id,
-            {
-              completed: action.payload.newVal.completed,
-              completedAt: firestore.Timestamp.now()
+        case "Quarter Goals":
+        this.store.dispatch( new UpdateQuarterGoal(
+          action.payload.newVal.__id,
+          {
+            text: action.payload.newVal.text,
+            _updatedAt: firestore.Timestamp.now()
+          }
+        ))
+        break;
 
-            }
-          ))
-          break;
+        case "Initial Week Goals":
+        this.store.dispatch( new AddWeekGoal(
+          action.payload.newVal
+        ))
+        break;
+
+        case "Week Goals":
+          this.store.dispatch( new UpdateWeekGoal(
+          action.payload.newVal.__id,
+          {
+            text: action.payload.newVal.text,
+            _updatedAt: firestore.Timestamp.now(),
+          }
+        ))
+        break;
+
+        case "Week Hashtag":
+        this.store.dispatch( new UpdateWeekGoal(
+          action.payload.newVal.__id,
+          {
+            hashtag: action.payload.newVal.hashtag
+          }
+        ))
+        break;
+
+        case "Complete Week":
+        this.store.dispatch( new UpdateWeekGoal(
+          action.payload.newVal.__id,
+          {
+            completed: action.payload.newVal.completed,
+            completedAt: firestore.Timestamp.now()
+          }
+        ))
+        break;
+
+        case "Complete Quarter":
+        this.store.dispatch( new UpdateQuarterGoal(
+          action.payload.newVal.__id,
+          {
+            completed: action.payload.newVal.completed,
+            completedAt: firestore.Timestamp.now()
+
+          }
+        ))
+        break;
         default:
           break;
-
       }
     })
   );

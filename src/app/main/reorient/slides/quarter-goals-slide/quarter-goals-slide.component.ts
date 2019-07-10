@@ -23,7 +23,7 @@ export class QuarterGoalsSlideComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.userId)
+    console.log("heyyyy, make sure to delete this");
     this.changedQuarterGoals.emit([
       {
         __id: "",

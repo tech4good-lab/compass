@@ -270,14 +270,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
       );
 
       this.checkQuarterGoals$.pipe(takeUntil(this.unsubscribe$), withLatestFrom(this.quarterGoals$)).subscribe(([newGoals, oldGoals]) => {
-        // console.log(">>>>>")
-        // console.log(oldGoals)
-        // console.log(newGoals)
         for(let i = 0; i < newGoals.length; i++){
-          // if(newGoals[i].__id == oldGoals[i].__id){
-          //   if(newGoals[i].completed != oldGoals[i].completed){
-              //console.log("hey")
-              console.log(newGoals[i].__id)
               this.store.dispatch(
                 new UpdateState({
                   stateVar: "Complete Quarter",
@@ -381,10 +374,10 @@ export class ReorientComponent implements OnInit, OnDestroy {
   /**  Goes back a slide */
   prevSlide() {
     let currValue = this.slideIndex$.getValue() - 1;
-    this.currentUser$.subscribe(user => {
-      user.setupInProgress.currentStep = currValue;
-    });
-    this.slideIndex$.next(currValue);
+      this.currentUser$.subscribe(user => {
+        user.setupInProgress.currentStep = currValue;
+      });
+      this.slideIndex$.next(currValue);
   }
 
   /**  Returns the title array for the progress bar */

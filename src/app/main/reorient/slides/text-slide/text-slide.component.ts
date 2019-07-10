@@ -20,8 +20,7 @@ export class TextSlideComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.title)
-    console.log(this.desc)
+    
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
