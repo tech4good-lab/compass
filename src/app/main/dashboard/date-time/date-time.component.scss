@@ -4,15 +4,16 @@
     // REMOVE WHEN FINISHING LAYOUT STYLES
     border: 1px solid black;
     * {
-        color: #2DBDB1;
+        text-align: right;
     }
     .time-container {
         width: 100%;
         display: flex;
         flex-direction: row;
         font-family: Montserrat;
+        justify-content: flex-end;
         font-weight: 500;
-
+        color: #2DBDB1;
         .time {
             font-weight: 500;
             font-size: 48px;
@@ -27,6 +28,9 @@
     }
     
     .date { 
+        justify-content: flex-end;
+        width: 100%;
+        height: 24px;
         color: #4B5853;
         font-family: Sanchez;
         font-size: 18px;
