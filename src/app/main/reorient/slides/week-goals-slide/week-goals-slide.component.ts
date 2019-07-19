@@ -23,32 +23,54 @@ export class WeekGoalsSlideComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.changedWeekGoals.emit([
-      {
-        __id: "hi",
-        __userId: this.userId,
-        text: "string 1",
-        completed: false,
-        index: 0,
-        hashtag: ""
-      },
-      {
-        __id: "mm",
-        __userId: this.userId,
-        text: "string 2",
-        completed: false,
-        index: 0,
-        hashtag: ""
-      },
-      {
-        __id: "cc",
-        __userId: this.userId,
-        text: "string 3",
-        completed: false,
-        index: 0,
-        hashtag: ""
-      },
-    ])
+    let goalholder = []
+    let count = 0
+    this.weekGoals.forEach(goal => {
+      if(goal == null) {
+        if(count == 2){
+          goalholder.push(
+          {
+            __id: "cc",
+            __userId: this.userId,
+            text: "numb 3",
+            completed: false,
+            index: 0,
+            hashtag: ""
+          })
+          count++
+        }
+        if(count == 1){
+          goalholder.push(
+            {
+              __id: "mm",
+              __userId: this.userId,
+              text: "string 2",
+              completed: false,
+              index: 0,
+              hashtag: ""
+            })
+          count++
+        }
+
+        if(count == 0){
+          goalholder.push(
+            {
+              __id: "cc",
+              __userId: this.userId,
+              text: "string 3",
+              completed: false,
+              index: 0,
+              hashtag: ""
+            })
+          count++
+        }
+      }
+      else{
+        goalholder.push(goal)
+      }
+    })
+    console.log(goalholder)
+    this.changedWeekGoals.emit(goalholder)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

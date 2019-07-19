@@ -31,12 +31,12 @@ export class ReviewGoalsSlideComponent implements OnInit {
     let qtrgl1 = this.quarterGoals[0]
     let qtrgl2 = this.quarterGoals[1]
     let qtrgl3 = this.quarterGoals[2]
-    wkgl1.completed = true;
+    wkgl1.completed = false;
     wkgl3.completed = true;
     qtrgl1.completed = true;
     qtrgl3.completed = true;
     this.checkQuarterGoals.emit([qtrgl1, qtrgl2, qtrgl3])
-    //this.checkWeekGoals.emit([wkgl1, wkgl2, wkgl3])
+    this.checkWeekGoals.emit([wkgl1, wkgl2, wkgl3])
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

@@ -100,6 +100,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
       return weekGoals.map(goal => {
         return goal.map(g => {
           if(g.completed == false){
+            console.log(g)
           return g;
           }
         });
@@ -122,10 +123,10 @@ export class ReorientComponent implements OnInit, OnDestroy {
   );
 
   // --------------- EVENT BINDING STREAMS ---------------
-  submitLongTermGoals: Subject<LongTermGoals> = new Subject<LongTermGoals>();
-  submitQuarterGoals: Subject<QuarterGoal[]> = new Subject<QuarterGoal[]>();
-  submitWeekGoals: Subject<WeekGoal[]> = new Subject<WeekGoal[]>();
-  changedWeekGoalsHashtag: Subject<WeekGoal[]> = new Subject<WeekGoal[]>();
+  submitLongTermGoals$: Subject<LongTermGoals> = new Subject<LongTermGoals>();
+  submitQuarterGoals$: Subject<QuarterGoal[]> = new Subject<QuarterGoal[]>();
+  submitWeekGoals$: Subject<WeekGoal[]> = new Subject<WeekGoal[]>();
+  changedWeekGoalsHashtag$: Subject<WeekGoal[]> = new Subject<WeekGoal[]>();
   checkWeekGoals$: Subject<WeekGoal[]> = new Subject<WeekGoal[]>();
   checkQuarterGoals$: Subject<QuarterGoal[]> = new Subject<QuarterGoal[]>();
 
@@ -144,7 +145,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
     private mdb: FirebaseMockService
   ) {
     // --------------- EVENT HANDLING ----------------------
-    this.submitLongTermGoals
+    this.submitLongTermGoals$
       .pipe(
         takeUntil(this.unsubscribe$),
         withLatestFrom(this.currentUser$)
@@ -160,7 +161,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
         );
       });
 
-    this.submitQuarterGoals
+    this.submitQuarterGoals$
       .pipe(
         takeUntil(this.unsubscribe$),
         withLatestFrom(this.currentUser$)
@@ -196,7 +197,7 @@ export class ReorientComponent implements OnInit, OnDestroy {
         }
       });
 
-      this.submitWeekGoals
+      this.submitWeekGoals$
       .pipe(
         takeUntil(this.unsubscribe$),
         withLatestFrom(this.currentUser$)
@@ -225,18 +226,29 @@ export class ReorientComponent implements OnInit, OnDestroy {
         }
 
         if (user.setupInProgress.type == "week") {
+          let currGoal: WeekGoal;
+          let counter = -1;
           goals.forEach(goal => {
+            currGoal = {
+              __id: (Math.random() * 1000).toString(),
+              __userId: user.__id,
+              _createdAt: firestore.Timestamp.now(),
+              text: goal.text,
+              completed: false,
+              index: ++counter,
+              hashtag: ""
+            };
             this.store.dispatch(
               new UpdateState({
                 stateVar: "Week Goals",
-                newVal: goal
+                newVal: currGoal
               })
             );
           });
         }
       });
 
-      this.changedWeekGoalsHashtag
+      this.changedWeekGoalsHashtag$
       .pipe(
         takeUntil(this.unsubscribe$),
         withLatestFrom(this.currentUser$)
@@ -254,20 +266,39 @@ export class ReorientComponent implements OnInit, OnDestroy {
       );
 
       this.checkWeekGoals$.pipe(takeUntil(this.unsubscribe$), withLatestFrom(this.weekGoals$)).subscribe(([newGoals, oldGoals]) => {
-        for(let i = 0; i < newGoals.length; i++){
-          if(newGoals[i].__id == oldGoals[i].__id){
-            if(newGoals[i].completed != oldGoals[i].completed){
-              this.store.dispatch(
-                new UpdateState({
-                  stateVar: "Complete Week",
-                  newVal: newGoals[i]
-                })
-              )
+        //for each of the new goals, for each of the old goals
+        // if the id's are the same and the userIds are the same, then if the completed status is changed, 
+        // update state of newGoals
+        newGoals.forEach(newGoal =>{
+          oldGoals.forEach(oldGoal => {
+            if((newGoal.__id === oldGoal.__id) && (newGoal.__userId === oldGoal.__userId)) {
+              console.log("going in loop")
+              console.log(oldGoal)
+                console.log(newGoal)
+              if(newGoal.completed != oldGoal.completed) {
+                console.log("changed new goal")
+                console.log(oldGoal)
+                console.log(newGoal)
+              }
             }
-          }
-        }
-      }
-      );
+          })
+        })
+        // for(let i = 0; i < newGoals.length; i++){
+        //   for(let j = 0; j < oldGoals.length; j++){
+        //   if(newGoals[i].__id == oldGoals[j].__id){
+        //     if(newGoals[i].completed != oldGoals[j].completed){
+              
+        //       this.store.dispatch(
+        //         new UpdateState({
+        //           stateVar: "Complete Week",
+        //           newVal: newGoals[i]
+        //         })
+        //       )
+        //     }
+        //   }
+        // }
+     // }
+    });
 
       this.checkQuarterGoals$.pipe(takeUntil(this.unsubscribe$), withLatestFrom(this.quarterGoals$)).subscribe(([newGoals, oldGoals]) => {
         for(let i = 0; i < newGoals.length; i++){
