@@ -46,6 +46,7 @@
       color: #5a5a5a;
       font-weight: 500;
       font-size: 16px;
+      align-self: center;
     }
 
     .goal-one {
@@ -65,5 +66,6 @@
 
   }
   .pencil {
+      align-self: flex-end;
   }
 }
