@@ -26,7 +26,9 @@ export class NewWeekComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
+  startButtonClicked() {
+      console.log("the start button was clicked!");
+  }
 
   // --------------- OTHER -------------------------------
 }
