@@ -24,8 +24,8 @@ export class DateTimeComponent implements OnInit {
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
-
   // --------------- EVENT BINDING FUNCTIONS -------------
+
 
 
   // --------------- OTHER -------------------------------
