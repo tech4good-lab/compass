@@ -174,6 +174,9 @@ export class DashboardComponent implements OnInit, OnDestroy {
     // --------------- EVENT HANDLING ----------------------
   
   }
+  onReorient() {
+      console.log("reorient event received!")
+  }
 
   ngOnInit() {
 

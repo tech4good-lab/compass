@@ -6,7 +6,7 @@
       <app-date-time [time]="time$ | async"></app-date-time>
     </div>
     <div class="prompt-container">
-      <app-new-week ></app-new-week>
+      <app-new-week (reorient)="onReorient($event)"></app-new-week>
       <app-new-quarter *ngIf="reorientType === 'quarter'"></app-new-quarter>
     </div>
     <div class="card-container" *ngIf="!(reorientType$ | async)">
