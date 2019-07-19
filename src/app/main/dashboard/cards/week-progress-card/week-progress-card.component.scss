@@ -14,6 +14,8 @@
         color: #EE8B72;
     }
     .progress-bar1 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 75px;
             height: 27px;
@@ -37,6 +39,8 @@
         color: #2DBDB1;
     }
     .progress-bar2 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 101px;
             height: 27px;
@@ -60,6 +64,8 @@
         color: #FFB987;
     }
     .progress-bar3 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 70px;
             height: 27px;
