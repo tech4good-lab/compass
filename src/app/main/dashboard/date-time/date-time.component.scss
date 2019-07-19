@@ -4,24 +4,30 @@
     // REMOVE WHEN FINISHING LAYOUT STYLES
     border: 1px solid black;
     * {
-        font-family: Montserrat;
         color: #2DBDB1;
     }
-    
-    .time {
-        width: 102px;
-        height: 51px;
+    .time-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        font-family: Montserrat;
         font-weight: 500;
-        font-size: 48px;
-        line-height: 59px;
-    }
-    
-    .amOrPm {
-        width: 21px;
-        height: 14px;
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 15px;
+
+        .time {
+            width: 102px;
+            height: 51px;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 59px;
+        }
+        
+        .amOrPm {
+            width: 21px;
+            height: 14px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
     }
     
     .date { 
