@@ -1,4 +1,42 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 .greeting-search-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  padding-left: 20px;
+  padding-top: 17px;
+  padding-bottom: 19px;
+  width: 100%;
+  * {
+    font-family: Montserrat;
+    font-style: normal;
+  }
+  .good-morning {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4B5853;
+    margin-bottom: 18px;
+  }
+
+  .search-bar-container {
+    
+    .search-bar-row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 9px;
+      
+      .magnifying-glass {
+        margin-right: 10px;
+        color: #98B3A9;
+      }
+
+      .search {
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+        color: #98B3A9;
+      }
+    }
+    .search-bar-line {
+      border: 1.5px solid #98B3A9;
+    }
+  }
 }
