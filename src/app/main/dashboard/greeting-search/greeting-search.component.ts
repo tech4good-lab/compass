@@ -30,6 +30,7 @@ export class GreetingSearchComponent implements OnInit {
   
   /** Search Function for the clicking event */
   searchFunc(){
+    
     console.log("reached the function");
   }
   // --------------- OTHER -------------------------------
