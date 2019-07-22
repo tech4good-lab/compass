@@ -4,10 +4,12 @@
   padding-top: 17px;
   padding-bottom: 19px;
   width: 100%;
+
   * {
     font-family: Montserrat;
     font-style: normal;
   }
+
   .good-morning {
     font-weight: 500;
     font-size: 36px;
@@ -18,15 +20,16 @@
 
   .search-bar-container {
     
-   
     .search-bar-row {
       display: flex;
       flex-direction: row;
       margin-bottom: 9px;
+
       .magnifying-glass {
         margin-right: 10px;
         color: #98B3A9;
       }
+
       .search {
         outline: none;
         background: none;
@@ -37,6 +40,7 @@
         color: #98B3A9;
         border: none;
       }
+      
       ::placeholder {
         color: #98B3A9;
       }
