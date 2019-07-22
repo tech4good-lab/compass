@@ -20,7 +20,6 @@ export class DateTimeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.time);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
