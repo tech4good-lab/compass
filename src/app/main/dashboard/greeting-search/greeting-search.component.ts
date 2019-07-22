@@ -28,6 +28,9 @@ export class GreetingSearchComponent implements OnInit {
 
   // --------------- EVENT BINDING FUNCTIONS -------------
   
-
+  /** Search Function for the clicking event */
+  searchFunc(){
+    console.log("reached the function");
+  }
   // --------------- OTHER -------------------------------
 }
