@@ -4,17 +4,9 @@
     <div class="date">{{getDate(currentQuarter.start)}} - {{getDate(currentQuarter.end)}}</div>
   </div>
   <div class="goals">
-    <div class="goal-one">
-      <div class="number">1</div>
-      <div class="text">{{goals[0].text}}</div>
-    </div>
-    <div class="goal-two">
-      <div class="number">2</div>
-      <div class="text">{{goals[1].text}}</div>
-    </div>
-    <div class="goal-three">
-      <div class="number">3</div>
-      <div class="text">{{goals[2].text}}</div>
+    <div class="goal" *ngFor="let goal of goals; index as i; trackBy: trackByFn">
+      <div class="number">{{i + 1}}</div>
+      <div class="text">{{goal.text}}</div>
     </div>
   </div>
   <div class="pencil">

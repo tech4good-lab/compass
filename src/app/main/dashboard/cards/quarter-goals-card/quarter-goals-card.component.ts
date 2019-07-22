@@ -52,4 +52,7 @@ export class QuarterGoalsCardComponent implements OnInit {
 
 
   // --------------- OTHER -------------------------------
+  trackByFn(index, item) {
+    return index;
+  }
 }

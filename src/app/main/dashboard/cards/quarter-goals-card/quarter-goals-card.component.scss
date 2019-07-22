@@ -11,7 +11,7 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  padding:19px 23px 27px 26px;
+  padding: 19px 23px 27px 26px;
 
   .header {
     display: flex;
@@ -38,47 +38,32 @@
     flex-direction: column;
     flex-wrap: wrap;
     flex-shrink: 0;
+    
+    .goal {
+      display: flex;
+      flex-grow: 1;
+      margin-bottom: 8px;
 
-    .number {
-      color: #2dbdb1;
-      font-weight: 500;
-      font-size: 36px;
-      width: 21px;
+      .number {
+        color: #2dbdb1;
+        font-weight: 500;
+        font-size: 36px;
+        width: 21px;
+      }
+
+      .text {
+        color: #5a5a5a;
+        font-weight: 500;
+        font-size: 16px;
+        align-self: center;
+        margin-left: 24px;
+        max-height: 40px;
+        overflow: scroll;
+      }
     }
-
-    .text {
-      color: #5a5a5a;
-      font-weight: 500;
-      font-size: 16px;
-      align-self: center;
-      margin-left: 24px;
-      max-height: 40px;
-      overflow: scroll;
-      
-      
-    }
-
-    .goal-one {
-        display: flex;
-        flex-grow: 1;
-        margin-bottom: 8px;
-    }
-
-    .goal-two {
-        display: flex;
-        flex-grow: 1;
-        margin-bottom: 8px;
-    }
-
-    .goal-three {
-        display: flex;
-        flex-grow:1;
-        margin-bottom: 8px;
-    }
-
   }
   .pencil {
-      align-self: flex-end;
-      margin-top: auto;
+    align-self: flex-end;
+    margin-top: auto;
   }
 }
