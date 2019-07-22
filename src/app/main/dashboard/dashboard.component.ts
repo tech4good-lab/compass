@@ -6,7 +6,7 @@ import * as fromAuth from '../../core/store/auth/auth.reducer';
 import { FirebaseService } from '../../core/firebase/firebase.service';
 import { firestore } from 'firebase/app';
 import { Observable, timer, merge, of, Subject, BehaviorSubject, combineLatest } from 'rxjs';
-import { mergeMap, tap, map, withLatestFrom, take, takeUntil } from 'rxjs/operators';
+import { mergeMap, tap, map, withLatestFrom, take, takeUntil, switchMap } from 'rxjs/operators';
 
 import { DashboardState } from './+state/dashboard.state';
 import { DashboardSelectors } from './+state/dashboard.state.selectors';
@@ -18,8 +18,9 @@ import { User, SetupType } from '../../core/store/user/user.model';
 import { CalendarEvent } from '../../core/store/calendar-event/calendar-event.model';
 import { WeekGoal } from '../../core/store/week-goal/week-goal.model';
 import { QuarterGoal } from '../../core/store/quarter-goal/quarter-goal.model';
-import { WeekGoalWithEvents, UpcomingEventsData, WeekGoalProgress } from './+state/dashboard.model';
+import { WeekGoalWithEvents, UpcomingEventsData, WeekGoalProgress, QuarterDates } from './+state/dashboard.model';
 import { startOfWeek, endOfTomorrow, endOfToday } from '../../core/utils/date.utils';
+import { CombineLatestOperator } from 'rxjs/internal/observable/combineLatest';
 
 /** The day-to-day view for compass. */
 @Component({
@@ -154,6 +155,65 @@ export class DashboardComponent implements OnInit, OnDestroy {
       }, { today: [], tomorrow: [] });
     })
   );
+
+  quarterDates$: Observable<QuarterDates> = combineLatest(this.startOfWeek$).pipe(map(startOfWeek => {
+    let currYear: number;
+    let futureYear: number
+    let currMonth: number;
+    let currTime: Date
+    startOfWeek.map(time => {
+      currYear = time.getFullYear();
+      currMonth = time.getMonth();
+      currTime = time
+    })
+
+    //needs to be fixed
+    console.log(currYear)
+    if(currMonth < 8) {
+      futureYear = currYear + 1;
+    }
+    else{
+      futureYear = currYear
+      currYear--
+    }
+    console.log(currYear)
+    //console.log(futureYear)
+    let quarterDates = [
+      {
+        season: 'Fall',
+        year: currYear,
+        start: new Date('September 21, ' + (currYear).toString()),
+        end: new Date('December 13, ' + (currYear).toString())
+      },
+      {
+        season: 'Winter',
+        year: futureYear,
+        start: new Date('December 14, ' + (currYear).toString()),
+        end: new Date('March 29, ' + (futureYear).toString())
+      },
+      {
+        season: 'Spring',
+        year: futureYear,
+        start: new Date('March 30, '+(futureYear).toString()),
+        end: new Date('June 11, '+(futureYear).toString())
+      },
+      {
+        season: 'Summer',
+        year: futureYear,
+        start: new Date('June 12, '+ (futureYear).toString()),
+        end: new Date('September 20, '+(futureYear).toString())
+      }
+    ]
+    let quarter = quarterDates[0]
+    quarterDates.forEach(q => {
+      console.log(q)
+      if(currTime >= q.start && currTime <= q.end){
+        
+        quarter = q
+      }
+    })
+    return quarter;
+  }))
 
   // --------------- EVENT BINDING STREAMS ---------------
 

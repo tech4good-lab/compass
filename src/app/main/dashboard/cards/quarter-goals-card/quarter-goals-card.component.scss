@@ -52,22 +52,28 @@
       font-size: 16px;
       align-self: center;
       margin-left: 24px;
+      max-height: 40px;
+      overflow: scroll;
+      
       
     }
 
     .goal-one {
         display: flex;
         flex-grow: 1;
+        margin-bottom: 8px;
     }
 
     .goal-two {
         display: flex;
         flex-grow: 1;
+        margin-bottom: 8px;
     }
 
     .goal-three {
         display: flex;
         flex-grow:1;
+        margin-bottom: 8px;
     }
 
   }

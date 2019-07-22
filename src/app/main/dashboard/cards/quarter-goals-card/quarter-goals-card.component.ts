@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { QuarterGoal } from '../../../../core/store/quarter-goal/quarter-goal.model';
+import { QuarterDates } from '../../+state/dashboard.model';
 
 /** Displays the goals for the quarter. */
 @Component({
@@ -17,23 +18,36 @@ export class QuarterGoalsCardComponent implements OnInit {
 
   /** Goals for a quarter. */
   @Input() goals: QuarterGoal[];
-  
+
+  /** The dates and times associated with a certain quarter */
+  @Input() currentQuarter: QuarterDates
+
   /** Edit quarterly goals events. */
   @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
- 
+  currQuarter: string;
+  quarterDates: []
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
     console.log(this.startOfWeek)
     console.log(this.goals)
+    console.log(this.currentQuarter)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
-
+  getDate(date:Date) {
+    console.log(date)
+    let month = date.getMonth() + 1
+    let day = date.getDate()
+    console.log(month)
+    return month + '/' + day
+  }
   // --------------- EVENT BINDING FUNCTIONS -------------
 
 

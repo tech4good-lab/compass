@@ -22,7 +22,7 @@
           <app-week-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="weekGoals$ | async"></app-week-goals-card>
         </div>
         <div class="card">
-          <app-quarter-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="quarterGoals$ | async"></app-quarter-goals-card>
+          <app-quarter-goals-card [startOfWeek]="startOfWeek$ | async" [currentQuarter]="quarterDates$ | async" [goals]="quarterGoals$ | async"></app-quarter-goals-card>
         </div>
         <div class="card">
           <app-long-term-goals-card [goals]="user.longTermGoals"></app-long-term-goals-card>
