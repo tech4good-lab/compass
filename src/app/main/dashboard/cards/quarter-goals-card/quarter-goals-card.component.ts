@@ -26,32 +26,25 @@ export class QuarterGoalsCardComponent implements OnInit {
   @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
-  currQuarter: string;
-  quarterDates: []
 
   constructor() { 
     
   }
 
   ngOnInit() {
-    console.log(this.startOfWeek)
-    console.log(this.goals)
-    console.log(this.currentQuarter)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
   getDate(date:Date) {
-    console.log(date)
     let month = date.getMonth() + 1
     let day = date.getDate()
-    console.log(month)
     return month + '/' + day
   }
   // --------------- EVENT BINDING FUNCTIONS -------------
 
   edit() {
-    console.log("Editing!")
+    this.editGoals.emit(this.goals)
   }
 
   // --------------- OTHER -------------------------------
