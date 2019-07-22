@@ -13,6 +13,9 @@ export class QuarterGoalsCardComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
 
+  /** The date representing the beginning of the current week */
+  @Input() startOfWeek: Date;
+
   /** Goals for a quarter. */
   @Input() goals: QuarterGoal[];
 
@@ -24,14 +27,12 @@ export class QuarterGoalsCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
 
-
   constructor() { }
 
   ngOnInit() {
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
-
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
