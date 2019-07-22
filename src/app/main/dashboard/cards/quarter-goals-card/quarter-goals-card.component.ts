@@ -50,6 +50,9 @@ export class QuarterGoalsCardComponent implements OnInit {
   }
   // --------------- EVENT BINDING FUNCTIONS -------------
 
+  edit() {
+    console.log("Editing!")
+  }
 
   // --------------- OTHER -------------------------------
   trackByFn(index, item) {
