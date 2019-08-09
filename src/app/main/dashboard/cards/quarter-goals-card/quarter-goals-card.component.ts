@@ -34,18 +34,14 @@ export class QuarterGoalsCardComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.startOfWeek)
-    console.log(this.goals)
-    console.log(this.currentQuarter)
+
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
   getDate(date:Date) {
-    console.log(date)
     let month = date.getMonth() + 1
     let day = date.getDate()
-    console.log(month)
     return month + '/' + day
   }
   // --------------- EVENT BINDING FUNCTIONS -------------
