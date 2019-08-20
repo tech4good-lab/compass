@@ -1,10 +1,13 @@
-.week-progress-card-container {
+:host {
+    // REMOVE WHEN FINISHING LAYOUT STYLES
+    // IGNORE THIS CODE 
     border: 1px solid black;
-    .week-progress-card-title {}
-    .hastag1 {}
-    .duration1 {}
-    .hastag2 {}
-    .duration2 {}
-    .hastag3 {}
-    .duration3 {}
 }
+// WRITE YOUR CODE HERE
+.week-progress-card-title {}
+.hastag1 {}
+.duration1 {}
+.hastag2 {}
+.duration2 {}
+.hastag3 {}
+.duration3 {}
