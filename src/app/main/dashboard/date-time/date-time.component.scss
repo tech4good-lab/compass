@@ -1,29 +1,31 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
-.date-time-container {
+:host {
     // REMOVE WHEN FINISHING LAYOUT STYLES
+    // IGNORE THIS CODE
     border: 1px solid black;
-    * {
-        font-family: Montserrat;
-        color: #2DBDB1;
-    }
-    
-    .time {
-        font-weight: 500;
-        font-size: 48px;
-        line-height: 59px;
-    }
-    
-    .am-pm {
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 15px;
-    }
-    
-    .date { 
-        color: #4B5853;
-        font-family: Sanchez;
-        font-size: 18px;
-        line-height: 23px;
-    }
+}
+// WRITE YOUR CODE HERE
+* {
+    font-family: Montserrat;
+    color: #2DBDB1;
+}
+
+.time {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.am-pm {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.date { 
+    color: #4B5853;
+    font-family: Sanchez;
+    font-size: 18px;
+    line-height: 23px;
 }
