@@ -1,49 +1,56 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+
+:host {
+  // REMOVE WHEN FINISHING LAYOUT STYLES
+  // IGNORE THIS CODE
+  // COMMENTED IT OUT BECAUSE IT SURROUNDS THE PENCIL
+  // border: 1px solid black; 
+}
+// WRITE YOUR CODE HERE
+
 * {
   font-family: Montserrat;
 }
+ 
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #2dbdb1;
+}
 
-.quarter-goals-card-container {
-    
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    color: #2dbdb1;
+.date {
+  font-weight: 300;
+  font-size: 18px;
+  color: #2dbdb1;
+}
+
+.number {
+  color: #2dbdb1;
+  font-weight: 500;
+  font-size: 36px;
+
+  &.one {
   }
 
-  .date {
-    font-weight: 300;
-    font-size: 18px;
-    color: #2dbdb1;
+  &.two {
   }
 
-  .number {
-    color: #2dbdb1;
-    font-weight: 500;
-    font-size: 36px;
-
-    &.one {
-    }
-
-    &.two {
-    }
-
-    &.three {
-    }
-  }
-
-  .text {
-    color: #5a5a5a;
-    font-weight: 500;
-    font-size: 16px;
-
-    &.one {
-    }
-
-    &.two {
-    }
-
-    &.three {
-    }
+  &.three {
   }
 }
+
+.text {
+  color: #5a5a5a;
+  font-weight: 500;
+  font-size: 16px;
+
+  &.one {
+  }
+
+  &.two {
+  }
+
+  &.three {
+  }
+}
+
