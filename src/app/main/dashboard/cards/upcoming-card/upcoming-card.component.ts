@@ -24,6 +24,7 @@ export class UpcomingCardComponent implements OnInit {
     console.log(this.events);
   }
 
+
   // --------------- DATA BINDING FUNCTIONS --------------
 
 

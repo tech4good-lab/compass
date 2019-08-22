@@ -13,7 +13,7 @@
       <img class="nav-icon left" src="https://icongr.am/entypo/chevron-thin-left.svg?size=23&color=2DBDB1">
       <div class="inner-card-container">
         <div class="card">
-          <app-upcoming-card [events]="upcomingEvents$ | async"></app-upcoming-card>
+          <app-upcoming-card [events]="thisWeekGoals"></app-upcoming-card>
         </div>
         <div class="card">
           <app-week-progress-card [plans]="weekPlans$ | async"></app-week-progress-card>

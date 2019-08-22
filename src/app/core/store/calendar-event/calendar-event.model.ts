@@ -13,4 +13,5 @@ export interface CalendarEvent {
   summary: string;
   description?: string;
   hashtag?: string;
+  backgroundColor?: string;
 };
