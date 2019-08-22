@@ -130,7 +130,8 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 104*3600000),
           end: timestampAfterMilliseconds(beginning, 106*3600000),
-          summary: 'TIM 158 HW'
+          summary: 'TIM 158 HW',
+          hashtag: 'tim158hw'
         },
         {
           __id: 'ev4',
@@ -141,7 +142,8 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 152*3600000),
           end: timestampAfterMilliseconds(beginning, 156*3600000),
-          summary: 'TIM 158 HW'
+          summary: 'TIM 158 HW',
+          hashtag: 'tim158hw'
         },
         {
           __id: 'ev5',
@@ -152,7 +154,8 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 68*3600000),
           end: timestampAfterMilliseconds(beginning, 70*3600000),
-          summary: 'Work on resume'
+          summary: 'Work on resume',
+          hashtag: 'resume'
         },
         {
           __id: 'ev6',
@@ -163,7 +166,8 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 116*3600000),
           end: timestampAfterMilliseconds(beginning, 118*3600000),
-          summary: 'Practice guitar'
+          summary: 'Practice guitar',
+          hashtag: 'guitar'
         },
       ],
     };

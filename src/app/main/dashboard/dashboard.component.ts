@@ -210,7 +210,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-
     // Once everything is set up, load the data for the role.
     this.currentUser$.pipe(
       withLatestFrom(this.startOfWeek$),

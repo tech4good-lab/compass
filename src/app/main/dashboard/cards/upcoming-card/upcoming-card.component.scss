@@ -1,4 +1,89 @@
-.upcoming-card-container {
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+:host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  // IGNORE THIS CODE
   border: 1px solid black;
 }
+// WRITE YOUR CODE HERE
+* { 
+  font-family: Montserrat;
+}
+.upcoming-card-container {
+  padding-top: 26px;
+  padding-left: 24px;
+
+  .upcoming-card-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853; 
+    margin-bottom: 16px;
+  }
+
+  .tomorrow {
+    margin-top: 16px;
+    
+    .tomorrow-title{
+      font-size: 14px;
+      line-height: 17px;
+      color: #4B5853;
+    }
+
+    .tomorrow-event-1-container {
+      background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+      border-radius: 5px;
+      width: 216px;
+      height: 31px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+
+      .tomorrow-event-1 {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        align-self: center;
+        flex-grow: 1;
+      }
+
+      .tomorrow-event-1-time {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #FFFFFF;
+        align-self: center;
+        padding-right: 15px;
+      }
+     }
+     .tomorrow-event-2-container {
+      background: linear-gradient(90deg, #CC2FA0 -4.5%, #DCA1E1 104.9%);
+      border-radius: 5px;
+      width: 216px;
+      height: 31px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+
+      .tomorrow-event-2 {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        align-self: center;
+        flex-grow: 1;
+      }
+
+      .tomorrow-event-2-time {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #FFFFFF;
+        align-self: center;
+        padding-right: 15px;
+      }
+     }
+   }
+ }
