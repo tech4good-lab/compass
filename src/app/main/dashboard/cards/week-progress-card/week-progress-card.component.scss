@@ -25,13 +25,15 @@
     .part1 {
         width: 168px;
         height: 27px;
-        background: #EE8B72 // border-radius: 3px;
+        background: #EE8B72;
+        border-radius: 3px;
     }
 
     .part2 {
         width: 93px;
         height: 27px;
         background: rgba(238, 139, 114, 0.3);
+        border-radius: 3px 0px 0px 3px;
     }
 }
 
@@ -49,11 +51,13 @@
         width: 168px;
         height: 27px;
         background: #2DBDB1;
+        border-radius: 3px;
     }
     .part2 {
         width: 93px;
         height: 27px;
         background: rgba(45, 189, 177, 0.3);
+        border-radius: 3px 0px 0px 3px;
     }
 }
 
@@ -72,13 +76,15 @@
     .part1 {
         width: 168px;
         height: 27px;
-        background: #FFB987; // border-radius: 3px;
+        background: #FFB987;
+        border-radius: 3px;
     }
 
     .part2 {
         width: 93px;
         height: 27px;
         background: rgba(255, 185, 135, 0.3);
+        border-radius: 3px 0px 0px 3px;
     }
 }
 
