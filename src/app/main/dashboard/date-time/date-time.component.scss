@@ -1,5 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
+
 .date-time-container {
     // REMOVE WHEN FINISHING LAYOUT STYLES
     border: 1px solid black;
@@ -7,8 +8,6 @@
         color: #2DBDB1;
     }
     .time-container {
-        display: flex;
-        flex-direction: row;
         font-family: Montserrat;
         font-weight: 500;
 
