@@ -3,20 +3,24 @@
 .date-time-container {
     // REMOVE WHEN FINISHING LAYOUT STYLES
     border: 1px solid black;
+    display: flex; 
+    flex-direction: column;
+    
     .time-container {
-        display: flex;
-        flex-direction: row;
-        font-family: Montserrat;
-        font-weight: 500;
-        color: #2DBDB1;
         .time {
+            font-family: Montserrat;
             font-size: 48px;
             line-height: 59px;
+            font-weight: 500;
+            color: #2DBDB1;
         }
         
         .am-pm {
+            font-family: Montserrat;
             font-size: 12px;
             line-height: 15px;
+            font-weight: 500;
+            color: #2DBDB1;
         }
     }
     
