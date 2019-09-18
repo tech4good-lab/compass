@@ -1,46 +1,43 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+* { 
+    font-family: Montserrat;
+}
 .week-progress-card-container {
     border-radius: 3px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 265px;
-    height: 305px;
-    overflow: scroll;
+    width: 100%; 
+    height: 100%;
+    padding-left: 20px; 
+    padding-top: 22px;
     .week-progress-card-title {
-        font-family: Montserrat;
         font-weight: 600;
         font-size: 22px;
         color: #4B5853;
-        margin-left: 20px;
         margin-top: 22px;
     }
     .hastag1 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #EE8B72;
-        margin-left: 20px;
         margin-top: 14px;
+        margin-bottom: 3px;
     }
     .progress-bar1 {
         display: flex;
         flex-direction: row;
-        margin-left: 20px;
         .part1 {
             width: 75px;
             height: 27px;
             background: #EE8B72;
-            border-top-left-radius: 3px;
-            border-bottom-left-radius: 3px;
+            border-radius: 3px;
         }
         .part2 {
             width: 93px;
             height: 27px;
             background: rgba(238, 139, 114, 0.3);
-            border-top-right-radius: 3px;
-            border-bottom-right-radius: 3px;
+            border-radius: 3px 0px 0px 3px;
         }
     }
     .duration1 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #EE8B72;
@@ -48,33 +45,28 @@
         margin-left: 10px;
     }
     .hastag2 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #2DBDB1;
-        margin-left: 20px;
         margin-top: 14px;
+        margin-bottom: 3px;
     }
     .progress-bar2 {
         display: flex;
         flex-direction: row;
-        margin-left: 20px;
         .part1 {
             width: 101px;
             height: 27px;
             background: #2DBDB1;
-            border-top-left-radius: 3px;
-            border-bottom-left-radius: 3px;
+            border-radius: 3px;
         }
         .part2 {
             width: 35px;
             height: 27px;
             background: rgba(45, 189, 177, 0.3);
-            border-top-right-radius: 3px;
-            border-bottom-right-radius: 3px;
+            border-radius: 3px 0px 0px 3px;
         }
     }
     .duration2 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #2DBDB1;
@@ -82,33 +74,28 @@
         margin-left: 10px;
     }
     .hastag3 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #FFB987;
-        margin-left: 20px;
         margin-top: 14px;
+        margin-bottom: 3px;
     }
     .progress-bar3 {
         display: flex;
         flex-direction: row;
-        margin-left: 20px;
         .part1 {
             width: 70px;
             height: 27px;
             background: #FFB987;
-            border-top-left-radius: 3px;
-            border-bottom-left-radius: 3px;
+            border-radius: 3px;
         }
         .part2 {
             width: 42px;
             height: 27px;
             background: rgba(255, 185, 135, 0.3);
-            border-top-right-radius: 3px;
-            border-bottom-right-radius: 3px;
+            border-radius: 3px 0px 0px 3px; 
         }
     }
     .duration3 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #FFB987;
