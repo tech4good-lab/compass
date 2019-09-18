@@ -2,9 +2,7 @@
 .week-progress-card-container {
     border-radius: 3%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 265px;
-    height: 305px;
-    overflow: scroll;
+    width: 100%;
     .week-progress-card-title {
         font-family: Montserrat;
         font-weight: 600;
@@ -20,12 +18,14 @@
         .part1 {
             width: 75px;
             height: 27px;
-            background: #EE8B72 // border-radius: 3px;
+            background: #EE8B72; 
+            border-radius: 3px;
         }
         .part2 {
             width: 93px;
             height: 27px;
             background: rgba(238, 139, 114, 0.3);
+            border-radius: 3px 0px 0px 3px;
         }
     }
     .duration1 {
@@ -44,11 +44,13 @@
             width: 101px;
             height: 27px;
             background: #2DBDB1;
+            border-radius: 3px;
         }
         .part2 {
             width: 35px;
             height: 27px;
             background: rgba(45, 189, 177, 0.3);
+            border-radius: 3px 0px 0px 3px;
         }
     }
     .duration2 {
@@ -66,12 +68,14 @@
         .part1 {
             width: 70px;
             height: 27px;
-            background: #FFB987; // border-radius: 3px;
+            background: #FFB987; 
+            border-radius: 3px;
         }
         .part2 {
             width: 42px;
             height: 27px;
             background: rgba(255, 185, 135, 0.3);
+            border-radius: 3px 0px 0px 3px;
         }
     }
     .duration3 {
