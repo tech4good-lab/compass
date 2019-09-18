@@ -13,31 +13,47 @@
 }
 
 .quarter-goals-card-container {
+  display: flex;
+  flex-direction: column;
   background: #ffffff;
   box-shadow: 0px 4px 4px #d3e1da;
   border-radius: 10px;
 
-  .title {
-    font-weight: 600;
-    font-size: 22px;
-    color: #2dbdb1;
+  .header {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-weight: 600;
+      font-size: 22px;
+      color: #2dbdb1;
+    }
+
+    .date {
+      font-weight: 300;
+      font-size: 18px;
+      color: #2dbdb1;
+    }
   }
 
-  .date {
-    font-weight: 300;
-    font-size: 18px;
-    color: #2dbdb1;
+  .tasks {
+    display: flex;
+    flex-direction: column;
+
+    .number {
+      color: #2dbdb1;
+      font-weight: 500;
+      font-size: 36px;
+    }
+
+    .text {
+      color: #5a5a5a;
+      font-weight: 500;
+      font-size: 16px;
+    }
   }
 
-  .number {
-    color: #2dbdb1;
-    font-weight: 500;
-    font-size: 36px;
-  }
+  .pencil{
 
-  .text {
-    color: #5a5a5a;
-    font-weight: 500;
-    font-size: 16px;
   }
 }
