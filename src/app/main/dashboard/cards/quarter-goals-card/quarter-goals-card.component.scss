@@ -33,6 +33,7 @@
       font-weight: 600;
       font-size: 22px;
       color: #2dbdb1;
+      margin-bottom: 8px;
     }
 
     .date {
@@ -48,24 +49,39 @@
     overflow: auto;
     width: 100%;
     flex-shrink: 0;
-    margin-bottom: 13px;
+    height: 180px;
 
-    .number {
-      color: #2dbdb1;
-      font-weight: 500;
-      font-size: 36px;
-    }
+    .goal {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 13px;
 
-    .text {
-      color: #5a5a5a;
-      font-weight: 500;
-      font-size: 16px;
+      .number {
+        color: #2dbdb1;
+        font-weight: 500;
+        font-size: 36px;
+        margin-right: 24px;
+        align-self: center;
+        width: 30px;
+      }
+
+      .text {
+        color: #5a5a5a;
+        font-weight: 500;
+        font-size: 16px;
+        text-overflow: wrap;
+        align-self: center;
+        width: 171px;
+        max-height: 40px;
+        overflow-y: auto;
+      }
     }
   }
 
-  .pencil{
+  .pencil {
     display: flex;
     flex-shrink: 0;
     align-self: flex-end;
+    margin-top: auto;
   }
 }
