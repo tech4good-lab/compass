@@ -63,5 +63,6 @@
   .pencil{
     display: flex;
     flex-shrink: 0;
+    align-self: flex-end;
   }
 }
