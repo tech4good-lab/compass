@@ -4,8 +4,8 @@
   <div class="plan-container" *ngFor="let plan of plans">
     <div class="hashtag">#{{plan.hashtag}}</div>
     <div class="progress-bar">
-        <div class="part1" [style.width.px]="170*(1-plan.totalCompletedMins/plan.totalAllocatedMins)"></div>
-        <div class="part2" [style.width.px]="170*plan.totalCompletedMins/plan.totalAllocatedMins"></div>
+        <div class="part1" [style.width.px]="170*plan.totalCompletedMins/plan.totalAllocatedMins"></div>
+        <div class="part2" [style.width.px]="170*(1-plan.totalCompletedMins/plan.totalAllocatedMins)"></div>
         <div class="duration">{{plan.totalAllocatedMins/60}} HRS</div>
     </div>
   </div>
