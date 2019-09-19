@@ -1,16 +1,17 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+* { 
+    font-family: Montserrat;
+}
 .week-progress-card-container {
     border-radius: 3%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     .week-progress-card-title {
-        font-family: Montserrat;
         font-weight: 600;
         font-size: 22px;
         color: #4B5853;
     }
     .hastag1 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #EE8B72;
     }
@@ -30,13 +31,11 @@
         }
     }
     .duration1 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #EE8B72;
     }
     .hastag2 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #2DBDB1;
     }
@@ -56,13 +55,11 @@
         }
     }
     .duration2 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #2DBDB1;
     }
     .hastag3 {
-        font-family: Montserrat;
         font-size: 14px;
         color: #FFB987;
     }
@@ -82,7 +79,6 @@
         }
     }
     .duration3 {
-        font-family: Montserrat;
         font-weight: 500;
         font-size: 14px;
         color: #FFB987;
