@@ -38,15 +38,12 @@ export class QuarterGoalsCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    console.log(this.startOfWeek);
-    console.log(this.goals);
-    console.log(this.currentQuarter);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
-  
+
   // --------------- OTHER -------------------------------
 }
