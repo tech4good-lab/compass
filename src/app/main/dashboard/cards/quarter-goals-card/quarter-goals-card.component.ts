@@ -1,16 +1,22 @@
-import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
-import { QuarterGoal } from '../../../../core/store/quarter-goal/quarter-goal.model';
-import { QuarterDates } from '../../+state/dashboard.model';
+import {
+  Component,
+  OnInit,
+  ChangeDetectionStrategy,
+  Input,
+  Output,
+  EventEmitter
+} from "@angular/core";
+import { QuarterGoal } from "../../../../core/store/quarter-goal/quarter-goal.model";
+import { QuarterDates } from "../../+state/dashboard.model";
 
 /** Displays the goals for the quarter. */
 @Component({
-  selector: 'app-quarter-goals-card',
-  templateUrl: './quarter-goals-card.component.html',
-  styleUrls: ['./quarter-goals-card.component.scss'],
+  selector: "app-quarter-goals-card",
+  templateUrl: "./quarter-goals-card.component.html",
+  styleUrls: ["./quarter-goals-card.component.scss"],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class QuarterGoalsCardComponent implements OnInit {
-
   // --------------- INPUTS AND OUTPUTS ------------------
 
   /** The date representing the beginning of the current week */
@@ -20,25 +26,27 @@ export class QuarterGoalsCardComponent implements OnInit {
   @Input() goals: QuarterGoal[];
 
   /** The dates and times associated with a certain quarter */
-  @Input() currentQuarter: QuarterDates
+  @Input() currentQuarter: QuarterDates;
 
   /** Edit quarterly goals events. */
-  @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<QuarterGoal[]>();
+  @Output() editGoals: EventEmitter<QuarterGoal[]> = new EventEmitter<
+    QuarterGoal[]
+  >();
 
   // --------------- LOCAL UI STATE ----------------------
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
-    console.log(this.startOfWeek)
-    console.log(this.goals)
-    console.log(this.currentQuarter)
+    console.log(this.startOfWeek);
+    console.log(this.goals);
+    console.log(this.currentQuarter);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
-
+  
   // --------------- OTHER -------------------------------
 }
