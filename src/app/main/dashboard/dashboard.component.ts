@@ -202,7 +202,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
     })
 
     //needs to be fixed
-    console.log(currYear)
     if(currMonth < 8) {
       futureYear = currYear + 1;
     }
@@ -210,7 +209,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
       futureYear = currYear
       currYear--
     }
-    console.log(currYear)
     //console.log(futureYear)
     let quarterDates = [
       {
@@ -240,7 +238,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
     ]
     let quarter = quarterDates[0]
     quarterDates.forEach(q => {
-      console.log(q)
       if(currTime >= q.start && currTime <= q.end){
         
         quarter = q
