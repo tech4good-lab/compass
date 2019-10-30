@@ -27,7 +27,7 @@ export class GreetingSearchComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
+  
 
   // --------------- OTHER -------------------------------
 }
