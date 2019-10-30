@@ -26,6 +26,14 @@ export class WeekProgressCardComponent implements OnInit {
 
   // --------------- DATA BINDING FUNCTIONS --------------
 
+  /** Function for calculating the length of the two bars */
+  calculateLength(plan: WeekGoalProgress, calculationType: string) {
+    if (calculationType == 'bar1') {
+      return 170*(1-plan.totalCompletedMins/plan.totalAllocatedMins)
+    } else if (calculationType == 'bar2') {
+      return (170*plan.totalCompletedMins/plan.totalAllocatedMins)
+    }
+  }
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
