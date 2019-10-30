@@ -4,8 +4,9 @@
     // REMOVE WHEN FINISHING LAYOUT STYLES
     border: 1px solid black;
     display: flex; 
-    flex-direction: column; 
-
+    flex-direction: column;
+    width: 100%;
+    
     .time-container {
         .time {
             font-family: Montserrat;
@@ -23,7 +24,7 @@
             color: #2DBDB1;
         }
     }
-
+    
     .date { 
         color: #4B5853;
         font-family: Sanchez;
