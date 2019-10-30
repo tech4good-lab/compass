@@ -3,14 +3,15 @@
 :host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
   // IGNORE THIS CODE
-  border: 1px solid black;
+  // COMMENTED IT OUT BECAUSE IT SURROUNDS THE PENCIL
+  // border: 1px solid black; 
 }
 // WRITE YOUR CODE HERE
 
 * {
   font-family: Montserrat;
 }
-
+ 
 .title {
   font-weight: 600;
   font-size: 22px;
