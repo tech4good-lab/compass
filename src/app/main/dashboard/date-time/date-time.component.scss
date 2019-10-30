@@ -12,10 +12,12 @@
     border: 1px solid black;
     display: flex; 
     flex-direction: column;
+    width: 100%;
     
     .time-container {
         display: flex; 
         flex-direction: row;
+        width: 100%;
 
         .time {
             font-family: Montserrat;
@@ -35,6 +37,7 @@
     }
     
     .date { 
+        width: 100%;
         color: #4B5853;
         font-family: Sanchez;
         font-size: 18px;
