@@ -56,12 +56,12 @@
         border-radius: 100px;
         height: 8px;
       }
- 
+
       /* hover effect for both scrollbar area, and scrollbar 'thumb' */
       &::-webkit-scrollbar:hover {
         background-color: rgba(0, 0, 0, 0.09);
       }
- 
+
       /* The scrollbar 'thumb' is the oval shape in a scrollbar */
       &::-webkit-scrollbar-thumb:horizontal {
         background: rgba(0,0,0,0.5);
@@ -69,13 +69,13 @@
         border-radius: 50px;
         height: 2px;
       }
- 
+
       &::-webkit-scrollbar-thumb:horizontal:active {
         background: rgba(0,0,0,0.61);
         -webkit-border-radius: 50px;
         border-radius: 50px;
       }
- 
+
       .card {
         margin-right: 50px;
         width: calc(33.33% - 34px);
