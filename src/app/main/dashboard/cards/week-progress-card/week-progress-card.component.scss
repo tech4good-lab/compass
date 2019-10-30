@@ -5,8 +5,10 @@
 .week-progress-card-container {
     border-radius: 3%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 22px 22px;
     width: 100%;
-    .week-progress-card-title {  
+
+    .week-progress-card-title {
         font-weight: 600;
         font-size: 22px;
         color: #4B5853;
@@ -14,8 +16,10 @@
     .hastag1 {
         font-size: 14px;
         color: #EE8B72;
+        margin-top: 14px;
     }
     .progress-bar1 {
+        width: 100%;
         .part1 {
             width: 75px;
             height: 27px;
@@ -37,8 +41,10 @@
     .hastag2 {
         font-size: 14px;
         color: #2DBDB1;
+        margin-top: 14px;
     }
     .progress-bar2 {
+        width: 100%;
         .part1 {
             width: 101px;
             height: 27px;
@@ -60,8 +66,10 @@
     .hastag3 {
         font-size: 14px;
         color: #FFB987;
+        margin-top: 14px
     }
     .progress-bar3 {
+        width: 100%;
         .part1 {
             width: 70px;
             height: 27px;
