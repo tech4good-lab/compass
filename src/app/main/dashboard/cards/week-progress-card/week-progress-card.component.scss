@@ -1,34 +1,25 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+
 * { 
     font-family: Montserrat;
 }
 
-:host {
-    // REMOVE WHEN FINISHING LAYOUT STYLES
-    // IGNORE THIS CODE
-    //border: 1px solid black;
-}
- // WRITE YOUR CODE HERE
- 
 .week-progress-card-title {
     font-weight: 600;
     font-size: 22px;
     color: #4B5853;
 }
-
 .hastag1 {
     font-size: 14px;
     color: #EE8B72;
 }
-
 .progress-bar1 {
     .part1 {
-        width: 168px;
+        width: 75px;
         height: 27px;
-        background: #EE8B72;
+        background: #EE8B72; 
         border-radius: 3px;
     }
-
     .part2 {
         width: 93px;
         height: 27px;
@@ -36,31 +27,30 @@
         border-radius: 3px 0px 0px 3px;
     }
 }
-
 .duration1 {
     font-weight: 500;
     font-size: 14px;
     color: #EE8B72;
 }
+
 .hastag2 {
     font-size: 14px;
     color: #2DBDB1;
 }
 .progress-bar2 {
     .part1 {
-        width: 168px;
+        width: 101px;
         height: 27px;
         background: #2DBDB1;
         border-radius: 3px;
     }
     .part2 {
-        width: 93px;
+        width: 35px;
         height: 27px;
         background: rgba(45, 189, 177, 0.3);
         border-radius: 3px 0px 0px 3px;
     }
 }
-
 .duration2 {
     font-weight: 500;
     font-size: 14px;
@@ -71,23 +61,20 @@
     font-size: 14px;
     color: #FFB987;
 }
-
 .progress-bar3 {
     .part1 {
-        width: 168px;
+        width: 70px;
         height: 27px;
         background: #FFB987;
         border-radius: 3px;
     }
-
     .part2 {
-        width: 93px;
+        width: 42px;
         height: 27px;
         background: rgba(255, 185, 135, 0.3);
         border-radius: 3px 0px 0px 3px;
     }
 }
-
 .duration3 {
     font-weight: 500;
     font-size: 14px;
