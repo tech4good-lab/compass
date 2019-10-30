@@ -1,11 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
-
 * { 
     font-family: Montserrat;
 }
 .week-progress-card-container {
     border-radius: 3%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction: column;
     .week-progress-card-title {
         font-weight: 600;
         font-size: 22px;
@@ -19,7 +20,7 @@
         .part1 {
             width: 75px;
             height: 27px;
-            background: #EE8B72; 
+            background: #EE8B72;
             border-radius: 3px;
         }
         .part2 {
@@ -65,7 +66,7 @@
         .part1 {
             width: 70px;
             height: 27px;
-            background: #FFB987;
+            background: #FFB987; 
             border-radius: 3px;
         }
         .part2 {
