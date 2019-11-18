@@ -13,6 +13,7 @@ import { SharedModule } from './shared/shared.module';
 // Feature Modules
 import { MainModule } from './main/main.module';
 import { GeneralModule } from './general/general.module';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GeneralModule } from './general/general.module';
     GeneralModule,
     // Routing Module
     AppRoutingModule,
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
