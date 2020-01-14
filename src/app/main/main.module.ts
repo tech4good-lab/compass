@@ -5,6 +5,8 @@ import { SharedModule } from '../shared/shared.module';
 import { MainRoutingModule } from './main-routing.module';
 
 // Containers
+import { OnboardingComponent } from './onboarding/onboarding.component';
+import { OnboardingEffects } from './onboarding/+state/onboarding.effects';
 import { ReorientComponent } from './reorient/reorient.component';
 import { ReorientEventsEffects } from './reorient/+events/reorient.events.effects';
 import { ReorientStateEffects } from './reorient/+state/reorient.state.effects';
@@ -40,6 +42,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     SharedModule,
     MainRoutingModule,
     EffectsModule.forFeature([
+      OnboardingEffects,
       ReorientStateEffects,
       ReorientEventsEffects,
       DashboardStateEffects,
@@ -48,6 +51,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
   ],
   declarations: [
     // Containers
+    OnboardingComponent,
     ReorientComponent,
     DashboardComponent,
     // Components
