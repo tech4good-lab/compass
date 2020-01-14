@@ -11,6 +11,7 @@ import { routerReducer, RouterReducerState } from '@ngrx/router-store';
 import * as fromAuth from './auth/auth.reducer';
 
 // Entity Reducers
+import * as fromGoal from './goal/goal.reducer';
 import * as fromCalendarEvent from './calendar-event/calendar-event.reducer';
 import * as fromWeekGoal from './week-goal/week-goal.reducer';
 import * as fromQuarterGoal from './quarter-goal/quarter-goal.reducer';
@@ -20,6 +21,7 @@ export interface State {
   auth: fromAuth.State;
   router: RouterReducerState;
   // Entity State
+  goal: fromGoal.State;
   calendarEvent: fromCalendarEvent.State;
   weekGoal: fromWeekGoal.State;
   quarterGoal: fromQuarterGoal.State;
@@ -30,6 +32,7 @@ export const reducers: ActionReducerMap<State> = {
   router: routerReducer,
   auth: fromAuth.reducer,
   // Entity Reducers
+  goal: fromGoal.reducer,
   calendarEvent: fromCalendarEvent.reducer,
   weekGoal: fromWeekGoal.reducer,
   quarterGoal: fromQuarterGoal.reducer,

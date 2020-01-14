@@ -24,6 +24,7 @@ import { AppEffects } from './store/app.effects';
 import { AuthEffects } from './store/auth/auth.effects';
 
 // Entity Effects
+import { GoalEffects } from './store/goal/goal.effects';
 import { CalendarEventEffects } from './store/calendar-event/calendar-event.effects';
 import { WeekGoalEffects } from './store/week-goal/week-goal.effects';
 import { QuarterGoalEffects } from './store/quarter-goal/quarter-goal.effects';
@@ -50,6 +51,7 @@ import { UserEffects } from './store/user/user.effects';
       AuthEffects, 
       // Service Effects
       // Entity Effects
+      GoalEffects,
       CalendarEventEffects,
       WeekGoalEffects,
       QuarterGoalEffects,
