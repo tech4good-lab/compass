@@ -15,6 +15,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { SetQuarterGoalsComponent } from './onboarding/set-quarter-goals/set-quarter-goals.component';
 import { NiceWorkComponent } from './onboarding/nice-work/nice-work.component';
 import { SetLongTermGoalsComponent } from './onboarding/set-long-term-goals/set-long-term-goals.component';
 import { ProgressBarComponent } from './onboarding/progress-bar/progress-bar.component';
@@ -58,6 +59,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    SetQuarterGoalsComponent,
     NiceWorkComponent,
     SetLongTermGoalsComponent,
     ProgressBarComponent,
