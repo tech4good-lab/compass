@@ -15,6 +15,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { HeadToDashboardComponent } from './onboarding/head-to-dashboard/head-to-dashboard.component';
 import { WeekMapComponent } from './onboarding/week-map/week-map.component';
 import { SetWeeklyGoalsComponent } from './onboarding/set-weekly-goals/set-weekly-goals.component';
 import { SetQuarterGoalsComponent } from './onboarding/set-quarter-goals/set-quarter-goals.component';
@@ -61,6 +62,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    HeadToDashboardComponent,
     WeekMapComponent,
     SetWeeklyGoalsComponent,
     SetQuarterGoalsComponent,
