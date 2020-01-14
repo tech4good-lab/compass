@@ -4,6 +4,7 @@ import { CachedSelectorsService } from './cached-selectors.service';
 import { AuthSelectorsService } from './auth/auth.selectors';
 
 // Entity Selectors
+import { HashtagGoalService } from './hashtag-goal/hashtag-goal.service';
 import { GoalService } from './goal/goal.service';
 import { CalendarEventSelectorsService } from './calendar-event/calendar-event.selectors';
 import { WeekGoalSelectorsService } from './week-goal/week-goal.selectors';
@@ -19,6 +20,7 @@ export class EntitySelectorService {
     private cachedSelectors: CachedSelectorsService,
     private auth: AuthSelectorsService,
     // Entity Selectors
+    private hashtagGoal: HashtagGoalService,
     private goal: GoalService,
     private calendarEvent: CalendarEventSelectorsService,
     private weekGoal: WeekGoalSelectorsService,
@@ -32,6 +34,10 @@ export class EntitySelectorService {
   public selectAuthUser = this.auth.selectAuthUser;
 
   // Entity Selectors
+  public getHashtagGoal = this.hashtagGoal.getHashtagGoal;
+  public getHashtagGoals = this.hashtagGoal.getHashtagGoals;
+  public selectHashtagGoal = this.hashtagGoal.selectHashtagGoal;
+  public selectHashtagGoals = this.hashtagGoal.selectHashtagGoals;
   public getGoal = this.goal.getGoal;
   public getGoals = this.goal.getGoals;
   public selectGoal = this.goal.selectGoal;
