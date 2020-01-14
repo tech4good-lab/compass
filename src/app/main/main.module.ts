@@ -15,6 +15,7 @@ import { DashboardEventsEffects } from './dashboard/+events/dashboard.events.eff
 import { DashboardStateEffects } from './dashboard/+state/dashboard.state.effects';
 
 // Components
+import { NiceWorkComponent } from './onboarding/nice-work/nice-work.component';
 import { SetLongTermGoalsComponent } from './onboarding/set-long-term-goals/set-long-term-goals.component';
 import { ProgressBarComponent } from './onboarding/progress-bar/progress-bar.component';
 import { WeekGoalsSlideComponent } from './reorient/slides/week-goals-slide/week-goals-slide.component';
@@ -57,6 +58,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     ReorientComponent,
     DashboardComponent,
     // Components
+    NiceWorkComponent,
     SetLongTermGoalsComponent,
     ProgressBarComponent,
     WeekGoalsSlideComponent,
