@@ -5,4 +5,6 @@ export interface HashtagGoal {
   __id: string;
   _createdAt?: firestore.Timestamp;
   _updatedAt?: firestore.Timestamp;
+  __hashtagId: string;
+  __goalId: string;
 }

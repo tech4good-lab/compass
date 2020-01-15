@@ -5,4 +5,6 @@ export interface Hashtag {
   __id: string;
   _createdAt?: firestore.Timestamp;
   _updatedAt?: firestore.Timestamp;
+  __userId: string;
+  name: string;
 }

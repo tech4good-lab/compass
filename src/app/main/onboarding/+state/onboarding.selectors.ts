@@ -17,6 +17,14 @@ export class OnboardingSelectors {
     private slRx: EntitySelectorService,
   ) { }
 
+  // selectGoals(): Observable<Goal[]> {
+  //   return of([
+  //     {
+        
+  //     }
+  //   ])
+  // }
+
   cleanup() {
     this.slRx.release(this.cId);
   }

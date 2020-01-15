@@ -33,7 +33,7 @@ export class OnboardingComponent implements OnInit, OnDestroy {
 
 
   // --------------- DB ENTITY DATA ----------------------
-
+  // goals: Observable<Goal[]> = this.selectors.selectGoals();
 
   // --------------- DATA BINDING STREAMS ----------------
 
