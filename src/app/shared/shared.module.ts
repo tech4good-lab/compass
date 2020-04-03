@@ -80,7 +80,5 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent,
     // Pipes
   ],
-  entryComponents: [
-  ]
 })
 export class SharedModule { }
