@@ -71,7 +71,5 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     NewWeekComponent,
     DateTimeComponent,
   ],
-  entryComponents: [
-  ]
 })
 export class MainModule { }
