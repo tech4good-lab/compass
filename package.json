@@ -28,7 +28,7 @@
     "@ngrx/entity": "9.0.0",
     "@ngrx/router-store": "9.0.0",
     "@ngrx/store": "9.0.0",
-    "@ngrx/store-devtools": "^9.0.0",
+    "@ngrx/store-devtools": "9.0.0",
     "angular": "^1.7.9",
     "core-js": "^2.5.4",
     "firebase": "7.13.2",
