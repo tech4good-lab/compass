@@ -6,7 +6,7 @@ import * as fromAuth from '../../core/store/auth/auth.reducer';
 import { FirebaseService } from '../../core/firebase/firebase.service';
 import { firestore } from 'firebase/app';
 import { Observable, timer, merge, of, Subject, BehaviorSubject, combineLatest } from 'rxjs';
-import { mergeMap, tap, map, withLatestFrom, take, takeUntil } from 'rxjs/operators';
+import { mergeMap, tap, map, withLatestFrom, take, takeUntil, timestamp } from 'rxjs/operators';
 
 import { DashboardState } from './+state/dashboard.state';
 import { DashboardSelectors } from './+state/dashboard.state.selectors';
@@ -19,7 +19,7 @@ import { CalendarEvent } from '../../core/store/calendar-event/calendar-event.mo
 import { WeekGoal } from '../../core/store/week-goal/week-goal.model';
 import { QuarterGoal } from '../../core/store/quarter-goal/quarter-goal.model';
 import { WeekGoalWithEvents, UpcomingEventsData, WeekGoalProgress } from './+state/dashboard.model';
-import { startOfWeek, endOfTomorrow, endOfToday } from '../../core/utils/date.utils';
+import { startOfWeek, endOfTomorrow, endOfToday, timestampAfterMilliseconds } from '../../core/utils/date.utils';
 
 /** The day-to-day view for compass. */
 @Component({
@@ -79,7 +79,57 @@ export class DashboardComponent implements OnInit, OnDestroy {
   
   // --------------- LOCAL UI STATE ----------------------
 
-
+  upcomingEvents$: Observable<UpcomingEventsData> = of({ 
+    today: [
+      {
+        __id: 'weekgoal1',
+        __userId: 'user',
+        __weekGoalId: 'wg1',
+        weekGoalIndex: 1,
+        _createdAt: firestore.Timestamp.fromMillis(1566245122000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce1',
+        start: firestore.Timestamp.fromMillis(1566245122000),
+        end: firestore.Timestamp.fromMillis(1566252322000),
+        summary: 'practice piano for two hours',
+        description: 'practice piano',
+        hashtag: 'piano',
+        backgroundColor: 'linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%)'
+      }
+    ],
+    tomorrow: [
+      {
+        __id: 'weekgoal2',
+        __userId: 'user',
+        __weekGoalId: 'wg2',
+        weekGoalIndex: 2,
+        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce2',
+        start: firestore.Timestamp.fromMillis(1566320722000),
+        end: firestore.Timestamp.fromMillis(1566327922000),
+        summary: 'practice violin for two hours',
+        description: 'practice violin',
+        hashtag: 'violin',
+        backgroundColor: 'linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%)'
+      },
+      {
+        __id: 'weekgoal3',
+        __userId: 'user',
+        __weekGoalId: 'wg3',
+        weekGoalIndex: 3,
+        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce3',
+        start: firestore.Timestamp.fromMillis(1566331522000),
+        end: firestore.Timestamp.fromMillis(1566338722000),
+        summary: 'work on resume',
+        description: 'work on resume',
+        hashtag: 'resume',
+        backgroundColor: 'linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%)'
+      }
+    ]
+  })
 
     // // Returns whether scrollbars show up on scrollable elements.
     // // This is false on Macs when the "General > Show scroll bars" setting is
@@ -158,36 +208,37 @@ export class DashboardComponent implements OnInit, OnDestroy {
     })
   );
   
-  /** Only the upcoming events (today and tomorrow). */
-  upcomingEvents$: Observable<UpcomingEventsData> = combineLatest(
-    this.weekGoals$,
-    this.time$
-  ).pipe(
-    map(([weekGoals, time]) => {
-      return weekGoals.map(goal => {
-        // First map to array of processed calendar events per goal
-        return goal.calendarEvents.filter(e => {
-          // Filter to only events that are upcoming
-          return e.start.toDate() < endOfTomorrow(time) && e.end.toDate() > time;
-        }).map(e => {
-          // Add the needed weekGoalIndex (for colors)
-          return Object.assign({}, e, {
-            weekGoalIndex: goal.index
-          });
-        });
-      }).reduce((events, goalEvents) => {
-        // Then flatten the array of calendar event arrays
-        return [...events, ...goalEvents];
-      }, []).reduce((data, e) => {
-        // Now group the calendar events by today or tomorrow to get result
-        if (e.start.toDate() < endOfToday(time)) {
-          return { today: [...data.today, e], tomorrow: data.tomorrow };
-        } else {
-          return { today: data.today, tomorrow: [...data.tomorrow, e] };
-        }
-      }, { today: [], tomorrow: [] });
-    })
-  );
+  // /** Only the upcoming events (today and tomorrow). */
+  // upcomingEvents$: Observable<UpcomingEventsData> = combineLatest(
+  //   this.weekGoals$,
+  //   this.time$
+  // ).pipe(
+  //   map(([weekGoals, _]) => {
+  //     let time = timestampAfterMilliseconds(0, 1566241200).toDate();
+  //     return weekGoals.map(goal => {
+  //       // First map to array of processed calendar events per goal
+  //       return goal.calendarEvents.filter(e => {
+  //         // Filter to only events that are upcoming
+  //         return e.start.toDate() < endOfTomorrow(time) && e.end.toDate() > time;
+  //       }).map(e => {
+  //         // Add the needed weekGoalIndex (for colors)
+  //         return Object.assign({}, e, {
+  //           weekGoalIndex: goal.index
+  //         });
+  //       });
+  //     }).reduce((events, goalEvents) => {
+  //       // Then flatten the array of calendar event arrays
+  //       return [...events, ...goalEvents];
+  //     }, []).reduce((data, e) => {
+  //       // Now group the calendar events by today or tomorrow to get result
+  //       // if (e.start.toDate() < endOfToday(time)) {
+  //       //   return { today: [...data.today, e], tomorrow: data.tomorrow };
+  //       // } else {
+  //         return { today: data.today, tomorrow: [...data.tomorrow, e] };
+  //      //}
+  //     }, { today: [], tomorrow: [] });
+  //   })
+  // );
 
   // --------------- EVENT BINDING STREAMS ---------------
 
@@ -204,13 +255,11 @@ export class DashboardComponent implements OnInit, OnDestroy {
     private store: Store<fromStore.State>,
     private db: FirebaseService,
   ) { 
-    
     // --------------- EVENT HANDLING ----------------------
   
   }
 
   ngOnInit() {
-
     // Once everything is set up, load the data for the role.
     this.currentUser$.pipe(
       withLatestFrom(this.startOfWeek$),
