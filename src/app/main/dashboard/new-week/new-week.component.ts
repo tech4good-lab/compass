@@ -13,8 +13,7 @@ export class NewWeekComponent implements OnInit {
 
   /** Events for initiating weekly reorientation. */
   @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
-  // ^^^ Notice the output event! ^^^
-  
+
   // --------------- LOCAL UI STATE ----------------------
  
 
@@ -28,6 +27,10 @@ export class NewWeekComponent implements OnInit {
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
+  /** Function to handle when the start button is clicked. */
+  startButtonClicked() {
+      console.log("the start button was clicked!");
+  }
 
   // --------------- OTHER -------------------------------
 }
