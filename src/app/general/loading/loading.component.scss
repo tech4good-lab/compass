@@ -1,2 +1,38 @@
 .loading-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  width: 1152px;
+  height: 700px;
+  background: #F3FFF9;
+
+  .loading-svg {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 106.43px;
+    height: 106.43px;
+    left: 548.16px;
+    top: 257px;
+  }
+
+  .loading-txt {
+    position: absolute;
+    width: 186px;
+    height: 34px;
+    left: 483px;
+    top: 409px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #2DBDB1;
+
+    display: flex;
+    justify-content: flex-end;
+
+  }
 }
