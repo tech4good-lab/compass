@@ -1,4 +1,63 @@
 .reflections-card-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
   border: 1px solid black;
+  width: 265px;
+  height: 310px;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  .reflections-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .text-title {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #EE8B72;
+
+      display: flex;
+      position: absolute;
+      left: 7.55%;
+      right: 24.15%;
+      top: 5.48%;
+      bottom: 84.84%;
+
+    }
+    .text-subtitle {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: #EE8B72;
+
+      position: absolute;
+      left: 7.55%;
+      right: 20.38%;
+      top: 16.13%;
+      bottom: 72.26%;
+    }
+  }
+
+  .reflections-img {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    left: 30.94%;
+    right: 30.57%;
+    top: 34.52%;
+    bottom: 31.61%;
+  }
 }
