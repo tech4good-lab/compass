@@ -75,6 +75,7 @@ export class MockDBService {
           text: 'Course homework',
           index: 0,
           hashtag: 'homework',
+          color: '#EE8B72',
           completed: false
         },
         {
@@ -85,6 +86,7 @@ export class MockDBService {
           text: 'Research and put together resume (draft 1).',
           index: 1,
           hashtag: 'resume',
+          color: '#2DBDB1',
           completed: false
         },
         {
@@ -95,6 +97,7 @@ export class MockDBService {
           text: 'One hour of practicing guitar.',
           index: 2,
           hashtag: 'guitar',
+          color: '#FFB987',
           completed: false
         },
       ],
