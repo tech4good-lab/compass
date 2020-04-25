@@ -1,12 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 * { 
     font-family: Montserrat;
-}
+}   
 .week-progress-card-container {
-    border-radius: 3%;
+    border-radius: 3px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 22px 22px;
     width: 100%;
+    height: 100%;
 
     .week-progress-card-title {
         font-weight: 600;
@@ -20,6 +21,8 @@
     }
     .progress-bar1 {
         width: 100%;
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 75px;
             height: 27px;
@@ -36,6 +39,8 @@
             font-weight: 500;
             font-size: 14px;
             color: #EE8B72;
+            align-self: center;
+            margin-left: 10px;
         }
     }
     .hastag2 {
@@ -45,6 +50,8 @@
     }
     .progress-bar2 {
         width: 100%;
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 101px;
             height: 27px;
@@ -61,15 +68,19 @@
             font-weight: 500;
             font-size: 14px;
             color: #2DBDB1;
+            align-self: center;
+            margin-left: 10px;
         }
     }
     .hastag3 {
         font-size: 14px;
         color: #FFB987;
-        margin-top: 14px
+        margin-top: 14px;
     }
     .progress-bar3 {
         width: 100%;
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 70px;
             height: 27px;
@@ -86,6 +97,8 @@
             font-weight: 500;
             font-size: 14px;
             color: #FFB987;
+            align-self: center;
+            margin-left: 10px;
         }
     }
 }
