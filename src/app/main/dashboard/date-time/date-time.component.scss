@@ -1,14 +1,16 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
 @import url(//fonts.googleapis.com/css?family=Sanchez);
 .date-time-container {
-    // REMOVE WHEN FINISHING LAYOUT STYLES
-    border: 1px solid black;
     display: flex; 
     flex-direction: column;
     width: 100%;
     
     .time-container {
+        display: flex;
+        flex-direction: row;
         width: 100%;
+        align-items: baseline;
+        justify-content: flex-end;
 
         .time {
             font-family: Montserrat;
@@ -24,14 +26,18 @@
             line-height: 15px;
             font-weight: 500;
             color: #2DBDB1;
+            justify-self: flex-end;
+            margin-left: 3px;
         }
     }
     
     .date { 
+        display: flex;
         width: 100%;
         color: #4B5853;
         font-family: Sanchez;
         font-size: 18px;
         line-height: 23px;
+        justify-content: flex-end;
     }
 }
