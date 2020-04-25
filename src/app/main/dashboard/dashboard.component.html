@@ -19,7 +19,7 @@
           <app-week-progress-card [plans]="weekPlans$ | async"></app-week-progress-card>
         </div>
         <div class="card">
-          <app-week-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="weekGoals$ | async"></app-week-goals-card>
+          <app-week-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="weekGoals$ | async" [currentQuarter]="quarterDates$ | async" (editGoals)="editGoals$.next()"></app-week-goals-card>
         </div>
         <div class="card">
           <app-quarter-goals-card [startOfWeek]="startOfWeek$ | async" [goals]="quarterGoals$ | async"></app-quarter-goals-card>
