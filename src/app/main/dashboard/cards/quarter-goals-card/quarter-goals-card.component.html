@@ -1,20 +1,12 @@
 <div class="quarter-goals-card-container">
   <div class="header">
     <div class="title">{{currentQuarter.season}} '{{currentQuarter.year - 2000}} Goals</div>
-    <div class="date">{{ currentQuarter.start | date: 'M/d' }} - {{ currentQuarter.end | date: 'M/d' }}</div>
+    <div class="date">{{currentQuarter.start | date: 'M/d'}} - {{currentQuarter.end | date: 'M/d'}}</div>
   </div>
   <div class="tasks">
-    <div class="task">
-      <div class="number one">1</div>
-      <div class="text">{{goals[0].text}}</div>
-    </div>
-    <div class="task">
-      <div class="number two">2</div>
-      <div class="text">{{goals[1].text}}</div>
-    </div>
-    <div class="task">
-      <div class="number three">3</div>
-      <div class="text">{{goals[2].text}}</div>
+    <div class="task" *ngFor="let goal of goals; index as i">
+      <div class="number">{{i + 1}}</div>
+      <div class="text">{{goal.text}}</div>
     </div>
   </div>
   <svg class="pencil" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
