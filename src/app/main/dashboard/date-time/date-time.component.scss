@@ -1,7 +1,18 @@
-.date-time-container {
+:host {
     // REMOVE WHEN FINISHING LAYOUT STYLES
     // IGNORE THIS CODE
     border: 1px solid black;
- }
- // WRITE YOUR CODE HERE
- 
+}
+// WRITE YOUR CODE HERE
+
+.time {
+    color: #2DBDB1;
+}
+
+.am-pm {
+    color: #2DBDB1;
+}
+
+.date { 
+    color: #4B5853;
+}
