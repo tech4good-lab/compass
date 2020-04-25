@@ -1,24 +1,12 @@
 <div class="week-progress-card-container">
   <div class="week-progress-card-title">This Week’s Plans</div>
 
-  <div class="hashtag1" [style.color]="plans[0].color">#{{plans[0].hashtag}}</div>
-  <div class="progress-bar1">
-    <div class="part1" [style.width.px]="calculateLength(plans[0], 'bar1')" [style.background]="plans[0].color"></div>
-    <div class="part2" [style.width.px]="calculateLength(plans[0], 'bar2')" [style.background]="plans[0].color"></div>
-    <div class="duration1" [style.color]="plans[0].color">{{plans[0].totalAllocatedMins/60}} HRS</div>
-  </div>
-
-  <div class="hashtag2" [style.color]="plans[1].color">#{{plans[1].hashtag}}</div>
-  <div class="progress-bar2">
-    <div class="part1" [style.width.px]="calculateLength(plans[1], 'bar1')" [style.background]="plans[1].color"></div>
-    <div class="part2" [style.width.px]="calculateLength(plans[1], 'bar2')" [style.background]="plans[1].color"></div>
-    <div class="duration2" [style.color]="plans[1].color">{{plans[1].totalAllocatedMins/60}} HRS</div>
-  </div>
-
-  <div class="hashtag3" [style.color]="plans[2].color">#{{plans[2].hashtag}}</div>
-  <div class="progress-bar3">
-    <div class="part1" [style.width.px]="calculateLength(plans[2], 'bar1')" [style.background]="plans[2].color"></div>
-    <div class="part2" [style.width.px]="calculateLength(plans[2], 'bar2')" [style.background]="plans[2].color"></div>
-    <div class="duration3" [style.color]="plans[2].color">{{plans[2].totalAllocatedMins/60}} HRS</div>
+  <div class="plans" *ngFor="let plan of plans">
+    <div class="hashtag" [style.color]="plan.color">#{{plan.hashtag}}</div>
+    <div class="progress-bar">
+      <div class="part1" [style.width.px]="calculateLength(plan, 'bar1')" [style.background]="plan.color"></div>
+      <div class="part2" [style.width.px]="calculateLength(plan, 'bar2')" [style.background]="plan.color"></div>
+      <div class="duration" [style.color]="plan.color">{{plan.totalAllocatedMins/60}} HRS</div>
+    </div>
   </div>
 </div>

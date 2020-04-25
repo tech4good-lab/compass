@@ -15,79 +15,34 @@
         color: #4B5853;
         margin-top: 22px;
     }
-    .hastag1 {
-        font-size: 14px;
-        margin-top: 14px;
-        margin-bottom: 3px;
-    }
-    .progress-bar1 {
-        width: 100%;
+    .plans {
         display: flex;
-        flex-direction: row;
-        .part1 {
-            height: 27px;
-            border-radius: 3px;
-        }
-        .part2 {
-            height: 27px;
-            opacity: 0.3;
-            border-radius: 3px 0px 0px 3px;
-        }
-        .duration1 {
-            font-weight: 500;
+        flex-direction: column;
+
+        .hashtag {
             font-size: 14px;
-            align-self: center;
-            margin-left: 10px;
+            margin-top: 14px;
+            margin-bottom: 3px;
         }
-    }
-    .hastag2 {
-        font-size: 14px;
-        margin-top: 14px;
-        margin-bottom: 3px;
-    }
-    .progress-bar2 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        .part1 {
-            height: 27px;
-            border-radius: 3px;
-        }
-        .part2 {
-            height: 27px;
-            opacity: 0.3;
-            border-radius: 3px 0px 0px 3px;
-        }
-        .duration2 {
-            font-weight: 500;
-            font-size: 14px;
-            align-self: center;
-            margin-left: 10px;
-        }
-    }
-    .hastag3 {
-        font-size: 14px;
-        margin-top: 14px;
-        margin-bottom: 3px;
-    }
-    .progress-bar3 {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        .part1 {
-            height: 27px;
-            border-radius: 3px;
-        }
-        .part2 {
-            height: 27px;
-            opacity: 0.3;
-            border-radius: 3px 0px 0px 3px; 
-        }
-        .duration3 {
-            font-weight: 500;
-            font-size: 14px;
-            align-self: center;
-            margin-left: 10px;
+        .progress-bar {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            .part1 {
+                height: 27px;
+                border-radius: 3px;
+            }
+            .part2 {
+                height: 27px;
+                opacity: 0.3;
+                border-radius: 3px 0px 0px 3px;
+            }
+            .duration {
+                font-weight: 500;
+                font-size: 14px;
+                align-self: center;
+                margin-left: 10px;
+            }
         }
     }
 }
