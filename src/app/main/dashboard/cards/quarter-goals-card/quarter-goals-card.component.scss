@@ -4,17 +4,18 @@
   // REMOVE WHEN FINISHING LAYOUT STYLES
   // IGNORE THIS CODE
   // COMMENTED IT OUT BECAUSE IT SURROUNDS THE PENCIL
-  // border: 1px solid black; 
+  // border: 1px solid black;
 }
 // WRITE YOUR CODE HERE
 
 * {
   font-family: Montserrat;
 }
- 
+
 .quarter-goals-card-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background: #ffffff;
   box-shadow: 0px 4px 4px #d3e1da;
   border-radius: 10px;
@@ -60,7 +61,7 @@
     }
   }
 
-  .pencil{
+  .pencil {
     display: flex;
     flex-shrink: 0;
   }
