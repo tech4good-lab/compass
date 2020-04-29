@@ -1,10 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat);
+
 :host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
   // IGNORE THIS CODE
   border: 1px solid black;
 }
 // WRITE YOUR CODE HERE
+
 * {
   font-family: Montserrat;
 }
@@ -14,38 +16,40 @@
   font-weight: 600;
   font-size: 22px;
 }
+
 .date {
   color: #2dbdb1;
   font-weight: 300;
   font-size: 18px;
 }
-.one {
+
+.number {
   color: #2dbdb1;
   font-weight: 500;
   font-size: 36px;
+
+  &.one {
+  }
+
+  &.two {
+  }
+
+  &.three {
+  }
 }
-.one-text {
+
+.text {
   color: #5a5a5a;
   font-weight: 500;
   font-size: 16px;
+
+  &.one {
+  }
+
+  &.two {
+  }
+
+  &.three {
+  }
 }
-.two {
-  color: #2dbdb1;
-  font-weight: 500;
-  font-size: 36px;
-}
-.two-text {
-  color: #5a5a5a;
-  font-weight: 500;
-  font-size: 16px;
-}
-.three {
-  color: #2dbdb1;
-  font-weight: 500;
-  font-size: 36px;
-}
-.three-text {
-  color: #5a5a5a;
-  font-weight: 500;
-  font-size: 16px;
-}
+
