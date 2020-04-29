@@ -13,7 +13,8 @@ export class NewWeekComponent implements OnInit {
 
   /** Events for initiating weekly reorientation. */
   @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
-
+  // ^^^ Notice the output event! ^^^
+  
   // --------------- LOCAL UI STATE ----------------------
  
 
