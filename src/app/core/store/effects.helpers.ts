@@ -19,7 +19,7 @@ export class EffectsHelpers {
    * the correlationId
    */
   aggregate = <A, R extends Action>(fn: (o: A) => Array<string|string[]>, correlationId: string) => pipe(
-    mergeMap<A, Observable<R[]>>(origAction => {
+    mergeMap<A, R[]>(origAction => {
       const actionTypeArray = fn(origAction);
       let actionObs = actionTypeArray.map(at => {
         return this.actions$.pipe(
@@ -37,7 +37,7 @@ export class EffectsHelpers {
    * returned the observable when it is applied to the original content.
    */
   enrich = <A, P extends object>(contentFn$: (o: A) => Observable<P>) => pipe(
-    mergeMap<A, Observable<A & { payload: P }>>(orig => {
+    mergeMap<A, A & { payload: P }>(orig => {
 
       // payload may not be defined on this Action
       const payload = orig['payload'] || { };

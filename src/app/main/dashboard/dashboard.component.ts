@@ -78,41 +78,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   weekGoals$: Observable<WeekGoalWithEvents[]> = this.selectors.selectWeekGoals(this.currentUser$, this.startOfWeek$);
   
   // --------------- LOCAL UI STATE ----------------------
-
-
-
-    // // Returns whether scrollbars show up on scrollable elements.
-    // // This is false on Macs when the "General > Show scroll bars" setting is
-    // // not set to "Always" (the default is "When scrolling"). The approach
-    // // taken here is to create an element that will scroll and then compare
-    // // its outer width (including scrollbars) to its inner width (excluding
-    // // scrollbars).
-    // areScrollbarsVisible() {
-    //     var scrollableElem = document.createElement('div'),
-    //         innerElem = document.createElement('div');
-    //     scrollableElem.style.width = '30px';
-    //     scrollableElem.style.height = '30px';
-    //     scrollableElem.style.overflow = 'scroll';
-    //     scrollableElem.style.borderWidth = '0';
-    //     innerElem.style.width = '30px';
-    //     innerElem.style.height = '60px';
-    //     scrollableElem.appendChild(innerElem);
-    //     document.body.appendChild(scrollableElem); // Elements only have width if they're in the layout
-    //     var diff = scrollableElem.offsetWidth - scrollableElem.clientWidth;
-    //     document.body.removeChild(scrollableElem);
-    //     return diff > 0;
-    // }
-    
-    // window.addEventListener('load', this.areScrollbarsVisible() {
-    //     // Show scrollbars if they're hidden.
-    //     if (!this.areScrollbarsVisible()) {
-    //         document.body.classList.add('force-show-scrollbars');
-    //     }
-    // })
-    
-  
-  
-  
+ 
 
   // --------------- DATA BINDING STREAMS ----------------
   
@@ -204,7 +170,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     private store: Store<fromStore.State>,
     private db: FirebaseService,
   ) { 
-    
+
     // --------------- EVENT HANDLING ----------------------
   
   }

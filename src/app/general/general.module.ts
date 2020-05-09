@@ -36,6 +36,8 @@ import { LoginComponent } from './login/login.component';
     LoginComponent,
     // Components
   ],
+  entryComponents: [
+  ],
   exports: [
   ]
 })
