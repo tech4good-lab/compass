@@ -1,2 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
 .completed-container {
+  background: #F3FFF9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background: #FFFFFF;
+  position: absolute;
+  top: 0;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #98B3A9;
+}
+.navbar h1 {
+  margin-left: 30px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2DBDB1;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.content-top {
+  margin-top: 10px;
+  color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 0;
+}
+
+.content-bottom {
+  margin-top: 0;
+  color: #2DBDB1;
+  font-family: Sanchez;
+  font-weight: normal;
+  font-size: 24px;
 }
