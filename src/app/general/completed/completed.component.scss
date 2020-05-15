@@ -1,2 +1,82 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+:host{
+   background-color: #F3FFF9;
+   width: 1152px;
+   position: absolute;
+   left: 0px;
+   height: 700px;
+}
+
+
 .completed-container {
+  *{
+    color: #2DBDB1;
+
+  }
+
+  .header{
+    .line{
+      position: absolute;
+      width: 1152px;
+      height: 0px;
+      left: -3px;
+      top: 64px;
+      border: 1px solid #98B3A9;
+    }
+    .rect2{
+      position: absolute;
+      left: -0.26%;
+      right: 0.26%;
+      top: 0px;
+      bottom: 91.14%;
+    
+      background: #FFFFFF;
+    }
+    .compass{
+      position: absolute;
+      left: 1.82%;
+      right: 86.37%;
+      top: 2.29%;
+      bottom: 93.43%;
+
+      font-family: Montserrat; 
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 29px;
+    }
+  }
+  .fireworks{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 527px;
+    top: 253px;
+  }
+  .done{
+    position: absolute;
+    width: 305px;
+    height: 39px;
+    left: 421px;
+    top: 367px;
+
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .dashboard{
+    position: absolute;
+    width: 339px;
+    height: 31px;
+    left: 406px;
+    top: 416px;
+
+    font-family: Sanchez;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 31px;
+  }
+
 }
