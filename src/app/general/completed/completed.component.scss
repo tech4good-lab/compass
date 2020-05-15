@@ -1,2 +1,85 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .completed-container {
+
+  .title {
+    position: absolute;
+    padding-left: 24px;
+    padding-top: 16px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #2DBDB1;
+  }
+
+  .white-bg {
+    height: 62px;
+    width: 1152px;
+    background-color: white;
+    border-bottom: 1px solid #98B3A9
+  }
+
+  .color-bg {
+    height: 900px;
+    width: 1152px;
+    background-color: #F3FFF9;
+  }
+
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+  }
+
+  .all-done {
+    position: absolute;
+    width: 305px;
+    height: 39px;
+    left: 421px;
+    top: 367px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #2DBDB1;
+  }
+
+  .dashboard {
+    position: absolute;
+    width: 339px;
+    height: 31px;
+    left: 406px;
+    top: 416px;
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+
+/* identical to box height */
+
+color: #2DBDB1;
+  }
+
+  .svg{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 527px;
+    right: 253px;
+  }
+
+
 }
