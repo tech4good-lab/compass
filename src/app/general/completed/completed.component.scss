@@ -1,2 +1,72 @@
-.completed-container {
+.compass{
+position: absolute;
+left: 1.82%;
+right: 86.37%;
+top: 2.29%;
+bottom: 93.43%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+text-align: center;
+color: #2DBDB1;
+}
+
+.dividing_line{
+  position: absolute;
+  width: 1152px;
+  height: 0px;
+  left: -3px;
+  top: 64px;
+
+  border: 1px solid #98B3A9; 
+}
+
+.you_are_all_done{
+  position: absolute;
+  width: 305px;
+  height: 39px;
+  left: 421px;
+  top: 367px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2DBDB1;
+}
+
+.let_us_head_to_your_dashboard{
+  position: absolute;
+  width: 339px;
+  height: 31px;
+  left: 406px;
+  top: 416px;
+
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #2DBDB1; 
+}
+
+.fireworks{
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  left: 527px;
+  top: 253px;
+}
+
+.background_color{
+  color: #F3FFF9;
 }
