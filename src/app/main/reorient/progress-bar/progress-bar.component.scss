@@ -1,4 +1,184 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .progress-bar-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  // border: 1px solid black;
+  position: absolute;
+  width: 951px;
+  height: 56px;
+  left: 42px;
+  top: 33px;
+
+  .progress-bar-t1 {
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 861px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #98B3A9;
+  }
+
+  .progress-bar-t2 {
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 659px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #98B3A9;
+  }
+
+  .progress-bar-t3 {
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 456px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #2DBDB1;
+  }
+
+  .progress-bar-t4 {
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 253px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2DBDB1;
+  }
+
+  .progress-bar-t5 {
+    position: absolute;
+    width: 157px;
+    height: 15px;
+    left: 42px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2DBDB1;
+  }
+
+  .progress-bar-line1 {
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 738px;
+    top: 76px;
+
+    border: 2px solid #D3E1DA;
+  }
+  .progress-bar-line2 {
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 535px;
+    top: 76px;
+
+    border: 2px solid #D3E1DA;
+  }
+  .progress-bar-line3 {
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 332px;
+    top: 76px;
+
+    border: 2px solid #2DBDB1;
+  }
+  .progress-bar-line4 {
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 129px;
+    top: 75px;
+
+    border: 2px solid #2DBDB1;
+  }
+
+  .progress-bar-circle1 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 306px;
+    top: 62px;
+    border-radius: 12px;
+    background: #2DBDB1;
+  }
+
+  .progress-bar-circle2 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 712px;
+    top: 63px;
+    border-radius: 12px;
+    border: 2px solid #D3E1DA;
+    box-sizing: border-box;
+  }
+
+  .progress-bar-circle3 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 509px;
+    top: 63px;
+    border-radius: 12px;
+    border: 2px solid #2DBDB1;
+    box-sizing: border-box;
+  }
+
+  .progress-bar-circle4 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 914px;
+    top: 63px;
+    border-radius: 12px;
+    border: 2px solid #D3E1DA;
+    box-sizing: border-box;
+  }
+
+  .progress-bar-circle5 {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 103px;
+    top: 62px;
+    border-radius: 12px;
+    background: #2DBDB1;
+  }
 }
