@@ -1,4 +1,47 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
   border: 1px solid black;
+  position: relative;
+  width: 419px;
+  height: 298px;
+  
+  background: #FFFFFF;
+
+
+.New-Text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2DBDB1;
+  }
+.set-Text{
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  /* identical to box height */
+  color: #2DBDB1;
+  
+  }
+.group{
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 2.8%;
+ 
+
+}
+.groupBtn{
+  /* Rectangle 12 */
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
 }

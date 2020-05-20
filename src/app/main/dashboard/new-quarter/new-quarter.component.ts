@@ -20,6 +20,7 @@ export class NewQuarterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.reorient)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
