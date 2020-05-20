@@ -1,4 +1,76 @@
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  width: 1034px;
+  height: 123px;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+// Color for first 3 p elements
+p:nth-child(-n+3) {
+  color: #2DBDB1;
+}
+// Color for last 2 p elements
+p:nth-child(n+4) {
+  color: #98B3A9;
+}
+
+.shapes {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.circleFill {
+  width: 26px;
+  height: 26px;
+  background: #2DBDB1;
+  border-radius: 50%;
+}
+
+.circleMid {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #2DBDB1;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.circleNoFill {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #D3E1DA;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+// Lines have different width to make circle center under their respective titles
+.lineOne {
+  width: 210px;
+  border: 1px solid #2DBDB1
+}
+
+.lineTwo {
+  width: 195px;
+  border: 1px solid #2DBDB1
+}
+
+// Gradient effect of 3rd line
+.lineThree {
+  width: 168px;
+  height: 2px;
+  background-image: linear-gradient(to right, #2DBDB1, #D3E1DA);
+}
+
+.lineFour {
+  width: 155px;
+  border: 1px solid #D3E1DA;
 }
