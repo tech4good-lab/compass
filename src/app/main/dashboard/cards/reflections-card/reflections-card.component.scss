@@ -1,4 +1,48 @@
+body {  
+  background-color: #F3FFF9;
+  display: flex;
+}
+
 .reflections-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+position: absolute;
+width: 280px;
+height: 45px;
+left: 330px;
+top: 239px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #EE8B72; 
+}
+
+.dig {
+position: absolute;
+width: 280px;
+height: 45px;
+left: 330px;
+top: 273px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #EE8B72;
+}
+
+.frame {
+position: absolute;
+width: 280px;
+height: 45px;
+left: 395px;
+top: 330px;
+}
+
+.pencil{
+  position: absolute;
+width: 280px;
+height: 45px;
+left: 415px;
+top: 345px;
 }
