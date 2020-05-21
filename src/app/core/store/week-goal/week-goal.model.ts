@@ -10,7 +10,6 @@ export interface WeekGoal {
   // 0, 1, or 2. This is used to determine the corresponding color
   index: number;
   hashtag: string;
-  color: string;
   completed: boolean;
   completedAt?: firestore.Timestamp;
 }

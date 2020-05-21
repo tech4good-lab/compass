@@ -24,10 +24,3 @@ export interface WeekGoalProgress extends WeekGoal {
   // This is the blocked off time in the past.
   totalCompletedMins: number;
 }
-
-export interface QuarterDates {
-    season: string,
-    year: number,
-    start: Date,
-    end: Date
-}

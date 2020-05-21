@@ -1,4 +1,79 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  width: 1034px;
+  height: 123px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  flex-direction: row; 
+  background: #FFFFFF;
+
+  .LGT{
+    display: flex;
+    color: #2DBDB1;
+    padding:33px 0px 0px 42px; 
+  }
+
+  .Quarter{
+    display: flex;
+    color: #2DBDB1;
+
+  }
+
+  .weekly{
+    display: flex;
+    align-items: center;
+    color: #2DBDB1;
+
+  }
+
+  .organize{
+    display: flex;
+    align-items: center;
+    color: #98B3A9;
+
+  }
+
+  .schedule{
+    display: flex;
+    align-items: center;
+    color: #98B3A9;
+  }
+
+  .circle1{
+    background: #2DBDB1;
+  }
+
+  .line1{
+    width: 177px;
+    height: 0px;
+    border: 2px solid #2DBDB1
+  }
+
+  .circle2{
+    background: #2DBDB1;
+  }
+
+  .line2{
+    width: 177px;
+    height: 0px;
+    border: 2px solid #2DBDB1
+  }
+
+  .circle3{
+    background: #FFFFFF;
+  }
+
+  .line3{
+    width: 177px;
+    height: 0px;
+    Stroke: Linear Gradient
+  #2DBDB1 @ 0%
+    #D3E1DA @ 100%;
+    Align: Center;
+    Width: 2px;
+  }
+
 }

@@ -75,7 +75,6 @@ export class MockDBService {
           text: 'Course homework',
           index: 0,
           hashtag: 'homework',
-          color: '#EE8B72',
           completed: false
         },
         {
@@ -86,7 +85,6 @@ export class MockDBService {
           text: 'Research and put together resume (draft 1).',
           index: 1,
           hashtag: 'resume',
-          color: '#2DBDB1',
           completed: false
         },
         {
@@ -97,7 +95,6 @@ export class MockDBService {
           text: 'One hour of practicing guitar.',
           index: 2,
           hashtag: 'guitar',
-          color: '#FFB987',
           completed: false
         },
       ],
@@ -133,8 +130,7 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 104*3600000),
           end: timestampAfterMilliseconds(beginning, 106*3600000),
-          summary: 'TIM 158 HW',
-          hashtag: 'tim158hw'
+          summary: 'TIM 158 HW'
         },
         {
           __id: 'ev4',
@@ -145,8 +141,7 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 152*3600000),
           end: timestampAfterMilliseconds(beginning, 156*3600000),
-          summary: 'TIM 158 HW',
-          hashtag: 'tim158hw'
+          summary: 'TIM 158 HW'
         },
         {
           __id: 'ev5',
@@ -157,8 +152,7 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 68*3600000),
           end: timestampAfterMilliseconds(beginning, 70*3600000),
-          summary: 'Work on resume',
-          hashtag: 'resume'
+          summary: 'Work on resume'
         },
         {
           __id: 'ev6',
@@ -169,8 +163,7 @@ export class MockDBService {
           calendarId: 'primary',
           start: timestampAfterMilliseconds(beginning, 116*3600000),
           end: timestampAfterMilliseconds(beginning, 118*3600000),
-          summary: 'Practice guitar',
-          hashtag: 'guitar'
+          summary: 'Practice guitar'
         },
       ],
     };

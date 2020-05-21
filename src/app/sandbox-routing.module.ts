@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '**', redirectTo: 'progress-bar', pathMatch: 'full' },
+  { path: '**', redirectTo: 'completed', pathMatch: 'full' },
 ];
 
 @NgModule({
