@@ -1,4 +1,53 @@
 .reflections-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
   border: 1px solid black;
+  
+  width: 265px;
+  height: 310px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EE8B72;
+
+  .header{
+    font-family: Montserrat;
+    color: #EE8B72;
+
+    .dig{
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 7.55%;
+    margin-right: 20.38%;
+    margin-top: 3.13%;
+    
+    }
+
+    .reflections{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      margin-left: 7.55%;
+      margin-right: 24.15%;
+      margin-top: 5.48%;
+      
+      
+    }
+  }
+
+  
+
+  .picture{
+    
+    display: flex;
+    justify-content: center;
+
+    margin-left: 30.94%;
+    margin-right: 37.91%;
+    margin-top: 10.52%;
+    
+    
+  }
 }
+
