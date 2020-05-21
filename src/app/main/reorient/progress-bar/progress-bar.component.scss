@@ -1,4 +1,112 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .progress-bar-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 1034px;
+  height: 123px;
+  background: #FFFFFF;
+  .text {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    &.one{
+      width: 157px;
+      height: 15px;
+      left: 42px;
+      top: 33px;
+      color: #2DBDB1;
+    }
+    &.two{
+      width: 132px;
+      height: 15px;
+      left: 253px;
+      top: 33px;
+      color: #2DBDB1;
+    }
+    &.three {
+      width: 132px;
+      height: 15px;
+      left: 456px;
+      top: 33px;
+      color: #2DBDB1;
+      text-align: center;
+    }
+    &.four {
+      width: 132px;
+      height: 15px;
+      left: 659px;
+      top: 33px;
+      text-align: center;
+      color: #98B3A9;
+    }
+    &.five {
+      width: 132px;
+      height: 15px;
+      left: 861px;
+      top: 33px;
+      text-align: center;
+      color: #98B3A9;
+    }
+  }
+  .circles {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    top: 62px;
+    &.one{
+      left: 103px;
+      background: #2DBDB1;
+    }
+    &.two {
+      left: 306px;
+      background: #2DBDB1;
+    }
+    &.three{
+      left: 509px;
+      border: 2px solid #2DBDB1;
+      box-sizing: border-box;
+    }
+    &.four {
+      left: 712px;
+      border: 2px solid #D3E1DA;
+      box-sizing: border-box;
+    }
+    &.five {
+      left: 914px;
+      border: 2px solid #D3E1DA;
+      box-sizing: border-box;
+    }
+  }
+  .lines {
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    &.one {
+      left: 129px;
+      top: 73px;
+      border: 2px solid #2DBDB1;
+    }
+    &.two {
+      left: 332px;
+      top: 73px;
+      border: 2px solid #2DBDB1;
+    }
+    &.three {
+      left: 535px;
+      top: 73px;
+      padding: 2px;
+      background: linear-gradient(to right, #2DBDB1 0%,#D3E1DA 100%);
+    }
+    &.four{
+      left: 738px;
+      top: 73px;
+      border: 2px solid #D3E1DA;
+    }
+  }
+  
 }
