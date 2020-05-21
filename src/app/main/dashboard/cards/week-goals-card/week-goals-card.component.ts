@@ -27,8 +27,12 @@ export class WeekGoalsCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.startOfWeek)
+    console.log(this.goals)
+    console.log(this.editGoals)
   }
 
+  
   // --------------- DATA BINDING FUNCTIONS --------------
 
 
