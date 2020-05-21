@@ -1,4 +1,189 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .progress-bar-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 1034px;
+  height: 123px;
+  background: #FFFFFF;
+  
+  .mainGroup{
+    position: absolute;
+    width: 951px;
+    height: 56px;
+    left: 42px;
+    top: 33px;
+  }
+  .headerLT{
+    position: absolute;
+    width: 157px;
+    height: 15px;
+    left: 42px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+
+  }
+
+  .headerQuarter{
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 253px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2DBDB1;
+  }
+
+  .headerWeekly{
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 456px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #2DBDB1;
+  }
+
+
+  .headerOrganize{
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 659px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #98B3A9;
+  }
+
+  .headerSchedule{
+    position: absolute;
+    width: 132px;
+    height: 15px;
+    left: 861px;
+    top: 33px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #98B3A9;
+  }
+
+  /* Ellipse */
+  .circleLT{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 103px;
+    top: 63px;
+    border-radius: 50%;
+
+    background: #2DBDB1;
+  }
+  .circleQuarter{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 306px;
+    top: 63px;
+    border-radius: 50%;
+    background: #2DBDB1;
+  }
+  .circleWeekly{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 509px;
+    top: 63px;
+    border-radius: 50%;
+    border: 2px solid #2DBDB1;
+    box-sizing: border-box;
+  }
+  .circleOrganize{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 712px;
+    top: 63px;
+    border-radius: 50%;
+    border: 2px solid #D3E1DA;
+    box-sizing: border-box;
+  }
+  .circleSchedule{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 914px;
+    top: 63px;
+    border-radius: 50%;
+    border: 2px solid #D3E1DA;
+    box-sizing: border-box;
+  }
+  .firstLine{
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 129px;
+    top: 74px;
+
+    border: 2px solid #2DBDB1; 
+  }
+  .secondLine{
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 332px;
+    top: 74px;
+    border: 2px solid #2DBDB1; 
+  }
+  .thirdLine{
+    /* Line */
+    
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 535px;
+    top: 74px;
+    border-width: 2px;
+    border-style: solid;
+    //need to add gradient line
+    border: 2px solid #2DBDB1; 
+  }
+  .fourthLine{
+    position: absolute;
+    width: 177px;
+    height: 0px;
+    left: 738px;
+    top: 74px;
+    border: 2px solid #D3E1DA; 
+  }
 }
