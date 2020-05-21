@@ -1,4 +1,161 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+ 
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 1034px;
+  height: 123px;
+  background: #FFFFFF;
+ 
+  .Text {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+ 
+    .Done {
+      color: #2DBDB1;
+ 
+      &.LT {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        left: 42px;
+        top: 33px;
+        white-space: nowrap;
+      }
+ 
+      &.QG {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        left: 253px;
+        top: 33px;
+      }
+ 
+      &.WG {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        left: 456px;
+        top: 33px;
+        text-align: center;
+      }
+    }
+ 
+    .Incomplete {
+      color: #98B3A9;
+      text-align: center;
+ 
+      &.O {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        left: 659px;
+        top: 33px;
+      }
+ 
+      &.S {
+        position: absolute;
+        width: 132px;
+        height: 15px;
+        left: 861px;
+        top: 33px;
+      }
+    }
+  }
+ 
+  .Circle {
+    
+    .a {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: 103px;
+      top: 63px;
+      border-radius: 50%;
+      background-color: #2DBDB1;
+    }
+ 
+    .b {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: 306px;
+      top: 63px;
+      border-radius: 50%;
+      background: #2DBDB1;
+    }
+ 
+    .c {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: 509px;
+      top: 63px;
+      border-radius: 50%;
+      border: 2px solid #2DBDB1;
+      box-sizing: border-box;
+    }
+ 
+    .d {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: 712px;
+      top: 63px;
+      border-radius: 50%;
+      border: 2px solid #D3E1DA;
+      box-sizing: border-box;
+    }
+ 
+    .e {
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      left: 914px;
+      top: 63px;
+      border-radius: 50%;
+      border: 2px solid #D3E1DA;
+      box-sizing: border-box;
+    }
+  }
+ 
+  .Line {
+    .a {
+      position: absolute;
+      width: 177px;
+      height: 2px;
+      left: 129px;
+      top: 75px;
+      background-color: #2DBDB1;
+    }
+ 
+    .b {
+      position: absolute;
+      width: 177px;
+      height: 2px;
+      left: 332px;
+      top: 75px;
+      background-color: #2DBDB1;
+    }
+ 
+    .c {
+      position: absolute;
+      width: 177px;
+      height: 2px;
+      left: 535px;
+      top: 75px;
+      background-image: linear-gradient(to right, #2DBDB1, #D3E1DA)
+    }
+ 
+    .d {
+      position: absolute;
+      width: 177px;
+      height: 2px;
+      left: 738px;
+      top: 75px;
+      background-color: #D3E1DA;
+    }
+  }
 }
