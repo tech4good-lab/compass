@@ -1,4 +1,136 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  .progress {
+    position: relative;
+    width: 1034px;
+    height: 123px;
+    background: #FFFFFF;
+  }
+
+  .bar {
+    position: absolute;
+    width: 951px;
+    height: 56px;
+    left: 42px;
+    top: 33px;
+  }
+  .text {
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+
+    .long {
+      position: absolute;
+      width: 157px;
+      height: 15px;
+      left: 42px;
+      top: 33px;
+    }
+
+    .quarter {
+      position: absolute;
+      width: 132px;
+      height: 15px;
+      left: 253px;
+      top: 33px;
+    }
+    
+    .weekly {
+      position: absolute;
+      width: 132px;
+      height: 15px;
+      left: 456px;
+      top: 33px;
+    }
+  }
+
+  .text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #98B3A9;
+
+    .organize {
+      position: absolute;
+      width: 132px;
+      height: 15px;
+      left: 659px;
+      top: 33px;
+      
+    }
+
+    .schedule {
+      position: absolute;
+      width: 132px;
+      height: 15px;
+      left: 861px;
+      top: 33px;
+    }
+  }
+
+  .Line {
+    position: absolute;
+    width: 177px;
+    height: 2px;
+    top: 75px;
+    
+    &.one{
+      left: 129px;
+      
+      background-color: #2DBDB1;
+    }
+    &.two{
+      left: 332px;
+      background-color: #2DBDB1;
+    }
+    &.three{
+      left: 535px;
+      background-image: linear-gradient(to right, #2DBDB1, #D3E1DA);
+    }
+    &.four{
+      left: 738px;
+      background-color: #D3E1DA;
+    }
+  }
+  
+  .Ellipse {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 62px;
+    background: #2DBDB1;
+    border-radius: 50%;
+
+    &.one{
+      left: 103px;
+    }
+    &.two{
+      left: 306px;
+
+    }
+    &.three{
+      left: 509px;
+      border: 2px solid #2DBDB1;
+      background: #FFFFFF;
+    }
+    &.four{
+      left: 712px;
+      border: 2px solid #D3E1DA;
+      background: #FFFFFF
+    }
+    &.five{
+      left: 914px;
+      border: 2px solid #D3E1DA;
+      background: #FFFFFF
+    }
+  }
+  
 }
