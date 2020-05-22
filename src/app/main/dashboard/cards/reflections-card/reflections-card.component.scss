@@ -1,4 +1,68 @@
 .reflections-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 265px;
+  height: 310px;
+}
+.container-container{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+}
+.text1{
+ /* Reflections */
+
+position: absolute;
+left: 7.55%;
+right: 24.15%;
+top: 5.48%;
+bottom: 84.84%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #EE8B72;
+}
+
+.text2{
+  /* Dig a little deeper. */
+
+position: absolute;
+left: 7.55%;
+right: 20.38%;
+top: 16.13%;
+bottom: 72.26%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+color: #EE8B72;
+}
+
+.paper{
+position: absolute;
+left: 30.94%;
+right: 37.91%;
+top: 34.52%;
+bottom: 31.61%;
+}
+
+.pen{
+position: absolute;
+left: 37.46%;
+right: 30.57%;
+top: 39.39%;
+bottom: 37.42%;
 }
