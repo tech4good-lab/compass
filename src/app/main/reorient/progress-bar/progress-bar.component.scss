@@ -1,4 +1,63 @@
+@import url(//fonts.googleapos.com/css?family=Montserrat);
+
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  padding: 35px 40px;
+
+  .progress-bar-labels {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      width: auto;
+      text-align: center;
+      color: #2DBDB1;
+      margin-bottom: 14px;
+      flex: 1;
+      text-transform: uppercase;
+    }
+  }
+
+  .progress-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 calc(10% - 13px);
+
+    .circle {
+      display: inline-block;
+      border-radius: 50%;
+      height: 26px;
+      width: 26px;
+      background-color: transparent;
+      flex-grow: 0;
+      flex-shrink: 0;
+      border: 2px solid#D3E1DA;
+    }
+
+    .circle-complete {
+      background-color: #2DBDB1;
+      border: 2px solid #2DBDB1;
+    }
+
+    .circle-current {
+      border: 2px solid #2DBDB1;
+    }
+
+    .line {
+      display: inline-block;
+      height: 2px;
+      background-color: #D3E1DA;
+      flex: 1;
+    }
+
+    .line-complete {
+      background-color: #2DBDB1;
+    }
+  }
 }
