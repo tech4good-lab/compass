@@ -1,4 +1,164 @@
-.progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+*{
+  font-family: Montserrat;
+}
+
+.progress-bar-container{
+  position: relative;
+  width: 1034px;
+  height: 123px;
+}
+
+.textContainer {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+mark.gcolor {
+  color: #2DBDB1;
+  background: none;
+}
+
+mark.grcolor{
+  color: #98B3A9;
+  background: none;
+}
+
+.t1{
+  position: absolute;
+  left: 42px;
+  top: 33px;
+  width: 157px;
+  height: 15px;
+}
+
+.t2{
+  position: absolute;
+  left: 253px;
+  top: 33px;
+  width: 132px;
+  height: 15px;
+}
+
+.t3{
+  position: absolute;
+  left: 456px;
+  top: 33px;
+  width: 132px;
+  height: 15px;
+  text-align: center;
+}
+
+.t4{
+  position: absolute;
+  left: 659px;
+  top: 33px;
+  width: 132px;
+  height: 15px;
+  text-align: center;
+}
+
+.t5{
+  position: absolute;
+  left: 861px;
+  top: 33px;
+  width: 132px;
+  height: 15px;
+  text-align: center;
+}
+
+.circle1{
+  position: absolute;
+  left: 103px;
+  top: 62px;
+  width: 26px;
+  height: 26px;
+
+  border-radius: 50%;
+  background: #2DBDB1;
+}
+
+.circle2{
+  position: absolute;
+  left: 306px;
+  top: 62px;
+  width: 26px;
+  height: 26px;
+
+  border-radius: 50%;
+  background: #2DBDB1;
+}
+
+.circle3{
+  position: absolute;
+  left: 509px;
+  top: 62px;
+  width: 26px;
+  height: 26px;
+
+  border-radius: 50%;
+  border: 2px solid #2DBDB1;
+  box-sizing: border-box;
+}
+
+.circle4{
+  position: absolute;
+  left: 712px;
+  top: 62px;
+  width: 26px;
+  height: 26px;
+
+  border-radius: 50%;
+  border: 2px solid #D3E1DA;
+  box-sizing: border-box;
+}
+
+.circle5{
+  position: absolute;
+  left: 914px;
+  top: 62px;
+  width: 26px;
+  height: 26px;
+
+  border-radius: 50%;
+  border: 2px solid #D3E1DA;
+  box-sizing: border-box;
+}
+
+hr.line1{
+  position: absolute;
+  width: 177px;
+  height: 0px;
+  left: 129px;
+  top: 65px;
+  border: 2px solid #2DBDB1;
+}
+
+hr.line2{
+  position: absolute;
+  width: 177px;
+  height: 0px;
+  left: 332px;
+  top: 65px;
+  border: 2px solid #2DBDB1;
+}
+
+hr.line3{
+  position: absolute;
+  width: 177px;
+  height: 5px;
+  left: 535px;
+  top: 65px;
+  background: linear-gradient(to right, #2DBDB1, #D3E1DA);
+}
+
+hr.line4{
+  position: absolute;
+  width: 177px;
+  height: 0px;
+  left: 738px;
+  top: 65px;
+  border: 2px solid #D3E1DA;
 }
