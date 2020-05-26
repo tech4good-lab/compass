@@ -15,12 +15,23 @@ export class UpcomingCardComponent implements OnInit {
   /** Upcoming events. */
   @Input() events: UpcomingEventsData;
 
-  // --------------- LOCAL UI STATE ----------------------
- 
+//  // Step 1. Get all the object keys.
+//   keys = Object.keys(this.events);
+//   // Step 2. Create an empty array.
+//   array = [];
+  
 
-  constructor() { }
+  // --------------- LOCAL UI STATE ----------------------
+
+  constructor() {
+  }
 
   ngOnInit() {
+    // // Step 3. Iterate throw all keys.
+    // for (const item of this.events) { 
+    //   this.array.push(this.keys[item]);
+    //   console.log(this.keys[item]);
+    // } 
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
@@ -31,3 +42,4 @@ export class UpcomingCardComponent implements OnInit {
 
   // --------------- OTHER -------------------------------
 }
+

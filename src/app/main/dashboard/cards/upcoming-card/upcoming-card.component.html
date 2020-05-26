@@ -1,3 +1,7 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+  upcoming card component
+  <div *ngFor="let item of events | keyvalue">
+    {{item.key}}: {{item.value}}
+  </div>
+    <!-- <div *ngFor="let i of item.value | keyvalue">{{i.key}}</div> -->
 </div>
