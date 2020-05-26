@@ -23,7 +23,9 @@ export class NewQuarterComponent implements OnInit {
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
-
+  buttonClick(){
+    console.log("Get Started Button Click!");
+  }
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
