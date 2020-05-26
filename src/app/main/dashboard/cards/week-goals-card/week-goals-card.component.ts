@@ -22,18 +22,37 @@ export class WeekGoalsCardComponent implements OnInit {
   @Output() editGoals: EventEmitter<WeekGoal[]> = new EventEmitter<WeekGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
- 
+  
+  header_text:string = "This Week's Goals";
+  header_text_2: string = "Time to set some new goals.";
+  button_text:string = "Get started";
 
-  constructor() { }
 
-  ngOnInit() {
+  constructor() {
+
   }
 
-  // --------------- DATA BINDING FUNCTIONS --------------
+  ngOnInit() {
 
+    console.log(this.goals);
+    console.log(this.startOfWeek);
+  }
+
+  // --------------- DATA BINDING FUNCTIONS --------------\
+
+  calc(day) {
+
+    var d = this.startOfWeek.getDate();
+    var g = d + 6;
+    return g;
+
+    }
+  
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
 
   // --------------- OTHER -------------------------------
 }
+
+
