@@ -1,4 +1,214 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  border: 0.5px solid red;
+  height: 298px;
+  width: 419px;
+
+  .image_frame{
+    height: 104.17px;
+    width: 113px;
+    //display:flex;
+    margin-top: 12px; //12/275
+    margin-left:153px;
+
+    .bar_1_1{
+      position: absolute;
+      top: 40.61px;
+      left: 168.89px;
+    }
+    .bar_1_2{
+      position: absolute;
+      top: 40.61px;
+      left: 181.25px;
+    }
+    .bar_1_3{
+      position: absolute;
+      top: 40.61px;
+      left: 193.61px;
+    }
+    .bar_1_4{
+      position: absolute;
+      top: 40.61px;
+      left: 205.97px;
+    }
+    .bar_1_5{
+      position: absolute;
+      top: 40.61px;
+      left: 218.33px;
+    }
+    .bar_1_6{
+      position: absolute;
+      top: 40.61px;
+      left: 230.69px;
+    }
+    .bar_1_7{
+      position: absolute;
+      top: 40.61px;
+      left: 243.05px;
+    }
+    .bar_2_1{
+      position: absolute;
+      top: 49.44px;
+      left: 168.89px;
+    }
+    .bar_2_2{
+      position: absolute;
+      top: 49.44px;
+      left: 181.25px;
+    }
+    .bar_2_3{
+      position: absolute;
+      top: 49.44px;
+      left: 193.61px;
+    }
+    .bar_2_4{
+      position: absolute;
+      top: 49.44px;
+      left: 205.97px;
+    }
+    .bar_2_5{
+      position: absolute;
+      top: 49.44px;
+      left: 218.33px;
+    }
+    .bar_2_6{
+      position: absolute;
+      top: 49.44px;
+      left: 230.69px;
+    }
+    .bar_2_7{
+      position: absolute;
+      top: 49.44px;
+      left: 243.05px;
+    }
+    .bar_3_1{
+      position: absolute;
+      top: 58.27px;
+      left: 168.89px;
+    }
+
+    .bar_3_2{
+      position: absolute;
+      top: 58.27px;
+      left: 181.25px;
+    }
+    .bar_3_3{
+      position: absolute;
+      top: 58.27px;
+      left: 230.69px;
+    }
+    .bar_3_4{
+      position: absolute;
+      top: 58.27px;
+      left: 243.05px;
+    }
+    .bar_4_1{
+      position: absolute;
+      top: 67.09px;
+      left: 168.89px;
+    }
+    .bar_4_2{
+      position: absolute;
+      top: 67.09px;
+      left: 181.25px;
+    }
+    .bar_4_3{
+      position: absolute;
+      top: 67.09px;
+      left: 234.22px;
+    }
+    .bar_4_4{
+      position: absolute;
+      top: 67.09px;
+      left: 243.05px;
+    }
+    .bar_5_1{
+      position: absolute;
+      top: 75.92px;
+      left: 168.89px;
+    }
+    .bar_5_2{
+      position: absolute;
+      top: 75.92px;
+      left: 243.05px;
+    }
+    .bar_6_1{
+      position: absolute;
+      top: 84.75px;
+      left: 168.89px;
+    }
+    .bar_6_2{
+      position: absolute;
+      top: 84.75px;
+      left: 243.05px;
+    }
+    .bar_0_0{
+      position: absolute;
+      top:27.8px;
+      left: 246.3px;
+    }
+    .clock_frame{
+      position: absolute;
+      top: 72.03px; // why is this to the very top?
+      left: 183.02px;     
+    }
+    .clock_needles{
+      position: absolute;
+      top: 82.62px;
+      left: 204.2px;
+    }
+  }
+
+  .title{
+    height: 39px;
+    width: 419px;
+    position: absolute;
+    top: 138px;
+    display:flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2DBDB1;
+  }
+  .sub_title{
+      height: 31px;
+      width: 323px;
+      position: absolute;
+      top: 187px;
+      left: 48px; 
+      font-family: Sanchez;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 31px;
+      color: #2DBDB1;
+  }
+  .button_background{    
+    position: absolute;
+    top: 241px;
+    left: 141.21px;;
+    height: 40.13px;
+    width: 135.57px;
+  }
+
+  .button_texts{
+    position: absolute;
+    top: 249.81px;
+    left: 136px;
+    width: 146px;
+    height: 37.19px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }
