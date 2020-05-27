@@ -16,12 +16,28 @@ export class UpcomingCardComponent implements OnInit {
   @Input() events: UpcomingEventsData;
 
   // --------------- LOCAL UI STATE ----------------------
- 
+  header_text:string = "Upcoming Events";
 
   constructor() { }
 
   ngOnInit() {
+    //console.log(this.events);
   }
+
+
+  convertTimeStamp(timestamp){
+    let converted = new Date(timestamp*1000); //???
+    console.log("This is converted", converted.toDateString());
+
+    var currentHour = converted.getHours();
+    if (currentHour >= 12){
+      return currentHour-12+" PM"
+    }
+    else{
+      return currentHour+" AM"
+    }
+  }
+  
 
   // --------------- DATA BINDING FUNCTIONS --------------
 

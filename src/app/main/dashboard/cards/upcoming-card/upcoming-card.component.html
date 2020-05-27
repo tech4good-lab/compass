@@ -1,3 +1,30 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+
+
+  <div class="title">{{header_text}}</div>
+
+  <div class="today">TODAY
+    <div class="bar_1">
+
+    </div>
+    <div class="bar_2">
+
+    </div>
+  <div>
+
+  
+  <div class="tomorrow">TOMORROW
+
+    <div class="bar_3">
+    
+    <div *ngFor="let item of events.tomorrow" class = "lists">#{{item.summary}}{{convertTimeStamp(item.start.seconds)}}-{{convertTimeStamp(item.end.seconds)}}</div>
+
+    </div>
+
+  </div>
+
+
+
+
+  
 </div>
