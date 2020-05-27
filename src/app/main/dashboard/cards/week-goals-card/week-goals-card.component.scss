@@ -1,4 +1,73 @@
 .week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  background: #FFFFFF;
+  border-radius: 10px;
+  position:relative;
+  display:block;
+  width:267px;
+  height:310px;
+}
+
+.heading{
+  /* This Week’s Goals */
+
+
+position: absolute;
+left: 7.87%;
+right: 7.87%;
+top: 6.45%;
+bottom: 86.13%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #2DBDB1;
+
+}
+
+.date{
+/* 9/24 - 9/30 */
+
+
+position: absolute;
+left: 7.87%;
+right: 37.45%;
+top: 16.45%;
+bottom: 77.42%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #2DBDB1;
+}
+
+.goals{
+  position:absolute;
+  top: 29.35%;
+
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: #5A5A5A;
+}
+
+.goals li{
+  margin-bottom:10%;
+}
+.pencil{
+
+position: absolute;
+left: 75.28%;
+right: 14.98%;
+top: 82.9%;
+bottom: 8.71%;
+
 }
