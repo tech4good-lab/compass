@@ -1,4 +1,90 @@
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  display:block;
+  width:419px;
+  height:298px;
+  position:relative;
 }
+
+.clock{
+  
+position: absolute;
+left: 36.52%;
+right: 36.52%;
+bottom: 55%;
+
+}
+
+.heading{
+/* It’s a new quarter! */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 45.82%;
+bottom: 40%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #2DBDB1;
+
+}
+
+.subheading{
+/* Time to set some new goals. */
+
+
+position: absolute;
+left: 11.46%;
+right: 11.46%;
+top: 63.64%;
+bottom: 25.09%;
+
+font-family: Sanchez;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+/* identical to box height */
+
+
+color: #2DBDB1;
+}
+
+.start{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 40px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+display:block;
+width:136px;
+height:40px;
+
+/* Rectangle 12 */
+
+
+position: absolute;
+bottom: 7.5%;
+
+background: #2DBDB1;
+border-radius: 20px;
+
+margin-left:50%;
+left:-68px;
+
+background: #2DBDB1;
+border-radius: 20px;
+
+} 
