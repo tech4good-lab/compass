@@ -1,3 +1,13 @@
 <div class="week-goals-card-container">
-  week-goals-card works!
+  <div class="title"> This Week's Goals</div>
+  <div class="date"> 9/24 - 9/30</div>
+  <div class="list-of-goals" *ngFor="let a of goals">
+  {{a.text}}
+  </div> 
+
+
+
+  <div class="d" *ngFor="let a of data.today"> 
+    {{a.goal}}
+  </div>
 </div>
