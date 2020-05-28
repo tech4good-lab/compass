@@ -27,10 +27,15 @@ export class WeekGoalsCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.startOfWeek, this.goals)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
-
+  endOfWeek(date) {
+    let result = new Date(date)
+    result.setDate(result.getDate() + 7)
+    return result
+  }
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 

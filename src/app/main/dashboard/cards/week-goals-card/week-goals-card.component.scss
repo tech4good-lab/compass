@@ -1,4 +1,94 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+
 .week-goals-card-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  //border: 1px solid black;
+
+  position: relative;
+  width: 275px;
+  height: 310px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  .week-goals-card-group {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    .week-goals-card-rectangle {
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      top: 0%;
+      bottom: 0%;
+
+      background: #FFFFFF;
+      border-radius: 10px;
+    
+      .week-goals-card-vector {
+        position: absolute;
+        left: 75.28%;
+        right: 14.98%;
+        top: 82.9%;
+        bottom: 8.71%;
+      }
+
+      .week-goals-card-h {
+        position: absolute;
+        left: 7.87%;
+        right: 7.87%;
+        top: 6.45%;
+        bottom: 86.13%;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+
+        color: #2DBDB1;
+      }
+
+      .week-goals-card-p {
+        position: absolute;
+        left: 7.87%;
+        right: 37.45%;
+        top: 16.45%;
+        bottom: 77.42%;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+
+        color: #2DBDB1;
+      }
+
+      .week-goals-card-goals {
+        position: absolute;
+        left: 7.87%;
+        right: 9.36%;
+        top: 29.35%;
+        bottom: 28.39%;
+
+        .week-goals-card-goal {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+
+          color: #5A5A5A;
+
+          padding: 10px;
+        }
+      }
+    }
+  }
+
+  .week-goals-card {}
 }
