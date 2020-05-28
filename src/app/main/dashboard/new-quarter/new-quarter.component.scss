@@ -1,4 +1,54 @@
 .new-quarter-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+  
+  .headline{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #2DBDB1;
+  }
+
+  .goals{
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align:center;
+    /* identical to box height */
+
+
+    color: #2DBDB1;
+  }
+
+  .startbutton{
+    background: #2DBDB1;
+    border-radius: 20px;
+    position: center;
+    padding: 1.5% 3% 1.5% 3%;
+  }
+
+  .get-started{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+
+    color: #FFFFFF;
+
+  }
+  .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
