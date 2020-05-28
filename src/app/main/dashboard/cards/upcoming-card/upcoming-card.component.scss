@@ -1,4 +1,128 @@
 .upcoming-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  display:block;
+  position:relative;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+  width:265px;
+  height:310px;
+
+}
+
+.heading{
+  /* Upcoming Events */
+
+
+position: absolute;
+left: 9.06%;
+right: 7.55%;
+top: 8.39%;
+bottom: 83.55%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #4B5853;
+}
+
+.today{
+  /* TODAY */
+
+
+position: absolute;
+left: 9.06%;
+right: 29.43%;
+top: 21.61%;
+bottom: 72.58%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4B5853;
+
+}
+
+.tomorrow{
+  /* TOMORROW */
+
+
+position: absolute;
+left: 9.06%;
+right: 29.43%;
+top: 57.74%;
+bottom: 36.45%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4B5853;
+}
+
+.tag{
+  display:block;
+  position:absolute;
+  margin-left:50%;
+  left:-108px;
+
+  width:216px;
+  height:31px;
+  border-radius: 5px;
+}
+
+.tag.interview{
+  bottom: 60.32%;
+  background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+}
+
+.tag.coverletter{
+bottom: 47.42%;
+
+background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
+}
+
+.tag.apply{
+bottom: 24.19%;
+
+background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+}
+
+
+.tagname{
+  /* #interview */
+
+  display:inline;
+  margin-left:5%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+
+.timestamp{
+
+  display: inline;
+  float:right;
+  margin-right:5%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 30px;
+
+color: #FFFFFF;
 }
