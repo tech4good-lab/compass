@@ -1,3 +1,15 @@
 <div class="week-goals-card-container">
-  week-goals-card works!
+  <div class = "goals"> This Week's Goals</div>
+  <div class = "date">{{ startOfWeek.start | date: 'M/dd'}} - {{ startOfWeek.end | date: 'M/dd'}} </div>
+  <div class="">
+    <ul class = "letter">
+      <li>[[goals[0].text]]</li>
+      <li>[[goals[1].text]]</li>
+      <li>[[goals[2].text]]</li>
+    </ul>
+  </div>
+  <svg class ="pencil" width="26" height="26" viewBox = "0 0 26 26" fill = "none" xmlns="http://www.w3.org/2000/svg">
+
+  </svg>
+
 </div>

@@ -1,6 +1,7 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { WeekGoal } from '../../../../core/store/week-goal/week-goal.model';
 
+
 /** Displays the weekly goals. */
 @Component({
   selector: 'app-week-goals-card',
@@ -18,8 +19,11 @@ export class WeekGoalsCardComponent implements OnInit {
   /** Goals for a week. */
   @Input() goals: WeekGoal[];
 
+  
+
   /** Edit weekly goals events. */
   @Output() editGoals: EventEmitter<WeekGoal[]> = new EventEmitter<WeekGoal[]>();
+
 
   // --------------- LOCAL UI STATE ----------------------
  
@@ -30,6 +34,13 @@ export class WeekGoalsCardComponent implements OnInit {
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
+  
+
+  endOfWeek (startOfWeek){
+    Calendar c = Calender.getInstance();
+    return cal.add()
+  }
+
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
