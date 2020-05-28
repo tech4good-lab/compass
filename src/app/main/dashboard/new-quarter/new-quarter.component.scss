@@ -1,4 +1,40 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .new-quarter-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
+
+  .new-quarter-image{
+      margin-left: auto;
+      margin-right: auto; 
+  }
+  .quarterTitle {
+      width: 100%;
+      font-family: Montserrat;
+      font-style: Normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      color: #2DBDB1;
+      margin-top: 10px;
+  }
+  .newGoals {
+      width: 100%;
+      font-family: Sanchez;
+      font-style: Normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 31px;
+      text-align: center;
+      color: #2DBDB1;
+      margin-top: 10px;
+  }
+  .getStarted {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8px;
+  }
 }
