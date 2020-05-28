@@ -22,7 +22,6 @@ export class WeekGoalsCardComponent implements OnInit {
   @Output() editGoals: EventEmitter<WeekGoal[]> = new EventEmitter<WeekGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
- 
 
   constructor() { }
 
@@ -30,6 +29,12 @@ export class WeekGoalsCardComponent implements OnInit {
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
+  endOfWeek(date, days){
+    var endDate = date;
+    endDate.setDate(endDate.getDate() + days)
+    return endDate;
+  }
+
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
