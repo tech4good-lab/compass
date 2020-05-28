@@ -1,4 +1,51 @@
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #2DBDB1
+}
+
+.icon {
+  margin-top: 20px;
+}
+
+.content h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.content p {
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  margin-top: -20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2DBDB1;
+  width: 135px;
+  height: 40px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.button span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
 }

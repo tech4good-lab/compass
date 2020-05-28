@@ -20,6 +20,11 @@ export class NewQuarterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
+  }
+  // Function called when div button is clicked
+  clicked(){
+    console.log('Get started has been clicked')
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
