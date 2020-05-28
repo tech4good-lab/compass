@@ -1,5 +1,29 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+/** NOT MY GROUP SUBMISSION DO NOT GRADE */
+
 /** Prompt to reorient at the beginning of a new quarter. */
 @Component({
   selector: 'app-new-quarter',
@@ -26,7 +50,9 @@ export class NewQuarterComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
+ reorientNow() {
+   console.log("reorient")
+ }
 
   // --------------- OTHER -------------------------------
 }
