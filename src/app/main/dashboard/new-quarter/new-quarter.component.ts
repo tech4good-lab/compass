@@ -26,7 +26,7 @@ export class NewQuarterComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
+  
 
   // --------------- OTHER -------------------------------
 }
