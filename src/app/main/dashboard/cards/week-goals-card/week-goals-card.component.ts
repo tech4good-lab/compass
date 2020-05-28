@@ -23,10 +23,19 @@ export class WeekGoalsCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
  
+ getMonth(date){ 
+   return date.getUTCMonth();
+ }
+
+  getDay(date){ 
+   return date.getDate();
+ }
 
   constructor() { }
 
   ngOnInit() {
+    console.log("start of the week", this.startOfWeek);
+    console.log("goals,", this.goals);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------

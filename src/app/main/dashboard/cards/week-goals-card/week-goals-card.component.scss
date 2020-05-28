@@ -1,4 +1,51 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 .week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 7.87%;
+
+    .title  {
+      margin-top: 6.45%;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+
+      color: #2DBDB1;
+    }
+
+    .date{
+      margin-top: 2.58%;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+
+      color: #2DBDB1;
+    }
+
+    .goals{
+      margin-top: 6.77%;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+
+      color: #5A5A5A;
+          .text{margin-top: 9.36%
+          }
+        
+    }
+
+    .vector{
+      background: #FFFFFF;
+      margin-top: 20.97%;
+      margin-left: 69.65%;
+    }
 }
