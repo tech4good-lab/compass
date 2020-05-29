@@ -21,10 +21,25 @@ export class UpcomingCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.events)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
+  makeHashtag(summary) {
+    let arr = summary.split(" ")
+    let word = arr.join("")
+    let hashtag = word.toLowerCase()
 
+    return hashtag
+  }
+
+  randomGradient() {
+    let randomColor1 = Math.floor(Math.random()*16777215).toString(16);
+    let randomColor2 = Math.floor(Math.random()*16777215).toString(16);
+    console.log(randomColor1)
+
+    return "linear-gradient(90.81deg, #" + randomColor1.toString() + " -3.96%, #" + randomColor2.toString() + " 110.33%)"
+  }
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 

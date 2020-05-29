@@ -1,3 +1,43 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+  <div class="upcoming-card-container-rect">
+    <div class="upcoming-card-container-title">
+      Upcoming Events
+    </div>
+
+    <div *ngIf="events.today.length > 0" class="upcoming-card-container-today">
+      TODAY
+    </div>
+
+    <div class="upcoming-card-container-event" *ngFor="let index of events.today" [style.background]='randomGradient()'>
+
+      <div class="upcoming-card-container-hashtag">
+        #{{ makeHashtag(index.summary) }}
+      </div>
+
+      <div class="upcoming-card-container-time">
+         {{ index.start.toDate() | date: 'h' }} - {{ index.start.toDate() | date: 'h a' }}
+      </div>
+      
+    </div>
+
+
+    <div *ngIf="events.tomorrow.length > 0" class="upcoming-card-container-tomorrow">
+      TOMORROW
+    </div>
+
+    <div class="upcoming-card-container-event" *ngFor="let index of events.tomorrow" [style.background]='randomGradient()'>
+      
+      <div class="upcoming-card-container-hashtag">
+        #{{ makeHashtag(index.summary) }}
+      </div>
+
+      <div class="upcoming-card-container-time">
+         {{ index.start.toDate() | date: 'h' }} - {{ index.start.toDate() | date: 'h a' }}
+      </div>
+      
+    </div>
+
+
+  </div>
+
 </div>
