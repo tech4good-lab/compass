@@ -1,3 +1,18 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+  <div class="events-title">
+    Upcoming Events
+  </div>
+  <div class="dailyEventsContainer" *ngFor = "let day of events | keyvalue">
+    <div class="dayTitle">
+      {{day.key | uppercase}}
+    </div>
+    <div class="dayItems" *ngFor="let event of day.value" [style.background]='randomGradient()'>
+      <div class="title">
+        #{{removeSpaces(event.summary) | lowercase}}
+      </div>
+      <div class="timeStamp">
+        {{getDate(event.start.seconds)}} - {{getDate(event.end.seconds)}}
+      </div>
+    </div>
+  </div>
 </div>
