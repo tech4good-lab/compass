@@ -1,4 +1,73 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+
+  .component {
+    height: 298px;
+    width: 419px;
+    position: relative;
+    background: #FFFFFF;
+  }
+
+  .calendar {
+    position: absolute;
+    left: 153px;
+    right: 153px;
+    top: 12px;
+    bottom: 181.83px;
+  }
+
+  .quarter {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 138px;
+    bottom: 121px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2DBDB1;
+  }
+
+  .goals {
+    position: absolute;
+    left: 48px;
+    right: 48px;
+    top: 187px;
+    bottom: 80px;
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: Left;
+    color: #2DBDB1;
+  }
+
+  #Started {
+
+    position: absolute;
+    left: 141.21px;
+    right: 142.21px;
+    top: 241px;
+    bottom: 16.87px;
+    height: 40.13px;
+    width: 135.57px;
+
+    background: #2DBDB1;
+    border-radius: 20px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
 }
