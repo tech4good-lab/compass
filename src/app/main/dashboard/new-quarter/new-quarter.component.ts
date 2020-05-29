@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 
+
 /** Prompt to reorient at the beginning of a new quarter. */
 @Component({
   selector: 'app-new-quarter',
@@ -26,7 +27,6 @@ export class NewQuarterComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
 
   // --------------- OTHER -------------------------------
 }
