@@ -21,12 +21,14 @@ export class NewQuarterComponent implements OnInit {
 
   ngOnInit() {
   }
-
+ 
   // --------------- DATA BINDING FUNCTIONS --------------
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
-
+  GetStartedFunc(){
+    console.log("Button Clicked");
+  }
   // --------------- OTHER -------------------------------
 }
