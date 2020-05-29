@@ -79,58 +79,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
   
   // --------------- LOCAL UI STATE ----------------------
 
-  upcomingEvents$: Observable<UpcomingEventsData> = of({ 
-    today: [
-      {
-        __id: 'weekgoal1',
-        __userId: 'user',
-        __weekGoalId: 'wg1',
-        weekGoalIndex: 1,
-        _createdAt: firestore.Timestamp.fromMillis(1566245122000),
-        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
-        calendarId: 'ce1',
-        start: firestore.Timestamp.fromMillis(1566245122000),
-        end: firestore.Timestamp.fromMillis(1566252322000),
-        summary: 'practice piano for two hours',
-        description: 'practice piano',
-        hashtag: 'piano',
-        backgroundColor: 'linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%)'
-      }
-    ],
-    tomorrow: [
-      {
-        __id: 'weekgoal2',
-        __userId: 'user',
-        __weekGoalId: 'wg2',
-        weekGoalIndex: 2,
-        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
-        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
-        calendarId: 'ce2',
-        start: firestore.Timestamp.fromMillis(1566320722000),
-        end: firestore.Timestamp.fromMillis(1566327922000),
-        summary: 'practice violin for two hours',
-        description: 'practice violin',
-        hashtag: 'violin',
-        backgroundColor: 'linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%)'
-      },
-      {
-        __id: 'weekgoal3',
-        __userId: 'user',
-        __weekGoalId: 'wg3',
-        weekGoalIndex: 3,
-        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
-        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
-        calendarId: 'ce3',
-        start: firestore.Timestamp.fromMillis(1566331522000),
-        end: firestore.Timestamp.fromMillis(1566338722000),
-        summary: 'work on resume',
-        description: 'work on resume',
-        hashtag: 'resume',
-        backgroundColor: 'linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%)'
-      }
-    ]
-  })
-
     // // Returns whether scrollbars show up on scrollable elements.
     // // This is false on Macs when the "General > Show scroll bars" setting is
     // // not set to "Always" (the default is "When scrolling"). The approach
@@ -207,8 +155,60 @@ export class DashboardComponent implements OnInit, OnDestroy {
       });
     })
   );
+
+  upcomingEvents$: Observable<UpcomingEventsData> = of({ 
+    today: [
+      {
+        __id: 'weekgoal1',
+        __userId: 'user',
+        __weekGoalId: 'wg1',
+        weekGoalIndex: 1,
+        _createdAt: firestore.Timestamp.fromMillis(1566245122000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce1',
+        start: firestore.Timestamp.fromMillis(1591016400),
+        end: firestore.Timestamp.fromMillis(1591023600),
+        summary: 'Prepare for technical interviews',
+        description: 'Technical Interview Prep',
+        hashtag: 'interview',
+        backgroundColor: 'linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%)'
+      },
+      {
+        __id: 'weekgoal2',
+        __userId: 'user',
+        __weekGoalId: 'wg2',
+        weekGoalIndex: 2,
+        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce2',
+        start: firestore.Timestamp.fromMillis(1591038000),
+        end: firestore.Timestamp.fromMillis(1591041600),
+        summary: 'Finish the Google Cover Letter',
+        description: 'Finish Google Cover Letter',
+        hashtag: 'coverletter',
+        backgroundColor: 'linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%)'
+      },
+    ],
+    tomorrow: [
+      {
+        __id: 'weekgoal3',
+        __userId: 'user',
+        __weekGoalId: 'wg3',
+        weekGoalIndex: 3,
+        _createdAt: firestore.Timestamp.fromMillis(1566237922000),
+        _updatedAt: firestore.Timestamp.fromMillis(1566237922000),
+        calendarId: 'ce3',
+        start: firestore.Timestamp.fromMillis(1591092000),
+        end: firestore.Timestamp.fromMillis(1591095600),
+        summary: 'Apply to Microsoft',
+        description: 'Apply to Microsoft',
+        hashtag: 'apply',
+        backgroundColor: 'linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%)'
+      }
+    ]
+  })
   
-  // /** Only the upcoming events (today and tomorrow). */
+  /** Only the upcoming events (today and tomorrow). */
   // upcomingEvents$: Observable<UpcomingEventsData> = combineLatest(
   //   this.weekGoals$,
   //   this.time$
