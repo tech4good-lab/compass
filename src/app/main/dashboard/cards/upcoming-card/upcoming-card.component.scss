@@ -1,4 +1,107 @@
-.upcoming-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
 }
+
+
+.cardContainer {
+  // REMOVE WHEN FINISHING LAYOUT STYLES
+  position: relative; 
+  width: 265 px;
+  height: 310px;
+  border-radius: 10px;
+  background: #FFFFFF;
+
+  .headerText{
+    position: absolute;
+    left: 24px;
+    top: 26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853;
+  }
+  .subText{
+    position: absolute;
+    left: 24px;
+    top: 67px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B5853;
+
+  }
+
+  .subText2{
+    position: absolute;
+    left: 24px;
+    top: 179px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B5853;
+  }
+
+  
+  .rectangle{
+    position: absolute;
+    top: 92px;
+    left: 24px;
+    width: 216px;
+    height: 31px;
+    background: linear-gradient( to right, #EE8B72, #FFB987);
+    border-radius: 5px;
+  }
+  .rectangle2{
+    position: absolute;
+    top: 132px;
+    left: 24px;
+    width: 216px;
+    height: 31px;
+    background: linear-gradient(to right, #FFB987, #FFD699);
+    border-radius: 5px;
+  }
+.rectangle3{
+    position: absolute;
+    top: 204px;
+    left: 24px;
+    width: 216px;
+    height: 31px;
+    background: linear-gradient(to right, #2DBDB1, #80E6DE);
+    border-radius: 5px;
+  }
+
+  .interview{
+    position: absolute;
+    top: 96.72px;
+    left: 38px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    font-height: 17px;
+    color: #FFFFFF
+  }
+
+ .coverLetter{
+    position: absolute;
+    top: 139px;
+    left: 38px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    font-height: 17px;
+    color: #FFFF32
+  }
+}
+
+
