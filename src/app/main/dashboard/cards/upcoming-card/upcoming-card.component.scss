@@ -1,4 +1,156 @@
-.upcoming-card-container {
+.this-week-goal-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 260px;
+  height:310px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  .first-container{
+    /* Dig a little deeper. */
+
+      /* This Week’s Goals */
+
+    position: absolute;
+    left: 7.87%;
+    right: 7.87%;
+    top: 6.45%;
+    bottom: 86.13%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #2DBDB1;
+
+
+  }
+  .date{
+    /* Reflections */
+
+      /* 9/24 - 9/30 */
+
+    position: absolute;
+    left: 7.87%;
+    right: 37.45%;
+    top: 16.45%;
+    bottom: 77.42%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2DBDB1;
+
+
+  }
+
+  .bullet1{
+
+    /* • Finish Google cover letter */
+
+    position: absolute;
+    left: 7.87%;
+    right: 9.36%;
+    top: 29.35%;
+    bottom: 65.16%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #5A5A5A;
+  }
+
+  .bullet2{
+
+    /* • Apply to Microsoft */
+
+    position: absolute;
+    left: 7.87%;
+    right: 26.59%;
+    top: 42.9%;
+    bottom: 50.32%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #5A5A5A;
+  }
+
+  .bullet3{
+
+    /* • Practice implementing */
+
+    position: absolute;
+    left: 7.87%;
+    right: 9.36%;
+    top: 57.74%;
+    bottom: 35.16%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #5A5A5A;
+  }
+
+  .bullet33{
+    /* • Practice implementing */
+
+    /* data structures */
+
+    position: absolute;
+    left: 12.36%;
+    right: 28.84%;
+    top: 64.52%;
+    bottom: 28.39%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #5A5A5A;
+
+
+  }
+
+  .drawing-container{
+    /* pen-paper */
+
+      
+      /* Vector */
+
+      position: absolute;
+      left: 75.28%;
+      right: 14.98%;
+      top: 82.9%;
+      bottom: 8.71%;
+
+      //background: #2DBDB1;
+
+
+//background: rgb(150, 112, 103);
+
+  }
   border: 1px solid black;
 }
+
