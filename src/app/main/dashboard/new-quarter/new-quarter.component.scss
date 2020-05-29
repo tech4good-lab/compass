@@ -1,4 +1,98 @@
+
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .new-quarter-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  position: absolute;
+  width: 419px;
+  height: 275px;
+  left: 0px;
+  top: 12px;
+
+
+background: #FFFFFF;
   border: 1px solid black;
+    .header{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 45.82%;
+    bottom: 40%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #2DBDB1;
+    }
+
+
+  /* Time to set some new goals. */
+
+  .description{
+    position: absolute;
+    left: 11.46%;
+    right: 11.46%;
+    top: 63.64%;
+    bottom: 25.09%;
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 31px;
+    /* identical to box height */
+
+
+    color: #2DBDB1;
+  }
+
+
+  /* Call to Action Button */
+ .button{
+   position: absolute;
+   left: 32.46%;
+   right: 32.7%;
+   top: 83.27%;
+   bottom: 0%;
+
+    .action{
+    position: absolute;
+    left: 0%;
+      right: 0%;
+      top: 19.15%;
+      bottom: 0%;
+
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+     z-index: 1;
+      color: #FFFFFF;
+
+    }
+    .rect{
+    position: absolute;
+    left: 3.57%;
+    right: 3.57%;
+    bottom: 12.77%;
+    top: 0%;
+    }
+ }
+  .calendar{
+  position: absolute;
+  left: 36.52%;
+  right: 36.52%;
+  top: 0%;
+  bottom: 58.91%;
+  }
+
+ 
+
+
 }
