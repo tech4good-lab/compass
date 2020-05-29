@@ -1,5 +1,5 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
-import { UpcomingEventsData } from '../../+state/dashboard.model';
+import { UpcomingEventsData } from "../../+state/dashboard.model";
 
 /** Displays the upcoming events. */
 @Component({
@@ -21,6 +21,7 @@ export class UpcomingCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.events);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
