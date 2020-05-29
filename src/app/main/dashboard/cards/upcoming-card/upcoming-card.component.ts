@@ -17,6 +17,19 @@ export class UpcomingCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
  
+  cardTitle:string = "Upcoming Events";
+  cardSub1:string = "TODAY";
+  cardSub2:string = "TOMORROW";
+
+  // Info for Today Bars
+  todayTasks:string[] = ['#interview', '#coverletter'];
+  todayTimes:string[] = ['1 - 3 pm', '7 - 8 pm'];
+  task:string = this.todayTasks[0]; 
+  time:string = this.todayTimes[0];
+
+  // Info for Tomorrow Bars
+  tomorrowTask:string = "#apply";
+  tomorrowTime:string = "10 - 11 am";
 
   constructor() { }
 

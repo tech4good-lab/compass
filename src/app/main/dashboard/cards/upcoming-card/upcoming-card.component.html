@@ -1,3 +1,27 @@
-<div class="upcoming-card-container">
-  upcoming-card works!
+<div class = "cardContainer">
+  
+  <div class = "textContainer">
+    <div class = "titleText"> {{cardTitle}} </div>
+    <div class = "subText1">  {{cardSub1}}  </div>
+    <div class = "subText2">  {{cardSub2}} </div>
+  </div>
+  <div class = "barsContainer">
+    <ul>
+      <li class = "todayTasks" *ngFor = "let task of todayTasks">
+          {{task}}
+      </li>
+    </ul>
+    <div class = "bar1"> </div>
+    
+    <ul>
+      <li class = "todayTimes" *ngFor = "let time of todayTimes">
+          {{time}}
+      </li>
+    </ul>
+    <div class = "bar2"> </div>
+
+    <div class = "tomorrowTasks"> {{tomorrowTask}} </div>
+    <div class = "tomorrowTimes"> {{tomorrowTime}} </div>
+    <div class = "bar3"> </div>
+  </div>
 </div>
