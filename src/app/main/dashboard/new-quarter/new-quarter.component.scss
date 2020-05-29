@@ -1,4 +1,36 @@
+//new-quarter.component.scss:
+
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  
+  display: flex;
+  flex-direction: column;
+  .new-quarter-icon {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .title1 {
+      width: 100%;
+      font-family: Montserrat;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      color: #2DBDB1;
+      margin-top: 10px;
+  }
+  .title2 {
+      width: 100%;
+      font-family: Montserrat;
+      font-size: 24px;
+      line-height: 31px;
+      text-align: center;
+      color: #2DBDB1;
+      margin-top: 10px;
+  }
+  .start-button {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8px;
+      cursor: pointer;
+  }
 }
