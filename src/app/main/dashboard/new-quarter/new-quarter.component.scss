@@ -1,4 +1,73 @@
-.new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+//Styling for the Button Object
+button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
 }
+
+.quarterContainer {
+  width: 419px;
+  height: 298px;
+  // background-color: grey;
+  position: relative;
+  direction: flex;
+  flex-direction: column;
+  
+  //Calendar Image Styling
+  .calendarImage {
+    position: absolute;
+    left: 153px;
+    top: 12px;
+  }
+
+  .pageTitle {
+    position: absolute;
+    top: 138px;
+    width: 419px;
+    height: 39px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2DBDB1;
+  }
+
+  .subTitle {
+    position: absolute;
+    top: 187px;
+    left: 48px;
+    width: 323px;
+    height: 31px;
+
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #2DBDB1;
+  }
+
+  .btn {
+    position: absolute;
+    width: 135.57px;
+    height: 40.13px;
+    top: 241px;
+    left: 141.21px;
+    border-radius: 20px;
+    border: none;
+    background: #2DBDB1;
+  }
+}
+
+
+
