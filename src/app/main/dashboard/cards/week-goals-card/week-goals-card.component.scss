@@ -1,4 +1,166 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 492px;
+  height: 374px;
+  
+  
+   .rectangl1{
+   position: absolute;
+    left: 0.81%;
+    right: 0.81%;
+    top: 0%;
+    bottom: 2.14%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+   z-index: -2;
+
+
+   .title{
+    position: absolute;
+    left: 10.37%;
+    right: 6.73%;
+    top: 11.39%;
+    bottom: 81.35%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2DBDB1;
+   }
+   .date{
+      position: absolute;
+      width: 264.66px;
+      height: 22.43px;
+      left: 51px;
+      top: 79.21px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      color: #2DBDB1;
+   }
+   
+   
+  .textone{
+    position: absolute;
+    width: 361.54px;
+    height: 18.67px;
+    left: 52.85px;
+    top: 134px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.2763px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #4B5853;
+  }
+
+  .texttwo{
+    /* Apply to Microsoft */
+    position: absolute;
+    width: 361.54px;
+    height: 18.67px;
+    left: 52.85px;
+    top: 187.47px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.2763px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #4B5853;
+  }
+
+  .textthree{
+    /* Practice implementing data structures */
+    position: absolute;
+    width: 361.54px;
+    height: 18.67px;
+    left: 52.85px;
+    top: 236.69px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.2763px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #4B5853;
+  }
+
+   .save{
+     position: absolute;
+    width: 49px;
+    height: 15px;
+    left: 398px;
+    top: 306px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+   }
+
+   .rect2{
+     
+    position: absolute;
+    width: 84px;
+    height: 34px;
+    left: 376px;
+    top: 300px;
+    z-index: -1;
+    background: #2DBDB1;
+    border-radius: 10px;
+   }
+
+
+   .x{
+     position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+
+    border: 2px solid #4B5853;
+   }
+
+
+    //initialize the vectors
+    .v1{ 
+    position: absolute;
+    width: 378px;
+    height: 0px;
+    left: 52px;
+    top: 157px;
+
+    border: 0.744475px solid #4B5853;
+    }
+
+    .v2{
+    position: absolute;
+    width: 378px;
+    height: 0px;
+    left: 52px;
+    top: 210px;
+
+    border: 0.744475px solid #4B5853;
+    }
+
+    .v3{
+    position: absolute;
+    width: 378px;
+    height: 0px;
+    left: 52px;
+    top: 260px;
+
+    border: 0.744475px solid #4B5853;
+    }
+  
+}
 }

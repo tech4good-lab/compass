@@ -23,8 +23,16 @@ export class WeekGoalsCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
  
-
-  constructor() { }
+  g1: string;
+  g2: string;
+  g3: string;
+  date: string;
+  constructor() {
+    this.g1='Finish Google Cover letter';
+    this.g2='Apply to Microsoft';
+    this.g3='Practice implementing data structures'
+    this.date = '9/24 - 9/30'
+   }
 
   ngOnInit() {
   }
@@ -35,5 +43,6 @@ export class WeekGoalsCardComponent implements OnInit {
   // --------------- EVENT BINDING FUNCTIONS -------------
 
 
-  // --------------- OTHER -------------------------------
+  // --------------- OTHER ------------------------------- <div class ='title'>This Week's Goals</div>
+ //<div class ='date'> {{date}}</div>
 }
