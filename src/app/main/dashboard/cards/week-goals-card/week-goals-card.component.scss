@@ -1,4 +1,41 @@
-.week-goals-card-container {
+.cardCcontainer {
   // REMOVE WHEN FINISHING LAYOUT STYLES
   border: 1px solid black;
+  position: relative;
+  direction: flex;
+  flex-direction: column;
+
+.titleText {
+position: absolute;
+left: 21px;
+top: 20px;
+width: 225px;
+height: 23px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+color: #2DBDB1;
+}
+
+.date{
+position: absolute;
+left: 21px;
+top: 51px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+color: #2DBDB1;
+}
+
+.list{
+
+  
+}
+
 }
