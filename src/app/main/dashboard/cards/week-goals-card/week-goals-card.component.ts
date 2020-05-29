@@ -33,7 +33,10 @@ export class WeekGoalsCardComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
-
+  /** Function for emmiting an edit goals */
+  edit() {
+    this.editGoals.emit()
+  }
 
   // --------------- OTHER -------------------------------
 }
