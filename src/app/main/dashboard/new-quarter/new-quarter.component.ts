@@ -17,7 +17,10 @@ export class NewQuarterComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() { 
+      this.title="It's a new quarter!";
+      this.subtitle="Time to set some new goals.";
+  }
 
   ngOnInit() {
   }
@@ -26,7 +29,9 @@ export class NewQuarterComponent implements OnInit {
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
+      getStarted(){
 
+      }
 
   // --------------- OTHER -------------------------------
 }
