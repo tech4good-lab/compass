@@ -1,3 +1,43 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+  <div class="upcoming-card-heading">
+    Upcoming Events
+  </div>
+  <div class="upcoming-card-today">
+    <div class="today">Today</div>
+    <div class="tasks">
+      <div class="task task-today" *ngFor="let event of events.today">
+        <div class="task-description">
+          #{{ event.summary }}
+        </div>
+        <div class="task-times">
+          <div class="task-start-time">
+            {{ event.start.toDate() | date: 'h' }}
+          </div>
+          -
+          <div class="task-end-time">
+            {{ event.end.toDate() | date: 'h a' }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="upcoming-card-tomorrow">
+    <div class="tomorrow">Tomorrow</div>
+    <div class="tasks">
+      <div class="task task-tomorrow" *ngFor="let event of events.tomorrow">
+        <div class="task-description">
+          #{{ event.summary }}
+        </div>
+        <div class="task-times">
+          <div class="task-start-time">
+            {{ event.start.toDate() | date: 'h' }}
+          </div>
+          -
+          <div class="task-end-time">
+            {{ event.end.toDate() | date: 'h a' }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
