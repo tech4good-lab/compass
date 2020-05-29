@@ -1,4 +1,33 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
 .week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+
+.comp{
+    width: 267px;
+    height: 310px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+ }
+
+ .week-goals{
+   /* This Week’s Goals */
+    position: absolute;
+    left: 7.87%;
+    right: 7.87%;
+    top: 6.45%;
+    bottom: 86.13%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #2DBDB1;
+ }
+
 }
