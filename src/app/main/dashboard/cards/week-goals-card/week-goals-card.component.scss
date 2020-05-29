@@ -1,4 +1,93 @@
-.week-goals-card-container {
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+:host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  // IGNORE THIS CODE
+  // COMMENTED IT OUT BECAUSE IT SURROUNDS THE PENCIL
+  // border: 1px solid black;
+}
+// WRITE YOUR CODE HERE
+
+* {
+  font-family: Montserrat;
+}
+
+.week-goals-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #d3e1da;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  padding: 19px 23px 27px 26px;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+
+    .title {
+      font-weight: 600;
+      font-size: 22px;
+      color: #2dbdb1;
+      margin-bottom: 8px;
+    }
+
+    .date {
+      font-weight: 300;
+      font-size: 18px;
+      color: #2dbdb1;
+      margin-bottom: 14px;
+    }
+  }
+
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    flex-shrink: 0;
+    height: 180px;
+
+    .task {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 13px;
+
+      .number {
+        color: #2dbdb1;
+        font-weight: 500;
+        font-size: 36px;
+        margin-right: 24px;
+        align-self: center;
+        width: 30px;
+      }
+
+      .text {
+        color: #5a5a5a;
+        font-weight: 500;
+        font-size: 16px;
+        text-overflow: wrap;
+        align-self: center;
+        width: 171px;
+        max-height: 40px;
+        overflow-y: auto;
+      }
+    }
+  }
+
+  .pencil {
+    display: flex;
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin-top: auto;
+  }
+
+  .task-list{
+    margin-top:-2%;
+  }
 }

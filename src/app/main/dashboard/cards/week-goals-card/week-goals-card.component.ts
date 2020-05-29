@@ -26,10 +26,26 @@ export class WeekGoalsCardComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(){
+
+  
+  console.log(this.startOfWeek)
+  
+
+
+
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
+  formattedWeek(){
+    var current_day = this.startOfWeek.getDate();
+    var current_month = this.startOfWeek.getMonth();
+    var end_of_week_date = current_day + 6;
+
+    var d = new Date(2020, current_month, end_of_week_date, 0,0,0,0);
+    return d;
+
+  }
 
 
   // --------------- EVENT BINDING FUNCTIONS -------------
