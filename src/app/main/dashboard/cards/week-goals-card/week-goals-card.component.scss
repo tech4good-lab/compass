@@ -1,4 +1,73 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  font-family: Montserrat;
+}
+
 .week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  justify-content: space-evenly;
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 310px;
+    width: 267;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px #d3e1da;
+    border-radius: 10px;
+    
+
+    .pencil {
+      display: flex;
+      flex-shrink: 0;
+      align-self: flex-end;
+      margin-top: auto;
+      margin-bottom: 27px;
+      margin-right: 40px;
+    }
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 0;
+    margin-top: 20px;
+    margin-left: 21px;
+    color: #2dbdb1;
+    
+
+    .title {
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 8px;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .date {
+      font-weight: 300;
+      font-size: 18px;
+      margin-bottom: 21px;
+    }
+  }
+
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    color: #5a5a5a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    .text {
+      margin-bottom: 25px;
+      text-overflow: wrap;
+      align-self: center;
+    }
+  }
+
+  
 }
