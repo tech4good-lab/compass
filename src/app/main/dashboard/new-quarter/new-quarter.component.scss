@@ -1,4 +1,68 @@
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+    @import url(//fonts.googleapis.com/css?family=Montserrat);
+    @import url(//fonts.googleapis.com/css?family=Sanchez);
+    position: absolute;
+    width: 419px;
+    height: 275px;
+    left: 0px;
+    top: 12px;
+    .calendar{
+        position: absolute;
+        left: 36.52%;
+        right: 36.52%;
+        top: 0%;
+        bottom: 58.91%;
+    }
+    .new-quarter{
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 45.82%;
+        bottom: 40%;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        color: #2DBDB1;
+    }
+    .new-goals{
+        position: absolute;
+        left: 11.46%;
+        right: 11.46%;
+        top: 63.64%;
+        bottom: 25.09%;
+        font-family: Sanchez;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        color: #2DBDB1;
+    }
+    .get-started{
+        position: absolute;
+        width: 135.57px;
+        height: 40.13px;
+        background: #2DBDB1;
+        border-radius: 20px;
+        left: 32.46%;
+        right: 32.7%;
+        top: 83.27%;
+        bottom: 0%;
+        .text{
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 19.15%;
+            bottom: 0%;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
 }
