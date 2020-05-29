@@ -1,3 +1,12 @@
 <div class="week-goals-card-container">
-  week-goals-card works!
+	<div class="headerGoals"> {{goalTitle}} </div>
+	<div class="headerDates"> {{ startOfWeek | date: 'M/d' }} - {{getOurDates() | date: 'M/d'}} </div>
+	<div class="bulletP"> 
+    <ul>
+      <li *ngFor = "let item of bulletList">
+        {{item}}
+        </li>
+      </ul>
+  </div>
+  <img class = "pencil" src = {{pencilIcon}} (click)=editGoals.emit()/>
 </div>

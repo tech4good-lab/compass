@@ -1,4 +1,81 @@
-.week-goals-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
+.week-goals-card-container{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 267px;
+  height: 310px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.25);
+  border-radius: 10px;
+
+  .headerGoals {
+    /* This Week’s Goals */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 7.87%;
+    right: 7.87%;
+    top: 8.06%;
+    bottom: 84.52%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #2DBDB1;
+  }
+
+  .headerDates{
+    position: absolute;
+    left: 7.87%;
+    right: 37.45%;
+    top: 18.06%;
+    bottom: 75.81%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #2DBDB1;
+  }
+
+  .bulletP{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    left: 21px;
+    top: 91px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5A5A5A;
+  }
+
+  .pencil{
+    position: absolute;
+    left: 75.28%;
+    right: 14.98%;
+    top: 84.52%;
+    bottom: 7.1%;
+
+  }
+
+}
+ul{
+  padding-left: 21px;
+  margin: 0;
+}
+
+li{
+  margin-bottom: 25px;
+  
 }
