@@ -15,15 +15,23 @@ export class NewQuarterComponent implements OnInit {
   @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
 
   // --------------- LOCAL UI STATE ----------------------
- 
-
-  constructor() { }
-
+  intro: string;
+  time: string;
+  gettext: string;
+  
+  constructor() { 
+    this.intro = "It's a new quarter!";
+    this.time= "Time to set some new goals.";
+    this.gettext = "Get started";
+  }
+  
   ngOnInit() {
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
-
+  getstartedclick(){
+    console.log("button was clicked");
+  }
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
