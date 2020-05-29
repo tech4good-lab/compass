@@ -9,7 +9,7 @@ import { WeekGoal } from '../../../../core/store/week-goal/week-goal.model';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class WeekGoalsCardComponent implements OnInit {
-
+   
   // --------------- INPUTS AND OUTPUTS ------------------
   
   /** The start of the week. */
@@ -27,6 +27,7 @@ export class WeekGoalsCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
@@ -34,6 +35,6 @@ export class WeekGoalsCardComponent implements OnInit {
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
-
+ 
   // --------------- OTHER -------------------------------
 }
