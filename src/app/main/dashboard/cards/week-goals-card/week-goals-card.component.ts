@@ -1,6 +1,23 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { WeekGoal } from '../../../../core/store/week-goal/week-goal.model';
 
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+/** NOT GROUP CODE DO NOT GRADE. */
+
 /** Displays the weekly goals. */
 @Component({
   selector: 'app-week-goals-card',
@@ -26,7 +43,21 @@ export class WeekGoalsCardComponent implements OnInit {
 
   constructor() { }
 
+  getEndDate() {
+    var curr = this.startOfWeek; // get current date
+    var first = curr.getDate() - curr.getDay(); // First day is the day of the month - the day of the week
+    var last = first + 6; // last day is the first day + 6
+
+    var firstday = new Date(curr.setDate(first)).toUTCString();
+    var lastday = new Date(curr.setDate(last)).toUTCString();
+    console.info(firstday)
+    console.info(lastday)
+  }
+
+
   ngOnInit() {
+    console.info(this.startOfWeek)
+    console.info(this.goals)
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
