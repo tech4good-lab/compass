@@ -24,7 +24,9 @@ export class WeekGoalsCardComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() { 
+   this.goals = ["• Finish Google cover letter", "• Apply to Microsoft", "• Practice implementing data structures"];
+  }
 
   ngOnInit() {
   }
