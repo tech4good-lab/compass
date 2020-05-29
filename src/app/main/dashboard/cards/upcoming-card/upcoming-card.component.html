@@ -1,3 +1,22 @@
 <div class="upcoming-card-container">
-  upcoming-card works!
+  <div class="title">Upcoming Events</div>
+  <div class="today" *ngIf="events.today">
+    <div class="today-title">TODAY</div>
+    <div class="today-container" *ngFor="let event of events.today">
+      <div class="today-bar">
+        <div class="today-event">#{{event.summary}}</div>
+        <div class="today-event-time">{{event.start.toDate() | date:'h'}}-{{event.end.toDate() | date: 'h a'}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="tomorrow" *ngIf="events.tomorrow">
+    <div class="tomorrow-title">TOMORROW</div>
+    <div class="tomorrow-container" *ngFor="let event of events.tomorrow">
+      <div class="tomorrow-bar">
+        <div class="tomorrow-event">#{{event.summary}}</div>
+        <div class="tomorrow-event-time">{{event.start.toDate() | date:'h'}}-{{event.end.toDate() | date: 'h a'}}</div>
+      </div>
+    </div>
+  </div>
 </div>
+
