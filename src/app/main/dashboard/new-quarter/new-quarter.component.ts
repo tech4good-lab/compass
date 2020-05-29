@@ -1,6 +1,6 @@
 import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 
-/** Prompt to reorient at the beginning of a new quarter. */
+/** Prompt to reorient at the beginning of a new quarter */
 @Component({
   selector: 'app-new-quarter',
   templateUrl: './new-quarter.component.html',
@@ -10,8 +10,8 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 export class NewQuarterComponent implements OnInit {
 
   // --------------- INPUTS AND OUTPUTS ------------------
- 
-  /** Events for initiating quarterly reorientation. */
+
+  /** Events for initiating weekly reorientation. */
   @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
 
   // --------------- LOCAL UI STATE ----------------------
@@ -27,6 +27,10 @@ export class NewQuarterComponent implements OnInit {
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
+  /** Function to handle when the start button is clicked. */
+  startButtonClicked() {
+      console.log("the start button was clicked!");
+  }
 
   // --------------- OTHER -------------------------------
 }
