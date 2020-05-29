@@ -1,4 +1,36 @@
-.upcoming-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+.rectangle1 {
+  text-align:center;
+  color:white;
+  width: 200px;
+  height: 30px;
+  padding: 10 10px;
+  background-color:#EE8B72;
+  border-radius: 10px;
+  
+}
+
+.rectangle2 {
+  text-align:center;
+  color:white;
+  width: 200px;
+  height: 30px;
+  padding: 10 10px;
+  background-color:#FFB987;
+  border-radius: 10px;
+  
+}
+
+.rectangle3 {
+  text-align:center;
+  color:white;
+  width: 200px;
+  height: 30px;
+  padding: 10 10px;
+  background-color:#2DBDB1;
+  border-radius: 10px;
+  
+}
+
+*{
+  color: #4B5853;
 }
