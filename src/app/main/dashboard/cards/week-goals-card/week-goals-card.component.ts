@@ -22,7 +22,12 @@ export class WeekGoalsCardComponent implements OnInit {
   @Output() editGoals: EventEmitter<WeekGoal[]> = new EventEmitter<WeekGoal[]>();
 
   // --------------- LOCAL UI STATE ----------------------
- 
+  constructor() {
+      this.date="9/24 - 9/30";
+      this.goal1="Finish Google cover letter";
+      this.goal2="Apply to Microsoft";
+      this.goal3="Practice implementing data structures";      
+  }
 
   constructor() { }
 
