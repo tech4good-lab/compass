@@ -1,4 +1,87 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
 .week-goals-card-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #d3e1da;
+  border-radius: 10px;
+  width: 267px;
+  height: 310px;
+  padding: 19px 23px 27px 26px;
+
+  .header {
+    font-style: normal;
+    color: #2DBDB1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 0;
+    margin-bottom: 14px;
+
+    .title {
+      position: absolute;
+      left: 7.87%;
+      right: 7.87%;
+      top: 6.45%;
+      bottom: 86.13%;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 27px;
+    }
+    .date {
+      position: absolute;
+      left: 7.87%;
+      right: 37.45%;
+      top: 16.45%;
+      bottom: 77.42%;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .tasks {
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    flex-shrink: 0;
+    height: 180px;
+    margin-top: 15px;
+
+    .task {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+
+      .text {
+        
+        font-family: Montserrat;
+        font-style: normal;
+        position: absolute;
+        color: #5a5a5a;
+        font-weight: 500;
+        font-size: 16px;
+        
+        align-self: center;
+        width: 221px;
+        max-height: 40px;
+        
+      }
+    }
+  }
+
+  .pencil {
+    display: flex;
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin-top: auto;
+  }
 }
