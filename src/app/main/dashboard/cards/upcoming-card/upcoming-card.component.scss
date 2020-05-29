@@ -1,4 +1,126 @@
-.upcoming-card-container {
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+:host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  // IGNORE THIS CODE
   border: 1px solid black;
+}
+// WRITE YOUR CODE HERE
+* { 
+  font-family: Montserrat;
+}
+.upcoming-card-container {
+  padding-top: 26px;
+  padding-left: 24px;
+
+  .upcoming-card-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #4B5853; 
+    margin-bottom: 16px;
+  }
+
+  .today {
+    margin-top: 16px;
+    
+    .today-title{
+      font-size: 14px;
+      line-height: 17px;
+      color: #4B5853;
+    }
+
+    .today-event-container1 {
+      border-radius: 5px;
+      width: 216px;
+      height: 31px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+      color: #FFFFFF;
+      background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+      .today-event1 {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        align-self: center;
+        flex-grow: 1;
+        
+      }
+
+      .today-event-time1 {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        align-self: center;
+        padding-right: 15px;
+      }
+     }
+      .today-event-container2 {
+      border-radius: 5px;
+      width: 216px;
+      height: 31px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+      color: #FFFFFF;
+      background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
+      .today-event2 {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        align-self: center;
+        flex-grow: 1;
+        
+      }
+
+      .today-event-time2 {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        align-self: center;
+        padding-right: 15px;
+      }
+     }
+  }
+  .tomorrow {
+    margin-top: 16px;
+    
+    .tomorrow-title{
+      font-size: 14px;
+      line-height: 17px;
+      color: #4B5853;
+    }
+
+    .tomorrow-event-container {
+      border-radius: 5px;
+      width: 216px;
+      height: 31px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 7px;
+      background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+      .tomorrow-event {
+        padding-left: 14px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        align-self: center;
+        flex-grow: 1;
+        
+      }
+
+      .tomorrow-event-time {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #FFFFFF;
+        align-self: center;
+        padding-right: 15px;
+        
+      }
+    }
+  }
 }
