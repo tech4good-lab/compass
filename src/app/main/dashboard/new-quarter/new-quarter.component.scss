@@ -1,4 +1,49 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@import url(//fonts.googleapis.com/css?family=Sanchez);
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+  .calIcon {
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .headerQuarter{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2DBDB1;
+    margin-top: 10px;
+  }
+  .headerGoals {
+    width: 100%;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #2DBDB1;
+    margin-top: 10px;
+  }
+  .headerStart {
+      font-family: Monterserrat;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 23px;
+      margin-bottom: 16.87;
+      border-radius: 20px;
+      cursor: pointer;
+  }
 }
