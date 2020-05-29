@@ -1,4 +1,72 @@
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+@import url(//fonts.googleapis.com/css?family=Montserrat); 
+
 .new-quarter-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+ /* New quarter */
+
+.component{
+  position: relative;
+  width: 419px;
+  height: 298px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.calendar{
+  /* calendar */
+  align-self: center;
+  width: 113px;
+  height: 113px;
+}
+
+.heading-one{
+  /* It’s a new quarter! */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #2DBDB1;
+}
+
+.heading-two{
+  /* Time to set some new goals. */
+
+  font-family: Sanchez;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  /* identical to box height */
+
+  color: #2DBDB1;
+}
+
+.rectangle{
+/* Rectangle 12 */
+width: 135.57px;
+height: 40.13px;
+
+background: #2DBDB1;
+border-radius: 20px;
+
+}
+
+.button-text{
+/* Get started */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
 }
