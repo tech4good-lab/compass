@@ -18,7 +18,14 @@ export class UpcomingCardComponent implements OnInit {
   // --------------- LOCAL UI STATE ----------------------
  
 
-  constructor() { }
+  constructor() {
+      this.goal1="#interview";
+      this.goal2="#coverletter"
+      this.goal3="#apply"
+      this.time1="1 - 3 pm"
+      this.time2="7 - 8 pm"
+      this.time3="10 - 11 am"
+  }
 
   ngOnInit() {
   }
