@@ -9,13 +9,17 @@ import { Component, OnInit, ChangeDetectionStrategy, Input, Output, EventEmitter
 })
 export class NewQuarterComponent implements OnInit {
 
+  thisStringVariable;
+
   // --------------- INPUTS AND OUTPUTS ------------------
  
   /** Events for initiating quarterly reorientation. */
   @Output() reorient: EventEmitter<void> = new EventEmitter<void>();
+  @Output() append: EventEmitter<string> = new EventEmitter<string>();
 
   // --------------- LOCAL UI STATE ----------------------
  
+
 
   constructor() { }
 
@@ -27,6 +31,6 @@ export class NewQuarterComponent implements OnInit {
 
   // --------------- EVENT BINDING FUNCTIONS -------------
 
-
+  
   // --------------- OTHER -------------------------------
 }
