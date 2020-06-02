@@ -1,4 +1,207 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .upcoming-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+position: relative;
+width: 265px;
+height: 310px;
+
+
+
+
+.events{
+  position: flex;
+left: 14.34%;
+right: 28.3%;
+top: 31.2%;
+bottom: 65.54%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+
+color: #5A5A5A;
+  .text{margin-top: 9.36%}
+
+}
+
+.Rectangle1{
+position: flex;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+.Upcoming{
+position: flex;
+left: 9.06%;
+right: 7.55%;
+top: 8.39%;
+bottom: 83.55%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+
+color: #4B5853;
+}
+
+.Today{
+position: absolute;
+left: 9.06%;
+right: 29.43%;
+top: 21.61%;
+bottom: 72.58%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4B5853;
+}
+
+.Tomorrow{
+position: absolute;
+left: 9.06%;
+right: 29.43%;
+top: 57.74%;
+bottom: 36.45%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+color: #4B5853;
+}
+
+//Group 6
+
+.Rectangle12{
+position: absolute;
+left: 9.06%;
+right: 9.43%;
+top: 29.68%;
+bottom: 60.32%;
+
+background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+border-radius: 5px;
+}
+
+.Time6{
+position: absolute;
+left: 62.26%;
+right: 15.09%;
+top: 31.2%;
+bottom: 65.76%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+//Group 7
+
+.Rectangle13{
+position: absolute;
+left: 9.06%;
+right: 9.43%;
+top: 42.58%;
+bottom: 47.42%;
+
+background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
+border-radius: 5px;
+}
+
+.Time7{
+position: absolute;
+left: 62.26%;
+right: 15.09%;
+top: 44.84%;
+bottom: 50.65%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+
+//Group 8
+
+.Rectangle14{
+position: absolute;
+left: 9.06%;
+right: 9.43%;
+top: 65.81%;
+bottom: 24.19%;
+
+background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+border-radius: 5px;
+}
+
+.Time8{
+position: absolute;
+left: 56.6%;
+right: 15.09%;
+top: 68.39%;
+bottom: 27.1%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+
+
+.vector{
+      background: #FFFFFF;
+      margin-top: 20.97%;
+      margin-left: 69.65%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

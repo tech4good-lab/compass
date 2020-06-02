@@ -17,10 +17,16 @@ export class UpcomingCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
  
+ getEvents(UpcomingEventsData)
+{
+  return UpcomingEventsData.getEvents();
+}
 
   constructor() { }
 
   ngOnInit() {
+    console.log("events", this.events);
+    
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
