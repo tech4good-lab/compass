@@ -1,2 +1,29 @@
-upcoming-card works!
-
+<div class="upcoming-card-container">
+  <div class="title">Upcoming Events</div>
+  <div class="today" *ngIf="events.today">
+    <div class="today-title">TODAY</div>
+    <div class="today-event-1" [ngStyle]="{'background-color': events.today[0].background-color}">
+      <div class="today-event-1-title">#{{events.today[0].hashtag}}</div>
+      <div class="today-event-1-time">{{events.today[0].start.toDate() | date:"h"}}-{{events.today[0].end.toDate() | date:'h a'}}</div>
+    </div>
+    <div class="today" *ngIf="events.today">
+      <div class="today-event-2">
+        <div class="today-event-2-title">#{{events.today[1].hashtag}}</div>
+        <div class="today-event-2-time">{{events.today[1].start.toDate() | date:"h"}}-{{events.today[1].end.toDate() | date:'h a'}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="tomorrow" *ngIf="events.tomorrow">
+    <div class="tomorrow-title">TOMORROW</div>
+    <div class="tomorrow-event-1">
+      <div class="tomorrow-event-1-title">#{{events.tomorrow[0].hashtag}}</div>
+      <div class="tomorrow-event-1-time">{{events.tomorrow[0].start.toDate() | date:"h"}}-{{events.tomorrow[0].end.toDate() | date:'h a'}}</div>
+    </div>
+    <div class="tomorrow2" *ngIf="events.tomorrow[1]">
+      <div class="tomorrow-event-2">
+        <div class="tomorrow-event-2-title">#{{events.tomorrow[1].hashtag}}</div>
+        <div class="tomorrow-event-2-time">{{events.tomorrow[1].start.toDate() | date:"h"}}-{{events.tomorrow[1].end.toDate() | date:'h a'}}</div>
+      </div>
+    </div>
+  </div>
+</div>
