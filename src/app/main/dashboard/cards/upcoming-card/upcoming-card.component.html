@@ -1,2 +1,19 @@
-upcoming-card works!
+<div class="upcoming-card-container">
 
+  <div class="title">
+    Upcoming Events
+  </div>
+
+  <div class="events">
+    TODAY
+    <div class="events today">
+      <div class="events today one">#{{this.events.today[0].hashtag}}&nbsp;&nbsp;&nbsp;1-3pm</div> 
+      <div class="events today two">#{{this.events.today[1].hashtag}}&nbsp;&nbsp;&nbsp;7-8pm</div>
+    </div>
+    TOMORROW
+    <div class="events tomorrow">
+      <div class="events tomorrow one">#{{this.events.tomorrow[0].hashtag}}&nbsp;&nbsp;&nbsp;10-11am</div>
+    </div>
+  </div>
+
+</div>

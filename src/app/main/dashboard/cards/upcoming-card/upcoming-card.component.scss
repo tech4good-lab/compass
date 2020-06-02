@@ -5,3 +5,75 @@
   border: 1px solid black;
 }
 // WRITE YOUR CODE HERE
+
+.upcoming-card-container {
+
+  display: flex;
+  flex-direction: column;
+  width: 265px;
+  height: 310px;
+  border-radius: 10px;
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #4B5853;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    margin: 5px;
+
+    color: #4B5853;
+
+    &.today {
+      display: flex;
+      flex-direction: column;
+      
+      &.one {
+        width: 216px;
+        height: 31px;
+        background: linear-gradient(90.81deg, #EE8B72 -3.96%, #FFB987 110.33%);
+        border-radius: 5px;
+        color: white;
+
+      }
+
+      &.two {
+        width: 216px;
+        height: 31px;
+        background: linear-gradient(90deg, #FFB987 -4%, #FFD699 106.5%);
+        border-radius: 5px;
+        color: white;
+      }
+    }
+
+    &.tomorrow {
+      display: flex;
+      flex-direction: column;
+
+      &.one {
+        width: 216px;
+        height: 31px;
+        background: linear-gradient(90deg, #2DBDB1 -4.5%, #80E6DE 104.9%);
+        border-radius: 5px;
+        color: white;
+      }
+    }
+  }
+
+}

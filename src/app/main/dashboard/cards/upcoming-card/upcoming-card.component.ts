@@ -17,10 +17,11 @@ export class UpcomingCardComponent implements OnInit {
 
   // --------------- LOCAL UI STATE ----------------------
  
-
+ 
   constructor() { }
 
   ngOnInit() {
+    console.log(this.events.today);
   }
 
   // --------------- DATA BINDING FUNCTIONS --------------
