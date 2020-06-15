@@ -1,36 +1,40 @@
-.progress-bar-container {
 /* Progress Bar */
-
+.progress-bar-container {
 position: relative;
 width: 1034px;
 height: 123px;
 
 background: #FFFFFF;
-
+}
 
 /* Group */
-
+.group{
 position: absolute;
 width: 951px;
 height: 56px;
 left: 42px;
 top: 33px;
+}
 
 
-
-/* Ellipse */
-
-position: absolute;
-width: 26px;
-height: 26px;
-left: 103px;
-top: 62px;
-
-background: #2DBDB1;
-
+.circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+}
 
 /* Ellipse */
+.ellipse-LTG{
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 103px;
+  top: 62px;  
+  background: #2DBDB1;
+}
 
+/* Ellipse */
+.ellipse-QG{
 position: absolute;
 width: 26px;
 height: 26px;
@@ -39,10 +43,10 @@ top: 63px;
 
 border: 2px solid #D3E1DA;
 box-sizing: border-box;
-
+}
 
 /* Ellipse */
-
+.ellipse-WG{
 position: absolute;
 width: 26px;
 height: 26px;
@@ -51,10 +55,10 @@ top: 63px;
 
 border: 2px solid #2DBDB1;
 box-sizing: border-box;
-
+}
 
 /* Ellipse */
-
+.ellipse-ORG{
 position: absolute;
 width: 26px;
 height: 26px;
@@ -63,10 +67,10 @@ top: 63px;
 
 border: 2px solid #D3E1DA;
 box-sizing: border-box;
-
+}
 
 /* Ellipse */
-
+.ellipse-SCHED{
 position: absolute;
 width: 26px;
 height: 26px;
@@ -74,10 +78,10 @@ left: 306px;
 top: 62px;
 
 background: #2DBDB1;
-
+}
 
 /* Line */
-
+.line-1{
 position: absolute;
 width: 177px;
 height: 0px;
@@ -85,30 +89,29 @@ left: 129px;
 top: 75px;
 
 border: 2px solid #2DBDB1;
-
+}
 
 /* Line */
-
+.line-2{
 position: absolute;
 width: 177px;
 height: 0px;
 left: 332px;
 top: 76px;
-
-
+}
 
 /* Line */
-
+.line-3{
 position: absolute;
 width: 177px;
 height: 0px;
 left: 535px;
 top: 76px;
-
+}
 
 
 /* Line */
-
+.line-4{
 position: absolute;
 width: 177px;
 height: 0px;
@@ -116,14 +119,14 @@ left: 738px;
 top: 76px;
 
 border: 2px solid #D3E1DA;
-
+}
 
 /* LONG TERM GOALS */
-
+.long-term-goals{
 position: absolute;
-width: 157px;
+width: 207px;
 height: 15px;
-left: 42px;
+left: 50px;
 top: 33px;
 
 font-family: Montserrat;
@@ -133,11 +136,11 @@ font-size: 14px;
 line-height: 17px;
 
 color: #2DBDB1;
-
+}
 
 
 /* QUARTER GOALS */
-
+.quarter-goals{
 position: absolute;
 width: 132px;
 height: 15px;
@@ -151,11 +154,11 @@ font-size: 14px;
 line-height: 17px;
 
 color: #2DBDB1;
-
+}
 
 
 /* WEEKLY GOALS */
-
+.weekly-goals{
 position: absolute;
 width: 132px;
 height: 15px;
@@ -170,11 +173,11 @@ line-height: 17px;
 text-align: center;
 
 color: #2DBDB1;
-
+}
 
 
 /* ORGANIZE */
-
+.organize{
 position: absolute;
 width: 132px;
 height: 15px;
@@ -189,11 +192,11 @@ line-height: 17px;
 text-align: center;
 
 color: #98B3A9;
-
+}
 
 
 /* SCHEDULE */
-
+.schedule{
 position: absolute;
 width: 132px;
 height: 15px;
@@ -209,5 +212,9 @@ text-align: center;
 
 color: #98B3A9;
 
-
+}
+.timeline{
+  position: absolute;
+  left: 103px;
+  top: 62px;
 }
