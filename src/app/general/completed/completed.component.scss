@@ -1,2 +1,73 @@
+@import url(//fonts.googleapis.com/css?family=Sanchez);
+
+* { 
+  font-style: normal;
+}
 .completed-container {
+  .box {
+    width: 1152px;
+    height: 700px;
+    border-style: none;
+
+    .header{ 
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .compass {
+        font-family: Montserrat;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #2DBDB1;
+        padding: 16px 21px;
+      }
+    }
+
+    .rectangle {
+      width: 1152px;
+      height: 3px;
+      background-color: #FFFFFF;
+    }
+
+    .line {
+      border: 1px solid #98B3A9;
+    }
+
+    .background {
+      position: absolute;
+      width: 1152px;
+      height: 700px;
+      background-color: #F3FFF9;
+    }
+
+    .done {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-center;
+      text-align: center;
+      position: relative;
+      padding: 253px 407px;
+
+      .image {
+      
+      }
+
+      .complete {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        color: #2DBDB1; 
+      }
+
+      .next {
+        font-family: Sanchez;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 31px;
+        color: #2DBDB1;
+      }
+    }
+  }
 }
