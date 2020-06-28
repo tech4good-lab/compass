@@ -1,4 +1,43 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+
 .reflections-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 310px;
+  width: 265px;
+  // justify-content: center;
+  // background: #EE8B72;
+  * {
+  font-family: Montserrat;
+  }
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 24px;
+    color: #EE8B72;
+    margin: 17px 21px 10px 20px;
+    // padding: 17px 64px 0 20px;
+    .subtitle {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      padding: 2px;
+      color: #EE8B72;
+    }
+  }
+  .paper{
+    // position: absolute;
+    // align-items: center;
+    padding: 21px 0 0 0;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+  }
+  
+  
 }
