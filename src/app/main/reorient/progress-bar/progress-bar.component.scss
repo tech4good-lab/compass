@@ -1,4 +1,86 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+* {
+  font-family: Montserrat;
+}
 .progress-bar-container {
   // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  width: 1034px;
+  height: 123px;
+  background: #FFFFFF;
+  // border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+  // align-content: space-between;
+  padding: 42px 33px;
+  .text {
+    flex-direction: row;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2DBDB1;
+    .shape {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0 0 80px;
+      align-items: center;
+      align-self: flex-start;
+      width: 26px;
+      height: 26px;
+      background-color: #2DBDB1;
+      border-radius: 50%;
+      .line {
+        display: flex;
+        margin: 0px 0 0 20px;
+        width: 177px;
+        height: 2px;
+        background-color: #2DBDB1;
+      }
+    } 
+    .outlined-shape{
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0 0 80px;
+      align-items: center;
+      align-self: flex-start;
+      width: 26px;
+      height: 26px;
+      background-color: #FFFFFF;
+      border: 2px solid #2DBDB1;
+      border-radius: 50%;
+      .line-2 {
+        display: flex;
+        margin: 0px 0 0 23px;
+        width: 177px;
+        height: 2px;
+        background-color: #2DBDB1;
+      }
+    }
+    .grey-shape {
+      display: flex;
+      flex-direction: row;
+      margin: 20px 0 0 80px;
+      align-items: center;
+      align-self: flex-start;
+      width: 26px;
+      height: 26px;
+      background-color: #FFFFFF;
+      border: 2px solid #D3E1DA;;
+      border-radius: 50%;
+      .line-3 {
+        display: flex;
+        margin: 0px 0 0 23px;
+        width: 177px;
+        height: 2px;
+        background-color: #D3E1DA;;
+      }
+    }
+  } 
 }
+
+
+
+
