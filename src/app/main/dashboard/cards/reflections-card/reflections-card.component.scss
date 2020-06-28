@@ -1,4 +1,41 @@
+
+* {
+  font-family: Montserrat;
+  color: #EE8B72;
+  font-style: normal;
+}
+
 .reflections-card-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  position: relative;
+  width: 265px;
+  height: 310px;
+  border-style: none;
+  box-shadow: 0px 4px 4px #D3E1DA;
+  border-radius:10px;
+  background-color: #FFFFFF;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      padding-top: 17px; 
+    }
+
+    .caption {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      padding-top: 3px;
+      padding-bottom: 36px;
+    }
+  }
+
+  .image {
+    padding: 0px 81px 50px 82px;
+  }
 }
