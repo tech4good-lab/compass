@@ -23,16 +23,6 @@ import { TextSlideComponent } from './reorient/slides/text-slide/text-slide.comp
 import { LongTermGoalsSlideComponent } from './reorient/slides/long-term-goals-slide/long-term-goals-slide.component';
 import { QuarterGoalsSlideComponent } from './reorient/slides/quarter-goals-slide/quarter-goals-slide.component';
 import { ProgressBarComponent } from './reorient/progress-bar/progress-bar.component';
-import { LongTermGoalsCardComponent } from './dashboard/cards/long-term-goals-card/long-term-goals-card.component';
-import { ReflectionsCardComponent } from './dashboard/cards/reflections-card/reflections-card.component';
-import { QuarterGoalsCardComponent } from './dashboard/cards/quarter-goals-card/quarter-goals-card.component';
-import { WeekGoalsCardComponent } from './dashboard/cards/week-goals-card/week-goals-card.component';
-import { NewQuarterComponent } from './dashboard/new-quarter/new-quarter.component';
-import { WeekProgressCardComponent } from './dashboard/cards/week-progress-card/week-progress-card.component';
-import { GreetingSearchComponent } from './dashboard/greeting-search/greeting-search.component';
-import { UpcomingCardComponent } from './dashboard/cards/upcoming-card/upcoming-card.component';
-import { NewWeekComponent } from './dashboard/new-week/new-week.component';
-import { DateTimeComponent } from './dashboard/date-time/date-time.component';
 
 /** Contains the main dashboard and setup views. */
 @NgModule({
@@ -62,16 +52,6 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     LongTermGoalsSlideComponent,
     QuarterGoalsSlideComponent,
     ProgressBarComponent,
-    LongTermGoalsCardComponent,
-    ReflectionsCardComponent,
-    QuarterGoalsCardComponent,
-    WeekGoalsCardComponent,
-    NewQuarterComponent,
-    WeekProgressCardComponent,
-    GreetingSearchComponent,
-    UpcomingCardComponent,
-    NewWeekComponent,
-    DateTimeComponent,
   ],
 })
 export class MainModule { }
