@@ -2,7 +2,15 @@
   <app-navbar></app-navbar>
   <div class="dashboard-container">
     <div class="pre-post-test-container">
-      <app-pre-post-test></app-pre-post-test>
+      <app-pre-post-test 
+        [activityTitle]="activityTitle" 
+        [text1]="text1" 
+        [text2]="text2" 
+        [text3]="text3" 
+        [imageURL1]="imageURL1" 
+        [imageURL2]="imageURL2" 
+        [imageURL3]="imageURL3" 
+      ></app-pre-post-test>
     </div>
   </div>
 </ng-container>
