@@ -20,17 +20,21 @@ export class PrePostTestComponent implements OnInit {
 
   // This is the data that you will bind in your HTML!
   // These inputs pass dynamic text & images into your component.
+  
+  // This is the title of the activity:
   @Input() activityTitle: string;
   
+  // This is the 3 chunks of text explaining the activity:
   @Input() text1: string;
   @Input() text2: string;
   @Input() text3: string;
 
-  @Input() imageURL1: string;
-  @Input() imageURL2: string;
-  @Input() imageURL3: string;
+  // This is the src URL's of the 3 images:
+  @Input() image1: string;
+  @Input() image2: string;
+  @Input() image3: string;
 
-  // This is the event you will emit!
+  // This is the event you will emit:
   @Output() getStarted: EventEmitter<void> = new EventEmitter<void>();
 
 
