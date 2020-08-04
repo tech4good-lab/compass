@@ -80,9 +80,9 @@ export class DashboardComponent implements OnInit, OnDestroy {
   text1: string = 'Facilitator picks a subject and each player finishes the following prompts about it: I like, I wish, I feel...';
   text2: string = 'A submission is projected and a random player is chosen to stand with their back to the screen.';
   text3: string = 'Based on clues from the team, the person must guess the answer, guess which prompt it is and who is the submitter.';
-  image1: string = 'src/assets/image1.png';
-  image2: string = 'src/assets/image2.png';
-  image3: string = 'src/assets/image3.png';  
+  image1: string = '/src/assets/image1.png';
+  image2: string = '/src/assets/image2.png';
+  image3: string = '/src/assets/image3.png';  
 
   // --------------- DATA BINDING STREAMS ----------------
   
