@@ -1,4 +1,80 @@
 .progress-bar-container {
-  // REMOVE WHEN FINISHING LAYOUT STYLES
-  border: 1px solid black;
+  width: 1034px;
+  height: 123px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-words {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 33px 41px 14px 42px;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #98B3A9;
+  text-align: center;
+  
+}
+
+.long-term {
+  padding-right: 56px;
+  margin-left: -120px
+}
+
+.quarter-goals {
+  padding-right: 71px;
+}
+
+.weekly-goals {
+  padding-right: 71px;
+}
+
+.organize {
+  padding-right: 70px;
+}
+
+
+
+.bold.word {
+  color: #2DBDB1;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #D3E1DA;
+  border-radius: 100%;
+}
+
+.circle.filled {
+  background-color: #2DBDB1;
+  border: none;
+}
+
+.line {
+  width: 177px;
+  height: 0px;
+  border: 2px solid #D3E1DA;
+}
+
+.line.filled {
+  border: 2px solid #2DBDB1;
 }
