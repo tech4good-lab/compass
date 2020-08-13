@@ -24,19 +24,19 @@ export class PrePostTestComponent implements OnInit {
   // This is the title of the activity:
   @Input() activityTitle: string;
   
-  // This is the 3 chunks of text explaining the activity:
+  // These are the 3 chunks of text explaining the activity:
   @Input() text1: string;
   @Input() text2: string;
   @Input() text3: string;
 
-  // This is the src URL's of the 3 images:
+  // These are the src URL's of the 3 images:
   @Input() image1: string;
   @Input() image2: string;
   @Input() image3: string;
 
-  // This is the event you will emit:
+  // These are the events you will emit:
   @Output() getStarted: EventEmitter<void> = new EventEmitter<void>();
-
+  @Output() exit: EventEmitter<void> = new EventEmitter<void>();
 
 
   constructor() { }

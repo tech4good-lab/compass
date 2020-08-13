@@ -105,6 +105,14 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
   // --------------- EVENT BINDING STREAMS ---------------
 
+  getStarted(): void {
+    console.log("Get Started Button Pressed!");
+  }
+
+  exit(): void {
+    console.log("Exit Button Pressed!");
+  }
+
   // --------------- OTHER -------------------------------
 
   /** Unsubscribe observable for subscriptions. */
