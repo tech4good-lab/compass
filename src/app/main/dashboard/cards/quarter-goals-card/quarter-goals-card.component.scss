@@ -4,17 +4,18 @@
   // REMOVE WHEN FINISHING LAYOUT STYLES
   // IGNORE THIS CODE
   // COMMENTED IT OUT BECAUSE IT SURROUNDS THE PENCIL
-  // border: 1px solid black; 
+  // border: 1px solid black;
 }
 // WRITE YOUR CODE HERE
 
 * {
   font-family: Montserrat;
 }
- 
+
 .quarter-goals-card-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background: #ffffff;
   box-shadow: 0px 4px 4px #d3e1da;
   border-radius: 10px;
@@ -56,6 +57,7 @@
         color: #2dbdb1;
         font-weight: 500;
         font-size: 36px;
+        align-self: center;
         width: 30px;
       }
 
@@ -64,6 +66,7 @@
         font-weight: 500;
         font-size: 16px;
         text-overflow: wrap;
+        align-self: center;
         width: 171px;
         max-height: 40px;
         overflow-y: auto;
@@ -71,9 +74,10 @@
     }
   }
 
-  .pencil{
+  .pencil {
     display: flex;
     flex-shrink: 0;
+    align-self: flex-end;
   }
 }
 
