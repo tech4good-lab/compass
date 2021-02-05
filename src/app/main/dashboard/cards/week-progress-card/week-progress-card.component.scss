@@ -6,8 +6,10 @@
 .week-progress-card-container {
     border-radius: 3px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction: column;
 
-    .week-progress-card-title {
+    .week-progress-card-title {  
         font-weight: 600;
         font-size: 22px;
         color: #4B5853;
@@ -18,6 +20,8 @@
         color: #EE8B72;
     }
     .progress-bar1 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 75px;
             height: 27px;
@@ -42,6 +46,8 @@
         color: #2DBDB1;
     }
     .progress-bar2 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 101px;
             height: 27px;
@@ -66,6 +72,8 @@
         color: #FFB987;
     }
     .progress-bar3 {
+        display: flex;
+        flex-direction: row;
         .part1 {
             width: 70px;
             height: 27px;
