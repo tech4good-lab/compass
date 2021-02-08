@@ -22,6 +22,7 @@ import { TextSlideComponent } from './reorient/slides/text-slide/text-slide.comp
 import { LongTermGoalsSlideComponent } from './reorient/slides/long-term-goals-slide/long-term-goals-slide.component';
 import { QuarterGoalsSlideComponent } from './reorient/slides/quarter-goals-slide/quarter-goals-slide.component';
 import { ProgressBarComponent } from './reorient/progress-bar/progress-bar.component';
+import { SchedulingCardComponent } from './reorient/scheduling-card/scheduling-card.component';
 import { LongTermGoalsCardComponent } from './dashboard/cards/long-term-goals-card/long-term-goals-card.component';
 import { ReflectionsCardComponent } from './dashboard/cards/reflections-card/reflections-card.component';
 import { QuarterGoalsCardComponent } from './dashboard/cards/quarter-goals-card/quarter-goals-card.component';
@@ -60,6 +61,7 @@ import { DateTimeComponent } from './dashboard/date-time/date-time.component';
     LongTermGoalsSlideComponent,
     QuarterGoalsSlideComponent,
     ProgressBarComponent,
+    SchedulingCardComponent,
     LongTermGoalsCardComponent,
     ReflectionsCardComponent,
     QuarterGoalsCardComponent,
