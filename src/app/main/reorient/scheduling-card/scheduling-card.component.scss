@@ -6,19 +6,43 @@
 
 .title {
   color: #2DBDB1;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
 }
 
 .subtitle {
   color: #4B5853;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
 
 .goto-button {
   color: #FFFFFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
 
 .tag {
   color: #FFFFFF;
-  
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
   &.red {
 
   }
@@ -33,15 +57,23 @@
 }
 
 .output {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  .number {
+    font-size: 24px;
+    line-height: 29px;
+  }
 
   &.red {
     color:#EE8B72;
-
   }
 
   &.teal {
     color:#2DBDB1;
-
   }
 
   &.orange {
@@ -51,8 +83,18 @@
 
 .next-button{
   color: #FFFFFF;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
 
 .back-button{
   color:#2DBDB1;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
 }
