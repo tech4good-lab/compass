@@ -5,10 +5,13 @@
   background-color: #ffffff;
   box-shadow: 0px 4px 4px #D3E1DA;
   border-radius: 10px;
+  max-width: 834px;
   
   .scheduling-card-column {
     display: flex;
     flex-direction: column;
+    width: 416px;
+    height: 411px;
     
     .title {
       color: #2DBDB1;
@@ -55,6 +58,7 @@
       .tag-row {
         display: flex;
         flex-direction: row;
+        width: 309px;
 
         .tag {
           color: #FFFFFF;
@@ -87,6 +91,7 @@
           font-weight: 500;
           font-size: 14px;
           line-height: 17px;
+          width: 160px;
           
           .number {
             font-size: 24px;
