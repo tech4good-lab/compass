@@ -1,4 +1,58 @@
-.scheduling-card-container {
+:host {
   // REMOVE WHEN FINISHING LAYOUT STYLES
+  // IGNORE THIS CODE
   border: 1px solid black;
+}
+
+.title {
+  color: #2DBDB1;
+}
+
+.subtitle {
+  color: #4B5853;
+}
+
+.goto-button {
+  color: #FFFFFF;
+}
+
+.tag {
+  color: #FFFFFF;
+  
+  &.red {
+
+  }
+
+  &.teal {
+
+  }
+
+  &.orange {
+
+  }
+}
+
+.output {
+
+  &.red {
+    color:#EE8B72;
+
+  }
+
+  &.teal {
+    color:#2DBDB1;
+
+  }
+
+  &.orange {
+    color:#FBAA70;
+  }
+}
+
+.next-button{
+  color: #FFFFFF;
+}
+
+.back-button{
+  color:#2DBDB1;
 }
