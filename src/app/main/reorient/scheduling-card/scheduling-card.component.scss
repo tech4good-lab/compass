@@ -32,6 +32,16 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  width: 210px;
+  height: 34px;
+  background-color:#2DBDB1;
+  border-radius: 10px;
+}
+
+.linebreak {
+  width: 0px;
+  height: 280px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .tag {
@@ -42,17 +52,20 @@
   font-size: 14px;
   line-height: 17px;
   text-align: center;
+  width: 126px;
+  height: 40px;
+  border-radius: 10px;
 
   &.red {
-
+    background-color: #EE8B72;
   }
 
   &.teal {
-
+    background-color: #2DBDB1;
   }
 
   &.orange {
-
+    background-color: #FFB987;
   }
 }
 
@@ -88,6 +101,10 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  width: 84px;
+  height: 34px;
+  background-color: #2DBDB1;
+  border-radius: 10px;
 }
 
 .back-button{
@@ -97,4 +114,8 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
+  width: 84px;
+  height: 34px;
+  border: 1px solid #2DBDB1;
+  border-radius: 10px;
 }
