@@ -13,6 +13,7 @@
     align-items: center;
     width: 416px;
     height: 411px;
+    padding-top: 42px;
     
     .title {
       color: #2DBDB1;
@@ -32,10 +33,11 @@
       font-size: 18px;
       line-height: 22px;
       text-align: center;
+      margin-top: 10px;
     }
 
     .calendar-image {
-      
+      margin-top: 41px;
     }
     
     .goto-button {
@@ -53,16 +55,19 @@
       height: 34px;
       background-color:#2DBDB1;
       border-radius: 10px;
+      margin-top: 26px;
     }  
     
     .tags {
       display: flex;
       flex-direction: column;
+      margin-top: 3px;
 
       .tag-row {
         display: flex;
         flex-direction: row;
         width: 309px;
+        margin-top: 27px;
 
         .tag {
           display: flex;
@@ -100,10 +105,12 @@
           font-size: 14px;
           line-height: 17px;
           width: 160px;
+          margin-left: 20px;
           
           .number {
             font-size: 24px;
             line-height: 29px;
+            margin: 3px;
           }
         
           &.red {
@@ -125,6 +132,8 @@
       display: flex;
       flex-direction: row;
       align-self: flex-end;
+      margin-top: 43px;
+      margin-right: 32px;
 
       .next-button {
         display: flex;
@@ -140,6 +149,7 @@
         height: 34px;
         background-color: #2DBDB1;
         border-radius: 10px;
+        margin-left: 15px;
       }
       
       .back-button {
@@ -164,5 +174,6 @@
     width: 0px;
     height: 280px;
     border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: 66px;
   }
 }
