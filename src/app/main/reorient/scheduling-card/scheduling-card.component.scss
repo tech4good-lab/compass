@@ -10,6 +10,7 @@
   .scheduling-card-column {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 416px;
     height: 411px;
     
@@ -38,6 +39,9 @@
     }
     
     .goto-button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       color: #FFFFFF;
       font-family: "Montserrat";
       font-style: normal;
@@ -61,6 +65,9 @@
         width: 309px;
 
         .tag {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
           color: #FFFFFF;
           font-family: "Montserrat";
           font-style: normal;
@@ -68,6 +75,7 @@
           font-size: 14px;
           line-height: 17px;
           text-align: center;
+          
           width: 126px;
           height: 40px;
           border-radius: 10px;
@@ -116,8 +124,12 @@
     .buttons {
       display: flex;
       flex-direction: row;
+      align-self: flex-end;
 
       .next-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         color: #FFFFFF;
         font-family: "Montserrat";
         font-weight: 400;
@@ -131,6 +143,9 @@
       }
       
       .back-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         color:#2DBDB1;
         font-family: "Montserrat";
         font-weight: 400;
