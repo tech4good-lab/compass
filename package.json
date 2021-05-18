@@ -27,7 +27,7 @@
     "@firebase/app": "0.6.2",
     "@firebase/app-types": "0.6.0",
     "@firebase/firestore": "1.14.1",
-    "@firebase/util": "0.2.45",
+    "@firebase/util": "0.3.4",
     "@ngrx/effects": "9.1.0",
     "@ngrx/entity": "9.1.0",
     "@ngrx/router-store": "9.1.0",
